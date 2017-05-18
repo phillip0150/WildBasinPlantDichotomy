@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		331A186B1ECE1B3F001F485A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331A186A1ECE1B3F001F485A /* AppDelegate.swift */; };
+		331A186D1ECE1B3F001F485A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331A186C1ECE1B3F001F485A /* ViewController.swift */; };
+		331A18701ECE1B3F001F485A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 331A186E1ECE1B3F001F485A /* Main.storyboard */; };
+		331A18731ECE1B3F001F485A /* WildBasinPlantDichotomy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 331A18711ECE1B3F001F485A /* WildBasinPlantDichotomy.xcdatamodeld */; };
+		331A18751ECE1B3F001F485A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 331A18741ECE1B3F001F485A /* Assets.xcassets */; };
+		331A18781ECE1B3F001F485A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 331A18761ECE1B3F001F485A /* LaunchScreen.storyboard */; };
+		331A18831ECE1B3F001F485A /* WildBasinPlantDichotomyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331A18821ECE1B3F001F485A /* WildBasinPlantDichotomyTests.swift */; };
+		331A188E1ECE1B3F001F485A /* WildBasinPlantDichotomyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331A188D1ECE1B3F001F485A /* WildBasinPlantDichotomyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		331A187F1ECE1B3F001F485A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 331A185F1ECE1B3F001F485A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 331A18661ECE1B3F001F485A;
+			remoteInfo = WildBasinPlantDichotomy;
+		};
+		331A188A1ECE1B3F001F485A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 331A185F1ECE1B3F001F485A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 331A18661ECE1B3F001F485A;
+			remoteInfo = WildBasinPlantDichotomy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		331A18671ECE1B3F001F485A /* WildBasinPlantDichotomy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WildBasinPlantDichotomy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		331A186A1ECE1B3F001F485A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		331A186C1ECE1B3F001F485A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		331A186F1ECE1B3F001F485A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		331A18721ECE1B3F001F485A /* WildBasinPlantDichotomy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WildBasinPlantDichotomy.xcdatamodel; sourceTree = "<group>"; };
+		331A18741ECE1B3F001F485A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		331A18771ECE1B3F001F485A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		331A18791ECE1B3F001F485A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		331A187E1ECE1B3F001F485A /* WildBasinPlantDichotomyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WildBasinPlantDichotomyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		331A18821ECE1B3F001F485A /* WildBasinPlantDichotomyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WildBasinPlantDichotomyTests.swift; sourceTree = "<group>"; };
+		331A18841ECE1B3F001F485A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		331A18891ECE1B3F001F485A /* WildBasinPlantDichotomyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WildBasinPlantDichotomyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		331A188D1ECE1B3F001F485A /* WildBasinPlantDichotomyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WildBasinPlantDichotomyUITests.swift; sourceTree = "<group>"; };
+		331A188F1ECE1B3F001F485A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		331A18641ECE1B3F001F485A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		331A187B1ECE1B3F001F485A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		331A18861ECE1B3F001F485A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		331A185E1ECE1B3F001F485A = {
+			isa = PBXGroup;
+			children = (
+				331A18691ECE1B3F001F485A /* WildBasinPlantDichotomy */,
+				331A18811ECE1B3F001F485A /* WildBasinPlantDichotomyTests */,
+				331A188C1ECE1B3F001F485A /* WildBasinPlantDichotomyUITests */,
+				331A18681ECE1B3F001F485A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		331A18681ECE1B3F001F485A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				331A18671ECE1B3F001F485A /* WildBasinPlantDichotomy.app */,
+				331A187E1ECE1B3F001F485A /* WildBasinPlantDichotomyTests.xctest */,
+				331A18891ECE1B3F001F485A /* WildBasinPlantDichotomyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		331A18691ECE1B3F001F485A /* WildBasinPlantDichotomy */ = {
+			isa = PBXGroup;
+			children = (
+				331A186A1ECE1B3F001F485A /* AppDelegate.swift */,
+				331A186C1ECE1B3F001F485A /* ViewController.swift */,
+				331A186E1ECE1B3F001F485A /* Main.storyboard */,
+				331A18741ECE1B3F001F485A /* Assets.xcassets */,
+				331A18761ECE1B3F001F485A /* LaunchScreen.storyboard */,
+				331A18791ECE1B3F001F485A /* Info.plist */,
+				331A18711ECE1B3F001F485A /* WildBasinPlantDichotomy.xcdatamodeld */,
+			);
+			path = WildBasinPlantDichotomy;
+			sourceTree = "<group>";
+		};
+		331A18811ECE1B3F001F485A /* WildBasinPlantDichotomyTests */ = {
+			isa = PBXGroup;
+			children = (
+				331A18821ECE1B3F001F485A /* WildBasinPlantDichotomyTests.swift */,
+				331A18841ECE1B3F001F485A /* Info.plist */,
+			);
+			path = WildBasinPlantDichotomyTests;
+			sourceTree = "<group>";
+		};
+		331A188C1ECE1B3F001F485A /* WildBasinPlantDichotomyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				331A188D1ECE1B3F001F485A /* WildBasinPlantDichotomyUITests.swift */,
+				331A188F1ECE1B3F001F485A /* Info.plist */,
+			);
+			path = WildBasinPlantDichotomyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		331A18661ECE1B3F001F485A /* WildBasinPlantDichotomy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 331A18921ECE1B3F001F485A /* Build configuration list for PBXNativeTarget "WildBasinPlantDichotomy" */;
+			buildPhases = (
+				331A18631ECE1B3F001F485A /* Sources */,
+				331A18641ECE1B3F001F485A /* Frameworks */,
+				331A18651ECE1B3F001F485A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WildBasinPlantDichotomy;
+			productName = WildBasinPlantDichotomy;
+			productReference = 331A18671ECE1B3F001F485A /* WildBasinPlantDichotomy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		331A187D1ECE1B3F001F485A /* WildBasinPlantDichotomyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 331A18951ECE1B3F001F485A /* Build configuration list for PBXNativeTarget "WildBasinPlantDichotomyTests" */;
+			buildPhases = (
+				331A187A1ECE1B3F001F485A /* Sources */,
+				331A187B1ECE1B3F001F485A /* Frameworks */,
+				331A187C1ECE1B3F001F485A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				331A18801ECE1B3F001F485A /* PBXTargetDependency */,
+			);
+			name = WildBasinPlantDichotomyTests;
+			productName = WildBasinPlantDichotomyTests;
+			productReference = 331A187E1ECE1B3F001F485A /* WildBasinPlantDichotomyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		331A18881ECE1B3F001F485A /* WildBasinPlantDichotomyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 331A18981ECE1B3F001F485A /* Build configuration list for PBXNativeTarget "WildBasinPlantDichotomyUITests" */;
+			buildPhases = (
+				331A18851ECE1B3F001F485A /* Sources */,
+				331A18861ECE1B3F001F485A /* Frameworks */,
+				331A18871ECE1B3F001F485A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				331A188B1ECE1B3F001F485A /* PBXTargetDependency */,
+			);
+			name = WildBasinPlantDichotomyUITests;
+			productName = WildBasinPlantDichotomyUITests;
+			productReference = 331A18891ECE1B3F001F485A /* WildBasinPlantDichotomyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		331A185F1ECE1B3F001F485A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "St. Edward's University";
+				TargetAttributes = {
+					331A18661ECE1B3F001F485A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					331A187D1ECE1B3F001F485A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 331A18661ECE1B3F001F485A;
+					};
+					331A18881ECE1B3F001F485A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 331A18661ECE1B3F001F485A;
+					};
+				};
+			};
+			buildConfigurationList = 331A18621ECE1B3F001F485A /* Build configuration list for PBXProject "WildBasinPlantDichotomy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 331A185E1ECE1B3F001F485A;
+			productRefGroup = 331A18681ECE1B3F001F485A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				331A18661ECE1B3F001F485A /* WildBasinPlantDichotomy */,
+				331A187D1ECE1B3F001F485A /* WildBasinPlantDichotomyTests */,
+				331A18881ECE1B3F001F485A /* WildBasinPlantDichotomyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		331A18651ECE1B3F001F485A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				331A18781ECE1B3F001F485A /* LaunchScreen.storyboard in Resources */,
+				331A18751ECE1B3F001F485A /* Assets.xcassets in Resources */,
+				331A18701ECE1B3F001F485A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		331A187C1ECE1B3F001F485A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		331A18871ECE1B3F001F485A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		331A18631ECE1B3F001F485A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				331A186D1ECE1B3F001F485A /* ViewController.swift in Sources */,
+				331A18731ECE1B3F001F485A /* WildBasinPlantDichotomy.xcdatamodeld in Sources */,
+				331A186B1ECE1B3F001F485A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		331A187A1ECE1B3F001F485A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				331A18831ECE1B3F001F485A /* WildBasinPlantDichotomyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		331A18851ECE1B3F001F485A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				331A188E1ECE1B3F001F485A /* WildBasinPlantDichotomyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		331A18801ECE1B3F001F485A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 331A18661ECE1B3F001F485A /* WildBasinPlantDichotomy */;
+			targetProxy = 331A187F1ECE1B3F001F485A /* PBXContainerItemProxy */;
+		};
+		331A188B1ECE1B3F001F485A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 331A18661ECE1B3F001F485A /* WildBasinPlantDichotomy */;
+			targetProxy = 331A188A1ECE1B3F001F485A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		331A186E1ECE1B3F001F485A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				331A186F1ECE1B3F001F485A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		331A18761ECE1B3F001F485A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				331A18771ECE1B3F001F485A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		331A18901ECE1B3F001F485A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		331A18911ECE1B3F001F485A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		331A18931ECE1B3F001F485A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WildBasinPlantDichotomy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "St.-Edward-s-University.WildBasinPlantDichotomy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		331A18941ECE1B3F001F485A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WildBasinPlantDichotomy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "St.-Edward-s-University.WildBasinPlantDichotomy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		331A18961ECE1B3F001F485A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WildBasinPlantDichotomyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "St.-Edward-s-University.WildBasinPlantDichotomyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WildBasinPlantDichotomy.app/WildBasinPlantDichotomy";
+			};
+			name = Debug;
+		};
+		331A18971ECE1B3F001F485A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WildBasinPlantDichotomyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "St.-Edward-s-University.WildBasinPlantDichotomyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WildBasinPlantDichotomy.app/WildBasinPlantDichotomy";
+			};
+			name = Release;
+		};
+		331A18991ECE1B3F001F485A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WildBasinPlantDichotomyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "St.-Edward-s-University.WildBasinPlantDichotomyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WildBasinPlantDichotomy;
+			};
+			name = Debug;
+		};
+		331A189A1ECE1B3F001F485A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WildBasinPlantDichotomyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "St.-Edward-s-University.WildBasinPlantDichotomyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WildBasinPlantDichotomy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		331A18621ECE1B3F001F485A /* Build configuration list for PBXProject "WildBasinPlantDichotomy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				331A18901ECE1B3F001F485A /* Debug */,
+				331A18911ECE1B3F001F485A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		331A18921ECE1B3F001F485A /* Build configuration list for PBXNativeTarget "WildBasinPlantDichotomy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				331A18931ECE1B3F001F485A /* Debug */,
+				331A18941ECE1B3F001F485A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		331A18951ECE1B3F001F485A /* Build configuration list for PBXNativeTarget "WildBasinPlantDichotomyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				331A18961ECE1B3F001F485A /* Debug */,
+				331A18971ECE1B3F001F485A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		331A18981ECE1B3F001F485A /* Build configuration list for PBXNativeTarget "WildBasinPlantDichotomyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				331A18991ECE1B3F001F485A /* Debug */,
+				331A189A1ECE1B3F001F485A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		331A18711ECE1B3F001F485A /* WildBasinPlantDichotomy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				331A18721ECE1B3F001F485A /* WildBasinPlantDichotomy.xcdatamodel */,
+			);
+			currentVersion = 331A18721ECE1B3F001F485A /* WildBasinPlantDichotomy.xcdatamodel */;
+			path = WildBasinPlantDichotomy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 331A185F1ECE1B3F001F485A /* Project object */;
+}
