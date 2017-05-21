@@ -95,17 +95,40 @@ let lobed = Node(value:"or LOBED?")
 let greaterThanTenLeaflets = Node(value: "or MORE THAN TEN leaflets?")
 
 //Values of SMOOTH child (leaf)
+
 let lessThanHalfInch = Node(value: "Are leaflets LESS than HALF INCH wide,")
+//Valuese of lessThanHalfInch (Leaves)
+let lessThanHalfInchBlackDalea = Node(value: "Black Dalea")
+let lessThanHalfInchTexasKidneywood = Node(value: "Texas Kidneywood")
+let lessThanHalfInchRetama = Node(value: "Retama")
+let lessThanHalfInchIndigoBush = Node(value: "Indigo Bush")
+let lessThanHalfInchEvesNecklace = Node(value: "Eve's Necklace")
+
 
 //Values of SCALLOPED child (leaf)
+
 let moreThanHalfInch = Node(value: "Or GREATER than HALF INCH wide?")
+//Values of moreThanHalfInch (Leaves)
+let moreThanHalfInchLindheimerSenna = Node(value: "Lindheimer Senna")
+let moreThanHalfInchFlameleafSumac = Node(value: "Flameleaf Sumac")
+let moreThanHalfInchSoapberry = Node(value: "Soapberry")
+let moreThanHalfInchWalnuts = Node(value: "Walnuts")
+let moreThanHalfInchPecans = Node(value: "Pecans")
+let moreThanHalfInchToothacheTree = Node(value: "Toothache Tree")
+
 
 //Values of TOOTHED
 
 
 //Values of SMALLER THAN 2" IN LENGTH child (leaf)
 
-}
+let doublyPinnate = Node(value: "Doubly Pinnate")
+//Values of DOUBLY PINNATE (Leaves)
+let doublyPinnateHoneyMesquite = Node(value: "Honey Mesquite")
+let doublyPinnateCatsClaw = Node(value: "Cat's Claw")
+let doublyPinnatePinkMimosa = Node(value: "Pink Mimosa")
+let doublyPinnateChinaberry = Node(value: "Chinaberry")
+
 
 //Values of OPPOSITE child
 let oppositeVine = Node(value: "Is it a VINE")
@@ -115,3 +138,5 @@ let doublePinnateHoneyMesquite = Node(value: "Honey Mesquite")
 let doublePinnateCatsClaw = Node(value: "Cat's Claw")
 let doublePinnatePinkMimosa = Node(value: "Pink Mimosa")
 let doublePinnateChinaberry = Node(value: "Chinaberry")
+
+}
