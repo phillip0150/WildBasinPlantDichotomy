@@ -283,7 +283,53 @@ class ViewController: UIViewController {
         let doublePinnateChinaberry = Node(value: "Chinaberry")
         
         
-
+//ADDING NODES TO TREE
+        compound.add(child: palmate)
+        compound.add(child: pinnate)
+        compound.add(child: doublePinnate)
+        
+        palmate.add(child: palmateRedBuckeye)
+        palmate.add(child: palmateVirginiaCreeper)
+        palmate.add(child: palmateSevenLeafCreeper)
+        palmate.add(child: palmateLavenderChasteTree)
+        
+        pinnate.add(child: threeLeaflets)
+        threeLeaflets.add(child: threeLeafletsAgarita)
+        threeLeaflets.add(child: threeLeafletsWaferAsh)
+        threeLeaflets.add(child: threeLeafletsPoisonIvy)
+        threeLeaflets.add(child: threeLeafletsCowItchVine)
+        threeLeaflets.add(child: threeLeafletsFragrantSumac)
+        threeLeaflets.add(child: threeLeafletsSouthernDewberry)
+        
+        pinnate.add(child: fourToTenLeaflets)
+        fourToTenLeaflets.add(child: fourToTenLeafletsBoxElder)
+        fourToTenLeaflets.add(child: fourToTenLeafletsPeppervine)
+        fourToTenLeaflets.add(child: fourToTenLeafletsRedTexasAsh)
+        fourToTenLeaflets.add(child: fourToTenLeafletsEvergreenSumac)
+        fourToTenLeaflets.add(child: fourToTenLeafletsMexicanBuckeye)
+        fourToTenLeaflets.add(child: fourToTenLeafletsMountainLaurel)
+        fourToTenLeaflets.add(child: fourToTenLeafletsSouthernDewberry)
+        
+        pinnate.add(child: greaterThanTenLeaflets)
+        greaterThanTenLeaflets.add(child: lessThanHalfInch)
+        lessThanHalfInch.add(child: lessThanHalfInchRetama)
+        lessThanHalfInch.add(child: lessThanHalfInchBlackDalea)
+        lessThanHalfInch.add(child: lessThanHalfInchIndigoBush)
+        lessThanHalfInch.add(child: lessThanHalfInchEvesNecklace)
+        lessThanHalfInch.add(child: lessThanHalfInchTexasKidneywood)
+        
+        greaterThanTenLeaflets.add(child: moreThanHalfInch)
+        moreThanHalfInch.add(child: moreThanHalfInchPecans)
+        moreThanHalfInch.add(child: moreThanHalfInchWalnuts)
+        moreThanHalfInch.add(child: moreThanHalfInchSoapberry)
+        moreThanHalfInch.add(child: moreThanHalfInchToothacheTree)
+        moreThanHalfInch.add(child: moreThanHalfInchFlameleafSumac)
+        moreThanHalfInch.add(child: moreThanHalfInchLindheimerSenna)
+        
+        doublePinnate.add(child: doublePinnateCatsClaw)
+        doublePinnate.add(child: doublePinnateChinaberry)
+        doublePinnate.add(child: doublePinnatePinkMimosa)
+        doublePinnate.add(child: doublePinnateHoneyMesquite)
     }
 
     override func didReceiveMemoryWarning() {
