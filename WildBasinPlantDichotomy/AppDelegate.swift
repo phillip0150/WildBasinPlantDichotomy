@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  WildBasinPlantDichotomy
 //
-//  Created by Phillip Valdez on 5/18/17.
+//  Created by Phillip Valdez & Gage Jakob Kell Martin on 5/18/17.
 //  Copyright © 2017 St. Edward's University. All rights reserved.
 //
 

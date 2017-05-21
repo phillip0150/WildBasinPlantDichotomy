@@ -2,7 +2,7 @@
 //  Node.swift
 //  WildBasinPlantDichotomy
 //
-//  Created by Gage Jakob Kell Martin on 5/18/17.
+//  Created by Gage Jakob Kell Martin & Phillip Valdez on 5/18/17.
 //  Copyright © 2017 St. Edward's University. All rights reserved.
 //
 
@@ -22,19 +22,20 @@ class Node
         children.append(child)
         child.parent = self
     }
+    
 }
 
-//Here we convert Node to the value
+//Here we convert Node value to a readable string
 extension Node: CustomStringConvertible {
-    // 2
+    
     var description: String {
-        // 3
-        let text = "\(value)"
         
-        // 4
-        //if !children.isEmpty {
-        //    text += " {" + children.map { $0.description }.joined(separator: ", ") + "} "
-        //}
+        var text = "\(value)"
+        
+        
+        if !children.isEmpty {
+            text += " {" + children.map { $0.description }.joined(separator: ", ") + "} "
+        }
         return text
     }
 }
@@ -104,7 +105,7 @@ let moreThanHalfInch = Node(value: "Or GREATER than HALF INCH wide?")
 
 //Values of SMALLER THAN 2" IN LENGTH child (leaf)
 
-//Values of LARGER THAN 2" IN LENGTH child (leaf)
+}
 
 //Values of OPPOSITE child
 let oppositeVine = Node(value: "Is it a VINE")
