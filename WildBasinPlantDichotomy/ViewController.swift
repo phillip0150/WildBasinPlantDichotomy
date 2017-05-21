@@ -211,6 +211,79 @@ class ViewController: UIViewController {
         oppositeToothed.add(child: toothedWandButterflyBush)
         oppositeToothed.add(child: toothedTexasLantana)
         oppositeToothed.add(child: toothedAmericanBeautyberry)
+        
+        
+        
+        /////////////////|GAGE'S SECTION|////////////////////////
+        /////////////////|//////////////|////////////////////////
+        
+        //First 2 nodes (level 1)
+        let palmate = Node(value: "Are the leaves PALMATE, ")
+        let pinnate = Node(value: "pinnate, ")
+        let doublePinnate = Node(value: "or DOUBLE PINNATE?")
+        
+        //Palmate values
+        let palmateRedBuckeye = Node(value: "Red Buckeye")
+        let palmateLavenderChasteTree = Node(value: "Lavender Chaste-Tree")
+        let palmateVirginiaCreeper = Node(value: "Virginia Creeper")
+        let palmateSevenLeafCreeper = Node(value: "Seven-Leaf Creeper")
+        
+        
+        //Values of THREE LEAFLETS (Leaves)
+        let threeLeaflets = Node(value: "Does the plant have THREE,")
+        let threeLeafletsCowItchVine = Node(value: "Cow-Itch Vine")
+        let threeLeafletsPoisonIvy = Node(value: "Poison Ivy")
+        let threeLeafletsWaferAsh = Node(value: "Wafer Ash")
+        let threeLeafletsFragrantSumac = Node(value: "Fragrant Sumac")
+        let threeLeafletsSouthernDewberry = Node(value: "Southern Dewberry")
+        let threeLeafletsAgarita = Node(value: "Agarita")
+        
+        
+        //Values of Four to Ten Leaflets (Leaves)
+        let fourToTenLeaflets = Node(value: "FOUR to TEN,")
+        let fourToTenLeafletsSouthernDewberry = Node(value: "Southern Dewberry")
+        let fourToTenLeafletsPeppervine = Node(value: "Peppervine")
+        let fourToTenLeafletsMexicanBuckeye = Node(value: "Mexican Buckeye")
+        let fourToTenLeafletsMountainLaurel = Node(value: "Mountain Laurel")
+        let fourToTenLeafletsEvergreenSumac = Node(value: "Evergreen Sumac")
+        let fourToTenLeafletsBoxElder = Node(value: "Box Elder")
+        let fourToTenLeafletsRedTexasAsh = Node(value: "Red/Texas Ash")
+        
+        //Values of NOT A VINE child
+        let greaterThanTenLeaflets = Node(value: "or MORE THAN TEN leaflets?")
+        
+        
+        
+        let lessThanHalfInch = Node(value: "Are leaflets LESS than HALF INCH wide, ")
+        //Valuese of lessThanHalfInch (Leaves)
+        let lessThanHalfInchBlackDalea = Node(value: "Black Dalea")
+        let lessThanHalfInchTexasKidneywood = Node(value: "Texas Kidneywood")
+        let lessThanHalfInchRetama = Node(value: "Retama")
+        let lessThanHalfInchIndigoBush = Node(value: "Indigo Bush")
+        let lessThanHalfInchEvesNecklace = Node(value: "Eve's Necklace")
+        
+        
+        
+        
+        let moreThanHalfInch = Node(value: "or GREATER than HALF INCH wide?")
+        //Values of moreThanHalfInch (Leaves)
+        let moreThanHalfInchLindheimerSenna = Node(value: "Lindheimer Senna")
+        let moreThanHalfInchFlameleafSumac = Node(value: "Flameleaf Sumac")
+        let moreThanHalfInchSoapberry = Node(value: "Soapberry")
+        let moreThanHalfInchWalnuts = Node(value: "Walnuts")
+        let moreThanHalfInchPecans = Node(value: "Pecans")
+        let moreThanHalfInchToothacheTree = Node(value: "Toothache Tree")
+        
+        
+        
+        //Values of DOUBLY PINNATE (Leaves)
+        let doublePinnateHoneyMesquite = Node(value: "Honey Mesquite")
+        let doublePinnateCatsClaw = Node(value: "Cat's Claw")
+        let doublePinnatePinkMimosa = Node(value: "Pink Mimosa")
+        let doublePinnateChinaberry = Node(value: "Chinaberry")
+        
+        
+
     }
 
     override func didReceiveMemoryWarning() {
