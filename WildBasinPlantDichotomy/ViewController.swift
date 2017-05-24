@@ -283,7 +283,7 @@ class ViewController: UIViewController {
         let doublePinnateChinaberry = Node(value: "Chinaberry")
         
         
-//ADDING NODES TO TREE
+        //ADDING NODES TO TREE
         compound.add(child: palmate)
         compound.add(child: pinnate)
         compound.add(child: doublePinnate)
