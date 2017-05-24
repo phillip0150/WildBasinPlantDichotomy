@@ -66,10 +66,4 @@ class Node
     }
 }
 
-//Here we convert Node value to a readable string
-extension Node: CustomStringConvertible {
-    
-}
-
-
 
