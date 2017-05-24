@@ -23,7 +23,12 @@ class PlantIDViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        lbl1.text = plants.value
+        lbl1.text = simple.value
+        lbl2.text = compound.value
+        
+        for i in 0...plants.children.count-1 {
+            print("CHILD \(plants.children[i].value)")
+        }
         
     }
 

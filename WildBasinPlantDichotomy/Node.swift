@@ -14,6 +14,7 @@ class Node
 {
     var value: String
     var children: [Node] = []
+    var immediateChildtren: [Node] = []
     weak var parent: Node?
     
     init(value: String) {
@@ -25,6 +26,12 @@ class Node
         child.parent = self
     }
     
+    func getChildren(parent: Node)
+    {
+        for i in 0...parent.children.count-1 {
+            print("CHILD \(parent.children[i].value)")
+        }
+    }
 }
 
 //Here we convert Node value to a readable string
