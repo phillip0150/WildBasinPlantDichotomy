@@ -8,7 +8,39 @@
 
 import Foundation
 
+//Here we convert Node value to a readable string
 
+extension Node: CustomStringConvertible {
+    // 2
+    var description: String {
+        // 3
+        var text = "\(value)"
+        
+        // 4
+        if !children.isEmpty {
+            text += " {" + children.map { $0.description }.joined(separator: ", ") + "} "
+        }
+       return text
+   }
+}
+
+extension Node {
+    // 1
+    func search(value: String) -> Node? {
+        // 2
+        if value == self.value {
+            return self
+        }
+        // 3
+        for child in children {
+            if let found = child.search(value: value) {
+                return found
+            }
+        }
+        // 4
+        return nil
+    }
+}
 
 class Node
 {
@@ -25,19 +57,8 @@ class Node
         child.parent = self
     }
     
+    
 }
 
-//Here we convert Node value to a readable string
-extension Node: CustomStringConvertible {
-    
-    var description: String {
-        
-        var text = "\(value)"
-        
-        
-        if !children.isEmpty {
-            text += " {" + children.map { $0.description }.joined(separator: ", ") + "} "
-        }
-        return text
-    }
-}
+
+
