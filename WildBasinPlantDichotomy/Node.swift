@@ -61,7 +61,7 @@ class Node
     func getChildren(parent: Node)
     {
         for i in 0...parent.children.count-1 {
-            print("CHILD \(parent.children[i].value)")
+            print(parent.children[i].value)
         }
     }
 }
