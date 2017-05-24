@@ -15,7 +15,6 @@ extension Node: CustomStringConvertible {
     var description: String {
         // 3
         var text = "\(value)"
-        
         // 4
         if !children.isEmpty {
             text += " {" + children.map { $0.description }.joined(separator: ", ") + "} "

@@ -14,7 +14,7 @@ let plants = Node(value: "Plants")
 
 //First 2 nodes (level 1)
 let simple = Node(value: "Are the leaves SIMPLE")
-let compound = Node(value: "or COMPOUND?")
+let compound = Node(value: " or COMPOUND?")
 
 
 
