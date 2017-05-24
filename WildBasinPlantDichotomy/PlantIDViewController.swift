@@ -23,7 +23,7 @@ class PlantIDViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        lbl1.text = plants
+        lbl1.text = plants.value
         
     }
 
