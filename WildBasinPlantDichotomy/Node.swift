@@ -39,6 +39,7 @@ extension Node {
         // 4
         return nil
     }
+    
 }
 
 class Node
@@ -46,6 +47,7 @@ class Node
     var value: String
     var children: [Node] = []
     var immediateChildtren: [Node] = []
+    
     weak var parent: Node?
     
     init(value: String) {
@@ -63,6 +65,34 @@ class Node
             print(parent.children[i].value)
         }
     }
+    
+    func isChildLeaf(child: Node) -> Bool
+    {
+        var isChildFlag: Bool
+        if child.children.count == 0
+        {
+            isChildFlag = true
+        }
+        else
+        {
+        isChildFlag = false
+        }
+        return isChildFlag
+    }
 }
 
+/*
+ HOW IT SHOULD WORK
+ - User selects choices regarding plant characteristics.
+ 
+ - With each subsequent choice, the app will run the isChildLeaf function on every Node in the children array
+ (Note: Calling this function on every node is redundant, but shouldn't use too much
+ space and it's better to be safe than sorry)
+ 
+ -If the app detects that the Nodes are not children, then the user will continue making characteristic choices
+ 
+ -If the app detects that nodes are children then the view should switch to the final controller which will show
+ the grid of pictures and names.
+ (Note: Names of plant image files should exactly match the value of the corresponding node for easier handling)
+*/
 
