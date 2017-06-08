@@ -19,8 +19,8 @@
 		3322701A1EE9C32B0089D15B /* AllPlants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332270191EE9C32B0089D15B /* AllPlants.swift */; };
 		3322701E1EE9C4530089D15B /* AllPlantsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3322701D1EE9C4530089D15B /* AllPlantsTableViewController.swift */; };
 		336B2EA31ED6138F003D81C5 /* PlantIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336B2EA21ED6138F003D81C5 /* PlantIDViewController.swift */; };
+		5015A2771EE9DE1B00D7558D /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015A2761EE9DE1B00D7558D /* WebViewController.swift */; };
 		505C966A1ECE238700FE4A4A /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505C96691ECE238700FE4A4A /* Node.swift */; };
-		50691F671EE9C3220056D68F /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50691F661EE9C3220056D68F /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +59,8 @@
 		332270191EE9C32B0089D15B /* AllPlants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllPlants.swift; sourceTree = "<group>"; };
 		3322701D1EE9C4530089D15B /* AllPlantsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AllPlantsTableViewController.swift; path = ../AllPlantsTableViewController.swift; sourceTree = "<group>"; };
 		336B2EA21ED6138F003D81C5 /* PlantIDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantIDViewController.swift; sourceTree = "<group>"; };
+		5015A2761EE9DE1B00D7558D /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = ../WebViewController.swift; sourceTree = "<group>"; };
 		505C96691ECE238700FE4A4A /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; wrapsLines = 0; };
-		50691F661EE9C3220056D68F /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +111,7 @@
 		331A18691ECE1B3F001F485A /* WildBasinPlantDichotomy */ = {
 			isa = PBXGroup;
 			children = (
+				5015A2761EE9DE1B00D7558D /* WebViewController.swift */,
 				3322701D1EE9C4530089D15B /* AllPlantsTableViewController.swift */,
 				336B2EA21ED6138F003D81C5 /* PlantIDViewController.swift */,
 				331A186A1ECE1B3F001F485A /* AppDelegate.swift */,
@@ -283,10 +284,10 @@
 				331A186D1ECE1B3F001F485A /* ViewController.swift in Sources */,
 				331A18731ECE1B3F001F485A /* WildBasinPlantDichotomy.xcdatamodeld in Sources */,
 				331A186B1ECE1B3F001F485A /* AppDelegate.swift in Sources */,
+				5015A2771EE9DE1B00D7558D /* WebViewController.swift in Sources */,
 				3322701E1EE9C4530089D15B /* AllPlantsTableViewController.swift in Sources */,
 				3322701A1EE9C32B0089D15B /* AllPlants.swift in Sources */,
 				331A189E1ECE609E001F485A /* TestFile.swift in Sources */,
-				50691F671EE9C3220056D68F /* WebViewController.swift in Sources */,
 				505C966A1ECE238700FE4A4A /* Node.swift in Sources */,
 				336B2EA31ED6138F003D81C5 /* PlantIDViewController.swift in Sources */,
 			);
@@ -432,7 +433,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
