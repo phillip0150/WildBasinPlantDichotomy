@@ -16,6 +16,8 @@
 		331A18831ECE1B3F001F485A /* WildBasinPlantDichotomyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331A18821ECE1B3F001F485A /* WildBasinPlantDichotomyTests.swift */; };
 		331A188E1ECE1B3F001F485A /* WildBasinPlantDichotomyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331A188D1ECE1B3F001F485A /* WildBasinPlantDichotomyUITests.swift */; };
 		331A189E1ECE609E001F485A /* TestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331A189D1ECE609E001F485A /* TestFile.swift */; };
+		3322701A1EE9C32B0089D15B /* AllPlants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332270191EE9C32B0089D15B /* AllPlants.swift */; };
+		3322701E1EE9C4530089D15B /* AllPlantsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3322701D1EE9C4530089D15B /* AllPlantsTableViewController.swift */; };
 		336B2EA31ED6138F003D81C5 /* PlantIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336B2EA21ED6138F003D81C5 /* PlantIDViewController.swift */; };
 		505C966A1ECE238700FE4A4A /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505C96691ECE238700FE4A4A /* Node.swift */; };
 /* End PBXBuildFile section */
@@ -53,6 +55,8 @@
 		331A188D1ECE1B3F001F485A /* WildBasinPlantDichotomyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WildBasinPlantDichotomyUITests.swift; sourceTree = "<group>"; };
 		331A188F1ECE1B3F001F485A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		331A189D1ECE609E001F485A /* TestFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestFile.swift; sourceTree = "<group>"; };
+		332270191EE9C32B0089D15B /* AllPlants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllPlants.swift; sourceTree = "<group>"; };
+		3322701D1EE9C4530089D15B /* AllPlantsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AllPlantsTableViewController.swift; path = ../AllPlantsTableViewController.swift; sourceTree = "<group>"; };
 		336B2EA21ED6138F003D81C5 /* PlantIDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantIDViewController.swift; sourceTree = "<group>"; };
 		505C96691ECE238700FE4A4A /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; wrapsLines = 0; };
 /* End PBXFileReference section */
@@ -105,10 +109,12 @@
 		331A18691ECE1B3F001F485A /* WildBasinPlantDichotomy */ = {
 			isa = PBXGroup;
 			children = (
+				3322701D1EE9C4530089D15B /* AllPlantsTableViewController.swift */,
 				336B2EA21ED6138F003D81C5 /* PlantIDViewController.swift */,
 				331A186A1ECE1B3F001F485A /* AppDelegate.swift */,
 				331A186C1ECE1B3F001F485A /* ViewController.swift */,
 				331A186E1ECE1B3F001F485A /* Main.storyboard */,
+				332270191EE9C32B0089D15B /* AllPlants.swift */,
 				505C96691ECE238700FE4A4A /* Node.swift */,
 				331A189D1ECE609E001F485A /* TestFile.swift */,
 				331A18741ECE1B3F001F485A /* Assets.xcassets */,
@@ -275,6 +281,8 @@
 				331A186D1ECE1B3F001F485A /* ViewController.swift in Sources */,
 				331A18731ECE1B3F001F485A /* WildBasinPlantDichotomy.xcdatamodeld in Sources */,
 				331A186B1ECE1B3F001F485A /* AppDelegate.swift in Sources */,
+				3322701E1EE9C4530089D15B /* AllPlantsTableViewController.swift in Sources */,
+				3322701A1EE9C32B0089D15B /* AllPlants.swift in Sources */,
 				331A189E1ECE609E001F485A /* TestFile.swift in Sources */,
 				505C966A1ECE238700FE4A4A /* Node.swift in Sources */,
 				336B2EA31ED6138F003D81C5 /* PlantIDViewController.swift in Sources */,

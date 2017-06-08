@@ -79,6 +79,11 @@ class Node
         }
         return isChildFlag
     }
+    
+    func returnChildCount(parent: Node) -> Int
+    {
+        return parent.children.count
+    }
 }
 
 /*
