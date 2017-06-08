@@ -79,6 +79,22 @@ class Node
         }
         return isChildFlag
     }
+    
+    func getTerminalChildren(parent: Node) -> [Node]
+    {
+        var childArray: [Node] = NSMutableArray() as! [Node]
+        var childCounter = 0
+        for child in children
+        {
+            if (child.isChildLeaf(child: child))
+            {
+            childArray[childCounter] = child
+            
+        }
+            childCounter += 1
+    }
+        return childArray
+}
 }
 
 /*
