@@ -68,16 +68,16 @@ class Node
     
     func isChildLeaf(child: Node) -> Bool
     {
-        var isChildFlag: Bool
+        var isLeafFlag: Bool
         if child.children.count == 0
         {
-            isChildFlag = true
+            isLeafFlag = true
         }
         else
         {
-        isChildFlag = false
+        isLeafFlag = false
         }
-        return isChildFlag
+        return isLeafFlag
     }
     
     func getTerminalChildren(parent: Node) -> [Node]
