@@ -18,6 +18,7 @@
 		331A189E1ECE609E001F485A /* TestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331A189D1ECE609E001F485A /* TestFile.swift */; };
 		336B2EA31ED6138F003D81C5 /* PlantIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336B2EA21ED6138F003D81C5 /* PlantIDViewController.swift */; };
 		505C966A1ECE238700FE4A4A /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505C96691ECE238700FE4A4A /* Node.swift */; };
+		50691F671EE9C3220056D68F /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50691F661EE9C3220056D68F /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		331A189D1ECE609E001F485A /* TestFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestFile.swift; sourceTree = "<group>"; };
 		336B2EA21ED6138F003D81C5 /* PlantIDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantIDViewController.swift; sourceTree = "<group>"; };
 		505C96691ECE238700FE4A4A /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		50691F661EE9C3220056D68F /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				331A186A1ECE1B3F001F485A /* AppDelegate.swift */,
 				331A186C1ECE1B3F001F485A /* ViewController.swift */,
 				331A186E1ECE1B3F001F485A /* Main.storyboard */,
+				50691F661EE9C3220056D68F /* WebViewController.swift */,
 				505C96691ECE238700FE4A4A /* Node.swift */,
 				331A189D1ECE609E001F485A /* TestFile.swift */,
 				331A18741ECE1B3F001F485A /* Assets.xcassets */,
@@ -276,6 +279,7 @@
 				331A18731ECE1B3F001F485A /* WildBasinPlantDichotomy.xcdatamodeld in Sources */,
 				331A186B1ECE1B3F001F485A /* AppDelegate.swift in Sources */,
 				331A189E1ECE609E001F485A /* TestFile.swift in Sources */,
+				50691F671EE9C3220056D68F /* WebViewController.swift in Sources */,
 				505C966A1ECE238700FE4A4A /* Node.swift in Sources */,
 				336B2EA31ED6138F003D81C5 /* PlantIDViewController.swift in Sources */,
 			);
