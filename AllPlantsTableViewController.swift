@@ -16,7 +16,15 @@ class AllPlantsTableViewController: UIViewController, UITableViewDelegate, UITab
     
     var plantData = ["Pink Mimosa"]
     
-    //Adding tableview
+   // var picture:[UIImage] = [ UIImage(named: "Greenbriar.png")!, UIImage(named: "Mustang Grape.png")!    ]
+    
+    var picture:[UIImage] = [ UIImage(named: "Pink Mimosa.png")!]
+    
+    var plantDescription = ["Mimosa borealis, the Fragrant mimosa or Pink mimosa, is a plant in the Fabaceae family. It is found from Oklahoma to Kansas and south-eastern Colorado, south through central and western Texas and New Mexico to Mexico. The habitat consists of rocky hills, canyons and brushy areas."]
+
+    
+    
+  
     @IBOutlet weak var tableView: UITableView!
 
     override func viewDidLoad()
@@ -24,7 +32,8 @@ class AllPlantsTableViewController: UIViewController, UITableViewDelegate, UITab
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
+        self.tableView.dataSource = self
+        self.tableView.delegate = self
     
     }
     
@@ -45,14 +54,31 @@ class AllPlantsTableViewController: UIViewController, UITableViewDelegate, UITab
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath);
-        
-        cell.textLabel?.text = plantData[indexPath.row];
-        
+        //setting the image
+        let imageView = cell.viewWithTag(1) as! UIImageView
+        imageView.image = picture[indexPath.row]
+        //setting label
+        let label = cell.viewWithTag(2) as! UILabel
+        label.text = plantData[indexPath.row]
     
         return cell
     }
-
-  
     
+    
+   //* func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
+    //{
+     //   print ("You selected cell #\(indexPath.row)!")
+     //
 
+        
+   //     titlePlant = plantData[indexPath.row]
+    //    performSegue(withIdentifier: "segue", sender: self)
+        
+   //}
+    
+    func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)
+    {
+        
+  
+    }
 }
