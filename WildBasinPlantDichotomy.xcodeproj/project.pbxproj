@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28B28EC81D77AC92EC57670B /* Pods_WildBasinPlantDichotomyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5228DB604B2ECFBBD66C0DBE /* Pods_WildBasinPlantDichotomyUITests.framework */; };
 		331A186B1ECE1B3F001F485A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331A186A1ECE1B3F001F485A /* AppDelegate.swift */; };
 		331A186D1ECE1B3F001F485A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331A186C1ECE1B3F001F485A /* ViewController.swift */; };
 		331A18701ECE1B3F001F485A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 331A186E1ECE1B3F001F485A /* Main.storyboard */; };
@@ -22,6 +23,8 @@
 		338700FB1EECD08900F4B7FE /* PlantsAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338700FA1EECD08900F4B7FE /* PlantsAll.swift */; };
 		5015A2771EE9DE1B00D7558D /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015A2761EE9DE1B00D7558D /* WebViewController.swift */; };
 		505C966A1ECE238700FE4A4A /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505C96691ECE238700FE4A4A /* Node.swift */; };
+		5A6964497A2C29F9FCD2D81B /* Pods_WildBasinPlantDichotomy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D9D859A3CFD9AD993A4E4F /* Pods_WildBasinPlantDichotomy.framework */; };
+		8353449A8D16C3BBBD48B95E /* Pods_WildBasinPlantDichotomyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA9178818D246E49DFBFD5E /* Pods_WildBasinPlantDichotomyTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1AA9178818D246E49DFBFD5E /* Pods_WildBasinPlantDichotomyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WildBasinPlantDichotomyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		331A18671ECE1B3F001F485A /* WildBasinPlantDichotomy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WildBasinPlantDichotomy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		331A186A1ECE1B3F001F485A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		331A186C1ECE1B3F001F485A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +67,14 @@
 		338700FA1EECD08900F4B7FE /* PlantsAll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantsAll.swift; sourceTree = "<group>"; };
 		5015A2761EE9DE1B00D7558D /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = ../WebViewController.swift; sourceTree = "<group>"; };
 		505C96691ECE238700FE4A4A /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		5228DB604B2ECFBBD66C0DBE /* Pods_WildBasinPlantDichotomyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WildBasinPlantDichotomyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C3C80F77833E77D0D2ECD4B /* Pods-WildBasinPlantDichotomy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WildBasinPlantDichotomy.release.xcconfig"; path = "Pods/Target Support Files/Pods-WildBasinPlantDichotomy/Pods-WildBasinPlantDichotomy.release.xcconfig"; sourceTree = "<group>"; };
+		7A28063A052C44DA7B14DA0F /* Pods-WildBasinPlantDichotomyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WildBasinPlantDichotomyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WildBasinPlantDichotomyTests/Pods-WildBasinPlantDichotomyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A27EAD071D4A95344A840735 /* Pods-WildBasinPlantDichotomyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WildBasinPlantDichotomyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WildBasinPlantDichotomyTests/Pods-WildBasinPlantDichotomyTests.release.xcconfig"; sourceTree = "<group>"; };
+		AF8783D0A818875672199B5E /* Pods-WildBasinPlantDichotomyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WildBasinPlantDichotomyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WildBasinPlantDichotomyUITests/Pods-WildBasinPlantDichotomyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B3D9D859A3CFD9AD993A4E4F /* Pods_WildBasinPlantDichotomy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WildBasinPlantDichotomy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB3F5F9BCF20D81094D3965A /* Pods-WildBasinPlantDichotomyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WildBasinPlantDichotomyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WildBasinPlantDichotomyUITests/Pods-WildBasinPlantDichotomyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB86DAF9F0F4D6D283ADEA22 /* Pods-WildBasinPlantDichotomy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WildBasinPlantDichotomy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WildBasinPlantDichotomy/Pods-WildBasinPlantDichotomy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A6964497A2C29F9FCD2D81B /* Pods_WildBasinPlantDichotomy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8353449A8D16C3BBBD48B95E /* Pods_WildBasinPlantDichotomyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28B28EC81D77AC92EC57670B /* Pods_WildBasinPlantDichotomyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +112,8 @@
 				331A18811ECE1B3F001F485A /* WildBasinPlantDichotomyTests */,
 				331A188C1ECE1B3F001F485A /* WildBasinPlantDichotomyUITests */,
 				331A18681ECE1B3F001F485A /* Products */,
+				E685D60883273D9B5C6D1456 /* Pods */,
+				BEDB4F3F15067BFD1C4C9FAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,6 +166,29 @@
 			path = WildBasinPlantDichotomyUITests;
 			sourceTree = "<group>";
 		};
+		BEDB4F3F15067BFD1C4C9FAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3D9D859A3CFD9AD993A4E4F /* Pods_WildBasinPlantDichotomy.framework */,
+				1AA9178818D246E49DFBFD5E /* Pods_WildBasinPlantDichotomyTests.framework */,
+				5228DB604B2ECFBBD66C0DBE /* Pods_WildBasinPlantDichotomyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E685D60883273D9B5C6D1456 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB86DAF9F0F4D6D283ADEA22 /* Pods-WildBasinPlantDichotomy.debug.xcconfig */,
+				5C3C80F77833E77D0D2ECD4B /* Pods-WildBasinPlantDichotomy.release.xcconfig */,
+				7A28063A052C44DA7B14DA0F /* Pods-WildBasinPlantDichotomyTests.debug.xcconfig */,
+				A27EAD071D4A95344A840735 /* Pods-WildBasinPlantDichotomyTests.release.xcconfig */,
+				BB3F5F9BCF20D81094D3965A /* Pods-WildBasinPlantDichotomyUITests.debug.xcconfig */,
+				AF8783D0A818875672199B5E /* Pods-WildBasinPlantDichotomyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 331A18921ECE1B3F001F485A /* Build configuration list for PBXNativeTarget "WildBasinPlantDichotomy" */;
 			buildPhases = (
+				01B07587E811663C78722FAC /* [CP] Check Pods Manifest.lock */,
 				331A18631ECE1B3F001F485A /* Sources */,
 				331A18641ECE1B3F001F485A /* Frameworks */,
 				331A18651ECE1B3F001F485A /* Resources */,
+				E4C4A4C20FE9B1F75211C2E3 /* [CP] Embed Pods Frameworks */,
+				77EE3642C53EB81C40536DC5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 331A18951ECE1B3F001F485A /* Build configuration list for PBXNativeTarget "WildBasinPlantDichotomyTests" */;
 			buildPhases = (
+				19D0DA17A2E8B06A80C83115 /* [CP] Check Pods Manifest.lock */,
 				331A187A1ECE1B3F001F485A /* Sources */,
 				331A187B1ECE1B3F001F485A /* Frameworks */,
 				331A187C1ECE1B3F001F485A /* Resources */,
+				1DBD8CD7F50CD22FF3786E53 /* [CP] Embed Pods Frameworks */,
+				E6B0916A293E9E99A93D65EF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 331A18981ECE1B3F001F485A /* Build configuration list for PBXNativeTarget "WildBasinPlantDichotomyUITests" */;
 			buildPhases = (
+				6FF87E0D85245AB8C91186D2 /* [CP] Check Pods Manifest.lock */,
 				331A18851ECE1B3F001F485A /* Sources */,
 				331A18861ECE1B3F001F485A /* Frameworks */,
 				331A18871ECE1B3F001F485A /* Resources */,
+				266000FFF8E47AB262B0406B /* [CP] Embed Pods Frameworks */,
+				6AE041EFA009C8774CBD6976 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -278,6 +327,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01B07587E811663C78722FAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		19D0DA17A2E8B06A80C83115 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1DBD8CD7F50CD22FF3786E53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WildBasinPlantDichotomyTests/Pods-WildBasinPlantDichotomyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		266000FFF8E47AB262B0406B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WildBasinPlantDichotomyUITests/Pods-WildBasinPlantDichotomyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AE041EFA009C8774CBD6976 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WildBasinPlantDichotomyUITests/Pods-WildBasinPlantDichotomyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FF87E0D85245AB8C91186D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		77EE3642C53EB81C40536DC5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WildBasinPlantDichotomy/Pods-WildBasinPlantDichotomy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4C4A4C20FE9B1F75211C2E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WildBasinPlantDichotomy/Pods-WildBasinPlantDichotomy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6B0916A293E9E99A93D65EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WildBasinPlantDichotomyTests/Pods-WildBasinPlantDichotomyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		331A18631ECE1B3F001F485A /* Sources */ = {
@@ -445,6 +632,7 @@
 		};
 		331A18931ECE1B3F001F485A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB86DAF9F0F4D6D283ADEA22 /* Pods-WildBasinPlantDichotomy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CGLZ5DVH7S;
@@ -458,6 +646,7 @@
 		};
 		331A18941ECE1B3F001F485A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C3C80F77833E77D0D2ECD4B /* Pods-WildBasinPlantDichotomy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CGLZ5DVH7S;
@@ -471,6 +660,7 @@
 		};
 		331A18961ECE1B3F001F485A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A28063A052C44DA7B14DA0F /* Pods-WildBasinPlantDichotomyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +675,7 @@
 		};
 		331A18971ECE1B3F001F485A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A27EAD071D4A95344A840735 /* Pods-WildBasinPlantDichotomyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -499,6 +690,7 @@
 		};
 		331A18991ECE1B3F001F485A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB3F5F9BCF20D81094D3965A /* Pods-WildBasinPlantDichotomyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = WildBasinPlantDichotomyUITests/Info.plist;
@@ -512,6 +704,7 @@
 		};
 		331A189A1ECE1B3F001F485A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF8783D0A818875672199B5E /* Pods-WildBasinPlantDichotomyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = WildBasinPlantDichotomyUITests/Info.plist;
