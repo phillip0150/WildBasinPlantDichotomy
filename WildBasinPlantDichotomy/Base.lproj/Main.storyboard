@@ -267,16 +267,88 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P0h-Bi-tXB">
-                                <rect key="frame" x="111" y="575" width="152" height="30"/>
+                                <rect key="frame" x="16" y="617" width="343" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.069268281530000003" green="0.76499686209999995" blue="0.0" alpha="0.74991612350000003" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="View all current palnts"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GgQ-7w-EiM" customClass="DLRadioButton">
+                                <rect key="frame" x="16" y="474" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="radioButton_Unselected"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="iconSelected" value="radioButton_Selected"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="icon" value="radioButton_Unselected"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="otherButtons" destination="be9-Ny-Yzx" id="Ukj-3w-1Vy"/>
+                                    <outletCollection property="otherButtons" destination="rIu-kx-KOQ" id="8Il-KL-Dwx"/>
+                                    <outletCollection property="otherButtons" destination="fmU-RB-FsZ" id="eLZ-qb-kGB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rIu-kx-KOQ" customClass="DLRadioButton">
+                                <rect key="frame" x="224" y="474" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="radioButton_Unselected"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="icon" value="radioButton_Unselected"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="iconSelected" value="radioButton_Selected"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="otherButtons" destination="GgQ-7w-EiM" id="2Ug-so-6NE"/>
+                                    <outletCollection property="otherButtons" destination="be9-Ny-Yzx" id="7Zj-Qq-wJ4"/>
+                                    <outletCollection property="otherButtons" destination="fmU-RB-FsZ" id="ent-ak-K1C"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fmU-RB-FsZ" customClass="DLRadioButton">
+                                <rect key="frame" x="329" y="474" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="radioButton_Unselected"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="icon" value="radioButton_Unselected"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="iconSelected" value="radioButton_Selected"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="otherButtons" destination="rIu-kx-KOQ" id="1oQ-Wz-qGk"/>
+                                    <outletCollection property="otherButtons" destination="be9-Ny-Yzx" id="0Ub-zp-rIK"/>
+                                    <outletCollection property="otherButtons" destination="GgQ-7w-EiM" id="6DR-Aw-Y9W"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hNV-l5-HAH">
+                                <rect key="frame" x="16" y="579" width="343" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.069268281531158812" green="0.76499686206367357" blue="0.0" alpha="0.74991612346625769" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Next"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="be9-Ny-Yzx" customClass="DLRadioButton">
+                                <rect key="frame" x="120" y="474" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="radioButton_Unselected"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="icon" value="radioButton_Unselected"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="iconSelected" value="radioButton_Selected"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="otherButtons" destination="GgQ-7w-EiM" id="24D-yC-r4X"/>
+                                    <outletCollection property="otherButtons" destination="rIu-kx-KOQ" id="qgA-6u-Aa3"/>
+                                    <outletCollection property="otherButtons" destination="fmU-RB-FsZ" id="nE8-Ug-nZU"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="d0z-jc-scA"/>
                     <connections>
+                        <outlet property="btn1" destination="GgQ-7w-EiM" id="D8w-Xd-TGc"/>
+                        <outlet property="btn2" destination="be9-Ny-Yzx" id="qgq-H0-JZL"/>
+                        <outlet property="btn3" destination="rIu-kx-KOQ" id="BHi-tS-3qh"/>
+                        <outlet property="btn4" destination="fmU-RB-FsZ" id="Zs5-Ok-GuR"/>
                         <outlet property="lbl1" destination="Lkj-Eh-rnD" id="wKi-Pp-R7f"/>
+                        <outletCollection property="btn2" destination="be9-Ny-Yzx" collectionClass="NSMutableArray" id="4Dl-UI-Fsp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ouA-U4-lQq" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -329,6 +401,8 @@
         <image name="Texas" width="796" height="759"/>
         <image name="WildBasinLogo" width="213" height="87"/>
         <image name="back" width="35" height="35"/>
+        <image name="radioButton_Selected" width="128" height="128"/>
+        <image name="radioButton_Unselected" width="128" height="128"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="gAn-PD-2We"/>

@@ -12,20 +12,21 @@ class PlantIDViewController: UIViewController {
 
     @IBOutlet weak var lbl1: UILabel!
     
+    @IBOutlet weak var btn1: UIButton!
+    @IBOutlet weak var btn2: UIButton!
+    @IBOutlet weak var btn3: UIButton!
+    @IBOutlet weak var btn4: UIButton!
     
-    @IBOutlet weak var lbl2: UILabel!
     
-    
-    @IBOutlet weak var lbl3: UILabel!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        lbl1.layer.borderWidth = 0.5
+        lbl1.layer.borderColor = UIColor.green.cgColor
         
-
-        
-        for i in 0...plants.children.count-1 {
+        for i in 0...plants.children.count-1
+        {
             lbl1.text = lbl1.text?.appending(plants.children[i].value)
         }
         
