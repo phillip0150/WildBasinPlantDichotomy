@@ -1,16 +1,19 @@
 //
-//  AllPlants.swift
+//  Plants.swift
 //  WildBasinPlantDichotomy
 //
-//  Created by Phillip Valdez on 6/8/17.
+//  Created by Phillip Valdez on 6/10/17.
 //  Copyright © 2017 St. Edward's University. All rights reserved.
 //
 
 import UIKit
 
-class AllPlants: NSObject
+class Plants: NSObject
 {
     
     var plantName:String = ""
-
+    var plantDescription:String = ""
+    
+    
+    
 }
