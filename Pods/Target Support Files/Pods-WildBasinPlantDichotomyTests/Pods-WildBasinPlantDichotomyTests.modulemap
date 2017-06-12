@@ -1,0 +1,6 @@
+framework module Pods_WildBasinPlantDichotomyTests {
+  umbrella header "Pods-WildBasinPlantDichotomyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
