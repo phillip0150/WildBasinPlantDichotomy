@@ -49,7 +49,7 @@ class AllPlantsTableViewController: UIViewController, UITableViewDelegate, UITab
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath);
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")!
         //setting the image
         let imageView = cell.viewWithTag(1) as! UIImageView
         imageView.image = UIImage(named: plants[indexPath.row].plantName + ".png")
