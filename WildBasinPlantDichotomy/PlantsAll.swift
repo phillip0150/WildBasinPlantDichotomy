@@ -18,46 +18,27 @@ import UIKit
 
 class PlantsAll: NSObject
 {
+    
+    var name: String
+    var plants: [Plants]
+    
+    init(named: String, thePlant: [Plants])
+    {
+        name = named
+        plants = thePlant
+    }
+    
     func getPlants() -> [Plants]
     {
         //Create an empty array of Plant objects
         var plants = [Plants]()
         
         // Create a plant object
-        let plant1 = Plants()
+        plants.append(Plants(plantName: "Greenbriar", plantDescription: "", plantImageName: ""))
         
-        // Assign properties
-        plant1.plantName = "Greenbriar"
-        plant1.plantDescription = ""
+          plants.append(Plants(plantName: "Mustang Grape", plantDescription: "Vitis mustangensis, commonly known as the mustang grape, is a species of grape that is native to the southern United States. Its range includes parts of Mississippi, Alabama, Louisiana, Texas, and Oklahoma.", plantImageName: ""))
         
-        // Append it into plant array
-        plants.append(plant1)
-        
-        // Create a plant object
-        let plant2 = Plants()
-        
-        // Assign properties
-        plant2.plantName = "Mustang Grape"
-        plant2.plantDescription = "Vitis mustangensis, commonly known as the mustang grape, is a species of grape that is native to the southern United States. Its range includes parts of Mississippi, Alabama, Louisiana, Texas, and Oklahoma."
-        
-        // Append it into plant array
-        plants.append(plant2)
-        
-        
-        // Create a plant object
-        let plant3 = Plants()
-        
-        // Assign properties
-        plant3.plantName = "Rattan Vine"
-        plant3.plantDescription = "Vitis mustangensis, commonly known as the mustang grape, is a species of grape that is native to the southern United States. Its range includes parts of Mississippi, Alabama, Louisiana, Texas, and Oklahoma."
-        
-        // Append it into plant array
-        plants.append(plant3)
-        
-        
-        
-        
-        
+        plants.append(Plants(plantName: "Rattan Vine", plantDescription: "Vitis mustangensis, commonly known as the mustang grape, is a species of grape that is native to the southern United States. Its range includes parts of Mississippi, Alabama, Louisiana, Texas, and Oklahoma.", plantImageName: ""))
         
         //Return the array to the caller
         return plants
