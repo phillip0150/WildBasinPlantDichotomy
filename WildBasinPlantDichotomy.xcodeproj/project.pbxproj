@@ -16,9 +16,11 @@
 		331A18781ECE1B3F001F485A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 331A18761ECE1B3F001F485A /* LaunchScreen.storyboard */; };
 		331A18831ECE1B3F001F485A /* WildBasinPlantDichotomyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331A18821ECE1B3F001F485A /* WildBasinPlantDichotomyTests.swift */; };
 		331A188E1ECE1B3F001F485A /* WildBasinPlantDichotomyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331A188D1ECE1B3F001F485A /* WildBasinPlantDichotomyUITests.swift */; };
+		33223FEB1EF1B94500A9D5F7 /* AllPlantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33223FEA1EF1B94500A9D5F7 /* AllPlantsViewController.swift */; };
+		33223FED1EF1BA8800A9D5F7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33223FEC1EF1BA8800A9D5F7 /* DetailViewController.swift */; };
 		336B2EA31ED6138F003D81C5 /* PlantIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336B2EA21ED6138F003D81C5 /* PlantIDViewController.swift */; };
-		338700F91EECD03200F4B7FE /* Plants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338700F81EECD03200F4B7FE /* Plants.swift */; };
-		338700FB1EECD08900F4B7FE /* PlantsAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338700FA1EECD08900F4B7FE /* PlantsAll.swift */; };
+		338700F91EECD03200F4B7FE /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338700F81EECD03200F4B7FE /* Plant.swift */; };
+		339F8F7E1EF0A78E00E959E0 /* PlantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339F8F7D1EF0A78E00E959E0 /* PlantCell.swift */; };
 		5015A2771EE9DE1B00D7558D /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015A2761EE9DE1B00D7558D /* WebViewController.swift */; };
 		505C966A1ECE238700FE4A4A /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505C96691ECE238700FE4A4A /* Node.swift */; };
 		5A6964497A2C29F9FCD2D81B /* Pods_WildBasinPlantDichotomy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D9D859A3CFD9AD993A4E4F /* Pods_WildBasinPlantDichotomy.framework */; };
@@ -58,9 +60,11 @@
 		331A18891ECE1B3F001F485A /* WildBasinPlantDichotomyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WildBasinPlantDichotomyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		331A188D1ECE1B3F001F485A /* WildBasinPlantDichotomyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WildBasinPlantDichotomyUITests.swift; sourceTree = "<group>"; };
 		331A188F1ECE1B3F001F485A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33223FEA1EF1B94500A9D5F7 /* AllPlantsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllPlantsViewController.swift; sourceTree = "<group>"; };
+		33223FEC1EF1BA8800A9D5F7 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		336B2EA21ED6138F003D81C5 /* PlantIDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantIDViewController.swift; sourceTree = "<group>"; };
-		338700F81EECD03200F4B7FE /* Plants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plants.swift; sourceTree = "<group>"; };
-		338700FA1EECD08900F4B7FE /* PlantsAll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantsAll.swift; sourceTree = "<group>"; };
+		338700F81EECD03200F4B7FE /* Plant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
+		339F8F7D1EF0A78E00E959E0 /* PlantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantCell.swift; sourceTree = "<group>"; };
 		5015A2761EE9DE1B00D7558D /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = ../WebViewController.swift; sourceTree = "<group>"; };
 		505C96691ECE238700FE4A4A /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		5228DB604B2ECFBBD66C0DBE /* Pods_WildBasinPlantDichotomyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WildBasinPlantDichotomyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,10 +133,12 @@
 				331A186C1ECE1B3F001F485A /* ViewController.swift */,
 				336B2EA21ED6138F003D81C5 /* PlantIDViewController.swift */,
 				5015A2761EE9DE1B00D7558D /* WebViewController.swift */,
-				338700F81EECD03200F4B7FE /* Plants.swift */,
-				338700FA1EECD08900F4B7FE /* PlantsAll.swift */,
+				338700F81EECD03200F4B7FE /* Plant.swift */,
+				339F8F7D1EF0A78E00E959E0 /* PlantCell.swift */,
 				331A186A1ECE1B3F001F485A /* AppDelegate.swift */,
 				331A186E1ECE1B3F001F485A /* Main.storyboard */,
+				33223FEC1EF1BA8800A9D5F7 /* DetailViewController.swift */,
+				33223FEA1EF1B94500A9D5F7 /* AllPlantsViewController.swift */,
 				505C96691ECE238700FE4A4A /* Node.swift */,
 				331A18741ECE1B3F001F485A /* Assets.xcassets */,
 				331A18761ECE1B3F001F485A /* LaunchScreen.storyboard */,
@@ -466,11 +472,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				331A186D1ECE1B3F001F485A /* ViewController.swift in Sources */,
+				339F8F7E1EF0A78E00E959E0 /* PlantCell.swift in Sources */,
 				331A18731ECE1B3F001F485A /* WildBasinPlantDichotomy.xcdatamodeld in Sources */,
 				331A186B1ECE1B3F001F485A /* AppDelegate.swift in Sources */,
+				33223FEB1EF1B94500A9D5F7 /* AllPlantsViewController.swift in Sources */,
 				5015A2771EE9DE1B00D7558D /* WebViewController.swift in Sources */,
-				338700F91EECD03200F4B7FE /* Plants.swift in Sources */,
-				338700FB1EECD08900F4B7FE /* PlantsAll.swift in Sources */,
+				338700F91EECD03200F4B7FE /* Plant.swift in Sources */,
+				33223FED1EF1BA8800A9D5F7 /* DetailViewController.swift in Sources */,
 				505C966A1ECE238700FE4A4A /* Node.swift in Sources */,
 				336B2EA31ED6138F003D81C5 /* PlantIDViewController.swift in Sources */,
 			);
