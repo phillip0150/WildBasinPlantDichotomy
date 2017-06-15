@@ -15,25 +15,25 @@ class AllPlantsWebViewController: UIViewController
     var plant: Plant?
     
     
+    
     @IBOutlet weak var webView: UIWebView!
     
     
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        setUI()
+        let url = URL(string: (plant?.url)!)
+        let request = URLRequest(url: url!)
+        webView.loadRequest(request)
         
         
     }
     
-    func setUI()
-    {
-        let url = plant?.url
-        let requestURL = NSURL(string:(url)!)
-        let request = NSURLRequest(url: requestURL! as URL)
-        webView.loadRequest(request as URLRequest)
-        
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
     }
+   
     
     
 }

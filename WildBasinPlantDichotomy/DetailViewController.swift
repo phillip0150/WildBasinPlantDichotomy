@@ -17,6 +17,8 @@ class DetailViewController: UIViewController
     
     var plant: Plant?
     
+    var plantURL:String = ""
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -30,24 +32,31 @@ class DetailViewController: UIViewController
         plantImageView.image = plant?.image
         plantNameLabel.text = plant?.name
         plantDescriptionLabel.text = plant?.description
+        plantURL = (plant?.url)!
+        
+        
+        
         
     }
     
-    /*override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
     {
         if segue.identifier == "MasterToWeb"
         {
+            
+            let plant = Plant(name: plantNameLabel.text!, description: plantDescriptionLabel.text!, image: plantImageView.image!, url: plantURL)
             let destVC = segue.destination as! AllPlantsWebViewController
-            destVC.plant = sender as? Plant
+            destVC.plant = plant
+            
         }
     }
     
-    @IBAction func plantLearnMore(_ sender: Any)
+    func plantLearnMore(_ sender: Any)
     {
         
         performSegue(withIdentifier: "MasterToWeb", sender: plant)
         
-    }*/
+    }
 
  
 
