@@ -30,7 +30,24 @@ class DetailViewController: UIViewController
         plantImageView.image = plant?.image
         plantNameLabel.text = plant?.name
         plantDescriptionLabel.text = plant?.description
+        
     }
+    
+    /*override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if segue.identifier == "MasterToWeb"
+        {
+            let destVC = segue.destination as! AllPlantsWebViewController
+            destVC.plant = sender as? Plant
+        }
+    }
+    
+    @IBAction func plantLearnMore(_ sender: Any)
+    {
+        
+        performSegue(withIdentifier: "MasterToWeb", sender: plant)
+        
+    }*/
 
  
 
