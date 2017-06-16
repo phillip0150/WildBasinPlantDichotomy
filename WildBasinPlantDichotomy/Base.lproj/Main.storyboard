@@ -149,7 +149,7 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="icF-gW-WjF">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="icF-gW-WjF">
                                 <rect key="frame" x="22" y="12" width="34" height="30"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
@@ -162,6 +162,7 @@
                             <constraint firstItem="JlP-So-Cyb" firstAttribute="leading" secondItem="wk8-Xe-gtf" secondAttribute="leading" id="AA3-Ek-LRc"/>
                             <constraint firstItem="JlP-So-Cyb" firstAttribute="bottom" secondItem="Z0J-fE-0CH" secondAttribute="top" id="JAY-Rb-pkV"/>
                             <constraint firstItem="JlP-So-Cyb" firstAttribute="top" secondItem="icF-gW-WjF" secondAttribute="bottom" constant="8" symbolic="YES" id="L9C-Y3-PHH"/>
+                            <constraint firstItem="icF-gW-WjF" firstAttribute="leading" secondItem="wk8-Xe-gtf" secondAttribute="leadingMargin" constant="6" id="PVp-No-oE9"/>
                             <constraint firstAttribute="trailing" secondItem="JlP-So-Cyb" secondAttribute="trailing" id="Wh5-dL-gcO"/>
                         </constraints>
                     </view>
