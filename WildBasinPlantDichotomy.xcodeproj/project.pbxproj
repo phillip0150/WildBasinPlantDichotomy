@@ -16,11 +16,12 @@
 		331A18781ECE1B3F001F485A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 331A18761ECE1B3F001F485A /* LaunchScreen.storyboard */; };
 		331A18831ECE1B3F001F485A /* WildBasinPlantDichotomyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331A18821ECE1B3F001F485A /* WildBasinPlantDichotomyTests.swift */; };
 		331A188E1ECE1B3F001F485A /* WildBasinPlantDichotomyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331A188D1ECE1B3F001F485A /* WildBasinPlantDichotomyUITests.swift */; };
-		331A8E681EEB6136008A7B35 /* AllPlantsDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331A8E671EEB6136008A7B35 /* AllPlantsDescriptionViewController.swift */; };
-		3322701E1EE9C4530089D15B /* AllPlantsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3322701D1EE9C4530089D15B /* AllPlantsTableViewController.swift */; };
+		33223FEB1EF1B94500A9D5F7 /* AllPlantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33223FEA1EF1B94500A9D5F7 /* AllPlantsViewController.swift */; };
+		33223FED1EF1BA8800A9D5F7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33223FEC1EF1BA8800A9D5F7 /* DetailViewController.swift */; };
+		33223FEF1EF2031D00A9D5F7 /* AllPlantsWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33223FEE1EF2031D00A9D5F7 /* AllPlantsWebViewController.swift */; };
 		336B2EA31ED6138F003D81C5 /* PlantIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336B2EA21ED6138F003D81C5 /* PlantIDViewController.swift */; };
-		338700F91EECD03200F4B7FE /* Plants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338700F81EECD03200F4B7FE /* Plants.swift */; };
-		338700FB1EECD08900F4B7FE /* PlantsAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338700FA1EECD08900F4B7FE /* PlantsAll.swift */; };
+		338700F91EECD03200F4B7FE /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338700F81EECD03200F4B7FE /* Plant.swift */; };
+		339F8F7E1EF0A78E00E959E0 /* PlantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339F8F7D1EF0A78E00E959E0 /* PlantCell.swift */; };
 		5015A2771EE9DE1B00D7558D /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015A2761EE9DE1B00D7558D /* WebViewController.swift */; };
 		5015A2791EF095C700D7558D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015A2781EF095C700D7558D /* SecondViewController.swift */; };
 		5015A27B1EF095D700D7558D /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015A27A1EF095D700D7558D /* ThirdViewController.swift */; };
@@ -65,11 +66,12 @@
 		331A18891ECE1B3F001F485A /* WildBasinPlantDichotomyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WildBasinPlantDichotomyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		331A188D1ECE1B3F001F485A /* WildBasinPlantDichotomyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WildBasinPlantDichotomyUITests.swift; sourceTree = "<group>"; };
 		331A188F1ECE1B3F001F485A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		331A8E671EEB6136008A7B35 /* AllPlantsDescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllPlantsDescriptionViewController.swift; sourceTree = "<group>"; };
-		3322701D1EE9C4530089D15B /* AllPlantsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AllPlantsTableViewController.swift; path = ../AllPlantsTableViewController.swift; sourceTree = "<group>"; };
+		33223FEA1EF1B94500A9D5F7 /* AllPlantsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllPlantsViewController.swift; sourceTree = "<group>"; };
+		33223FEC1EF1BA8800A9D5F7 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		33223FEE1EF2031D00A9D5F7 /* AllPlantsWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllPlantsWebViewController.swift; sourceTree = "<group>"; };
 		336B2EA21ED6138F003D81C5 /* PlantIDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantIDViewController.swift; sourceTree = "<group>"; };
-		338700F81EECD03200F4B7FE /* Plants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plants.swift; sourceTree = "<group>"; };
-		338700FA1EECD08900F4B7FE /* PlantsAll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantsAll.swift; sourceTree = "<group>"; };
+		338700F81EECD03200F4B7FE /* Plant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
+		339F8F7D1EF0A78E00E959E0 /* PlantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantCell.swift; sourceTree = "<group>"; };
 		5015A2761EE9DE1B00D7558D /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = ../WebViewController.swift; sourceTree = "<group>"; };
 		5015A2781EF095C700D7558D /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		5015A27A1EF095D700D7558D /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
@@ -140,13 +142,11 @@
 		331A18691ECE1B3F001F485A /* WildBasinPlantDichotomy */ = {
 			isa = PBXGroup;
 			children = (
-				5015A2761EE9DE1B00D7558D /* WebViewController.swift */,
-				3322701D1EE9C4530089D15B /* AllPlantsTableViewController.swift */,
-				338700F81EECD03200F4B7FE /* Plants.swift */,
-				338700FA1EECD08900F4B7FE /* PlantsAll.swift */,
-				336B2EA21ED6138F003D81C5 /* PlantIDViewController.swift */,
-				331A186A1ECE1B3F001F485A /* AppDelegate.swift */,
+				505C96691ECE238700FE4A4A /* Node.swift */,
 				331A186C1ECE1B3F001F485A /* ViewController.swift */,
+				336B2EA21ED6138F003D81C5 /* PlantIDViewController.swift */,
+				5015A2761EE9DE1B00D7558D /* WebViewController.swift */,
+				331A186A1ECE1B3F001F485A /* AppDelegate.swift */,
 				331A186E1ECE1B3F001F485A /* Main.storyboard */,
 				5015A2781EF095C700D7558D /* SecondViewController.swift */,
 				5015A27A1EF095D700D7558D /* ThirdViewController.swift */,
@@ -489,8 +489,10 @@
 				5015A2811EF0960F00D7558D /* TerminalViewController.swift in Sources */,
 				5015A2791EF095C700D7558D /* SecondViewController.swift in Sources */,
 				331A186D1ECE1B3F001F485A /* ViewController.swift in Sources */,
+				339F8F7E1EF0A78E00E959E0 /* PlantCell.swift in Sources */,
 				331A18731ECE1B3F001F485A /* WildBasinPlantDichotomy.xcdatamodeld in Sources */,
 				331A186B1ECE1B3F001F485A /* AppDelegate.swift in Sources */,
+				33223FEB1EF1B94500A9D5F7 /* AllPlantsViewController.swift in Sources */,
 				5015A2771EE9DE1B00D7558D /* WebViewController.swift in Sources */,
 				5015A27D1EF095E400D7558D /* FourthViewController.swift in Sources */,
 				5015A27F1EF095F200D7558D /* FifthViewController.swift in Sources */,
@@ -661,6 +663,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "St.-Edward-s-University.WildBasinPlantDichotomy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -675,6 +678,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "St.-Edward-s-University.WildBasinPlantDichotomy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -10,29 +10,36 @@ import Foundation
 
 //Here we convert Node value to a readable string
 
-extension Node: CustomStringConvertible {
+extension Node: CustomStringConvertible
+{
     // 2
-    var description: String {
+    var description: String
+    {
         // 3
         var text = "\(value)"
         // 4
-        if !children.isEmpty {
+        if !children.isEmpty
+        {
             text += " {" + children.map { $0.description }.joined(separator: ", ") + "} "
         }
        return text
    }
 }
 
-extension Node {
+extension Node
+{
     // 1
-    func search(value: String) -> Node? {
+    func search(value: String) -> Node?
+    {
         // 2
-        if value == self.value {
+        if value == self.value
+        {
             return self
         }
         // 3
         for child in children {
-            if let found = child.search(value: value) {
+            if let found = child.search(value: value)
+            {
                 return found
             }
         }
@@ -89,12 +96,11 @@ class Node
             if (child.isChildLeaf(child: child))
             {
             childArray[childCounter] = child
-            
-        }
+            }
             childCounter += 1
-    }
+        }
         return childArray
-}
+    }
 }
 
 /*
