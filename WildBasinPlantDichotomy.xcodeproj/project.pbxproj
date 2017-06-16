@@ -23,6 +23,11 @@
 		338700F91EECD03200F4B7FE /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338700F81EECD03200F4B7FE /* Plant.swift */; };
 		339F8F7E1EF0A78E00E959E0 /* PlantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339F8F7D1EF0A78E00E959E0 /* PlantCell.swift */; };
 		5015A2771EE9DE1B00D7558D /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015A2761EE9DE1B00D7558D /* WebViewController.swift */; };
+		5015A2791EF095C700D7558D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015A2781EF095C700D7558D /* SecondViewController.swift */; };
+		5015A27B1EF095D700D7558D /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015A27A1EF095D700D7558D /* ThirdViewController.swift */; };
+		5015A27D1EF095E400D7558D /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015A27C1EF095E400D7558D /* FourthViewController.swift */; };
+		5015A27F1EF095F200D7558D /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015A27E1EF095F200D7558D /* FifthViewController.swift */; };
+		5015A2811EF0960F00D7558D /* TerminalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015A2801EF0960F00D7558D /* TerminalViewController.swift */; };
 		505C966A1ECE238700FE4A4A /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505C96691ECE238700FE4A4A /* Node.swift */; };
 		5A6964497A2C29F9FCD2D81B /* Pods_WildBasinPlantDichotomy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D9D859A3CFD9AD993A4E4F /* Pods_WildBasinPlantDichotomy.framework */; };
 		8353449A8D16C3BBBD48B95E /* Pods_WildBasinPlantDichotomyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA9178818D246E49DFBFD5E /* Pods_WildBasinPlantDichotomyTests.framework */; };
@@ -68,6 +73,11 @@
 		338700F81EECD03200F4B7FE /* Plant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
 		339F8F7D1EF0A78E00E959E0 /* PlantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantCell.swift; sourceTree = "<group>"; };
 		5015A2761EE9DE1B00D7558D /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = ../WebViewController.swift; sourceTree = "<group>"; };
+		5015A2781EF095C700D7558D /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		5015A27A1EF095D700D7558D /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		5015A27C1EF095E400D7558D /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		5015A27E1EF095F200D7558D /* FifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		5015A2801EF0960F00D7558D /* TerminalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TerminalViewController.swift; sourceTree = "<group>"; };
 		505C96691ECE238700FE4A4A /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		5228DB604B2ECFBBD66C0DBE /* Pods_WildBasinPlantDichotomyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WildBasinPlantDichotomyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C3C80F77833E77D0D2ECD4B /* Pods-WildBasinPlantDichotomy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WildBasinPlantDichotomy.release.xcconfig"; path = "Pods/Target Support Files/Pods-WildBasinPlantDichotomy/Pods-WildBasinPlantDichotomy.release.xcconfig"; sourceTree = "<group>"; };
@@ -138,11 +148,13 @@
 				5015A2761EE9DE1B00D7558D /* WebViewController.swift */,
 				331A186A1ECE1B3F001F485A /* AppDelegate.swift */,
 				331A186E1ECE1B3F001F485A /* Main.storyboard */,
-				33223FEE1EF2031D00A9D5F7 /* AllPlantsWebViewController.swift */,
-				33223FEC1EF1BA8800A9D5F7 /* DetailViewController.swift */,
-				33223FEA1EF1B94500A9D5F7 /* AllPlantsViewController.swift */,
-				338700F81EECD03200F4B7FE /* Plant.swift */,
-				339F8F7D1EF0A78E00E959E0 /* PlantCell.swift */,
+				5015A2781EF095C700D7558D /* SecondViewController.swift */,
+				5015A27A1EF095D700D7558D /* ThirdViewController.swift */,
+				5015A27C1EF095E400D7558D /* FourthViewController.swift */,
+				5015A27E1EF095F200D7558D /* FifthViewController.swift */,
+				5015A2801EF0960F00D7558D /* TerminalViewController.swift */,
+				331A8E671EEB6136008A7B35 /* AllPlantsDescriptionViewController.swift */,
+				505C96691ECE238700FE4A4A /* Node.swift */,
 				331A18741ECE1B3F001F485A /* Assets.xcassets */,
 				331A18761ECE1B3F001F485A /* LaunchScreen.storyboard */,
 				331A18791ECE1B3F001F485A /* Info.plist */,
@@ -474,16 +486,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33223FEF1EF2031D00A9D5F7 /* AllPlantsWebViewController.swift in Sources */,
+				5015A2811EF0960F00D7558D /* TerminalViewController.swift in Sources */,
+				5015A2791EF095C700D7558D /* SecondViewController.swift in Sources */,
 				331A186D1ECE1B3F001F485A /* ViewController.swift in Sources */,
 				339F8F7E1EF0A78E00E959E0 /* PlantCell.swift in Sources */,
 				331A18731ECE1B3F001F485A /* WildBasinPlantDichotomy.xcdatamodeld in Sources */,
 				331A186B1ECE1B3F001F485A /* AppDelegate.swift in Sources */,
 				33223FEB1EF1B94500A9D5F7 /* AllPlantsViewController.swift in Sources */,
 				5015A2771EE9DE1B00D7558D /* WebViewController.swift in Sources */,
-				338700F91EECD03200F4B7FE /* Plant.swift in Sources */,
-				33223FED1EF1BA8800A9D5F7 /* DetailViewController.swift in Sources */,
+				5015A27D1EF095E400D7558D /* FourthViewController.swift in Sources */,
+				5015A27F1EF095F200D7558D /* FifthViewController.swift in Sources */,
+				3322701E1EE9C4530089D15B /* AllPlantsTableViewController.swift in Sources */,
+				331A8E681EEB6136008A7B35 /* AllPlantsDescriptionViewController.swift in Sources */,
+				338700F91EECD03200F4B7FE /* Plants.swift in Sources */,
+				338700FB1EECD08900F4B7FE /* PlantsAll.swift in Sources */,
 				505C966A1ECE238700FE4A4A /* Node.swift in Sources */,
+				5015A27B1EF095D700D7558D /* ThirdViewController.swift in Sources */,
 				336B2EA31ED6138F003D81C5 /* PlantIDViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
