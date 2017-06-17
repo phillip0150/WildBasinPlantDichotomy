@@ -1,30 +1,31 @@
 //
-//  DetailViewController.swift
+//  VinePlantDetailViewController.swift
 //  WildBasinPlantDichotomy
 //
-//  Created by Phillip Valdez on 6/14/17.
+//  Created by Phillip Valdez on 6/16/17.
 //  Copyright © 2017 St. Edward's University. All rights reserved.
 //
 
 import UIKit
 
-class DetailViewController: UIViewController
-{
+class VinePlantDetailViewController: UIViewController {
 
-    @IBOutlet weak var plantImageView: UIImageView!
-    @IBOutlet weak var plantNameLabel: UILabel!
-    @IBOutlet weak var plantDescriptionLabel: UILabel!
     
     var plant: Plant?
     
     var plantURL:String = ""
     
+    
+    @IBOutlet weak var plantNameLabel: UILabel!
+    @IBOutlet weak var plantImageView: UIImageView!
+    @IBOutlet weak var plantDescriptionLabel: UILabel!
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
         setUI()
-
-    
+        
+        
     }
     
     func setUI()
@@ -39,13 +40,13 @@ class DetailViewController: UIViewController
         
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+  /*  override func prepare(for segue: UIStoryboardSegue, sender: Any?)
     {
         if segue.identifier == "MasterToWeb"
         {
             
             let plant = Plant(name: plantNameLabel.text!, description: plantDescriptionLabel.text!, image: plantImageView.image!, url: plantURL)
-            let destVC = segue.destination as! AllPlantsWebViewController
+            let destVC = segue.destination as! VinePlantsWebViewController
             destVC.plant = plant
             
         }
@@ -58,8 +59,10 @@ class DetailViewController: UIViewController
         performSegue(withIdentifier: "MasterToWeb", sender: plant)
         
     }
-
+    
+    
  
-
-
+*/
+    
+    
 }

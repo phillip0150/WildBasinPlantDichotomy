@@ -1,37 +1,29 @@
 //
-//  AllPlantsViewController.swift
+//  VinePlantViewController.swift
 //  WildBasinPlantDichotomy
 //
-//  Created by Phillip Valdez on 6/14/17.
+//  Created by Phillip Valdez on 6/16/17.
 //  Copyright © 2017 St. Edward's University. All rights reserved.
 //
 
 import UIKit
 
-class AllPlantsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource
+class VinePlantViewController: UIViewController, UITableViewDelegate, UITableViewDataSource
 {
     
     @IBOutlet weak var tableView: UITableView!
     
     var plants: [Plant] = []
-
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
-
-        plants = Plant.createAllPlantArray()
+        
+        plants = Plant.createSimpleVinePlantArray()
         self.tableView.dataSource = self
         self.tableView.delegate = self
+        print (plants)
         
-    }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
-    {
-        if segue.identifier == "MasterToDetail"
-        {
-            let destVC = segue.destination as! DetailViewController
-            destVC.plant = sender as? Plant
-        }
     }
     
     func numberOfSections(in tableView: UITableView) -> Int
@@ -43,7 +35,7 @@ class AllPlantsViewController: UIViewController, UITableViewDelegate, UITableVie
     {
         return plants.count
     }
-
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
         let plant = plants[indexPath.row]
@@ -55,12 +47,19 @@ class AllPlantsViewController: UIViewController, UITableViewDelegate, UITableVie
         return cell
     }
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
     {
-        let plant = plants[indexPath.row]
-        performSegue(withIdentifier: "MasterToDetail", sender: plant)
+        if segue.identifier == "vineDetailSegue"
+        {
+            let destVC = segue.destination as! VinePlantDetailViewController
+            destVC.plant = sender as? Plant
+        }
     }
     
-
-
+    
+   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
+    {
+        let plant = plants[indexPath.row]
+        performSegue(withIdentifier: "vineDetailSegue", sender: plant)
+    }
 }

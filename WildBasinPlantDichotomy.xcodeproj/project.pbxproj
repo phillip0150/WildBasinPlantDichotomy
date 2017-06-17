@@ -28,6 +28,9 @@
 		33E11ABE1EF45F91002EBD72 /* ToothedSM2L2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E11ABD1EF45F91002EBD72 /* ToothedSM2L2ViewController.swift */; };
 		33E11AC21EF4625A002EBD72 /* NotAVineSMTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E11AC11EF4625A002EBD72 /* NotAVineSMTViewController.swift */; };
 		33E11AC41EF462FC002EBD72 /* OppositeVNVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E11AC31EF462FC002EBD72 /* OppositeVNVViewController.swift */; };
+		33F1C3AF1EF49993007F3591 /* VinePlantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1C3AE1EF49993007F3591 /* VinePlantViewController.swift */; };
+		33F1C3B11EF49C40007F3591 /* VinePlantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1C3B01EF49C40007F3591 /* VinePlantDetailViewController.swift */; };
+		33F1C3B31EF49F7E007F3591 /* VinePlantsWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1C3B21EF49F7E007F3591 /* VinePlantsWebViewController.swift */; };
 		5015A2771EE9DE1B00D7558D /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015A2761EE9DE1B00D7558D /* WebViewController.swift */; };
 		505C966A1ECE238700FE4A4A /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505C96691ECE238700FE4A4A /* Node.swift */; };
 		5A6964497A2C29F9FCD2D81B /* Pods_WildBasinPlantDichotomy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D9D859A3CFD9AD993A4E4F /* Pods_WildBasinPlantDichotomy.framework */; };
@@ -79,6 +82,9 @@
 		33E11ABD1EF45F91002EBD72 /* ToothedSM2L2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToothedSM2L2ViewController.swift; sourceTree = "<group>"; };
 		33E11AC11EF4625A002EBD72 /* NotAVineSMTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotAVineSMTViewController.swift; sourceTree = "<group>"; };
 		33E11AC31EF462FC002EBD72 /* OppositeVNVViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OppositeVNVViewController.swift; sourceTree = "<group>"; };
+		33F1C3AE1EF49993007F3591 /* VinePlantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VinePlantViewController.swift; sourceTree = "<group>"; };
+		33F1C3B01EF49C40007F3591 /* VinePlantDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VinePlantDetailViewController.swift; sourceTree = "<group>"; };
+		33F1C3B21EF49F7E007F3591 /* VinePlantsWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VinePlantsWebViewController.swift; sourceTree = "<group>"; };
 		5015A2761EE9DE1B00D7558D /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = ../WebViewController.swift; sourceTree = "<group>"; };
 		505C96691ECE238700FE4A4A /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		5228DB604B2ECFBBD66C0DBE /* Pods_WildBasinPlantDichotomyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WildBasinPlantDichotomyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,6 +155,7 @@
 				5015A2761EE9DE1B00D7558D /* WebViewController.swift */,
 				331A186A1ECE1B3F001F485A /* AppDelegate.swift */,
 				331A186E1ECE1B3F001F485A /* Main.storyboard */,
+				33F1C3B21EF49F7E007F3591 /* VinePlantsWebViewController.swift */,
 				33E11AB61EF45EE0002EBD72 /* Simple */,
 				33E11ABF1EF45FBF002EBD72 /* View All Plants */,
 				33E11AC01EF45FD5002EBD72 /* Plants */,
@@ -187,6 +194,8 @@
 				33E11ABD1EF45F91002EBD72 /* ToothedSM2L2ViewController.swift */,
 				33E11AC11EF4625A002EBD72 /* NotAVineSMTViewController.swift */,
 				33E11AC31EF462FC002EBD72 /* OppositeVNVViewController.swift */,
+				33F1C3AE1EF49993007F3591 /* VinePlantViewController.swift */,
+				33F1C3B01EF49C40007F3591 /* VinePlantDetailViewController.swift */,
 			);
 			name = Simple;
 			sourceTree = "<group>";
@@ -516,6 +525,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33F1C3B11EF49C40007F3591 /* VinePlantDetailViewController.swift in Sources */,
 				33E11AB81EF45F48002EBD72 /* SimpleAOViewController.swift in Sources */,
 				33E11AC21EF4625A002EBD72 /* NotAVineSMTViewController.swift in Sources */,
 				33E11AAD1EF44D5D002EBD72 /* DetailViewController.swift in Sources */,
@@ -526,10 +536,12 @@
 				33E11ABA1EF45F60002EBD72 /* AlternateVNVViewController.swift in Sources */,
 				33E11ABC1EF45F7E002EBD72 /* NotAVineSSCTLViewController.swift in Sources */,
 				331A186B1ECE1B3F001F485A /* AppDelegate.swift in Sources */,
+				33F1C3B31EF49F7E007F3591 /* VinePlantsWebViewController.swift in Sources */,
 				33E11AC41EF462FC002EBD72 /* OppositeVNVViewController.swift in Sources */,
 				33E11AA91EF44D47002EBD72 /* Plant.swift in Sources */,
 				5015A2771EE9DE1B00D7558D /* WebViewController.swift in Sources */,
 				33E11AAB1EF44D4E002EBD72 /* PlantCell.swift in Sources */,
+				33F1C3AF1EF49993007F3591 /* VinePlantViewController.swift in Sources */,
 				505C966A1ECE238700FE4A4A /* Node.swift in Sources */,
 				336B2EA31ED6138F003D81C5 /* PlantIDViewController.swift in Sources */,
 				33E11AB11EF44D64002EBD72 /* AllPlantsWebViewController.swift in Sources */,

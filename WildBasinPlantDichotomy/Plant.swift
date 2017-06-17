@@ -26,7 +26,7 @@ class Plant
         
     }
     
-    class func createPlantArray() -> [Plant]
+    class func createAllPlantArray() -> [Plant]
     {
         //Create an empty array of Plant objects
         var plants = [Plant]()
@@ -37,14 +37,13 @@ class Plant
         plants.append(Plant(name: "Mustang Grape", description: "Vitis mustangensis, commonly known as the mustang grape, is a species of grape that is native to the southern United States. Its range includes parts of Mississippi, Alabama, Louisiana, Texas, and Oklahoma.", image: #imageLiteral(resourceName: "Mustang Grape"), url: "http://www.inaturalist.org/taxa/142776-Vitis-mustangensis"))
         
         plants.append(Plant(name: "Rattan Vine", description: "Vitis mustangensis, commonly known as the mustang grape, is a species of grape that is native to the southern United States. Its range includes parts of Mississippi, Alabama, Louisiana, Texas, and Oklahoma.", image: #imageLiteral(resourceName: "Rattan Vine"), url: "http://www.inaturalist.org/taxa/119960-Berchemia-scandens"))
-        
-        plants.append(Plant(name: "Rattan Vine", description: "Cocculus carolinus (Carolina coralbead, redberry moonseed, Carolina snailseed, Carolina moonseed) is a perennial vine of the genus Cocculus. It is indigenous to several states in the United States along the south to midwest. It gets its name from the bright red color of the marble-like berry that protrudes from the leaves of the plant. The plant can be very invasive and difficult to control.", image: #imageLiteral(resourceName: "Carolina Snailseed"), url: ""))
+    
         
         plants.append(Plant(name: "Cow Itch Vine", description: "Campsis radicans (trumpet vine or trumpet creeper, also known in North America as cow itch vine or hummingbird vine), is a species of flowering plant of the family Bignoniaceae, native to the southeastern United States. Growing to 10 m (33 ft), it is a vigorous, deciduous woody vine, notable for its showy trumpet-shaped flowers. It inhabits woodlands and riverbanks, and is also a popular garden subject.", image: #imageLiteral(resourceName: "Cow Itch Vine"), url: "http://www.inaturalist.org/taxa/75995-Campsis-radicans"))
 
         plants.append(Plant(name: "Winter Grape", description: "", image: #imageLiteral(resourceName: "Winter Grape"), url: "http://www.illinoiswildflowers.info/trees/plants/winter_grape.htm"))
 
-        plants.append(Plant(name: "Carolina SnailSeed", description: "Cocculus carolinus (Carolina coralbead, redberry moonseed, Carolina snailseed, Carolina moonseed) is a perennial vine of the genus Cocculus. It is indigenous to several states in the United States along the south to midwest. It gets its name from the bright red color of the marble-like berry that protrudes from the leaves of the plant. The plant can be very invasive and difficult to control.", image: #imageLiteral(resourceName: "Carolina Snailseed"), url: "http://www.inaturalist.org/taxa/119957-Cocculus-carolinus"))
+        plants.append(Plant(name: "Carolina Snailseed", description: "Cocculus carolinus (Carolina coralbead, redberry moonseed, Carolina snailseed, Carolina moonseed) is a perennial vine of the genus Cocculus. It is indigenous to several states in the United States along the south to midwest. It gets its name from the bright red color of the marble-like berry that protrudes from the leaves of the plant. The plant can be very invasive and difficult to control.", image: #imageLiteral(resourceName: "Carolina Snailseed"), url: "http://www.inaturalist.org/taxa/119957-Cocculus-carolinus"))
 
         plants.append(Plant(name: "Live Oak", description: "Quercus fusiformis (also often referred to as Q. virginiana var. fusiformis), commonly known as escarpment live oak, plateau live oak, or plateau oak, is an evergreen or nearly evergreen tree. Its native range includes the Quartz Mountains and Wichita Mountains in southwestern Oklahoma,[2] through Texas, to the Mexican states of Coahuila, Tamaulipas, and Nuevo León.", image: #imageLiteral(resourceName: "Live Oak"), url: "http://www.inaturalist.org/taxa/167647-Quercus-fusiformis"))
 
@@ -95,6 +94,32 @@ class Plant
         plants.append(Plant(name: "Texas Mulberry", description: "Morus celtidifolia, the Texas mulberry, is a plant species native to South America, Central America, Mexico, and the southwestern United States, ranging from Argentina north as far as Arizona and Oklahoma. It the USA, it grows in canyons and on slopes, usually near streams, from 200–2,200 m (660–7,220 ft) elevation. It is very often referred to as 'Morus microphylla,' including in Flora of North America,[3] but recent studies suggest that these names are synonymous with M. celtidifolia holding priority", image: #imageLiteral(resourceName: "Texas Mulberry"), url: "http://www.inaturalist.org/taxa/165533-Morus-microphylla"))
         
         plants.append(Plant(name: "Mexican Plum", description: "Prunus mexicana, commonly known as the Mexican plum,[2] is a North American species of plum tree that can be found in the central United States and Northern Mexico. Its native range stretches from Coahuila and San Luis Potosí north as far as Wisconsin and South Dakota, east to Georgia, Kentucky, and Ohio.[2][4] Mexican Plum is widely cultivated, such as on the west coast of the United States.", image: #imageLiteral(resourceName: "Mexican Plum"), url: "http://www.inaturalist.org/taxa/128755-Prunus-mexicana"))
+        
+        
+        //Return the array to the caller
+        return plants
+    }
+    
+    
+    class func createSimpleVinePlantArray() -> [Plant]
+    {
+        //Create an empty array of Plant objects
+        var plants = [Plant]()
+        
+        // Create a plant object
+        plants.append(Plant(name: "Greenbrier", description: "Smilax bona-nox, known by the common names saw greenbrier, zarzaparrilla, catbrier, bullbrier, chinabrier, and tramp's trouble, is a species of flowering plant in the Smilacaceae, or greenbrier family. The species is native to the southeastern United States from Delaware to Florida and as far west as Kansas and Texas, as well as Bermuda and much of Mexico.", image: #imageLiteral(resourceName: "Greenbriar"), url: "http://www.inaturalist.org/taxa/125677-Smilax-bona-nox"))
+        
+        plants.append(Plant(name: "Mustang Grape", description: "Vitis mustangensis, commonly known as the mustang grape, is a species of grape that is native to the southern United States. Its range includes parts of Mississippi, Alabama, Louisiana, Texas, and Oklahoma.", image: #imageLiteral(resourceName: "Mustang Grape"), url: "http://www.inaturalist.org/taxa/142776-Vitis-mustangensis"))
+        
+        plants.append(Plant(name: "Rattan Vine", description: "Vitis mustangensis, commonly known as the mustang grape, is a species of grape that is native to the southern United States. Its range includes parts of Mississippi, Alabama, Louisiana, Texas, and Oklahoma.", image: #imageLiteral(resourceName: "Rattan Vine"), url: "http://www.inaturalist.org/taxa/119960-Berchemia-scandens"))
+        
+        plants.append(Plant(name: "Rattan Vine", description: "Cocculus carolinus (Carolina coralbead, redberry moonseed, Carolina snailseed, Carolina moonseed) is a perennial vine of the genus Cocculus. It is indigenous to several states in the United States along the south to midwest. It gets its name from the bright red color of the marble-like berry that protrudes from the leaves of the plant. The plant can be very invasive and difficult to control.", image: #imageLiteral(resourceName: "Carolina Snailseed"), url: ""))
+        
+        plants.append(Plant(name: "Cow Itch Vine", description: "Campsis radicans (trumpet vine or trumpet creeper, also known in North America as cow itch vine or hummingbird vine), is a species of flowering plant of the family Bignoniaceae, native to the southeastern United States. Growing to 10 m (33 ft), it is a vigorous, deciduous woody vine, notable for its showy trumpet-shaped flowers. It inhabits woodlands and riverbanks, and is also a popular garden subject.", image: #imageLiteral(resourceName: "Cow Itch Vine"), url: "http://www.inaturalist.org/taxa/75995-Campsis-radicans"))
+        
+        plants.append(Plant(name: "Winter Grape", description: "", image: #imageLiteral(resourceName: "Winter Grape"), url: "http://www.illinoiswildflowers.info/trees/plants/winter_grape.htm"))
+        
+        plants.append(Plant(name: "Carolina Snailseed", description: "Cocculus carolinus (Carolina coralbead, redberry moonseed, Carolina snailseed, Carolina moonseed) is a perennial vine of the genus Cocculus. It is indigenous to several states in the United States along the south to midwest. It gets its name from the bright red color of the marble-like berry that protrudes from the leaves of the plant. The plant can be very invasive and difficult to control.", image: #imageLiteral(resourceName: "Carolina Snailseed"), url: "http://www.inaturalist.org/taxa/119957-Cocculus-carolinus"))
         
         
         //Return the array to the caller

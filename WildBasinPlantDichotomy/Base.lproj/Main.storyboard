@@ -119,10 +119,10 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="151.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hKd-Vh-g65">
+                                                <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hKd-Vh-g65">
                                                     <rect key="frame" x="0.0" y="8" width="190" height="131"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LeE-1V-3YD">
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LeE-1V-3YD">
                                                     <rect key="frame" x="198" y="8" width="169" height="61"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="169" id="Ak5-8V-L9H"/>
@@ -142,10 +142,6 @@
                                                 <constraint firstItem="LeE-1V-3YD" firstAttribute="trailing" secondItem="F00-rG-IUz" secondAttribute="trailingMargin" id="jl7-rn-bE6"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <outlet property="plantImageView" destination="hKd-Vh-g65" id="b0r-Da-EHE"/>
-                                            <outlet property="plantTitle" destination="LeE-1V-3YD" id="GXM-zf-ciK"/>
-                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -173,7 +169,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gJY-7u-gxZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-576.79999999999995" y="250.52473763118442"/>
+            <point key="canvasLocation" x="-774" y="325"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="jgp-YY-va3">
@@ -281,7 +277,7 @@
         <!--PlantID View Controller-->
         <scene sceneID="zzY-QZ-WE8">
             <objects>
-                <viewController id="gab-q0-cIe" customClass="PlantIDViewController" customModule="WildBasinPlantDichotomy" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="gab-q0-cIe" customClass="PlantIDViewController" customModule="WildBasinPlantDichotomy" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="55H-gW-Dga"/>
                         <viewControllerLayoutGuide type="bottom" id="wqu-P5-8Tm"/>
@@ -290,7 +286,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lkj-Eh-rnD">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Is the plant simple or compound?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lkj-Eh-rnD">
                                 <rect key="frame" x="16" y="64" width="343" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -315,36 +311,6 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <outletCollection property="otherButtons" destination="be9-Ny-Yzx" id="Ukj-3w-1Vy"/>
-                                    <outletCollection property="otherButtons" destination="rIu-kx-KOQ" id="8Il-KL-Dwx"/>
-                                    <outletCollection property="otherButtons" destination="fmU-RB-FsZ" id="eLZ-qb-kGB"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rIu-kx-KOQ" customClass="DLRadioButton">
-                                <rect key="frame" x="224" y="474" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="radioButton_Unselected"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="image" keyPath="icon" value="radioButton_Unselected"/>
-                                    <userDefinedRuntimeAttribute type="image" keyPath="iconSelected" value="radioButton_Selected"/>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <outletCollection property="otherButtons" destination="GgQ-7w-EiM" id="2Ug-so-6NE"/>
-                                    <outletCollection property="otherButtons" destination="be9-Ny-Yzx" id="7Zj-Qq-wJ4"/>
-                                    <outletCollection property="otherButtons" destination="fmU-RB-FsZ" id="ent-ak-K1C"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fmU-RB-FsZ" customClass="DLRadioButton">
-                                <rect key="frame" x="329" y="474" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="radioButton_Unselected"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="image" keyPath="icon" value="radioButton_Unselected"/>
-                                    <userDefinedRuntimeAttribute type="image" keyPath="iconSelected" value="radioButton_Selected"/>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <outletCollection property="otherButtons" destination="rIu-kx-KOQ" id="1oQ-Wz-qGk"/>
-                                    <outletCollection property="otherButtons" destination="be9-Ny-Yzx" id="0Ub-zp-rIK"/>
-                                    <outletCollection property="otherButtons" destination="GgQ-7w-EiM" id="6DR-Aw-Y9W"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hNV-l5-HAH">
@@ -359,7 +325,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="be9-Ny-Yzx" customClass="DLRadioButton">
-                                <rect key="frame" x="120" y="474" width="30" height="30"/>
+                                <rect key="frame" x="329" y="474" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="radioButton_Unselected"/>
                                 <userDefinedRuntimeAttributes>
@@ -368,15 +334,13 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <outletCollection property="otherButtons" destination="GgQ-7w-EiM" id="24D-yC-r4X"/>
-                                    <outletCollection property="otherButtons" destination="rIu-kx-KOQ" id="qgA-6u-Aa3"/>
-                                    <outletCollection property="otherButtons" destination="fmU-RB-FsZ" id="nE8-Ug-nZU"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="d0z-jc-scA">
-                        <barButtonItem key="leftBarButtonItem" image="back" id="DpG-PC-Lje">
+                        <barButtonItem key="leftBarButtonItem" title="Home" id="DpG-PC-Lje">
                             <connections>
                                 <segue destination="BYZ-38-t0r" kind="presentation" id="YjD-Hh-FNU"/>
                             </connections>
@@ -385,8 +349,6 @@
                     <connections>
                         <outlet property="btn1" destination="GgQ-7w-EiM" id="D8w-Xd-TGc"/>
                         <outlet property="btn2" destination="be9-Ny-Yzx" id="qgq-H0-JZL"/>
-                        <outlet property="btn3" destination="rIu-kx-KOQ" id="BHi-tS-3qh"/>
-                        <outlet property="btn4" destination="fmU-RB-FsZ" id="Zs5-Ok-GuR"/>
                         <outlet property="lbl1" destination="Lkj-Eh-rnD" id="wKi-Pp-R7f"/>
                         <outletCollection property="btn2" destination="be9-Ny-Yzx" collectionClass="NSMutableArray" id="4Dl-UI-Fsp"/>
                         <segue destination="0V8-U7-62K" kind="show" identifier="simpleSegue" id="qqa-mn-fvL"/>
@@ -399,7 +361,7 @@
         <!--SimpleAO View Controller-->
         <scene sceneID="IBY-DM-4HI">
             <objects>
-                <viewController id="0V8-U7-62K" customClass="SimpleAOViewController" customModule="WildBasinPlantDichotomy" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="simple" useStoryboardIdentifierAsRestorationIdentifier="YES" id="0V8-U7-62K" customClass="SimpleAOViewController" customModule="WildBasinPlantDichotomy" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YJm-kh-QzO"/>
                         <viewControllerLayoutGuide type="bottom" id="Z9J-FB-EML"/>
@@ -408,51 +370,83 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Are the leaves alternate or pooposite?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F2F-XL-H2P">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Are the leaves alternate or pooposite?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F2F-XL-H2P">
                                 <rect key="frame" x="42" y="116" width="290" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f7r-I7-pxu" customClass="DLRadioButton">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f7r-I7-pxu" customClass="DLRadioButton">
                                 <rect key="frame" x="42" y="468" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="8he-kY-eE7"/>
+                                    <constraint firstAttribute="width" constant="30" id="KUw-2d-nPB"/>
+                                </constraints>
                                 <state key="normal" image="radioButton_Unselected"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="image" keyPath="icon" value="radioButton_Unselected"/>
                                     <userDefinedRuntimeAttribute type="image" keyPath="iconSelected" value="radioButton_Selected"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="otherButtons" destination="MTG-ul-c8w" id="5RZ-T2-QuI"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MTG-ul-c8w" customClass="DLRadioButton">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MTG-ul-c8w" customClass="DLRadioButton">
                                 <rect key="frame" x="302" y="468" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="2EC-wX-1EI"/>
+                                </constraints>
                                 <state key="normal" image="radioButton_Unselected"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="image" keyPath="icon" value="radioButton_Unselected"/>
                                     <userDefinedRuntimeAttribute type="image" keyPath="iconSelected" value="radioButton_Selected"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="otherButtons" destination="f7r-I7-pxu" id="E7p-f5-0mT"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="08K-KZ-92w">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="08K-KZ-92w">
                                 <rect key="frame" x="16" y="617" width="343" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.069268281530000003" green="0.76499686209999995" blue="0.0" alpha="0.74991612350000003" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ayl-Dc-cRK"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="View all current palnts"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sl5-GK-Yl7">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sl5-GK-Yl7">
                                 <rect key="frame" x="16" y="552" width="343" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.069268281530000003" green="0.76499686209999995" blue="0.0" alpha="0.74991612350000003" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="btnNext:" destination="0V8-U7-62K" eventType="touchUpInside" id="QvR-W4-aeM"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="F2F-XL-H2P" firstAttribute="leading" secondItem="f7r-I7-pxu" secondAttribute="leading" id="1Sz-9v-c8s"/>
+                            <constraint firstItem="08K-KZ-92w" firstAttribute="top" secondItem="Sl5-GK-Yl7" secondAttribute="bottom" constant="23" id="3aY-0p-5iU"/>
+                            <constraint firstItem="Sl5-GK-Yl7" firstAttribute="leading" secondItem="08K-KZ-92w" secondAttribute="leading" id="8Qm-pr-VB0"/>
+                            <constraint firstItem="F2F-XL-H2P" firstAttribute="top" secondItem="YJm-kh-QzO" secondAttribute="bottom" constant="52" id="C5z-WY-udK"/>
+                            <constraint firstItem="Sl5-GK-Yl7" firstAttribute="top" secondItem="f7r-I7-pxu" secondAttribute="bottom" constant="54" id="Cdf-PT-kOP"/>
+                            <constraint firstAttribute="bottom" secondItem="08K-KZ-92w" secondAttribute="bottom" constant="20" symbolic="YES" id="OLE-vg-zFK"/>
+                            <constraint firstItem="f7r-I7-pxu" firstAttribute="top" secondItem="MTG-ul-c8w" secondAttribute="top" id="OYv-aF-xoY"/>
+                            <constraint firstItem="F2F-XL-H2P" firstAttribute="centerX" secondItem="Sl5-GK-Yl7" secondAttribute="centerX" id="Onc-RF-Vjz"/>
+                            <constraint firstItem="f7r-I7-pxu" firstAttribute="bottom" secondItem="MTG-ul-c8w" secondAttribute="bottom" id="dm1-0x-RR9"/>
+                            <constraint firstItem="F2F-XL-H2P" firstAttribute="trailing" secondItem="MTG-ul-c8w" secondAttribute="trailing" id="hmc-gE-5Ye"/>
+                            <constraint firstItem="Sl5-GK-Yl7" firstAttribute="trailing" secondItem="fer-l8-Mf0" secondAttribute="trailingMargin" id="iBC-ng-IdM"/>
+                            <constraint firstItem="Sl5-GK-Yl7" firstAttribute="leading" secondItem="fer-l8-Mf0" secondAttribute="leadingMargin" id="tSx-aR-ocd"/>
+                            <constraint firstItem="Sl5-GK-Yl7" firstAttribute="trailing" secondItem="08K-KZ-92w" secondAttribute="trailing" id="uzd-YI-B8i"/>
+                        </constraints>
                     </view>
                     <connections>
+                        <outlet property="btn1" destination="f7r-I7-pxu" id="e92-gg-0ie"/>
+                        <outlet property="btn2" destination="MTG-ul-c8w" id="3Ry-lw-VqE"/>
+                        <outlet property="lbl1" destination="F2F-XL-H2P" id="Z6o-k8-Idu"/>
                         <segue destination="Q1b-Hk-v7b" kind="show" identifier="alternateSegue" id="TA6-8K-zrE"/>
                         <segue destination="WDc-rE-O7a" kind="show" identifier="oppositeSegue" id="yf7-P6-kBJ"/>
                     </connections>
@@ -464,7 +458,7 @@
         <!--OppositeVNV View Controller-->
         <scene sceneID="oWT-Fh-1Zh">
             <objects>
-                <viewController id="WDc-rE-O7a" customClass="OppositeVNVViewController" customModule="WildBasinPlantDichotomy" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="opposite" id="WDc-rE-O7a" customClass="OppositeVNVViewController" customModule="WildBasinPlantDichotomy" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wuR-al-EDU"/>
                         <viewControllerLayoutGuide type="bottom" id="BOG-82-srq"/>
@@ -578,10 +572,110 @@
             </objects>
             <point key="canvasLocation" x="4035" y="-1137"/>
         </scene>
+        <!--Vine Plant View Controller-->
+        <scene sceneID="9mk-0d-jar">
+            <objects>
+                <viewController storyboardIdentifier="vinePlant" useStoryboardIdentifierAsRestorationIdentifier="YES" id="K5v-jy-7wc" customClass="VinePlantViewController" customModule="WildBasinPlantDichotomy" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KSW-zP-5gq"/>
+                        <viewControllerLayoutGuide type="bottom" id="buD-0G-30w"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tJl-Qk-eFU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="138" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="IH3-hV-8pY">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PlantCell" rowHeight="138" id="5JQ-on-T8B" customClass="PlantCell" customModule="WildBasinPlantDichotomy" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="138"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5JQ-on-T8B" id="enp-Ak-zAQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="137.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DW8-QH-BxW">
+                                                    <rect key="frame" x="8" y="4" width="152" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FtL-R0-nYY">
+                                                    <rect key="frame" x="203" y="58" width="133" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="IH3-hV-8pY" id="tGT-tq-0AE"/>
+                        <segue destination="xdB-qj-wT8" kind="show" identifier="vineDetailSegue" id="GKh-Mh-U5W"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0gz-bG-inq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3316" y="-3565.3673163418293"/>
+        </scene>
+        <!--Vine Plant Detail View Controller-->
+        <scene sceneID="ND2-hS-Req">
+            <objects>
+                <viewController id="xdB-qj-wT8" customClass="VinePlantDetailViewController" customModule="WildBasinPlantDichotomy" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4fe-l6-IkA"/>
+                        <viewControllerLayoutGuide type="bottom" id="0tV-Gl-vb1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IfR-mQ-RLv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o2K-9Q-oh7">
+                                <rect key="frame" x="67" y="183" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TrI-Bv-gkg">
+                                <rect key="frame" x="166" y="102" width="42" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pqE-i3-WlM">
+                                <rect key="frame" x="67" y="426" width="240" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KMP-ee-F1h">
+                                <rect key="frame" x="164" y="578" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="plantDescriptionLabel" destination="pqE-i3-WlM" id="DuG-Dl-TBf"/>
+                        <outlet property="plantImageView" destination="o2K-9Q-oh7" id="MBC-tM-au9"/>
+                        <outlet property="plantNameLabel" destination="TrI-Bv-gkg" id="hG3-ZX-sCU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gQ6-Cy-ByU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4260" y="-3565.3673163418293"/>
+        </scene>
         <!--AlternateVNV View Controller-->
         <scene sceneID="SAe-h6-kyV">
             <objects>
-                <viewController id="Q1b-Hk-v7b" customClass="AlternateVNVViewController" customModule="WildBasinPlantDichotomy" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="alternate" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Q1b-Hk-v7b" customClass="AlternateVNVViewController" customModule="WildBasinPlantDichotomy" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pQh-hj-ICF"/>
                         <viewControllerLayoutGuide type="bottom" id="aKC-CQ-Drv"/>
@@ -622,6 +716,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="btnNext:" destination="Q1b-Hk-v7b" eventType="touchUpInside" id="fxs-xj-ahz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b1h-FI-zGQ">
                                 <rect key="frame" x="16" y="617" width="343" height="30"/>
@@ -635,12 +732,16 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="btn1" destination="yXj-y4-CrD" id="aa7-CH-LDP"/>
+                        <outlet property="btn2" destination="cmc-4r-EG3" id="1k5-Kb-0tt"/>
+                        <outlet property="lbl1" destination="4EQ-7O-0py" id="ERw-Oe-NPe"/>
                         <segue destination="0PC-nW-Lmw" kind="show" identifier="notavineSegue" id="NEi-8P-sFy"/>
+                        <segue destination="K5v-jy-7wc" kind="show" identifier="vineSegue" id="3xV-TL-Yw0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9fK-5a-A7b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3208.8000000000002" y="-2562.3688155922041"/>
+            <point key="canvasLocation" x="3353" y="-2606"/>
         </scene>
         <!--NotA VineSSCTL View Controller-->
         <scene sceneID="2nn-Tc-al2">
@@ -841,7 +942,7 @@
         <image name="radioButton_Unselected" width="128" height="128"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="YjD-Hh-FNU"/>
-        <segue reference="Jjy-bm-0dm"/>
+        <segue reference="Sn9-tx-SWt"/>
+        <segue reference="Ela-0X-CId"/>
     </inferredMetricsTieBreakers>
 </document>
