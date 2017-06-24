@@ -47,7 +47,9 @@ class PlantIDViewController: UIViewController {
         }
         if(btn2.isSelected)
         {
-            
+            let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let newViewController = storyBoard.instantiateViewController(withIdentifier: "compound") as! CompoundViewController
+            self.navigationController?.pushViewController(newViewController, animated: true)
         }
         
     }
