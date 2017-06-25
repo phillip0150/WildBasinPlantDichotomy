@@ -155,7 +155,6 @@
 				5015A2761EE9DE1B00D7558D /* WebViewController.swift */,
 				331A186A1ECE1B3F001F485A /* AppDelegate.swift */,
 				331A186E1ECE1B3F001F485A /* Main.storyboard */,
-				33F1C3B21EF49F7E007F3591 /* VinePlantsWebViewController.swift */,
 				33E11AB61EF45EE0002EBD72 /* Simple */,
 				33E11ABF1EF45FBF002EBD72 /* View All Plants */,
 				33E11AC01EF45FD5002EBD72 /* Plants */,
@@ -196,6 +195,7 @@
 				33E11AC31EF462FC002EBD72 /* OppositeVNVViewController.swift */,
 				33F1C3AE1EF49993007F3591 /* VinePlantViewController.swift */,
 				33F1C3B01EF49C40007F3591 /* VinePlantDetailViewController.swift */,
+				33F1C3B21EF49F7E007F3591 /* VinePlantsWebViewController.swift */,
 			);
 			name = Simple;
 			sourceTree = "<group>";

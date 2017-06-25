@@ -15,10 +15,11 @@ class VinePlantViewController: UIViewController, UITableViewDelegate, UITableVie
     
     var plants: [Plant] = []
     
+
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        
         plants = Plant.createSimpleVinePlantArray()
         self.tableView.dataSource = self
         self.tableView.delegate = self

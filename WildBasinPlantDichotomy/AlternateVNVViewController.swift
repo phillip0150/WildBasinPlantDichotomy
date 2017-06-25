@@ -11,6 +11,7 @@ import UIKit
 class AlternateVNVViewController: UIViewController
 {
     
+    
     @IBOutlet weak var btn1: UIButton!
     
     @IBOutlet weak var btn2: UIButton!
@@ -24,13 +25,12 @@ class AlternateVNVViewController: UIViewController
     
     
     
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-        
         
         lbl1.layer.borderWidth = 0.5
         lbl1.layer.borderColor = UIColor.green.cgColor
-        
         
         
         
@@ -57,10 +57,30 @@ class AlternateVNVViewController: UIViewController
         }
         
     }
+    /*    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if segue.identifier == "vine"
+        {
+
+            let destVC = segue.destination as! VinePlantViewController
+            destVC.plant = 0
+            
+        }
+        
+    }
+    
+    func plantLearnMore(_ sender: Any)
+    {
+        
+        performSegue(withIdentifier: "vine", sender: thePlant)
+        
+    }
+    
+
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
+    }*/
 
 }
