@@ -22,13 +22,17 @@ class FinalPlantViewController: UIViewController, UITableViewDelegate,UITableVie
         super.viewDidLoad()
         if(plantCode == 12)
         {
+            plants = Plant.createAllPlantArray()
+        }
+        if(plantCode == 1)
+        {
             plants = Plant.createSimpleVinePlantArray()
         }
         //if statments go here
         //plants = Plant.createSimpleVinePlantArray()
         self.tableView.dataSource = self
         self.tableView.delegate = self
-        print (plants)
+
     }
 
     override func didReceiveMemoryWarning()

@@ -116,7 +116,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="152"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="s7a-Bb-KTc" id="F00-rG-IUz">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="152"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="151.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hKd-Vh-g65">
@@ -609,106 +609,6 @@
             </objects>
             <point key="canvasLocation" x="3607" y="-1229"/>
         </scene>
-        <!--Vine Plant View Controller-->
-        <scene sceneID="9mk-0d-jar">
-            <objects>
-                <viewController storyboardIdentifier="vinePlant" useStoryboardIdentifierAsRestorationIdentifier="YES" id="K5v-jy-7wc" customClass="VinePlantViewController" customModule="WildBasinPlantDichotomy" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="KSW-zP-5gq"/>
-                        <viewControllerLayoutGuide type="bottom" id="buD-0G-30w"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="tJl-Qk-eFU">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="138" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="IH3-hV-8pY">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PlantCell" rowHeight="138" id="5JQ-on-T8B" customClass="PlantCell" customModule="WildBasinPlantDichotomy" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="138"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5JQ-on-T8B" id="enp-Ak-zAQ">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="138"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DW8-QH-BxW">
-                                                    <rect key="frame" x="8" y="4" width="152" height="128"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FtL-R0-nYY">
-                                                    <rect key="frame" x="203" y="58" width="133" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
-                            </tableView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <connections>
-                        <outlet property="tableView" destination="IH3-hV-8pY" id="tGT-tq-0AE"/>
-                        <segue destination="xdB-qj-wT8" kind="show" identifier="vineDetailSegue" id="GKh-Mh-U5W"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0gz-bG-inq" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2748" y="-3992"/>
-        </scene>
-        <!--Vine Plant Detail View Controller-->
-        <scene sceneID="ND2-hS-Req">
-            <objects>
-                <viewController id="xdB-qj-wT8" customClass="VinePlantDetailViewController" customModule="WildBasinPlantDichotomy" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="4fe-l6-IkA"/>
-                        <viewControllerLayoutGuide type="bottom" id="0tV-Gl-vb1"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="IfR-mQ-RLv">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o2K-9Q-oh7">
-                                <rect key="frame" x="67" y="183" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TrI-Bv-gkg">
-                                <rect key="frame" x="166" y="102" width="42" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pqE-i3-WlM">
-                                <rect key="frame" x="67" y="426" width="240" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KMP-ee-F1h">
-                                <rect key="frame" x="164" y="578" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <connections>
-                        <outlet property="plantDescriptionLabel" destination="pqE-i3-WlM" id="DuG-Dl-TBf"/>
-                        <outlet property="plantImageView" destination="o2K-9Q-oh7" id="MBC-tM-au9"/>
-                        <outlet property="plantNameLabel" destination="TrI-Bv-gkg" id="hG3-ZX-sCU"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gQ6-Cy-ByU" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3558" y="-3993"/>
-        </scene>
         <!--AlternateVNV View Controller-->
         <scene sceneID="SAe-h6-kyV">
             <objects>
@@ -773,7 +673,7 @@
                         <outlet property="btn2" destination="cmc-4r-EG3" id="1k5-Kb-0tt"/>
                         <outlet property="lbl1" destination="4EQ-7O-0py" id="ERw-Oe-NPe"/>
                         <segue destination="0PC-nW-Lmw" kind="show" identifier="notavineSegue" id="NEi-8P-sFy"/>
-                        <segue destination="K5v-jy-7wc" kind="show" identifier="vineSegue" id="3xV-TL-Yw0"/>
+                        <segue destination="R3B-Zd-hBM" kind="show" identifier="vineSegue" id="k2J-jr-w6B"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9fK-5a-A7b" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1033,7 +933,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="119"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0Hd-5f-Tb4" id="xyj-XO-cP0">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="119"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="118.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yWg-n3-u2v">
@@ -1050,7 +950,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="YYZ-by-I7a" kind="show" identifier="finalDetailSegue" id="JBd-7Y-j6W"/>
+                                            <segue destination="YYZ-by-I7a" kind="show" identifier="finalDetailSegue" animates="NO" id="JBd-7Y-j6W"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -1064,7 +964,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p3H-A7-yr4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7208.8000000000002" y="-869.41529235382313"/>
+            <point key="canvasLocation" x="8470" y="-716"/>
         </scene>
         <!--Final Detail View Controller-->
         <scene sceneID="Shr-SQ-9Xv">
@@ -1107,7 +1007,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UrN-4h-gh8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7933.6000000000004" y="-869.41529235382313"/>
+            <point key="canvasLocation" x="9406" y="-716"/>
         </scene>
         <!--Web View Controller-->
         <scene sceneID="Vw0-Rp-cac">
@@ -1454,6 +1354,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Ela-0X-CId"/>
+        <segue reference="k2J-jr-w6B"/>
         <segue reference="Jjy-bm-0dm"/>
     </inferredMetricsTieBreakers>
 </document>
