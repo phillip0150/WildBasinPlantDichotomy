@@ -12,7 +12,6 @@ class FinalPlantViewController: UIViewController {
     
     var plantCode: Int?
     
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
