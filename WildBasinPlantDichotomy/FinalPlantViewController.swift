@@ -8,31 +8,67 @@
 
 import UIKit
 
-class FinalPlantViewController: UIViewController {
+class FinalPlantViewController: UIViewController, UITableViewDelegate,UITableViewDataSource
+{
     
     var plantCode: Int?
+    var plants: [Plant] = []
     
+    @IBOutlet weak var tableView: UITableView!
 
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        //if statments go here
+        //plants = Plant.createSimpleVinePlantArray()
+        self.tableView.dataSource = self
+        self.tableView.delegate = self
+        print (plants)
     }
 
-    override func didReceiveMemoryWarning() {
+    override func didReceiveMemoryWarning()
+    {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func numberOfSections(in tableView: UITableView) -> Int
+    {
+        return 1;
     }
-    */
-
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    {
+        return plants.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
+    {
+        let plant = plants[indexPath.row]
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "PlantCell") as! PlantCell
+        
+        cell.setPlant(plant: plant)
+        
+        return cell
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if segue.identifier == "finalDetailSegue"
+        {
+            let destVC = segue.destination as! FinalDetailViewController
+            destVC.plant = sender as? Plant
+        }
+    }
+    
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
+    {
+        let plant = plants[indexPath.row]
+        performSegue(withIdentifier: "vineDetailSegue", sender: plant)
+    }
 }
+
+
