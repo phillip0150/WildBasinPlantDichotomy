@@ -41,7 +41,6 @@
 		500D5C9D1EFDFA3400BCF939 /* PinnateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500D5C9C1EFDFA3400BCF939 /* PinnateViewController.swift */; };
 		500D5C9F1EFDFA5400BCF939 /* GreaterThan10ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500D5C9E1EFDFA5400BCF939 /* GreaterThan10ViewController.swift */; };
 		5015A2771EE9DE1B00D7558D /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5015A2761EE9DE1B00D7558D /* WebViewController.swift */; };
-		5031B5BA1EFF554C009D7866 /* FinalPlantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5031B5B91EFF554C009D7866 /* FinalPlantViewController.swift */; };
 		505C966A1ECE238700FE4A4A /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505C96691ECE238700FE4A4A /* Node.swift */; };
 		5A6964497A2C29F9FCD2D81B /* Pods_WildBasinPlantDichotomy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D9D859A3CFD9AD993A4E4F /* Pods_WildBasinPlantDichotomy.framework */; };
 		8353449A8D16C3BBBD48B95E /* Pods_WildBasinPlantDichotomyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA9178818D246E49DFBFD5E /* Pods_WildBasinPlantDichotomyTests.framework */; };
@@ -101,7 +100,6 @@
 		500D5C9C1EFDFA3400BCF939 /* PinnateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinnateViewController.swift; sourceTree = "<group>"; };
 		500D5C9E1EFDFA5400BCF939 /* GreaterThan10ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreaterThan10ViewController.swift; sourceTree = "<group>"; };
 		5015A2761EE9DE1B00D7558D /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = ../WebViewController.swift; sourceTree = "<group>"; };
-		5031B5B91EFF554C009D7866 /* FinalPlantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalPlantViewController.swift; sourceTree = "<group>"; };
 		505C96691ECE238700FE4A4A /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		5228DB604B2ECFBBD66C0DBE /* Pods_WildBasinPlantDichotomyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WildBasinPlantDichotomyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C3C80F77833E77D0D2ECD4B /* Pods-WildBasinPlantDichotomy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WildBasinPlantDichotomy.release.xcconfig"; path = "Pods/Target Support Files/Pods-WildBasinPlantDichotomy/Pods-WildBasinPlantDichotomy.release.xcconfig"; sourceTree = "<group>"; };
@@ -564,7 +562,6 @@
 				500D5C9B1EFDF9FF00BCF939 /* CompoundViewController.swift in Sources */,
 				33E11AB01EF44D64002EBD72 /* AllPlantsViewController.swift in Sources */,
 				331A18731ECE1B3F001F485A /* WildBasinPlantDichotomy.xcdatamodeld in Sources */,
-				5031B5BA1EFF554C009D7866 /* FinalPlantViewController.swift in Sources */,
 				33E11ABA1EF45F60002EBD72 /* AlternateVNVViewController.swift in Sources */,
 				33E11ABC1EF45F7E002EBD72 /* NotAVineSSCTLViewController.swift in Sources */,
 				331A186B1ECE1B3F001F485A /* AppDelegate.swift in Sources */,
