@@ -42,9 +42,15 @@ class AlternateVNVViewController: UIViewController
         if(btn1.isSelected)
         {
             
-            let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let myVC = storyboard?.instantiateViewController(withIdentifier: "final") as! FinalPlantViewController
+            myVC.plantCode = 1
+            navigationController?.pushViewController(myVC, animated: true)
+            
+           /* let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
             let newViewController = storyBoard.instantiateViewController(withIdentifier: "vinePlant") as! VinePlantViewController
             self.navigationController?.pushViewController(newViewController, animated: true)
+            */
+            
             
         }
         if(btn2.isSelected)
