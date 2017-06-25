@@ -12,16 +12,29 @@ class FinalDetailViewController: UIViewController
 {
     var plant: Plant?
     
+    var plantURL:String = ""
+    
+    
+    @IBOutlet weak var plantNameLabel: UILabel!
+    @IBOutlet weak var plantImageView: UIImageView!
+    @IBOutlet weak var plantDescriptionLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func setUI()
+    {
+        plantImageView.image = plant?.image
+        plantNameLabel.text = plant?.name
+        plantDescriptionLabel.text = plant?.description
+        plantURL = (plant?.url)!
+        
+        
+        
+        
     }
     
 

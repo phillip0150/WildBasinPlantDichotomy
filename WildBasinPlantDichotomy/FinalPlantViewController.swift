@@ -10,15 +10,20 @@ import UIKit
 
 class FinalPlantViewController: UIViewController, UITableViewDelegate,UITableViewDataSource
 {
-    
     var plantCode: Int?
+    var finalCode: Int?
     var plants: [Plant] = []
     
     @IBOutlet weak var tableView: UITableView!
 
     override func viewDidLoad()
     {
+        finalCode = plantCode
         super.viewDidLoad()
+        if(plantCode == 12)
+        {
+            plants = Plant.createSimpleVinePlantArray()
+        }
         //if statments go here
         //plants = Plant.createSimpleVinePlantArray()
         self.tableView.dataSource = self
@@ -67,7 +72,7 @@ class FinalPlantViewController: UIViewController, UITableViewDelegate,UITableVie
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
     {
         let plant = plants[indexPath.row]
-        performSegue(withIdentifier: "vineDetailSegue", sender: plant)
+        performSegue(withIdentifier: "finalDetailSegue", sender: plant)
     }
 }
 

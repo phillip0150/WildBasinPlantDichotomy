@@ -28,9 +28,13 @@ class GreaterThan10ViewController: UIViewController {
     @IBAction func btnNext(_ sender: Any) {
         if(btn1.isSelected)
         {
-            let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-            let newViewController = storyBoard.instantiateViewController(withIdentifier: "final") as! FinalPlantViewController
-            self.navigationController?.pushViewController(newViewController, animated: true)
+            let myVC = storyboard?.instantiateViewController(withIdentifier: "final") as! FinalPlantViewController
+            myVC.plantCode = 12
+            navigationController?.pushViewController(myVC, animated: true)
+            
+//            let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+//            let newViewController = storyBoard.instantiateViewController(withIdentifier: "final") as! FinalPlantViewController
+//            self.navigationController?.pushViewController(newViewController, animated: true)
         }
         
         if(btn2.isSelected)
@@ -39,7 +43,7 @@ class GreaterThan10ViewController: UIViewController {
             let newViewController = storyBoard.instantiateViewController(withIdentifier: "final") as! FinalPlantViewController
             self.navigationController?.pushViewController(newViewController, animated: true)
         }
-    }
+}
     /*
     // MARK: - Navigation
 
