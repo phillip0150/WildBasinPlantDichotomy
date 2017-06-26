@@ -17,12 +17,6 @@ class SimpleAOViewController: UIViewController {
     @IBOutlet weak var lbl1: UILabel!
     
     
-    var choiceCode: Int = 0
-    var btn1val: Int = 0
-    var btn2val: Int = 0
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         

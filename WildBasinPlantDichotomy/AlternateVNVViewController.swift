@@ -17,11 +17,7 @@ class AlternateVNVViewController: UIViewController
     @IBOutlet weak var btn2: UIButton!
     
     @IBOutlet weak var lbl1: UILabel!
-    
-    
-    var choiceCode: Int = 0
-    var btn1val: Int = 0
-    var btn2val: Int = 0
+
     
     
     
@@ -46,10 +42,7 @@ class AlternateVNVViewController: UIViewController
             myVC.plantCode = 1
             navigationController?.pushViewController(myVC, animated: true)
             
-           /* let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-            let newViewController = storyBoard.instantiateViewController(withIdentifier: "vinePlant") as! VinePlantViewController
-            self.navigationController?.pushViewController(newViewController, animated: true)
-            */
+        
             
             
         }
@@ -57,36 +50,12 @@ class AlternateVNVViewController: UIViewController
         {
             
             let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-            let newViewController = storyBoard.instantiateViewController(withIdentifier: "opposite") as! NotAVineSSCTLViewController
+            let newViewController = storyBoard.instantiateViewController(withIdentifier: "notavine") as! NotAVineSSCTLViewController
             self.navigationController?.pushViewController(newViewController, animated: true)
             
         }
         
     }
-    /*    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
-    {
-        if segue.identifier == "vine"
-        {
-
-            let destVC = segue.destination as! VinePlantViewController
-            destVC.plant = 0
-            
-        }
-        
-    }
     
-    func plantLearnMore(_ sender: Any)
-    {
-        
-        performSegue(withIdentifier: "vine", sender: thePlant)
-        
-    }
-    
-
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }*/
 
 }
