@@ -886,13 +886,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Mc8-3G-hpA"/>
                     <connections>
                         <outlet property="tableView" destination="Yhc-Du-TAL" id="G7G-Uh-WV1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p3H-A7-yr4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2748" y="-394"/>
+            <point key="canvasLocation" x="5417" y="-514"/>
         </scene>
         <!--Final Detail View Controller-->
         <scene sceneID="Shr-SQ-9Xv">
@@ -935,7 +936,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UrN-4h-gh8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3684" y="-394"/>
+            <point key="canvasLocation" x="6353" y="-514"/>
         </scene>
         <!--Web View Controller-->
         <scene sceneID="Vw0-Rp-cac">

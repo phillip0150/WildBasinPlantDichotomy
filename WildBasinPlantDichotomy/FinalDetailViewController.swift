@@ -19,10 +19,12 @@ class FinalDetailViewController: UIViewController
     @IBOutlet weak var plantImageView: UIImageView!
     @IBOutlet weak var plantDescriptionLabel: UILabel!
 
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        setUI()
+        
+        
     }
     
     func setUI()
