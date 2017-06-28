@@ -18,7 +18,7 @@ class FinalPlantViewController: UIViewController, UITableViewDelegate,UITableVie
 
     override func viewDidLoad()
     {
-        finalCode = plantCode
+        //finalCode = plantCode
         
         super.viewDidLoad()
         
@@ -60,13 +60,29 @@ class FinalPlantViewController: UIViewController, UITableViewDelegate,UITableVie
         }
         if(plantCode == 10)
         {
-            //plants = Plant.createAlternateLobed()
+            plants = Plant.createCompoundPalmate()
         }
         if(plantCode == 11)
         {
-           //plants = Plant.createAlternateLobed()
+           plants = Plant.createCompoundDoublyPinnate()
         }
         if(plantCode == 12)
+        {
+            plants = Plant.createPinnateThreeLeaflets()
+        }
+        if(plantCode == 13)
+        {
+            plants = Plant.createPinnate4to10Leaflets()
+        }
+        if(plantCode == 14)
+        {
+            plants = Plant.createGreaterThan10LessThanHalfInch()
+        }
+        if(plantCode == 15)
+        {
+            plants = Plant.createGreaterThan10GreaterThanHalfInch()
+        }
+        if(plantCode == 16)
         {
             plants = Plant.createAllPlantArray()
         }
@@ -110,6 +126,7 @@ class FinalPlantViewController: UIViewController, UITableViewDelegate,UITableVie
         {
             let destVC = segue.destination as! FinalDetailViewController
             destVC.plant = sender as? Plant
+            destVC.plantURL = "www.google.com"
         }
     }
     
@@ -118,7 +135,12 @@ class FinalPlantViewController: UIViewController, UITableViewDelegate,UITableVie
     {
         let plant = plants[indexPath.row]
         performSegue(withIdentifier: "finalDetailSegue", sender: plant)
+        
     }
+    
+//    let myVC = storyboard?.instantiateViewController(withIdentifier: "final") as! FinalPlantViewController
+//    myVC.plantCode = 15
+//    navigationController?.pushViewController(myVC, animated: true)
 }
 
 

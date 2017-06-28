@@ -27,7 +27,21 @@ class PinnateViewController: UIViewController {
     }
     
     @IBAction func btnNext(_ sender: Any) {
+        if(btn1.isSelected)
+        {
+            let myVC = storyboard?.instantiateViewController(withIdentifier: "final") as! FinalPlantViewController
+            myVC.plantCode = 12
+            navigationController?.pushViewController(myVC, animated: true)
+        }
         
+        if(btn2.isSelected)
+        {
+            let myVC = storyboard?.instantiateViewController(withIdentifier: "final") as! FinalPlantViewController
+            myVC.plantCode = 13
+            navigationController?.pushViewController(myVC, animated: true)
+        }
+
+
         if(btn3.isSelected)
         {
             let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)

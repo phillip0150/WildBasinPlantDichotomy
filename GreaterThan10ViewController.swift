@@ -29,19 +29,15 @@ class GreaterThan10ViewController: UIViewController {
         if(btn1.isSelected)
         {
             let myVC = storyboard?.instantiateViewController(withIdentifier: "final") as! FinalPlantViewController
-            myVC.plantCode = 12
+            myVC.plantCode = 14
             navigationController?.pushViewController(myVC, animated: true)
-            
-//            let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-//            let newViewController = storyBoard.instantiateViewController(withIdentifier: "final") as! FinalPlantViewController
-//            self.navigationController?.pushViewController(newViewController, animated: true)
         }
         
         if(btn2.isSelected)
         {
-            let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-            let newViewController = storyBoard.instantiateViewController(withIdentifier: "final") as! FinalPlantViewController
-            self.navigationController?.pushViewController(newViewController, animated: true)
+            let myVC = storyboard?.instantiateViewController(withIdentifier: "final") as! FinalPlantViewController
+            myVC.plantCode = 15
+            navigationController?.pushViewController(myVC, animated: true)
         }
 }
     /*

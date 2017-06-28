@@ -116,7 +116,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="152"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="s7a-Bb-KTc" id="F00-rG-IUz">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="151.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="152"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hKd-Vh-g65">
@@ -861,15 +861,15 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="119"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0Hd-5f-Tb4" id="xyj-XO-cP0">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="118.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="119"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yWg-n3-u2v">
                                                     <rect key="frame" x="8" y="8" width="149" height="110"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RQL-OS-iwS">
-                                                    <rect key="frame" x="268" y="53" width="42" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RQL-OS-iwS">
+                                                    <rect key="frame" x="165" y="53" width="202" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -893,12 +893,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p3H-A7-yr4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5417" y="-514"/>
+            <point key="canvasLocation" x="5416.8000000000002" y="-514.09295352323841"/>
         </scene>
         <!--Final Detail View Controller-->
         <scene sceneID="Shr-SQ-9Xv">
             <objects>
-                <viewController id="YYZ-by-I7a" customClass="FinalDetailViewController" customModule="WildBasinPlantDichotomy" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="finalDetail" id="YYZ-by-I7a" customClass="FinalDetailViewController" customModule="WildBasinPlantDichotomy" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="WNb-Cc-u1T"/>
                         <viewControllerLayoutGuide type="bottom" id="h0J-4Y-e6S"/>
@@ -925,6 +925,13 @@
                                 <rect key="frame" x="0.0" y="146" width="375" height="267"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tm5-eI-43p">
+                                <rect key="frame" x="16" y="638" width="343" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -932,11 +939,12 @@
                         <outlet property="plantDescriptionLabel" destination="ark-r0-hne" id="Kbj-2e-vkR"/>
                         <outlet property="plantImageView" destination="DYZ-H0-qVr" id="MFh-Uq-zww"/>
                         <outlet property="plantNameLabel" destination="mdh-UT-ngU" id="Kc5-DO-VMj"/>
+                        <outlet property="plantURLLabel" destination="Tm5-eI-43p" id="zie-x1-0V7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UrN-4h-gh8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6353" y="-514"/>
+            <point key="canvasLocation" x="6327" y="-514"/>
         </scene>
         <!--Web View Controller-->
         <scene sceneID="Vw0-Rp-cac">
@@ -989,6 +997,7 @@
         <!--Compound View Controller-->
         <scene sceneID="P4X-pW-xkF">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZTv-hb-x35" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="compound" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Dy1-xa-dx7" customClass="CompoundViewController" customModule="WildBasinPlantDichotomy" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1B0-Km-N9C"/>
@@ -1077,9 +1086,8 @@
                         <segue destination="XbJ-4T-7uT" kind="show" identifier="pinnateSegue" id="hu1-Me-rDo"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZTv-hb-x35" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1206" y="940"/>
+            <point key="canvasLocation" x="1519" y="940"/>
         </scene>
         <!--Pinnate View Controller-->
         <scene sceneID="q1H-xN-eP3">
@@ -1252,7 +1260,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9k1-O7-suj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3372" y="940"/>
+            <point key="canvasLocation" x="3250" y="940"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="o3X-ov-o8O">

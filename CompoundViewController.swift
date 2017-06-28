@@ -29,12 +29,28 @@ class CompoundViewController: UIViewController {
 
     @IBAction func btnNext(_ sender: Any) {
         
+        if(btn1.isSelected)
+        {
+            let myVC = storyboard?.instantiateViewController(withIdentifier: "final") as! FinalPlantViewController
+            myVC.plantCode = 10
+            navigationController?.pushViewController(myVC, animated: true)
+        }
+
+        
         if(btn2.isSelected)
         {
             let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
             let newViewController = storyBoard.instantiateViewController(withIdentifier: "pinnate") as! PinnateViewController
             self.navigationController?.pushViewController(newViewController, animated: true)
         }
+        
+        if(btn3.isSelected)
+        {
+            let myVC = storyboard?.instantiateViewController(withIdentifier: "final") as! FinalPlantViewController
+            myVC.plantCode = 11
+            navigationController?.pushViewController(myVC, animated: true)
+        }
+
     }
     /*
     // MARK: - Navigation

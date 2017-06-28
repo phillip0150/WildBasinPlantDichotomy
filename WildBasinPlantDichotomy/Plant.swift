@@ -296,7 +296,7 @@ class Plant
         var plants = [Plant]()
         
         //Create a plant object
-        plants.append(Plant(name: "Eblow Bush", description: "", image: #imageLiteral(resourceName: "Elbow Bush"), url: ""))
+        plants.append(Plant(name: "Elbow Bush", description: "", image: #imageLiteral(resourceName: "Elbow Bush"), url: ""))
         
         plants.append(Plant(name: "Viburnum", description: "", image: #imageLiteral(resourceName: "Viburnum"), url: ""))
         
@@ -312,5 +312,112 @@ class Plant
         return plants
     }
     
+    class func createCompoundPalmate() -> [Plant]
+    {
+        var plants = [Plant]()
+        
+        plants.append(Plant(name: "Red Buckeye", description: "", image: #imageLiteral(resourceName: "Red Buckeye"), url: "www.google.com"))
+        
+        plants.append(Plant(name: "Lavender Chaste-Tree", description: "", image: #imageLiteral(resourceName: "Lavender Chaste-tree"), url: "www.google.com"))
+        
+        plants.append(Plant(name: "Virginia Creeper", description: "", image: #imageLiteral(resourceName: "Virginia Creeper"), url: "www.google.com"))
+        
+        plants.append(Plant(name: "Seven-Leaf Creeper", description: "", image: #imageLiteral(resourceName: "Seven-leaf creeper"), url: "www.google.com"))
+        
+        return plants
+    }
     
+    class func createCompoundDoublyPinnate() -> [Plant]
+    {
+        var plants = [Plant]()
+        
+        plants.append(Plant(name: "Honey Mesquite", description: "", image: #imageLiteral(resourceName: "Honey Mesquite"), url: "www.google.com"))
+        
+        plants.append(Plant(name: "Cat's Claw", description: "", image: #imageLiteral(resourceName: "Cat's Claw"), url: "www.google.com"))
+        
+        plants.append(Plant(name: "Pink Mimosa", description: "", image: #imageLiteral(resourceName: "Pink Mimosa"), url: "www.google.com"))
+        
+        plants.append(Plant(name: "Chinaberry", description: "", image: #imageLiteral(resourceName: "Chinaberry"), url: "www.google.com"))
+        
+        return plants
+    }
+    
+    class func createPinnateThreeLeaflets() -> [Plant]
+    {
+        var plants = [Plant]()
+        
+        plants.append(Plant(name: "Cow-Itch Vine", description: "", image: #imageLiteral(resourceName: "Cow Itch Vine"), url: "www.google.com"))
+        
+        plants.append(Plant(name: "Poison Ivy", description: "", image: #imageLiteral(resourceName: "Poison Ivy"), url: "www.google.com"))
+        
+        plants.append(Plant(name: "Wafer Ash", description: "", image: #imageLiteral(resourceName: "Wafer Ash"), url: "www.google.com"))
+        
+        plants.append(Plant(name: "Fragrant Sumac", description: "", image: #imageLiteral(resourceName: "Fragrant Sumac"), url: "www.google.com"))
+        
+        plants.append(Plant(name: "Southern Dewberry", description: "", image: #imageLiteral(resourceName: "Southern Dewberry"), url: "www.google.com"))
+        
+        plants.append(Plant(name: "Agarita", description: "", image: #imageLiteral(resourceName: "Agarita"), url: "www.google.com"))
+        
+            return plants
+    }
+    
+    class func createPinnate4to10Leaflets() -> [Plant]
+    {
+        var plants = [Plant]()
+        
+        plants.append(Plant(name: "Southern Dewberry", description: "", image: #imageLiteral(resourceName: "Southern Dewberry"), url: "www.google.com"))
+        
+        plants.append(Plant(name: "Peppervine", description: "", image: #imageLiteral(resourceName: "Peppervine"), url: "www.google.com"))
+        
+        plants.append(Plant(name: "Mexican Buckeye", description: "", image: #imageLiteral(resourceName: "Mexican Buckeye"), url: "www.google.com"))
+        
+        plants.append(Plant(name: "Mountain Laurel", description: "", image: #imageLiteral(resourceName: "Mountain Laurel"), url: "www.google.com"))
+        
+        plants.append(Plant(name: "Evergreen Sumac", description: "", image: #imageLiteral(resourceName: "Evergreen Sumac"), url: "www.google.com"))
+        
+        plants.append(Plant(name: "Box Elder", description: "", image: #imageLiteral(resourceName: "Box Elder"), url: "www.google.com"))
+        
+        plants.append(Plant(name: "Red/Texas Ash", description: "", image: #imageLiteral(resourceName: "Red Texas Ash"), url: "www.google.com"))
+        
+        return plants
+    }
+    
+    class func createGreaterThan10LessThanHalfInch() -> [Plant]
+    {
+        var plants = [Plant]()
+        
+        plants.append(Plant(name: "Black Dalea", description: "", image: #imageLiteral(resourceName: "Black Dalea"), url: "www.google.com"))
+        
+        plants.append(Plant(name: "Texas Kidneywood", description: "", image: #imageLiteral(resourceName: "Texas Kidneywood"), url: "www.google.com"))
+        
+        plants.append(Plant(name: "Retama", description: "", image: #imageLiteral(resourceName: "Retama"), url: "www.google.com"))
+        
+        plants.append(Plant(name: "Indigo Bush", description: "", image: #imageLiteral(resourceName: "Indigo Bush"), url: "www.google.com"))
+        
+        plants.append(Plant(name: "Eve's Necklace", description: "", image: #imageLiteral(resourceName: "Eve’s necklace"), url: "www.google.com"))
+        
+       
+
+        
+        return plants
+    }
+    
+    class func createGreaterThan10GreaterThanHalfInch() -> [Plant]
+    {
+        var plants = [Plant]()
+        
+        plants.append(Plant(name: "Lindheimer Senna", description: "", image: #imageLiteral(resourceName: "Lindheimer senna"), url: "www.google.com"))
+        
+        plants.append(Plant(name: "Flameleaf Sumac", description: "", image: #imageLiteral(resourceName: "Flameleaf Sumac"), url: "www.google.com"))
+        
+        plants.append(Plant(name: "Soapberry", description: "", image: #imageLiteral(resourceName: "Soapberry"), url: "www.google.com"))
+        
+        plants.append(Plant(name: "Walnuts", description: "", image: #imageLiteral(resourceName: "Walnuts"), url: "www.google.com"))
+        
+        plants.append(Plant(name: "Pecans", description: "", image: #imageLiteral(resourceName: "Pecan"), url: "www.google.com"))
+        
+        plants.append(Plant(name: "Toothache Tree", description: "", image: #imageLiteral(resourceName: "Toothache Tree"), url: "www.google.com"))
+        
+        return plants
+    }
 }
