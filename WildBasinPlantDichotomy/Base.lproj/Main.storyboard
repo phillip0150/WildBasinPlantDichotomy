@@ -169,7 +169,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gJY-7u-gxZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-774" y="325"/>
+            <point key="canvasLocation" x="-1639" y="251"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="jgp-YY-va3">
@@ -244,7 +244,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ueB-Qv-h62" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="328.80000000000001" y="250.52473763118442"/>
+            <point key="canvasLocation" x="-490" y="251"/>
         </scene>
         <!--All Plants Web View Controller-->
         <scene sceneID="9ll-7w-kUg">
@@ -272,7 +272,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q3p-RF-1uk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1093.5999999999999" y="969.26536731634189"/>
+            <point key="canvasLocation" x="-490" y="1074"/>
         </scene>
         <!--PlantID View Controller-->
         <scene sceneID="zzY-QZ-WE8">
@@ -357,7 +357,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ouA-U4-lQq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1652" y="-514.09295352323841"/>
+            <point key="canvasLocation" x="1206" y="-514"/>
         </scene>
         <!--SimpleAO View Controller-->
         <scene sceneID="IBY-DM-4HI">
@@ -454,7 +454,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ixI-UK-WH1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="823" y="-2133"/>
+            <point key="canvasLocation" x="1206" y="-2119"/>
         </scene>
         <!--OppositeVNV View Controller-->
         <scene sceneID="oWT-Fh-1Zh">
@@ -483,6 +483,9 @@
                                     <userDefinedRuntimeAttribute type="image" keyPath="icon" value="radioButton_Unselected"/>
                                     <userDefinedRuntimeAttribute type="image" keyPath="iconSelected" value="radioButton_Selected"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="otherButtons" destination="s0R-pD-znh" id="v6g-YB-pco"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0R-pD-znh" customClass="DLRadioButton">
                                 <rect key="frame" x="78" y="460" width="30" height="30"/>
@@ -492,6 +495,9 @@
                                     <userDefinedRuntimeAttribute type="image" keyPath="icon" value="radioButton_Unselected"/>
                                     <userDefinedRuntimeAttribute type="image" keyPath="iconSelected" value="radioButton_Selected"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="otherButtons" destination="hNd-Am-dYe" id="aX2-lG-kBS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wsk-yy-dgA">
                                 <rect key="frame" x="16" y="542" width="343" height="42"/>
@@ -500,6 +506,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="btnNext:" destination="WDc-rE-O7a" eventType="touchUpInside" id="van-uG-CUV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IKW-ri-enb">
                                 <rect key="frame" x="16" y="593" width="343" height="30"/>
@@ -513,35 +522,19 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="btn1" destination="s0R-pD-znh" id="O8M-oN-78d"/>
+                        <outlet property="btn2" destination="hNd-Am-dYe" id="lDY-5k-43E"/>
                         <segue destination="Xet-Hv-AJk" kind="show" identifier="notavineSegue" id="u5p-za-l71"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cKr-qi-fbi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1758" y="-1645"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="SpX-yG-yH3">
-            <objects>
-                <viewController id="XxP-AO-K7F" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="OKn-iG-niJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="kkR-Kc-hQc"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="OZE-Oz-xsc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QuT-YR-xjG" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2739" y="-2055"/>
+            <point key="canvasLocation" x="1945" y="-1531"/>
         </scene>
         <!--NotA VineSMT View Controller-->
         <scene sceneID="Oow-z1-1bS">
             <objects>
-                <viewController id="Xet-Hv-AJk" customClass="NotAVineSMTViewController" customModule="WildBasinPlantDichotomy" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="OppositeNotAVine" id="Xet-Hv-AJk" customClass="NotAVineSMTViewController" customModule="WildBasinPlantDichotomy" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="P9R-Yg-7Vk"/>
                         <viewControllerLayoutGuide type="bottom" id="eh0-4C-h92"/>
@@ -565,6 +558,9 @@
                                     <userDefinedRuntimeAttribute type="image" keyPath="icon" value="radioButton_Unselected"/>
                                     <userDefinedRuntimeAttribute type="image" keyPath="iconSelected" value="radioButton_Selected"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="otherButtons" destination="cQl-cs-1EM" id="JDf-7t-zoK"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cQl-cs-1EM" customClass="DLRadioButton">
                                 <rect key="frame" x="291" y="463" width="30" height="30"/>
@@ -574,6 +570,9 @@
                                     <userDefinedRuntimeAttribute type="image" keyPath="icon" value="radioButton_Unselected"/>
                                     <userDefinedRuntimeAttribute type="image" keyPath="iconSelected" value="radioButton_Selected"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="otherButtons" destination="kSF-Ab-bWr" id="5wK-tu-CvS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WAn-78-hVu">
                                 <rect key="frame" x="16" y="565" width="343" height="42"/>
@@ -582,32 +581,21 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="btnNext:" destination="Xet-Hv-AJk" eventType="touchUpInside" id="6jr-a8-gAi"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="btn1" destination="kSF-Ab-bWr" id="3Vb-F0-3Ej"/>
+                        <outlet property="btn2" destination="cQl-cs-1EM" id="GRJ-MO-sXb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9A1-lN-yV3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2748" y="-1239"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="3nn-Q2-rDg">
-            <objects>
-                <viewController id="Ta0-3D-eHx" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="YRN-qi-Cu8"/>
-                        <viewControllerLayoutGuide type="bottom" id="LLW-NI-Db5"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="0oh-rk-xGA">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Gn3-wS-Aj9" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3607" y="-1229"/>
         </scene>
         <!--AlternateVNV View Controller-->
         <scene sceneID="SAe-h6-kyV">
@@ -636,6 +624,9 @@
                                     <userDefinedRuntimeAttribute type="image" keyPath="icon" value="radioButton_Unselected"/>
                                     <userDefinedRuntimeAttribute type="image" keyPath="iconSelected" value="radioButton_Selected"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="otherButtons" destination="yXj-y4-CrD" id="eUT-kf-BZ8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yXj-y4-CrD" customClass="DLRadioButton">
                                 <rect key="frame" x="78" y="484" width="30" height="30"/>
@@ -645,6 +636,9 @@
                                     <userDefinedRuntimeAttribute type="image" keyPath="icon" value="radioButton_Unselected"/>
                                     <userDefinedRuntimeAttribute type="image" keyPath="iconSelected" value="radioButton_Selected"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="otherButtons" destination="cmc-4r-EG3" id="Q26-KG-3cV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kcs-ez-lpx">
                                 <rect key="frame" x="16" y="566" width="343" height="42"/>
@@ -673,17 +667,16 @@
                         <outlet property="btn2" destination="cmc-4r-EG3" id="1k5-Kb-0tt"/>
                         <outlet property="lbl1" destination="4EQ-7O-0py" id="ERw-Oe-NPe"/>
                         <segue destination="0PC-nW-Lmw" kind="show" identifier="notavineSegue" id="NEi-8P-sFy"/>
-                        <segue destination="R3B-Zd-hBM" kind="show" identifier="vineSegue" id="k2J-jr-w6B"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9fK-5a-A7b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1758" y="-3329"/>
+            <point key="canvasLocation" x="1945" y="-2306"/>
         </scene>
         <!--NotA VineSSCTL View Controller-->
         <scene sceneID="2nn-Tc-al2">
             <objects>
-                <viewController id="0PC-nW-Lmw" customClass="NotAVineSSCTLViewController" customModule="WildBasinPlantDichotomy" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="notavine" id="0PC-nW-Lmw" customClass="NotAVineSSCTLViewController" customModule="WildBasinPlantDichotomy" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="PFN-sy-sQw"/>
                         <viewControllerLayoutGuide type="bottom" id="6dL-OR-Yzg"/>
@@ -707,6 +700,11 @@
                                     <userDefinedRuntimeAttribute type="image" keyPath="icon" value="radioButton_Unselected"/>
                                     <userDefinedRuntimeAttribute type="image" keyPath="iconSelected" value="radioButton_Selected"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="otherButtons" destination="cti-6A-uML" id="kPM-G7-RqV"/>
+                                    <outletCollection property="otherButtons" destination="mRf-hY-twj" id="8Xv-0g-A1a"/>
+                                    <outletCollection property="otherButtons" destination="LAs-Fr-wh5" id="hh0-E9-VG0"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LAs-Fr-wh5" customClass="DLRadioButton">
                                 <rect key="frame" x="129" y="463" width="30" height="30"/>
@@ -716,6 +714,11 @@
                                     <userDefinedRuntimeAttribute type="image" keyPath="icon" value="radioButton_Unselected"/>
                                     <userDefinedRuntimeAttribute type="image" keyPath="iconSelected" value="radioButton_Selected"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="otherButtons" destination="ncW-wE-bqm" id="057-St-79A"/>
+                                    <outletCollection property="otherButtons" destination="mRf-hY-twj" id="ray-bT-rN3"/>
+                                    <outletCollection property="otherButtons" destination="cti-6A-uML" id="Svq-2y-FVZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mRf-hY-twj" customClass="DLRadioButton">
                                 <rect key="frame" x="207" y="463" width="30" height="30"/>
@@ -725,6 +728,11 @@
                                     <userDefinedRuntimeAttribute type="image" keyPath="icon" value="radioButton_Unselected"/>
                                     <userDefinedRuntimeAttribute type="image" keyPath="iconSelected" value="radioButton_Selected"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="otherButtons" destination="ncW-wE-bqm" id="bNH-eV-lk5"/>
+                                    <outletCollection property="otherButtons" destination="LAs-Fr-wh5" id="S8r-9e-tcX"/>
+                                    <outletCollection property="otherButtons" destination="cti-6A-uML" id="0mW-7a-R0a"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cti-6A-uML" customClass="DLRadioButton">
                                 <rect key="frame" x="291" y="463" width="30" height="30"/>
@@ -734,6 +742,11 @@
                                     <userDefinedRuntimeAttribute type="image" keyPath="icon" value="radioButton_Unselected"/>
                                     <userDefinedRuntimeAttribute type="image" keyPath="iconSelected" value="radioButton_Selected"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="otherButtons" destination="mRf-hY-twj" id="lUa-gx-9iK"/>
+                                    <outletCollection property="otherButtons" destination="LAs-Fr-wh5" id="kZy-jP-Ovo"/>
+                                    <outletCollection property="otherButtons" destination="ncW-wE-bqm" id="Bw4-CN-3sS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X4h-UC-xbO">
                                 <rect key="frame" x="16" y="565" width="343" height="42"/>
@@ -742,91 +755,29 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="btnNext:" destination="0PC-nW-Lmw" eventType="touchUpInside" id="KLF-fE-JGn"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="btn1" destination="ncW-wE-bqm" id="aZN-59-Lgp"/>
+                        <outlet property="btn2" destination="LAs-Fr-wh5" id="uqb-6o-3K1"/>
+                        <outlet property="btn3" destination="mRf-hY-twj" id="DSS-bs-vmr"/>
+                        <outlet property="btn4" destination="cti-6A-uML" id="6E2-og-A5Y"/>
+                        <segue destination="vnB-ac-6iF" kind="show" identifier="toothedNVSegue" id="1dp-gk-uqM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u2U-Sd-a2f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2748" y="-2977"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="k4i-Qk-B3q">
-            <objects>
-                <viewController id="IyT-69-yPv" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="15Z-As-cif"/>
-                        <viewControllerLayoutGuide type="bottom" id="6do-BN-KpO"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="FFB-q6-f3m">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cj5-LI-PdH" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4900" y="-4197"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="rtG-9E-y22">
-            <objects>
-                <viewController id="7mn-aR-6Cf" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="06U-QQ-McU"/>
-                        <viewControllerLayoutGuide type="bottom" id="j0h-RN-uM2"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="qBa-oi-Nxz">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ITh-Sb-O0z" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4900" y="-3406"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="ydr-dy-p2z">
-            <objects>
-                <viewController id="AVM-7D-OEX" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="ucH-zc-iBO"/>
-                        <viewControllerLayoutGuide type="bottom" id="5Kc-Qz-rhv"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="7gu-5t-9xl">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Gkr-PU-cu5" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="6257" y="-1849"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="NoS-vE-E7u">
-            <objects>
-                <viewController id="l39-uE-nZp" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="gmZ-LW-uGq"/>
-                        <viewControllerLayoutGuide type="bottom" id="I7L-Qn-kfE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="ZMe-VY-KSh">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rmV-5B-lVR" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="6257" y="-982"/>
+            <point key="canvasLocation" x="2748" y="-2307"/>
         </scene>
         <!--ToothedSM2L2 View Controller-->
         <scene sceneID="iNx-oG-ON5">
             <objects>
-                <viewController id="vnB-ac-6iF" customClass="ToothedSM2L2ViewController" customModule="WildBasinPlantDichotomy" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="toothed" id="vnB-ac-6iF" customClass="ToothedSM2L2ViewController" customModule="WildBasinPlantDichotomy" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="WCr-KY-o6z"/>
                         <viewControllerLayoutGuide type="bottom" id="ngN-lo-X8n"/>
@@ -850,6 +801,9 @@
                                     <userDefinedRuntimeAttribute type="image" keyPath="icon" value="radioButton_Unselected"/>
                                     <userDefinedRuntimeAttribute type="image" keyPath="iconSelected" value="radioButton_Selected"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="otherButtons" destination="X52-L4-BdY" id="Ro6-bb-Ipx"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X52-L4-BdY" customClass="DLRadioButton">
                                 <rect key="frame" x="292" y="408" width="30" height="30"/>
@@ -859,6 +813,9 @@
                                     <userDefinedRuntimeAttribute type="image" keyPath="icon" value="radioButton_Unselected"/>
                                     <userDefinedRuntimeAttribute type="image" keyPath="iconSelected" value="radioButton_Selected"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="otherButtons" destination="jRx-Nn-mfO" id="Weq-h2-sF6"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gcf-9c-mXg">
                                 <rect key="frame" x="17" y="510" width="343" height="42"/>
@@ -867,50 +824,21 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="btnNext:" destination="vnB-ac-6iF" eventType="touchUpInside" id="r3e-IC-n66"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="btn1" destination="jRx-Nn-mfO" id="bNL-vx-pRo"/>
+                        <outlet property="btn2" destination="X52-L4-BdY" id="0U8-rE-Zen"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xMU-um-8nG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4900" y="-2609"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="f9q-kI-Paa">
-            <objects>
-                <viewController id="E7M-EQ-0za" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="cfr-J9-eUA"/>
-                        <viewControllerLayoutGuide type="bottom" id="PYx-Ry-Ham"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="76o-fM-bxt">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="91x-9a-eig" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3606" y="-456"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="TfV-zU-CSR">
-            <objects>
-                <viewController id="ArB-Ty-5hd" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Fal-LA-Yo5"/>
-                        <viewControllerLayoutGuide type="bottom" id="8Nf-fV-prm"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="BPI-FS-Vk8">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="JhE-cl-AFX" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4900" y="-1735"/>
+            <point key="canvasLocation" x="3590" y="-2308"/>
         </scene>
         <!--Final Plant View Controller-->
         <scene sceneID="gbP-TU-bpI">
@@ -958,13 +886,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Mc8-3G-hpA"/>
                     <connections>
                         <outlet property="tableView" destination="Yhc-Du-TAL" id="G7G-Uh-WV1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p3H-A7-yr4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8470" y="-716"/>
+            <point key="canvasLocation" x="5417" y="-514"/>
         </scene>
         <!--Final Detail View Controller-->
         <scene sceneID="Shr-SQ-9Xv">
@@ -1007,7 +936,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UrN-4h-gh8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9406" y="-716"/>
+            <point key="canvasLocation" x="6353" y="-514"/>
         </scene>
         <!--Web View Controller-->
         <scene sceneID="Vw0-Rp-cac">
@@ -1055,7 +984,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mhm-Xd-oXb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1652" y="250.52473763118442"/>
+            <point key="canvasLocation" x="454" y="251"/>
         </scene>
         <!--Compound View Controller-->
         <scene sceneID="P4X-pW-xkF">
@@ -1150,7 +1079,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZTv-hb-x35" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3166" y="484"/>
+            <point key="canvasLocation" x="1206" y="940"/>
         </scene>
         <!--Pinnate View Controller-->
         <scene sceneID="q1H-xN-eP3">
@@ -1245,7 +1174,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q69-ER-gfV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4342" y="484"/>
+            <point key="canvasLocation" x="2385" y="940"/>
         </scene>
         <!--Greater Than10 View Controller-->
         <scene sceneID="vS4-4h-vbo">
@@ -1319,12 +1248,11 @@
                     <connections>
                         <outlet property="btn1" destination="SdR-LJ-3CB" id="NjZ-gK-luM"/>
                         <outlet property="btn2" destination="nfj-pl-OsL" id="gvi-HV-heD"/>
-                        <segue destination="R3B-Zd-hBM" kind="show" identifier="finalSegue" id="7p7-0C-GKr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9k1-O7-suj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5593" y="484"/>
+            <point key="canvasLocation" x="3372" y="940"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="o3X-ov-o8O">
@@ -1342,7 +1270,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cw4-rE-sOj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="712.79999999999995" y="-514.09295352323841"/>
+            <point key="canvasLocation" x="374" y="-514"/>
         </scene>
     </scenes>
     <resources>
@@ -1354,7 +1282,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Ela-0X-CId"/>
-        <segue reference="k2J-jr-w6B"/>
         <segue reference="Jjy-bm-0dm"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -101,7 +101,7 @@ class Plant
     }
     
     
-    class func createSimpleVinePlantArray() -> [Plant]
+    class func createAlternateVine() -> [Plant]
     {
         //Create an empty array of Plant objects
         var plants = [Plant]()
@@ -125,5 +125,192 @@ class Plant
         //Return the array to the caller
         return plants
     }
+    
+    class func createAlternateSmooth() -> [Plant]
+    {
+        //Create an empty array of Plant objects
+        var plants = [Plant]()
+        
+        //Create a plant object
+        plants.append(Plant(name: "Live Oak'", description: "Quercus fusiformis (also often referred to as Q. virginiana var. fusiformis), commonly known as escarpment live oak, plateau live oak, or plateau oak, is an evergreen or nearly evergreen tree. Its native range includes the Quartz Mountains and Wichita Mountains in southwestern Oklahoma, through Texas, to the Mexican states of Coahuila, Tamaulipas, and Nuevo León", image: #imageLiteral(resourceName: "Live Oak"), url: "http://www.inaturalist.org/taxa/167647-Quercus-fusiformis"))
+        
+        plants.append(Plant(name: "Gum Elastic", description: "Sideroxylon lanuginosum is a shrub or small tree of the family Sapotaceae. It is native to the Sun Belt and Midwest of the United States as well as Northeastern Mexico. Common names include Gum Bully, Black Haw, Chittamwood, Chittimwood, Shittamwood, False Buckthorn, Gum Bumelia, Gum Elastic, Gum Woolybucket, Woolybucket Bumelia, Wooly Buckthorn, Wooly Bumelia, Ironwood and Coma", image: #imageLiteral(resourceName: "Gum Elastic"), url: ""))
+        
+        plants.append(Plant(name: "Texas Persimmon", description: "Diospyros texana is a species of persimmon that is native to central, south and west Texas and southwest Oklahoma in the United States, and eastern Chihuahua, Coahuila, Nuevo León, and Tamaulipas in northeastern Mexico. Common names include Texas persimmon, Mexican persimmon and the more ambiguous 'black persimmon'. It is known in Spanish as chapote, chapote manzano, or chapote prieto, all of which are derived from the Nahuatl word tzapotl. That word also refers to several other fruit-bearing trees.", image: #imageLiteral(resourceName: "Texas Persimmon"), url: "http://www.inaturalist.org/taxa/120505-Diospyros-texana"))
+        
+        plants.append(Plant(name: "Osage Orange", description: "Maclura pomifera, commonly known as the Osage orange, is a small deciduous tree or large shrub, typically growing to 8 to 15 metres (30–50 ft) tall. The distinctive fruit, from a multiple fruit family, is roughly spherical, bumpy, 8 to 15 centimetres (3–6 in) in diameter, and turns a bright yellow-green in the fall. The fruits secrete a sticky white latex when cut or damaged. Despite the name 'Osage orange', it is only very distantly related to the orange, and is instead a member of the mulberry family, Moraceae.", image: #imageLiteral(resourceName: "Osage Orange"), url: "https://en.wikipedia.org/wiki/Maclura_pomifera"))
+        
+        plants.append(Plant(name: "Chinese Tallow", description: "Triadica sebifera, also known as Sapium sebiferum, is commonly known as the Chinese tallow, Chinese tallowtree, Florida aspen, chicken tree, gray popcorn tree,[2] and candleberry tree. The tree is native to eastern Asia, and is most commonly associated with eastern China, Taiwan, and Japan. In these regions, the waxy coating of the seeds is used for candle and soap making, and the leaves are used as herbal medicine to treat boils. The plant sap and leaves are reputed to be toxic, and decaying leaves from the plant are toxic to other species of plant. The specific epithets sebifera and sebiferum mean 'wax-bearing' and refer to the vegetable tallow that coats the seeds.", image: #imageLiteral(resourceName: "Chinese Tallow"), url: "http://www.inaturalist.org/taxa/79388-Triadica-sebifera"))
+        
+        plants.append(Plant(name: "Bush Croton", description: "", image: #imageLiteral(resourceName: "Bush Croton"), url: "http://www.inaturalist.org/taxa/161160-Croton-fruticulosus"))
+        
+        plants.append(Plant(name: "Cenizo", description: "Leucophyllum frutescens is an evergreen shrub in the figwort family, Scrophulariaceae, native to the state of Texas in the southwestern United States and the states of Coahuila, Nuevo León, and Tamaulipas in northern Mexico. Although commonly known as Texas sage, it is not a true sage and is distinct from the genus Salvia. The species is also called Texas Ranger, Texas rain sage, cenizo, Texas silverleaf, Texas barometerbush, ash-bush, wild lilac, purple sage, senisa, cenicilla, palo cenizo, or hierba del cenizo.", image: #imageLiteral(resourceName: "Cenizo"), url: "http://www.inaturalist.org/taxa/123118-Leucophyllum-frutescens"))
+        
+        plants.append(Plant(name: "Redbud", description: "Cercis canadensis (eastern redbud) is a large deciduous shrub or small tree, native to eastern North America from Southern Ontario, Canada south to northern Florida but can thrive as far west as California.", image: #imageLiteral(resourceName: "Redbud"), url: "http://www.inaturalist.org/taxa/48502-Cercis-canadensis"))
+        
+        plants.append(Plant(name: "Sugar Hackberry", description: "Celtis laevigata is a medium-sized tree native to North America. Common names include sugarberry, Southern hackberry, or in the southern U.S. sugar hackberry or just hackberry.", image: #imageLiteral(resourceName: "Sugar Hackberry"), url: "http://www.inaturalist.org/taxa/81792-Celtis-laevigata"))
+        
+        plants.append(Plant(name: "Buckthorn", description: "Rhamnus caroliniana (syn. Frangula caroliniana), the Carolina Buckthorn, is an upright shrub or small tree native to the Southeastern United States. There is a local disjunct population in Mexico as well.", image: #imageLiteral(resourceName: "Buckthorn"), url: "http://www.inaturalist.org/taxa/120151-Frangula-caroliniana"))
+        
+        plants.append(Plant(name: "Netleaf Hackberry", description: "Celtis reticulata, with common names including netleaf hackberry', western hackberry, Douglas hackberry,netleaf sugar hackberry, palo blanco, acibuche, is a small to medium size deciduous tree, native to western North America.", image: #imageLiteral(resourceName: "Netleaf Hackberry"), url: "http://www.inaturalist.org/taxa/76203-Celtis-reticulata"))
+        
+        
+    
+        //Return the array to the caller
+        return plants
+    }
+    
+    class func createAlternateScalloped() -> [Plant]
+    {
+        //Create an empty array of Plant objects
+        var plants = [Plant]()
+        
+        //Create a plant object
+        plants.append(Plant(name: "Texas Madrone", description: "", image: #imageLiteral(resourceName: "Texas Madrone"), url: ""))
+        
+        plants.append(Plant(name: "Deciduous Yaupon", description: "", image: #imageLiteral(resourceName: "Yaupon"), url: ""))
 
+        plants.append(Plant(name: "Yaupon", description: "", image: #imageLiteral(resourceName: "Yaupon"), url: ""))
+        
+        plants.append(Plant(name: "Mouse-ears", description: "", image: #imageLiteral(resourceName: "Mouse-ears"), url: ""))
+        
+        plants.append(Plant(name: "Redbud", description: "", image: #imageLiteral(resourceName: "Redbud"), url: ""))
+
+
+    
+        //Return the array to the caller
+        return plants
+    }
+    
+    class func createAlternateLessThan() -> [Plant]
+    {
+        //Create an empty array of Plant objects
+        var plants = [Plant]()
+        
+        //Create a plant object
+        plants.append(Plant(name: "Snakewood", description: "", image: #imageLiteral(resourceName: "Snakewood"), url: ""))
+        
+        plants.append(Plant(name: "Bush Croton", description: "", image: #imageLiteral(resourceName: "Bush Croton"), url: ""))
+        
+        plants.append(Plant(name: "Mouse-ears", description: "", image: #imageLiteral(resourceName: "Mouse-ears"), url: ""))
+
+        plants.append(Plant(name: "Ceanothus", description: "", image: #imageLiteral(resourceName: "Ceanothus"), url: ""))
+
+        plants.append(Plant(name: "Payonia", description: "", image: #imageLiteral(resourceName: "Paysonia"), url: ""))
+
+        plants.append(Plant(name: "Cedar Elm", description: "", image: #imageLiteral(resourceName: "Cedar Elm"), url: ""))
+
+        plants.append(Plant(name: "Netleaf Hackberry", description: "", image: #imageLiteral(resourceName: "Netleaf Hackberry"), url: ""))
+
+
+        
+        //Return the array to the caller
+        return plants
+    }
+    
+    class func createAlternateMoreThan() -> [Plant]
+    {
+        //Create an empty array of Plant objects
+        var plants = [Plant]()
+        
+        //Create a plant object
+        plants.append(Plant(name: "Live Oak", description: "", image: #imageLiteral(resourceName: "Live Oak"), url: ""))
+        
+        plants.append(Plant(name: "Black Willow", description: "", image: #imageLiteral(resourceName: "Black Willow"), url: ""))
+
+        plants.append(Plant(name: "Poverty Weed", description: "", image: #imageLiteral(resourceName: "Poverty Weed"), url: ""))
+
+        plants.append(Plant(name: "Sugar Hackberry", description: "", image: #imageLiteral(resourceName: "Sugar Hackberry"), url: ""))
+
+        plants.append(Plant(name: "American Elm", description: "", image: #imageLiteral(resourceName: "American Elm"), url: ""))
+
+        plants.append(Plant(name: "Black Cherry & Creek Plum", description: "", image: #imageLiteral(resourceName: "Creek Plum"), url: ""))
+
+        plants.append(Plant(name: "Texas Mulberry", description: "", image: #imageLiteral(resourceName: "Texas Mulberry"), url: ""))
+
+        plants.append(Plant(name: "Mexican Plum", description: "", image: #imageLiteral(resourceName: "Mexican Plum"), url: ""))
+
+        
+        //Return the array to the caller
+        return plants
+    }
+    
+    class func createAlternateLobed() -> [Plant]
+    {
+        //Create an empty array of Plant objects
+        var plants = [Plant]()
+        
+        //Create a plant object
+        plants.append(Plant(name: "Fig", description: "", image: #imageLiteral(resourceName: "Creek Plum"), url: ""))
+        
+        plants.append(Plant(name: "Sycamore", description: "", image: #imageLiteral(resourceName: "Sycamore"), url: ""))
+
+        plants.append(Plant(name: "Texas Oak", description: "", image: #imageLiteral(resourceName: "Texas Oak"), url: ""))
+
+        plants.append(Plant(name: "White Shin Oak", description: "", image: #imageLiteral(resourceName: "White Shin Oak"), url: ""))
+
+        plants.append(Plant(name: "Texas Mulberry", description: "", image: #imageLiteral(resourceName: "Texas Mulberry"), url: ""))
+        
+        //Return the array to the caller
+        return plants
+    }
+    
+    class func createOppositeVine() -> [Plant]
+    {
+        //Create an empty array of Plant objects
+        var plants = [Plant]()
+        
+        //Create a plant object
+        plants.append(Plant(name: "Coral Honeysuckle", description: "", image: #imageLiteral(resourceName: "Coral Honeysuckle"), url: ""))
+        
+        plants.append(Plant(name: "White Honeysuckle", description: "", image: #imageLiteral(resourceName: "White Honeysuckle"), url: ""))
+        
+        plants.append(Plant(name: "Japanese Honeysuckle", description: "", image: #imageLiteral(resourceName: "Japanese Honeysuckle"), url: ""))
+
+        
+        //Return the array to the caller
+        return plants
+    }
+    
+    class func createOppositeSmooth() -> [Plant]
+    {
+        //Create an empty array of Plant objects
+        var plants = [Plant]()
+        
+        //Create a plant object
+        plants.append(Plant(name: "Button Bush", description: "", image: #imageLiteral(resourceName: "Buttonbush"), url: ""))
+        
+        plants.append(Plant(name: "Roughleaf Dogwood", description: "", image: #imageLiteral(resourceName: "Roughleaf Dogwood"), url: ""))
+        
+        plants.append(Plant(name: "Silktassel", description: "", image: #imageLiteral(resourceName: "Silktassel"), url: ""))
+        
+        plants.append(Plant(name: "Privet", description: "", image: #imageLiteral(resourceName: "Privet"), url: ""))
+        
+        //Return the array to the caller
+        return plants
+    }
+    
+    class func createOppositeToothed() -> [Plant]
+    {
+        //Create an empty array of Plant objects
+        var plants = [Plant]()
+        
+        //Create a plant object
+        plants.append(Plant(name: "Eblow Bush", description: "", image: #imageLiteral(resourceName: "Elbow Bush"), url: ""))
+        
+        plants.append(Plant(name: "Viburnum", description: "", image: #imageLiteral(resourceName: "Viburnum"), url: ""))
+        
+        plants.append(Plant(name: "Shrubby Boneset", description: "", image: #imageLiteral(resourceName: "Shrubby Boneset"), url: ""))
+        
+        plants.append(Plant(name: "Wand Butterfly Bush", description: "", image: #imageLiteral(resourceName: "Wand Butterfly bush"), url: ""))
+        
+        plants.append(Plant(name: "Texas Lantana", description: "", image: #imageLiteral(resourceName: "Texas Lantana"), url: ""))
+        
+        plants.append(Plant(name: "American Beautyberry", description: "", image: #imageLiteral(resourceName: "American Beautyberry"), url: ""))
+        
+        //Return the array to the caller
+        return plants
+    }
+    
+    
 }

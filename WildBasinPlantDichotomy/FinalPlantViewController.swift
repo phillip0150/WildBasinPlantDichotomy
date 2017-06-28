@@ -19,17 +19,58 @@ class FinalPlantViewController: UIViewController, UITableViewDelegate,UITableVie
     override func viewDidLoad()
     {
         finalCode = plantCode
+        
         super.viewDidLoad()
+        
+        if(plantCode == 1)
+        {
+            plants = Plant.createAlternateVine()
+        }
+        if(plantCode == 2)
+        {
+            plants = Plant.createAlternateSmooth()
+        }
+        if(plantCode == 3)
+        {
+            plants = Plant.createAlternateScalloped()
+        }
+        if(plantCode == 4)
+        {
+            plants = Plant.createAlternateLessThan()
+        }
+        if(plantCode == 5)
+        {
+            plants = Plant.createAlternateMoreThan()
+        }
+        if(plantCode == 6)
+        {
+            plants = Plant.createAlternateLobed()
+        }
+        if(plantCode == 7)
+        {
+            plants = Plant.createOppositeVine()
+        }
+        if(plantCode == 8)
+        {
+            plants = Plant.createOppositeSmooth()
+        }
+        if(plantCode == 9)
+        {
+            plants = Plant.createOppositeToothed()
+        }
+        if(plantCode == 10)
+        {
+            //plants = Plant.createAlternateLobed()
+        }
+        if(plantCode == 11)
+        {
+           //plants = Plant.createAlternateLobed()
+        }
         if(plantCode == 12)
         {
             plants = Plant.createAllPlantArray()
         }
-        if(plantCode == 1)
-        {
-            plants = Plant.createSimpleVinePlantArray()
-        }
-        //if statments go here
-        //plants = Plant.createSimpleVinePlantArray()
+        
         self.tableView.dataSource = self
         self.tableView.delegate = self
 
