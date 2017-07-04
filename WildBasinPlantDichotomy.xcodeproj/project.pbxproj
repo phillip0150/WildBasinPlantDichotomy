@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		28B28EC81D77AC92EC57670B /* Pods_WildBasinPlantDichotomyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5228DB604B2ECFBBD66C0DBE /* Pods_WildBasinPlantDichotomyUITests.framework */; };
 		331A186B1ECE1B3F001F485A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331A186A1ECE1B3F001F485A /* AppDelegate.swift */; };
-		331A186D1ECE1B3F001F485A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331A186C1ECE1B3F001F485A /* ViewController.swift */; };
 		331A18701ECE1B3F001F485A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 331A186E1ECE1B3F001F485A /* Main.storyboard */; };
 		331A18731ECE1B3F001F485A /* WildBasinPlantDichotomy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 331A18711ECE1B3F001F485A /* WildBasinPlantDichotomy.xcdatamodeld */; };
 		331A18751ECE1B3F001F485A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 331A18741ECE1B3F001F485A /* Assets.xcassets */; };
 		331A18781ECE1B3F001F485A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 331A18761ECE1B3F001F485A /* LaunchScreen.storyboard */; };
 		331A18831ECE1B3F001F485A /* WildBasinPlantDichotomyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331A18821ECE1B3F001F485A /* WildBasinPlantDichotomyTests.swift */; };
 		331A188E1ECE1B3F001F485A /* WildBasinPlantDichotomyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331A188D1ECE1B3F001F485A /* WildBasinPlantDichotomyUITests.swift */; };
+		336290061F0C46F100FFDC7E /* SideBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336290051F0C46F100FFDC7E /* SideBarViewController.swift */; };
+		3362900A1F0C46FE00FFDC7E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 336290091F0C46FE00FFDC7E /* SWRevealViewController.m */; };
 		336B2EA31ED6138F003D81C5 /* PlantIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336B2EA21ED6138F003D81C5 /* PlantIDViewController.swift */; };
 		33A519CB1EFF5CE50082801B /* FinalPlantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A519CA1EFF5CE50082801B /* FinalPlantViewController.swift */; };
 		33A519CD1EFF5CE50082801B /* FinalPlantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A519CA1EFF5CE50082801B /* FinalPlantViewController.swift */; };
@@ -62,7 +63,6 @@
 		1AA9178818D246E49DFBFD5E /* Pods_WildBasinPlantDichotomyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WildBasinPlantDichotomyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		331A18671ECE1B3F001F485A /* WildBasinPlantDichotomy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WildBasinPlantDichotomy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		331A186A1ECE1B3F001F485A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		331A186C1ECE1B3F001F485A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		331A186F1ECE1B3F001F485A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		331A18721ECE1B3F001F485A /* WildBasinPlantDichotomy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WildBasinPlantDichotomy.xcdatamodel; sourceTree = "<group>"; };
 		331A18741ECE1B3F001F485A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -74,6 +74,10 @@
 		331A18891ECE1B3F001F485A /* WildBasinPlantDichotomyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WildBasinPlantDichotomyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		331A188D1ECE1B3F001F485A /* WildBasinPlantDichotomyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WildBasinPlantDichotomyUITests.swift; sourceTree = "<group>"; };
 		331A188F1ECE1B3F001F485A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		336290051F0C46F100FFDC7E /* SideBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarViewController.swift; sourceTree = "<group>"; };
+		336290071F0C46FE00FFDC7E /* WildBasinPlantDichotomy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WildBasinPlantDichotomy-Bridging-Header.h"; sourceTree = "<group>"; };
+		336290081F0C46FE00FFDC7E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		336290091F0C46FE00FFDC7E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		336B2EA21ED6138F003D81C5 /* PlantIDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantIDViewController.swift; sourceTree = "<group>"; };
 		33A519CA1EFF5CE50082801B /* FinalPlantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalPlantViewController.swift; sourceTree = "<group>"; };
 		33A519CE1EFF5DF00082801B /* FinalDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalDetailViewController.swift; sourceTree = "<group>"; };
@@ -156,8 +160,8 @@
 		331A18691ECE1B3F001F485A /* WildBasinPlantDichotomy */ = {
 			isa = PBXGroup;
 			children = (
+				336290041F0C46D900FFDC7E /* SideBarMenu */,
 				500D5C991EFDF99600BCF939 /* Compound */,
-				331A186C1ECE1B3F001F485A /* ViewController.swift */,
 				336B2EA21ED6138F003D81C5 /* PlantIDViewController.swift */,
 				5015A2761EE9DE1B00D7558D /* WebViewController.swift */,
 				33A519CA1EFF5CE50082801B /* FinalPlantViewController.swift */,
@@ -191,6 +195,17 @@
 				331A188F1ECE1B3F001F485A /* Info.plist */,
 			);
 			path = WildBasinPlantDichotomyUITests;
+			sourceTree = "<group>";
+		};
+		336290041F0C46D900FFDC7E /* SideBarMenu */ = {
+			isa = PBXGroup;
+			children = (
+				336290081F0C46FE00FFDC7E /* SWRevealViewController.h */,
+				336290091F0C46FE00FFDC7E /* SWRevealViewController.m */,
+				336290051F0C46F100FFDC7E /* SideBarViewController.swift */,
+				336290071F0C46FE00FFDC7E /* WildBasinPlantDichotomy-Bridging-Header.h */,
+			);
+			name = SideBarMenu;
 			sourceTree = "<group>";
 		};
 		33E11AB61EF45EE0002EBD72 /* Simple */ = {
@@ -338,6 +353,7 @@
 					331A18661ECE1B3F001F485A = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = CGLZ5DVH7S;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					331A187D1ECE1B3F001F485A = {
@@ -546,13 +562,13 @@
 				33E11AC21EF4625A002EBD72 /* NotAVineSMTViewController.swift in Sources */,
 				33E11AAD1EF44D5D002EBD72 /* DetailViewController.swift in Sources */,
 				33E11ABE1EF45F91002EBD72 /* ToothedSM2L2ViewController.swift in Sources */,
-				331A186D1ECE1B3F001F485A /* ViewController.swift in Sources */,
 				500D5C9B1EFDF9FF00BCF939 /* CompoundViewController.swift in Sources */,
 				33E11AB01EF44D64002EBD72 /* AllPlantsViewController.swift in Sources */,
 				331A18731ECE1B3F001F485A /* WildBasinPlantDichotomy.xcdatamodeld in Sources */,
 				33E11ABA1EF45F60002EBD72 /* AlternateVNVViewController.swift in Sources */,
 				33E11ABC1EF45F7E002EBD72 /* NotAVineSSCTLViewController.swift in Sources */,
 				331A186B1ECE1B3F001F485A /* AppDelegate.swift in Sources */,
+				3362900A1F0C46FE00FFDC7E /* SWRevealViewController.m in Sources */,
 				33A519CF1EFF5DF00082801B /* FinalDetailViewController.swift in Sources */,
 				33A519CB1EFF5CE50082801B /* FinalPlantViewController.swift in Sources */,
 				33E11AC41EF462FC002EBD72 /* OppositeVNVViewController.swift in Sources */,
@@ -561,6 +577,7 @@
 				5015A2771EE9DE1B00D7558D /* WebViewController.swift in Sources */,
 				500D5C9F1EFDFA5400BCF939 /* GreaterThan10ViewController.swift in Sources */,
 				33E11AAB1EF44D4E002EBD72 /* PlantCell.swift in Sources */,
+				336290061F0C46F100FFDC7E /* SideBarViewController.swift in Sources */,
 				505C966A1ECE238700FE4A4A /* Node.swift in Sources */,
 				336B2EA31ED6138F003D81C5 /* PlantIDViewController.swift in Sources */,
 				33E11AB11EF44D64002EBD72 /* AllPlantsWebViewController.swift in Sources */,
@@ -720,11 +737,14 @@
 			baseConfigurationReference = CB86DAF9F0F4D6D283ADEA22 /* Pods-WildBasinPlantDichotomy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = CGLZ5DVH7S;
 				INFOPLIST_FILE = WildBasinPlantDichotomy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "St.-Edward-s-University.WildBasinPlantDichotomy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WildBasinPlantDichotomy/WildBasinPlantDichotomy-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -735,11 +755,13 @@
 			baseConfigurationReference = 5C3C80F77833E77D0D2ECD4B /* Pods-WildBasinPlantDichotomy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = CGLZ5DVH7S;
 				INFOPLIST_FILE = WildBasinPlantDichotomy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "St.-Edward-s-University.WildBasinPlantDichotomy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WildBasinPlantDichotomy/WildBasinPlantDichotomy-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

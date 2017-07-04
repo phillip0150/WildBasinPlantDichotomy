@@ -33,7 +33,7 @@ class FinalDetailViewController: UIViewController
         plantImageView.image = plant?.image
         plantNameLabel.text = plant?.name
         plantDescriptionLabel.text = plant?.description
-        plantURLLabel.text = plantURL
+        //plantURLLabel.text = plantURL
         
         
         

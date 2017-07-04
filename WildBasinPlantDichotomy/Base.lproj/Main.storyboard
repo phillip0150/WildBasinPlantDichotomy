@@ -1,97 +1,165 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vI9-0q-H7t">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Table View Controller-->
+        <scene sceneID="RTi-pf-pNh">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WildBasinPlantDichotomy" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="qXF-bb-UFl" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="DJq-WR-rHp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="TSx-l7-4dh">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="O9m-tj-otN">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="O9m-tj-otN" id="ar8-MS-Vsx">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MlG-yo-zJa">
+                                                    <rect key="frame" x="8" y="12" width="76" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="cfn-j9-h55">
+                                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cfn-j9-h55" id="Vsa-A8-BtI">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Learn More About Wild Basin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="30w-8t-rCQ">
+                                                    <rect key="frame" x="23" y="12" width="222" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="uhF-vf-6xm" kind="show" id="0RP-S1-U87"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="o0g-wh-h2Q">
+                                        <rect key="frame" x="0.0" y="88" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="o0g-wh-h2Q" id="aVv-Mm-kxw">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Special Thanks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vgL-3l-SK1">
+                                                    <rect key="frame" x="23" y="12" width="116" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="qXF-bb-UFl" id="Zar-k4-yqm"/>
+                            <outlet property="delegate" destination="qXF-bb-UFl" id="nnd-BH-PyM"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5nu-uu-Bps" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1026" y="-1394"/>
+        </scene>
+        <!--Reveal View Controller-->
+        <scene sceneID="Seo-dV-VWi">
+            <objects>
+                <viewController id="vI9-0q-H7t" customClass="SWRevealViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="4Ig-CT-wBb"/>
+                        <viewControllerLayoutGuide type="bottom" id="4RK-kY-1ah"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="w7E-VZ-ys5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <segue destination="Zee-O1-aHq" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="I56-XA-6SQ"/>
+                        <segue destination="qXF-bb-UFl" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="7qU-n9-is9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dSF-Sn-nJ0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1026" y="-2159"/>
+        </scene>
+        <!--Side Bar View Controller-->
+        <scene sceneID="1y1-Tp-5i9">
+            <objects>
+                <viewController id="IrT-Ua-wZ0" customClass="SideBarViewController" customModule="WildBasinPlantDichotomy" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YWd-pK-1NQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="73Y-N3-ifo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wkc-1L-7bc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7w3-tD-dGP">
-                                <rect key="frame" x="112" y="415" width="151" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="kCc-4T-yCL"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aor-xi-xlP">
+                                <rect key="frame" x="103" y="486" width="197" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
                                 <state key="normal" title="Start Plant Dichotomy"/>
                                 <connections>
-                                    <segue destination="Ivc-oX-kcN" kind="modal" id="SJ1-mL-TFF"/>
+                                    <segue destination="gab-q0-cIe" kind="show" id="AdS-tj-d9b"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qsF-lS-s5J">
-                                <rect key="frame" x="88" y="516" width="199" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="Kbi-Tb-XRV"/>
-                                </constraints>
-                                <state key="normal" title="Learn More About Wild Basin"/>
-                                <connections>
-                                    <segue destination="eeu-E3-9go" kind="presentation" id="v9F-g7-SVd"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zo2-yD-YqQ">
-                                <rect key="frame" x="96" y="465" width="174" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="iAn-Un-QUl"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rms-Zh-TIr">
+                                <rect key="frame" x="90" y="536" width="214" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
                                 <state key="normal" title="View All 87 Woody Plants"/>
                                 <connections>
-                                    <segue destination="Ej9-2r-wqi" kind="modal" id="Sn9-tx-SWt"/>
+                                    <segue destination="Ej9-2r-wqi" kind="show" id="i9s-Hh-lIv"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rJo-OD-BxV">
-                                <rect key="frame" x="135" y="562" width="104" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="P4W-Av-8He"/>
-                                </constraints>
-                                <state key="normal" title="Special Thanks"/>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WildBasinLogo" translatesAutoresizingMaskIntoConstraints="NO" id="8Va-DB-xjb">
-                                <rect key="frame" x="78" y="20" width="211" height="85"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="85" id="YiT-Af-fFm"/>
-                                </constraints>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="WildBasinLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Ame-fE-U2P">
+                                <rect key="frame" x="92" y="112" width="211" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Texas" translatesAutoresizingMaskIntoConstraints="NO" id="f0I-dw-CXl">
-                                <rect key="frame" x="70" y="140" width="226" height="216"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Texas" translatesAutoresizingMaskIntoConstraints="NO" id="J3n-fc-cHw">
+                                <rect key="frame" x="84" y="232" width="226" height="216"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="qsF-lS-s5J" firstAttribute="centerX" secondItem="rJo-OD-BxV" secondAttribute="centerX" id="70s-A3-kGi"/>
-                            <constraint firstItem="f0I-dw-CXl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="54" id="9CP-Z5-DR2"/>
-                            <constraint firstItem="rJo-OD-BxV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="H8t-mA-kw9"/>
-                            <constraint firstItem="f0I-dw-CXl" firstAttribute="centerX" secondItem="Zo2-yD-YqQ" secondAttribute="centerX" id="PIP-ho-3aO"/>
-                            <constraint firstItem="8Va-DB-xjb" firstAttribute="centerX" secondItem="f0I-dw-CXl" secondAttribute="centerX" id="Pmx-x8-H0d"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="f0I-dw-CXl" secondAttribute="trailing" constant="63" id="SkR-iH-Yes"/>
-                            <constraint firstItem="qsF-lS-s5J" firstAttribute="top" secondItem="Zo2-yD-YqQ" secondAttribute="bottom" constant="21" id="Voh-yF-Quf"/>
-                            <constraint firstItem="8Va-DB-xjb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="62" id="W00-WG-326"/>
-                            <constraint firstItem="7w3-tD-dGP" firstAttribute="centerX" secondItem="qsF-lS-s5J" secondAttribute="centerX" id="eyQ-BV-S4m"/>
-                            <constraint firstItem="rJo-OD-BxV" firstAttribute="top" secondItem="qsF-lS-s5J" secondAttribute="bottom" constant="16" id="jqg-GB-WKN"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="rJo-OD-BxV" secondAttribute="bottom" constant="75" id="lRB-5s-pd8"/>
-                            <constraint firstItem="Zo2-yD-YqQ" firstAttribute="top" secondItem="7w3-tD-dGP" secondAttribute="bottom" constant="20" id="mkb-yu-IVL"/>
-                            <constraint firstItem="7w3-tD-dGP" firstAttribute="top" secondItem="f0I-dw-CXl" secondAttribute="bottom" constant="59" id="nIj-6y-yiC"/>
-                            <constraint firstItem="8Va-DB-xjb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="qjO-ZT-H8D"/>
-                            <constraint firstItem="f0I-dw-CXl" firstAttribute="top" secondItem="8Va-DB-xjb" secondAttribute="bottom" constant="35" id="xKC-Y6-kvU"/>
-                        </constraints>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="pdj-GC-Mv9">
+                        <barButtonItem key="leftBarButtonItem" image="nav_icon" id="ssi-87-A41"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="menuBtn" destination="ssi-87-A41" id="NIL-nJ-Qxa"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OPP-pa-7pW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-490" y="-514"/>
+            <point key="canvasLocation" x="982" y="-2159"/>
         </scene>
         <!--All Plants View Controller-->
         <scene sceneID="Jwx-Zv-ftv">
@@ -105,71 +173,48 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="152" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="JlP-So-Cyb">
-                                <rect key="frame" x="0.0" y="50" width="375" height="617"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="174" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="JlP-So-Cyb">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="617" id="9rU-eW-EZv"/>
-                                </constraints>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PlantCell" rowHeight="152" id="s7a-Bb-KTc" customClass="PlantCell" customModule="WildBasinPlantDichotomy" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="152"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PlantCell" rowHeight="174" id="s7a-Bb-KTc" customClass="PlantCell" customModule="WildBasinPlantDichotomy" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="174"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="s7a-Bb-KTc" id="F00-rG-IUz">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="152"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="174"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hKd-Vh-g65">
+                                                <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hKd-Vh-g65">
                                                     <rect key="frame" x="0.0" y="8" width="190" height="131"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LeE-1V-3YD">
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LeE-1V-3YD">
                                                     <rect key="frame" x="198" y="8" width="169" height="61"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="169" id="Ak5-8V-L9H"/>
-                                                    </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
-                                            <constraints>
-                                                <constraint firstItem="hKd-Vh-g65" firstAttribute="top" secondItem="F00-rG-IUz" secondAttribute="topMargin" id="MFk-KH-l3f"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="LeE-1V-3YD" secondAttribute="bottom" constant="74.5" id="SDs-qX-aNI"/>
-                                                <constraint firstItem="hKd-Vh-g65" firstAttribute="top" secondItem="LeE-1V-3YD" secondAttribute="top" id="SvM-zK-Z8j"/>
-                                                <constraint firstItem="LeE-1V-3YD" firstAttribute="leading" secondItem="hKd-Vh-g65" secondAttribute="trailing" constant="8" symbolic="YES" id="Tbf-3d-Ni8"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="hKd-Vh-g65" secondAttribute="bottom" constant="4.5" id="amL-vQ-DRf"/>
-                                                <constraint firstItem="hKd-Vh-g65" firstAttribute="leading" secondItem="F00-rG-IUz" secondAttribute="leading" id="iuW-Ni-XNX"/>
-                                                <constraint firstItem="LeE-1V-3YD" firstAttribute="trailing" secondItem="F00-rG-IUz" secondAttribute="trailingMargin" id="jl7-rn-bE6"/>
-                                            </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="cBu-SO-qI2" kind="show" identifier="MasterToDetail" id="jvp-y6-S3b"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="icF-gW-WjF">
-                                <rect key="frame" x="22" y="12" width="34" height="30"/>
-                                <state key="normal" title="Back"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="modal" id="OKQ-2x-hlm"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="JlP-So-Cyb" firstAttribute="leading" secondItem="wk8-Xe-gtf" secondAttribute="leading" id="AA3-Ek-LRc"/>
-                            <constraint firstItem="JlP-So-Cyb" firstAttribute="bottom" secondItem="Z0J-fE-0CH" secondAttribute="top" id="JAY-Rb-pkV"/>
-                            <constraint firstItem="JlP-So-Cyb" firstAttribute="top" secondItem="icF-gW-WjF" secondAttribute="bottom" constant="8" symbolic="YES" id="L9C-Y3-PHH"/>
-                            <constraint firstItem="icF-gW-WjF" firstAttribute="leading" secondItem="wk8-Xe-gtf" secondAttribute="leadingMargin" constant="6" id="PVp-No-oE9"/>
-                            <constraint firstAttribute="trailing" secondItem="JlP-So-Cyb" secondAttribute="trailing" id="Wh5-dL-gcO"/>
-                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="9po-6b-TJV"/>
                     <connections>
                         <outlet property="tableView" destination="JlP-So-Cyb" id="8X7-Ze-l4q"/>
-                        <segue destination="cBu-SO-qI2" kind="show" identifier="MasterToDetail" id="Mx1-PQ-pFR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gJY-7u-gxZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1639" y="251"/>
+            <point key="canvasLocation" x="-1026" y="-692"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="jgp-YY-va3">
@@ -183,59 +228,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xdO-aU-eTu">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xdO-aU-eTu">
                                 <rect key="frame" x="16" y="82" width="343" height="227"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="227" id="vZb-ik-bv7"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1P9-fY-eu1">
-                                <rect key="frame" x="16" y="317" width="343" height="330"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1P9-fY-eu1">
+                                <rect key="frame" x="16" y="317" width="343" height="233"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UXw-8o-R9q">
-                                <rect key="frame" x="22" y="20" width="34" height="30"/>
-                                <state key="normal" title="Back"/>
-                                <connections>
-                                    <segue destination="Ej9-2r-wqi" kind="modal" id="Jjy-bm-0dm"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I2D-zz-1B3">
-                                <rect key="frame" x="148" y="582" width="78" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SEV-Jh-veV">
+                                <rect key="frame" x="67" y="40" width="240" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I2D-zz-1B3">
+                                <rect key="frame" x="138" y="617" width="98" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
                                 <state key="normal" title="Learn More"/>
                                 <connections>
                                     <action selector="plantLearnMore:" destination="cBu-SO-qI2" eventType="touchUpInside" id="Nbf-hn-eX2"/>
-                                    <segue destination="6Co-hm-8pO" kind="show" identifier="MasterToWeb" id="Awx-Ha-dhb"/>
+                                    <segue destination="6Co-hm-8pO" kind="show" identifier="MasterToWeb" animates="NO" id="Awx-Ha-dhb"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SEV-Jh-veV">
-                                <rect key="frame" x="67" y="40" width="240" height="34"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="1P9-fY-eu1" firstAttribute="top" secondItem="xdO-aU-eTu" secondAttribute="bottom" constant="8" symbolic="YES" id="2xA-Li-tYE"/>
-                            <constraint firstItem="xdO-aU-eTu" firstAttribute="trailing" secondItem="qjq-jV-eMj" secondAttribute="trailingMargin" id="Cdi-PF-4pr"/>
-                            <constraint firstItem="xdO-aU-eTu" firstAttribute="leading" secondItem="qjq-jV-eMj" secondAttribute="leadingMargin" id="Gd8-MZ-XYW"/>
-                            <constraint firstItem="xdO-aU-eTu" firstAttribute="top" secondItem="SEV-Jh-veV" secondAttribute="bottom" constant="8" symbolic="YES" id="PDM-n6-3xQ"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="SEV-Jh-veV" secondAttribute="trailing" constant="52" id="PuH-2o-Gku"/>
-                            <constraint firstItem="jFE-xM-OCf" firstAttribute="top" secondItem="I2D-zz-1B3" secondAttribute="bottom" constant="55" id="SEo-k0-xo3"/>
-                            <constraint firstItem="xdO-aU-eTu" firstAttribute="leading" secondItem="1P9-fY-eu1" secondAttribute="leading" id="TFV-v8-orT"/>
-                            <constraint firstItem="xdO-aU-eTu" firstAttribute="top" secondItem="UXw-8o-R9q" secondAttribute="bottom" constant="32" id="UKL-si-kbF"/>
-                            <constraint firstItem="xdO-aU-eTu" firstAttribute="trailing" secondItem="1P9-fY-eu1" secondAttribute="trailing" id="YbF-9q-upa"/>
-                            <constraint firstItem="SEV-Jh-veV" firstAttribute="top" secondItem="S6Q-if-Mbh" secondAttribute="bottom" constant="20" id="ZW3-5p-2mO"/>
-                            <constraint firstItem="1P9-fY-eu1" firstAttribute="centerX" secondItem="I2D-zz-1B3" secondAttribute="centerX" id="fRy-4D-M4T"/>
-                            <constraint firstItem="SEV-Jh-veV" firstAttribute="leading" secondItem="UXw-8o-R9q" secondAttribute="trailing" constant="11" id="hbl-bE-IMt"/>
-                            <constraint firstItem="UXw-8o-R9q" firstAttribute="top" secondItem="S6Q-if-Mbh" secondAttribute="bottom" id="ouv-Ph-Xj2"/>
-                            <constraint firstItem="SEV-Jh-veV" firstAttribute="centerX" secondItem="xdO-aU-eTu" secondAttribute="centerX" id="pEe-Uj-DdX"/>
-                            <constraint firstAttribute="bottom" secondItem="1P9-fY-eu1" secondAttribute="bottom" constant="20" symbolic="YES" id="tbj-OW-U3n"/>
-                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="vAo-9C-RDF"/>
                     <connections>
                         <outlet property="plantDescriptionLabel" destination="1P9-fY-eu1" id="hoP-5V-z9N"/>
                         <outlet property="plantImageView" destination="xdO-aU-eTu" id="yNY-pU-sIv"/>
@@ -244,7 +268,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ueB-Qv-h62" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-490" y="251"/>
+            <point key="canvasLocation" x="41" y="-692"/>
         </scene>
         <!--All Plants Web View Controller-->
         <scene sceneID="9ll-7w-kUg">
@@ -259,7 +283,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RJj-hY-wmS">
-                                <rect key="frame" x="0.0" y="28" width="375" height="639"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
@@ -272,7 +296,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q3p-RF-1uk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-490" y="1074"/>
+            <point key="canvasLocation" x="982" y="-692"/>
         </scene>
         <!--PlantID View Controller-->
         <scene sceneID="zzY-QZ-WE8">
@@ -286,23 +310,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Is the plant simple or compound?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lkj-Eh-rnD">
-                                <rect key="frame" x="16" y="64" width="343" height="300"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Is the plant simple or compound?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lkj-Eh-rnD">
+                                <rect key="frame" x="16" y="72" width="343" height="194"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P0h-Bi-tXB">
-                                <rect key="frame" x="16" y="617" width="343" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.069268281530000003" green="0.76499686209999995" blue="0.0" alpha="0.74991612350000003" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="View all current palnts"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GgQ-7w-EiM" customClass="DLRadioButton">
-                                <rect key="frame" x="16" y="474" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GgQ-7w-EiM" customClass="DLRadioButton">
+                                <rect key="frame" x="73" y="471" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="radioButton_Unselected"/>
                                 <userDefinedRuntimeAttributes>
@@ -314,7 +330,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hNV-l5-HAH">
-                                <rect key="frame" x="16" y="579" width="343" height="30"/>
+                                <rect key="frame" x="0.0" y="587" width="375" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.069268281531158812" green="0.76499686206367357" blue="0.0" alpha="0.74991612346625769" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -325,7 +341,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="be9-Ny-Yzx" customClass="DLRadioButton">
-                                <rect key="frame" x="329" y="474" width="30" height="30"/>
+                                <rect key="frame" x="262" y="471" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="radioButton_Unselected"/>
                                 <userDefinedRuntimeAttributes>
@@ -336,16 +352,32 @@
                                     <outletCollection property="otherButtons" destination="GgQ-7w-EiM" id="24D-yC-r4X"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Simple" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B8m-kL-Y4w">
+                                <rect key="frame" x="56" y="519" width="64" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Compound" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r63-AY-B8w">
+                                <rect key="frame" x="227" y="519" width="100" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Simple" translatesAutoresizingMaskIntoConstraints="NO" id="gU1-OT-IBA">
+                                <rect key="frame" x="16" y="274" width="139" height="164"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Compound" translatesAutoresizingMaskIntoConstraints="NO" id="xXE-ul-1xC">
+                                <rect key="frame" x="173" y="274" width="208" height="164"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="d0z-jc-scA">
-                        <barButtonItem key="leftBarButtonItem" title="Home" id="DpG-PC-Lje">
-                            <connections>
-                                <segue destination="BYZ-38-t0r" kind="presentation" id="YjD-Hh-FNU"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="d0z-jc-scA"/>
                     <connections>
                         <outlet property="btn1" destination="GgQ-7w-EiM" id="D8w-Xd-TGc"/>
                         <outlet property="btn2" destination="be9-Ny-Yzx" id="qgq-H0-JZL"/>
@@ -357,7 +389,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ouA-U4-lQq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1206" y="-514"/>
+            <point key="canvasLocation" x="982" y="-3106"/>
         </scene>
         <!--SimpleAO View Controller-->
         <scene sceneID="IBY-DM-4HI">
@@ -371,18 +403,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Are the leaves alternate or pooposite?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F2F-XL-H2P">
-                                <rect key="frame" x="42" y="116" width="290" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Are the leaves alternate or opposite" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F2F-XL-H2P">
+                                <rect key="frame" x="16" y="72" width="343" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f7r-I7-pxu" customClass="DLRadioButton">
-                                <rect key="frame" x="42" y="468" width="30" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="8he-kY-eE7"/>
-                                    <constraint firstAttribute="width" constant="30" id="KUw-2d-nPB"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f7r-I7-pxu" customClass="DLRadioButton">
+                                <rect key="frame" x="77" y="449" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="radioButton_Unselected"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="image" keyPath="icon" value="radioButton_Unselected"/>
@@ -392,11 +422,9 @@
                                     <outletCollection property="otherButtons" destination="MTG-ul-c8w" id="5RZ-T2-QuI"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MTG-ul-c8w" customClass="DLRadioButton">
-                                <rect key="frame" x="302" y="468" width="30" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="30" id="2EC-wX-1EI"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MTG-ul-c8w" customClass="DLRadioButton">
+                                <rect key="frame" x="275" y="449" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="radioButton_Unselected"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="image" keyPath="icon" value="radioButton_Unselected"/>
@@ -406,18 +434,9 @@
                                     <outletCollection property="otherButtons" destination="f7r-I7-pxu" id="E7p-f5-0mT"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="08K-KZ-92w">
-                                <rect key="frame" x="16" y="617" width="343" height="30"/>
-                                <color key="backgroundColor" red="0.069268281530000003" green="0.76499686209999995" blue="0.0" alpha="0.74991612350000003" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="ayl-Dc-cRK"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="View all current palnts"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sl5-GK-Yl7">
-                                <rect key="frame" x="16" y="552" width="343" height="42"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sl5-GK-Yl7">
+                                <rect key="frame" x="0.0" y="587" width="375" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.069268281530000003" green="0.76499686209999995" blue="0.0" alpha="0.74991612350000003" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -426,23 +445,30 @@
                                     <action selector="btnNext:" destination="0V8-U7-62K" eventType="touchUpInside" id="QvR-W4-aeM"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Alternate" translatesAutoresizingMaskIntoConstraints="NO" id="OQd-ss-yiN">
+                                <rect key="frame" x="16" y="276" width="168" height="148"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Opposite" translatesAutoresizingMaskIntoConstraints="NO" id="Qc2-rf-Sgx">
+                                <rect key="frame" x="202" y="289" width="157" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Opposite" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="diA-cP-odq">
+                                <rect key="frame" x="248" y="487" width="85" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Alternate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d13-71-ZFH">
+                                <rect key="frame" x="49" y="487" width="87" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="F2F-XL-H2P" firstAttribute="leading" secondItem="f7r-I7-pxu" secondAttribute="leading" id="1Sz-9v-c8s"/>
-                            <constraint firstItem="08K-KZ-92w" firstAttribute="top" secondItem="Sl5-GK-Yl7" secondAttribute="bottom" constant="23" id="3aY-0p-5iU"/>
-                            <constraint firstItem="Sl5-GK-Yl7" firstAttribute="leading" secondItem="08K-KZ-92w" secondAttribute="leading" id="8Qm-pr-VB0"/>
-                            <constraint firstItem="F2F-XL-H2P" firstAttribute="top" secondItem="YJm-kh-QzO" secondAttribute="bottom" constant="52" id="C5z-WY-udK"/>
-                            <constraint firstItem="Sl5-GK-Yl7" firstAttribute="top" secondItem="f7r-I7-pxu" secondAttribute="bottom" constant="54" id="Cdf-PT-kOP"/>
-                            <constraint firstAttribute="bottom" secondItem="08K-KZ-92w" secondAttribute="bottom" constant="20" symbolic="YES" id="OLE-vg-zFK"/>
-                            <constraint firstItem="f7r-I7-pxu" firstAttribute="top" secondItem="MTG-ul-c8w" secondAttribute="top" id="OYv-aF-xoY"/>
-                            <constraint firstItem="F2F-XL-H2P" firstAttribute="centerX" secondItem="Sl5-GK-Yl7" secondAttribute="centerX" id="Onc-RF-Vjz"/>
-                            <constraint firstItem="f7r-I7-pxu" firstAttribute="bottom" secondItem="MTG-ul-c8w" secondAttribute="bottom" id="dm1-0x-RR9"/>
-                            <constraint firstItem="F2F-XL-H2P" firstAttribute="trailing" secondItem="MTG-ul-c8w" secondAttribute="trailing" id="hmc-gE-5Ye"/>
-                            <constraint firstItem="Sl5-GK-Yl7" firstAttribute="trailing" secondItem="fer-l8-Mf0" secondAttribute="trailingMargin" id="iBC-ng-IdM"/>
-                            <constraint firstItem="Sl5-GK-Yl7" firstAttribute="leading" secondItem="fer-l8-Mf0" secondAttribute="leadingMargin" id="tSx-aR-ocd"/>
-                            <constraint firstItem="Sl5-GK-Yl7" firstAttribute="trailing" secondItem="08K-KZ-92w" secondAttribute="trailing" id="uzd-YI-B8i"/>
-                        </constraints>
                     </view>
                     <connections>
                         <outlet property="btn1" destination="f7r-I7-pxu" id="e92-gg-0ie"/>
@@ -454,7 +480,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ixI-UK-WH1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1206" y="-2119"/>
+            <point key="canvasLocation" x="1378" y="-3946"/>
         </scene>
         <!--OppositeVNV View Controller-->
         <scene sceneID="oWT-Fh-1Zh">
@@ -468,15 +494,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Is it a vine or not a vine?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bUV-Ku-UzK">
-                                <rect key="frame" x="95" y="116" width="184" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Is it a vine or not a vine?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bUV-Ku-UzK">
+                                <rect key="frame" x="16" y="72" width="343" height="194"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hNd-Am-dYe" customClass="DLRadioButton">
-                                <rect key="frame" x="283" y="460" width="30" height="30"/>
+                                <rect key="frame" x="261" y="450" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="radioButton_Unselected"/>
                                 <userDefinedRuntimeAttributes>
@@ -488,7 +514,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0R-pD-znh" customClass="DLRadioButton">
-                                <rect key="frame" x="78" y="460" width="30" height="30"/>
+                                <rect key="frame" x="61" y="450" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="radioButton_Unselected"/>
                                 <userDefinedRuntimeAttributes>
@@ -500,7 +526,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wsk-yy-dgA">
-                                <rect key="frame" x="16" y="542" width="343" height="42"/>
+                                <rect key="frame" x="0.0" y="587" width="375" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.069268281530000003" green="0.76499686209999995" blue="0.0" alpha="0.74991612350000003" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -510,14 +536,20 @@
                                     <action selector="btnNext:" destination="WDc-rE-O7a" eventType="touchUpInside" id="van-uG-CUV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IKW-ri-enb">
-                                <rect key="frame" x="16" y="593" width="343" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Not a vine" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KdI-Ub-W1s">
+                                <rect key="frame" x="238" y="506" width="88" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.069268281530000003" green="0.76499686209999995" blue="0.0" alpha="0.74991612350000003" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="View all current palnts"/>
-                            </button>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vine" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VEY-IV-KVQ">
+                                <rect key="frame" x="53" y="506" width="47" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -529,7 +561,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cKr-qi-fbi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1945" y="-1531"/>
+            <point key="canvasLocation" x="3156" y="-3521.2893553223389"/>
         </scene>
         <!--NotA VineSMT View Controller-->
         <scene sceneID="Oow-z1-1bS">
@@ -543,15 +575,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Are the leaf edges smooth or toothed" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9uh-sa-16k">
-                                <rect key="frame" x="54" y="116" width="286" height="67"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Are the leaf edges smooth or toothed" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9uh-sa-16k">
+                                <rect key="frame" x="16" y="72" width="343" height="194"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kSF-Ab-bWr" customClass="DLRadioButton">
-                                <rect key="frame" x="54" y="463" width="30" height="30"/>
+                                <rect key="frame" x="75" y="463" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="radioButton_Unselected"/>
                                 <userDefinedRuntimeAttributes>
@@ -563,7 +595,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cQl-cs-1EM" customClass="DLRadioButton">
-                                <rect key="frame" x="291" y="463" width="30" height="30"/>
+                                <rect key="frame" x="265" y="463" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="radioButton_Unselected"/>
                                 <userDefinedRuntimeAttributes>
@@ -575,7 +607,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WAn-78-hVu">
-                                <rect key="frame" x="16" y="565" width="343" height="42"/>
+                                <rect key="frame" x="0.0" y="587" width="375" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.069268281530000003" green="0.76499686209999995" blue="0.0" alpha="0.74991612350000003" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -585,6 +617,28 @@
                                     <action selector="btnNext:" destination="Xet-Hv-AJk" eventType="touchUpInside" id="6jr-a8-gAi"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="toothed" translatesAutoresizingMaskIntoConstraints="NO" id="uwY-qV-a13">
+                                <rect key="frame" x="240" y="312" width="81" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Toothed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N7p-yy-NuW">
+                                <rect key="frame" x="248" y="526" width="73" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Simple" translatesAutoresizingMaskIntoConstraints="NO" id="SwO-U8-9I7">
+                                <rect key="frame" x="52" y="312" width="84" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Smooth" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Er1-99-sI8">
+                                <rect key="frame" x="58" y="527" width="78" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -595,7 +649,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9A1-lN-yV3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2748" y="-1239"/>
+            <point key="canvasLocation" x="3959.1999999999998" y="-3522.1889055472266"/>
         </scene>
         <!--AlternateVNV View Controller-->
         <scene sceneID="SAe-h6-kyV">
@@ -609,15 +663,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Is it a vine or not a vine?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4EQ-7O-0py">
-                                <rect key="frame" x="95" y="116" width="184" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Is it a vine or not a vine?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4EQ-7O-0py">
+                                <rect key="frame" x="16" y="72" width="343" height="194"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cmc-4r-EG3" customClass="DLRadioButton">
-                                <rect key="frame" x="283" y="484" width="30" height="30"/>
+                                <rect key="frame" x="279" y="445" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="radioButton_Unselected"/>
                                 <userDefinedRuntimeAttributes>
@@ -629,7 +683,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yXj-y4-CrD" customClass="DLRadioButton">
-                                <rect key="frame" x="78" y="484" width="30" height="30"/>
+                                <rect key="frame" x="79" y="445" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="radioButton_Unselected"/>
                                 <userDefinedRuntimeAttributes>
@@ -641,7 +695,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kcs-ez-lpx">
-                                <rect key="frame" x="16" y="566" width="343" height="42"/>
+                                <rect key="frame" x="0.0" y="587" width="375" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.069268281530000003" green="0.76499686209999995" blue="0.0" alpha="0.74991612350000003" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -651,14 +705,20 @@
                                     <action selector="btnNext:" destination="Q1b-Hk-v7b" eventType="touchUpInside" id="fxs-xj-ahz"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b1h-FI-zGQ">
-                                <rect key="frame" x="16" y="617" width="343" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Not a vine" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t9w-ay-nba">
+                                <rect key="frame" x="256" y="499" width="90" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.069268281530000003" green="0.76499686209999995" blue="0.0" alpha="0.74991612350000003" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="View all current palnts"/>
-                            </button>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vine" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hYl-JV-cb9">
+                                <rect key="frame" x="72" y="499" width="44" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -671,7 +731,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9fK-5a-A7b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1945" y="-2306"/>
+            <point key="canvasLocation" x="2217" y="-4281"/>
         </scene>
         <!--NotA VineSSCTL View Controller-->
         <scene sceneID="2nn-Tc-al2">
@@ -685,15 +745,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Are the leaf edges smooth, scalloped, toothed, or lobed?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X9j-Xl-cZ8">
-                                <rect key="frame" x="54" y="116" width="267" height="67"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Are the leaf edges smooth, scalloped, toothed, or lobed?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X9j-Xl-cZ8">
+                                <rect key="frame" x="16" y="72" width="343" height="194"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ncW-wE-bqm" customClass="DLRadioButton">
-                                <rect key="frame" x="54" y="463" width="30" height="30"/>
+                                <rect key="frame" x="27" y="451" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="radioButton_Unselected"/>
                                 <userDefinedRuntimeAttributes>
@@ -707,7 +767,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LAs-Fr-wh5" customClass="DLRadioButton">
-                                <rect key="frame" x="129" y="463" width="30" height="30"/>
+                                <rect key="frame" x="116" y="451" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="radioButton_Unselected"/>
                                 <userDefinedRuntimeAttributes>
@@ -721,7 +781,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mRf-hY-twj" customClass="DLRadioButton">
-                                <rect key="frame" x="207" y="463" width="30" height="30"/>
+                                <rect key="frame" x="214" y="451" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="radioButton_Unselected"/>
                                 <userDefinedRuntimeAttributes>
@@ -734,8 +794,27 @@
                                     <outletCollection property="otherButtons" destination="cti-6A-uML" id="0mW-7a-R0a"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X4h-UC-xbO">
+                                <rect key="frame" x="0.0" y="587" width="375" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.069268281530000003" green="0.76499686209999995" blue="0.0" alpha="0.74991612350000003" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="btnNext:" destination="0PC-nW-Lmw" eventType="touchUpInside" id="KLF-fE-JGn"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Simple" translatesAutoresizingMaskIntoConstraints="NO" id="5fp-xa-nz0">
+                                <rect key="frame" x="0.0" y="284" width="84" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Scalloped" translatesAutoresizingMaskIntoConstraints="NO" id="5uv-O1-Htx">
+                                <rect key="frame" x="89" y="284" width="84" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cti-6A-uML" customClass="DLRadioButton">
-                                <rect key="frame" x="291" y="463" width="30" height="30"/>
+                                <rect key="frame" x="306" y="451" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="radioButton_Unselected"/>
                                 <userDefinedRuntimeAttributes>
@@ -748,17 +827,42 @@
                                     <outletCollection property="otherButtons" destination="ncW-wE-bqm" id="Bw4-CN-3sS"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X4h-UC-xbO">
-                                <rect key="frame" x="16" y="565" width="343" height="42"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="toothed" translatesAutoresizingMaskIntoConstraints="NO" id="oan-rI-6DA">
+                                <rect key="frame" x="189" y="284" width="81" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.069268281530000003" green="0.76499686209999995" blue="0.0" alpha="0.74991612350000003" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Next"/>
-                                <connections>
-                                    <action selector="btnNext:" destination="0PC-nW-Lmw" eventType="touchUpInside" id="KLF-fE-JGn"/>
-                                </connections>
-                            </button>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lobed" translatesAutoresizingMaskIntoConstraints="NO" id="Efr-zv-Xxj">
+                                <rect key="frame" x="281" y="289" width="81" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Smooth" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aLT-6N-z8C">
+                                <rect key="frame" x="12" y="501" width="72" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Scalloped" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AA2-W3-3cI">
+                                <rect key="frame" x="93" y="501" width="96" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lobed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y4h-lN-6bi">
+                                <rect key="frame" x="297" y="500" width="62" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Toothed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rch-r7-GR0">
+                                <rect key="frame" x="197" y="501" width="73" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -772,7 +876,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u2U-Sd-a2f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2748" y="-2307"/>
+            <point key="canvasLocation" x="3020" y="-4282"/>
         </scene>
         <!--ToothedSM2L2 View Controller-->
         <scene sceneID="iNx-oG-ON5">
@@ -786,15 +890,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Are the leaves mostly smaller than 2&quot; in length or larger than 2&quot; in length?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TXZ-To-90Y">
-                                <rect key="frame" x="55" y="116" width="267" height="81"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Are the leaves mostly smaller than 2&quot; in length or larger than 2&quot; in length?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TXZ-To-90Y">
+                                <rect key="frame" x="16" y="72" width="343" height="194"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jRx-Nn-mfO" customClass="DLRadioButton">
-                                <rect key="frame" x="55" y="408" width="30" height="30"/>
+                                <rect key="frame" x="74" y="451" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="radioButton_Unselected"/>
                                 <userDefinedRuntimeAttributes>
@@ -806,7 +910,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X52-L4-BdY" customClass="DLRadioButton">
-                                <rect key="frame" x="292" y="408" width="30" height="30"/>
+                                <rect key="frame" x="256" y="451" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="radioButton_Unselected"/>
                                 <userDefinedRuntimeAttributes>
@@ -818,7 +922,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gcf-9c-mXg">
-                                <rect key="frame" x="17" y="510" width="343" height="42"/>
+                                <rect key="frame" x="0.0" y="587" width="375" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.069268281530000003" green="0.76499686209999995" blue="0.0" alpha="0.74991612350000003" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -828,6 +932,20 @@
                                     <action selector="btnNext:" destination="vnB-ac-6iF" eventType="touchUpInside" id="r3e-IC-n66"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Smaller than 2 inches" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RLl-97-uE4">
+                                <rect key="frame" x="38" y="495" width="108" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Larger than 2 inches" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ddr-lp-ktr">
+                                <rect key="frame" x="222" y="494" width="105" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -838,7 +956,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xMU-um-8nG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3590" y="-2308"/>
+            <point key="canvasLocation" x="3809" y="-4282"/>
         </scene>
         <!--Final Plant View Controller-->
         <scene sceneID="gbP-TU-bpI">
@@ -871,7 +989,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RQL-OS-iwS">
                                                     <rect key="frame" x="165" y="53" width="202" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -893,7 +1011,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p3H-A7-yr4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5416.8000000000002" y="-514.09295352323841"/>
+            <point key="canvasLocation" x="4892" y="-3521.2893553223389"/>
         </scene>
         <!--Final Detail View Controller-->
         <scene sceneID="Shr-SQ-9Xv">
@@ -910,14 +1028,14 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mdh-UT-ngU">
                                 <rect key="frame" x="0.0" y="72" width="375" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ark-r0-hne">
                                 <rect key="frame" x="0.0" y="443" width="375" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -925,13 +1043,11 @@
                                 <rect key="frame" x="0.0" y="146" width="375" height="267"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tm5-eI-43p">
-                                <rect key="frame" x="16" y="638" width="343" height="21"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CpT-J1-TyO">
+                                <rect key="frame" x="316" y="20" width="41" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <state key="normal" title="Home"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -939,12 +1055,11 @@
                         <outlet property="plantDescriptionLabel" destination="ark-r0-hne" id="Kbj-2e-vkR"/>
                         <outlet property="plantImageView" destination="DYZ-H0-qVr" id="MFh-Uq-zww"/>
                         <outlet property="plantNameLabel" destination="mdh-UT-ngU" id="Kc5-DO-VMj"/>
-                        <outlet property="plantURLLabel" destination="Tm5-eI-43p" id="zie-x1-0V7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UrN-4h-gh8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6327" y="-514"/>
+            <point key="canvasLocation" x="5804" y="-3522.1889055472266"/>
         </scene>
         <!--Web View Controller-->
         <scene sceneID="Vw0-Rp-cac">
@@ -958,46 +1073,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3H8-qv-Hpj">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3H8-qv-Hpj">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZdK-Nw-3e7">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                                <items>
-                                    <navigationItem title="Wild Basin" id="SzX-EO-DqA">
-                                        <barButtonItem key="leftBarButtonItem" image="back" id="LeG-es-gqG">
-                                            <connections>
-                                                <segue destination="BYZ-38-t0r" kind="modal" id="Ela-0X-CId"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="ZdK-Nw-3e7" firstAttribute="top" secondItem="wmv-Wk-Qsa" secondAttribute="bottom" id="2cj-Qz-nX8"/>
-                            <constraint firstItem="ZdK-Nw-3e7" firstAttribute="leading" secondItem="3H8-qv-Hpj" secondAttribute="leading" id="K8q-ch-5Xa"/>
-                            <constraint firstItem="3H8-qv-Hpj" firstAttribute="bottom" secondItem="FvK-TP-U00" secondAttribute="top" id="hA8-TV-BUG"/>
-                            <constraint firstAttribute="trailing" secondItem="ZdK-Nw-3e7" secondAttribute="trailing" id="mJw-PE-0El"/>
-                            <constraint firstItem="3H8-qv-Hpj" firstAttribute="top" secondItem="ZdK-Nw-3e7" secondAttribute="bottom" id="nOM-76-Vgd"/>
-                            <constraint firstItem="ZdK-Nw-3e7" firstAttribute="trailing" secondItem="3H8-qv-Hpj" secondAttribute="trailing" id="rtg-fj-Y7r"/>
-                            <constraint firstItem="ZdK-Nw-3e7" firstAttribute="leading" secondItem="Ord-dV-bWx" secondAttribute="leading" id="ub6-2N-2XO"/>
-                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="DI9-z9-fhC"/>
                     <connections>
                         <outlet property="webView" destination="3H8-qv-Hpj" id="rOr-bE-4f3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mhm-Xd-oXb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="454" y="251"/>
+            <point key="canvasLocation" x="981.60000000000002" y="-1394.7526236881561"/>
         </scene>
         <!--Compound View Controller-->
         <scene sceneID="P4X-pW-xkF">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZTv-hb-x35" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="compound" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Dy1-xa-dx7" customClass="CompoundViewController" customModule="WildBasinPlantDichotomy" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1B0-Km-N9C"/>
@@ -1008,14 +1103,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Are the leaves palmate, pinnate, or double pinnate?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xPg-8g-nBF">
-                                <rect key="frame" x="16" y="116" width="343" height="60"/>
+                                <rect key="frame" x="0.0" y="72" width="372.5" height="194"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cpe-bz-ZYE" customClass="DLRadioButton">
-                                <rect key="frame" x="172" y="502" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cpe-bz-ZYE" customClass="DLRadioButton">
+                                <rect key="frame" x="172" y="446" width="28.5" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="radioButton_Unselected"/>
                                 <userDefinedRuntimeAttributes>
@@ -1027,8 +1122,8 @@
                                     <outletCollection property="otherButtons" destination="xk4-kU-BZR" id="lAW-nT-Qhw"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xk4-kU-BZR" customClass="DLRadioButton">
-                                <rect key="frame" x="329" y="502" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xk4-kU-BZR" customClass="DLRadioButton">
+                                <rect key="frame" x="284.5" y="446" width="32.5" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="radioButton_Unselected"/>
                                 <userDefinedRuntimeAttributes>
@@ -1041,7 +1136,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UV5-gF-SK1">
-                                <rect key="frame" x="0.0" y="583" width="375" height="42"/>
+                                <rect key="frame" x="0.0" y="587" width="375" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.069268281530000003" green="0.76499686209999995" blue="0.0" alpha="0.74991612350000003" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -1052,19 +1147,8 @@
                                     <action selector="btnNext:" destination="Dy1-xa-dx7" eventType="touchUpInside" id="gNY-T8-3bG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V3z-KO-41X">
-                                <rect key="frame" x="0.0" y="625" width="375" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.069268281530000003" green="0.76499686209999995" blue="0.0" alpha="0.74991612350000003" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="View All Plants"/>
-                                <connections>
-                                    <action selector="btnNext:" destination="0V8-U7-62K" eventType="touchUpInside" id="dMo-zU-HWE"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tjY-Xq-cG3" customClass="DLRadioButton">
-                                <rect key="frame" x="16" y="502" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tjY-Xq-cG3" customClass="DLRadioButton">
+                                <rect key="frame" x="52" y="446" width="31" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="radioButton_Unselected"/>
                                 <userDefinedRuntimeAttributes>
@@ -1076,6 +1160,27 @@
                                     <outletCollection property="otherButtons" destination="xk4-kU-BZR" id="ITi-62-3tH"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Palmate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wIw-Ky-0Ck">
+                                <rect key="frame" x="29" y="496" width="76" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Double Pinnate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0KD-IZ-Eb9">
+                                <rect key="frame" x="234" y="496" width="132" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pinnate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pg0-LV-Nb8">
+                                <rect key="frame" x="150" y="496" width="73" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -1083,11 +1188,12 @@
                         <outlet property="btn1" destination="tjY-Xq-cG3" id="pT8-Ah-QkP"/>
                         <outlet property="btn2" destination="Cpe-bz-ZYE" id="Z3r-wX-CVh"/>
                         <outlet property="btn3" destination="xk4-kU-BZR" id="4k5-CZ-5Yo"/>
-                        <segue destination="XbJ-4T-7uT" kind="show" identifier="pinnateSegue" id="hu1-Me-rDo"/>
+                        <segue destination="XbJ-4T-7uT" kind="show" identifier="pinnateSegue" animates="NO" id="hu1-Me-rDo"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZTv-hb-x35" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1519" y="940"/>
+            <point key="canvasLocation" x="3156" y="-2736.88155922039"/>
         </scene>
         <!--Pinnate View Controller-->
         <scene sceneID="q1H-xN-eP3">
@@ -1101,15 +1207,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Does the plant have 3 leaflets, between 4 and 10 leaflets, or more than 10 leaflets?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lu8-VT-1DB">
-                                <rect key="frame" x="16" y="116" width="343" height="60"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Does the plant have 3 leaflets, between 4 and 10 leaflets, or more than 10 leaflets?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lu8-VT-1DB">
+                                <rect key="frame" x="16" y="72" width="343" height="194"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jsd-yv-HcE">
-                                <rect key="frame" x="0.0" y="583" width="375" height="42"/>
+                                <rect key="frame" x="0.0" y="587" width="375" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.069268281530000003" green="0.76499686209999995" blue="0.0" alpha="0.74991612350000003" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -1120,32 +1226,8 @@
                                     <action selector="btnNext:" destination="XbJ-4T-7uT" eventType="touchUpInside" id="z5x-zP-Y9G"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5FQ-LW-caE">
-                                <rect key="frame" x="0.0" y="625" width="375" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.069268281530000003" green="0.76499686209999995" blue="0.0" alpha="0.74991612350000003" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="View All Plants"/>
-                                <connections>
-                                    <action selector="btnNext:" destination="0V8-U7-62K" eventType="touchUpInside" id="Y4O-TQ-OkL"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lTg-y6-W1I" customClass="DLRadioButton">
-                                <rect key="frame" x="16" y="502" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="radioButton_Unselected"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="image" keyPath="icon" value="radioButton_Unselected"/>
-                                    <userDefinedRuntimeAttribute type="image" keyPath="iconSelected" value="radioButton_Selected"/>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <outletCollection property="otherButtons" destination="ZyE-qI-7Np" id="wCw-7i-LKd"/>
-                                    <outletCollection property="otherButtons" destination="42l-6E-2Li" id="you-uO-xU8"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZyE-qI-7Np" customClass="DLRadioButton">
-                                <rect key="frame" x="172" y="502" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZyE-qI-7Np" customClass="DLRadioButton">
+                                <rect key="frame" x="172" y="456" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="radioButton_Unselected"/>
                                 <userDefinedRuntimeAttributes>
@@ -1157,8 +1239,8 @@
                                     <outletCollection property="otherButtons" destination="42l-6E-2Li" id="Xyn-jO-inX"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="42l-6E-2Li" customClass="DLRadioButton">
-                                <rect key="frame" x="329" y="502" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="42l-6E-2Li" customClass="DLRadioButton">
+                                <rect key="frame" x="284" y="456" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="radioButton_Unselected"/>
                                 <userDefinedRuntimeAttributes>
@@ -1170,6 +1252,40 @@
                                     <outletCollection property="otherButtons" destination="ZyE-qI-7Np" id="bpD-DS-KHJ"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4-10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g8g-1a-7fh">
+                                <rect key="frame" x="163" y="507" width="49" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6M0-MG-uIT">
+                                <rect key="frame" x="70" y="507" width="11" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="More than 10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rLH-Wu-Cx7">
+                                <rect key="frame" x="239" y="507" width="120" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lTg-y6-W1I" customClass="DLRadioButton">
+                                <rect key="frame" x="60" y="456" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="radioButton_Unselected"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="icon" value="radioButton_Unselected"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="iconSelected" value="radioButton_Selected"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="otherButtons" destination="ZyE-qI-7Np" id="wCw-7i-LKd"/>
+                                    <outletCollection property="otherButtons" destination="42l-6E-2Li" id="you-uO-xU8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -1177,12 +1293,12 @@
                         <outlet property="btn1" destination="lTg-y6-W1I" id="wq3-e7-6mV"/>
                         <outlet property="btn2" destination="ZyE-qI-7Np" id="kdE-fT-J7x"/>
                         <outlet property="btn3" destination="42l-6E-2Li" id="seQ-vh-oGf"/>
-                        <segue destination="tmX-Cr-Fzr" kind="show" identifier="greaterThan10LeafletsSegue" id="AqB-v8-EKP"/>
+                        <segue destination="tmX-Cr-Fzr" kind="show" identifier="greaterThan10LeafletsSegue" animates="NO" id="AqB-v8-EKP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q69-ER-gfV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2385" y="940"/>
+            <point key="canvasLocation" x="3959.1999999999998" y="-2738.6806596701649"/>
         </scene>
         <!--Greater Than10 View Controller-->
         <scene sceneID="vS4-4h-vbo">
@@ -1197,14 +1313,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Are the leaflets less than 1/2 inch wide or greater than 1/2 inch wide?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0cb-nm-ONJ">
-                                <rect key="frame" x="16" y="116" width="343" height="60"/>
+                                <rect key="frame" x="16" y="72" width="343" height="194"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TwA-oR-kuB">
-                                <rect key="frame" x="0.0" y="583" width="375" height="42"/>
+                                <rect key="frame" x="0.0" y="587" width="375" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.069268281530000003" green="0.76499686209999995" blue="0.0" alpha="0.74991612350000003" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -1215,19 +1331,8 @@
                                     <action selector="btnNext:" destination="tmX-Cr-Fzr" eventType="touchUpInside" id="8Fu-Fh-KDj"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MPh-If-S51">
-                                <rect key="frame" x="0.0" y="625" width="375" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.069268281530000003" green="0.76499686209999995" blue="0.0" alpha="0.74991612350000003" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="View All Plants"/>
-                                <connections>
-                                    <action selector="btnNext:" destination="0V8-U7-62K" eventType="touchUpInside" id="pGJ-7h-JV0"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SdR-LJ-3CB" customClass="DLRadioButton">
-                                <rect key="frame" x="16" y="502" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SdR-LJ-3CB" customClass="DLRadioButton">
+                                <rect key="frame" x="87" y="444" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="radioButton_Unselected"/>
                                 <userDefinedRuntimeAttributes>
@@ -1238,8 +1343,22 @@
                                     <outletCollection property="otherButtons" destination="nfj-pl-OsL" id="ExS-6K-zdC"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nfj-pl-OsL" customClass="DLRadioButton">
-                                <rect key="frame" x="329" y="502" width="30" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Less than 1/2 inch wide" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fKS-Ve-4IU">
+                                <rect key="frame" x="39" y="496" width="134" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Greater than 1/2 inch wide" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CTx-T6-WW6">
+                                <rect key="frame" x="228" y="496" width="131" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nfj-pl-OsL" customClass="DLRadioButton">
+                                <rect key="frame" x="278" y="444" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="radioButton_Unselected"/>
                                 <userDefinedRuntimeAttributes>
@@ -1260,36 +1379,57 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9k1-O7-suj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3250" y="940"/>
+            <point key="canvasLocation" x="4892" y="-2738.6806596701649"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="o3X-ov-o8O">
+        <scene sceneID="hHX-L0-hNr">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ivc-oX-kcN" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Zee-O1-aHq" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="aGk-5V-bS3">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="nn1-by-yLf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="gab-q0-cIe" kind="relationship" relationship="rootViewController" id="uih-He-fZi"/>
+                        <segue destination="IrT-Ua-wZ0" kind="relationship" relationship="rootViewController" id="76j-PH-N4X"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Cw4-rE-sOj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zgU-5f-9CU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="374" y="-514"/>
+            <point key="canvasLocation" x="41" y="-2159"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="9KC-es-YUq">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uhF-vf-6xm" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="oja-pN-lQG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="eeu-E3-9go" kind="relationship" relationship="rootViewController" id="kQl-4Y-O6T"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cAi-nv-WGP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="40.799999999999997" y="-1395.6521739130435"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Alternate" width="886" height="806"/>
+        <image name="Compound" width="1006" height="628"/>
+        <image name="Lobed" width="946" height="734"/>
+        <image name="Opposite" width="902" height="730"/>
+        <image name="Scalloped" width="420" height="694"/>
+        <image name="Simple" width="278" height="550"/>
         <image name="Texas" width="796" height="759"/>
         <image name="WildBasinLogo" width="213" height="87"/>
-        <image name="back" width="35" height="35"/>
+        <image name="nav_icon" width="54" height="54"/>
         <image name="radioButton_Selected" width="128" height="128"/>
         <image name="radioButton_Unselected" width="128" height="128"/>
+        <image name="toothed" width="428" height="656"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="Ela-0X-CId"/>
-        <segue reference="Jjy-bm-0dm"/>
-    </inferredMetricsTieBreakers>
 </document>
