@@ -33,6 +33,7 @@
 		33E11ABE1EF45F91002EBD72 /* ToothedSM2L2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E11ABD1EF45F91002EBD72 /* ToothedSM2L2ViewController.swift */; };
 		33E11AC21EF4625A002EBD72 /* NotAVineSMTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E11AC11EF4625A002EBD72 /* NotAVineSMTViewController.swift */; };
 		33E11AC41EF462FC002EBD72 /* OppositeVNVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E11AC31EF462FC002EBD72 /* OppositeVNVViewController.swift */; };
+		33F8BCE61F3B970C00A0548D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F8BCE51F3B970C00A0548D /* MapViewController.swift */; };
 		500D5C9B1EFDF9FF00BCF939 /* CompoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500D5C9A1EFDF9FF00BCF939 /* CompoundViewController.swift */; };
 		500D5C9D1EFDFA3400BCF939 /* PinnateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500D5C9C1EFDFA3400BCF939 /* PinnateViewController.swift */; };
 		500D5C9F1EFDFA5400BCF939 /* GreaterThan10ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500D5C9E1EFDFA5400BCF939 /* GreaterThan10ViewController.swift */; };
@@ -92,6 +93,7 @@
 		33E11ABD1EF45F91002EBD72 /* ToothedSM2L2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToothedSM2L2ViewController.swift; sourceTree = "<group>"; };
 		33E11AC11EF4625A002EBD72 /* NotAVineSMTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotAVineSMTViewController.swift; sourceTree = "<group>"; };
 		33E11AC31EF462FC002EBD72 /* OppositeVNVViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OppositeVNVViewController.swift; sourceTree = "<group>"; };
+		33F8BCE51F3B970C00A0548D /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		500D5C9A1EFDF9FF00BCF939 /* CompoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompoundViewController.swift; sourceTree = "<group>"; };
 		500D5C9C1EFDFA3400BCF939 /* PinnateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinnateViewController.swift; sourceTree = "<group>"; };
 		500D5C9E1EFDFA5400BCF939 /* GreaterThan10ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreaterThan10ViewController.swift; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 				33A519CE1EFF5DF00082801B /* FinalDetailViewController.swift */,
 				331A186A1ECE1B3F001F485A /* AppDelegate.swift */,
 				331A186E1ECE1B3F001F485A /* Main.storyboard */,
+				33F8BCE51F3B970C00A0548D /* MapViewController.swift */,
 				33E11AB61EF45EE0002EBD72 /* Simple */,
 				33E11ABF1EF45FBF002EBD72 /* View All Plants */,
 				33E11AC01EF45FD5002EBD72 /* Plants */,
@@ -565,6 +568,7 @@
 				500D5C9B1EFDF9FF00BCF939 /* CompoundViewController.swift in Sources */,
 				33E11AB01EF44D64002EBD72 /* AllPlantsViewController.swift in Sources */,
 				331A18731ECE1B3F001F485A /* WildBasinPlantDichotomy.xcdatamodeld in Sources */,
+				33F8BCE61F3B970C00A0548D /* MapViewController.swift in Sources */,
 				33E11ABA1EF45F60002EBD72 /* AlternateVNVViewController.swift in Sources */,
 				33E11ABC1EF45F7E002EBD72 /* NotAVineSSCTLViewController.swift in Sources */,
 				331A186B1ECE1B3F001F485A /* AppDelegate.swift in Sources */,
