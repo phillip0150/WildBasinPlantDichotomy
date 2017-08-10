@@ -11,6 +11,7 @@ import UIKit
 class FinalDetailViewController: UIViewController
 {
     var plant: Plant?
+    var plantCode: Int?
     
     var plantURL:String = ""
     
@@ -26,6 +27,13 @@ class FinalDetailViewController: UIViewController
         setUI()
         
         
+    }
+    
+    @IBAction func navButtonBack(_ sender: Any)
+    {
+        let myVC = storyboard?.instantiateViewController(withIdentifier: "final") as! FinalPlantViewController
+        myVC.plantCode = plantCode
+        navigationController?.pushViewController(myVC, animated: true)
     }
     
     func setUI()

@@ -126,7 +126,7 @@ class FinalPlantViewController: UIViewController, UITableViewDelegate,UITableVie
         {
             let destVC = segue.destination as! FinalDetailViewController
             destVC.plant = sender as? Plant
-            //destVC.plantURL = "www.google.com"
+            destVC.plantCode = plantCode
         }
     }
     
