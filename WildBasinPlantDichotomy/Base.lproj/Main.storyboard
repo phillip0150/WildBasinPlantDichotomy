@@ -1149,11 +1149,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="hcH-ty-OdG">
-                        <barButtonItem key="leftBarButtonItem" title="&lt;Back" id="Ia5-bZ-aIa">
-                            <connections>
-                                <action selector="navButtonBack:" destination="YYZ-by-I7a" id="VI9-9u-DaR"/>
-                            </connections>
-                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Home" id="5I2-3R-lRJ">
                             <connections>
                                 <segue destination="IrT-Ua-wZ0" kind="show" id="jAa-jG-K7U"/>
@@ -1163,7 +1158,6 @@
                     <connections>
                         <outlet property="plantDescriptionLabel" destination="ark-r0-hne" id="Kbj-2e-vkR"/>
                         <outlet property="plantImageView" destination="DYZ-H0-qVr" id="MFh-Uq-zww"/>
-                        <outlet property="plantName" destination="hcH-ty-OdG" id="Meq-R8-0Um"/>
                         <outlet property="plantNameLabel" destination="mdh-UT-ngU" id="Kc5-DO-VMj"/>
                     </connections>
                 </viewController>
@@ -1544,6 +1538,6 @@
         <image name="toothed" width="428" height="656"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="u1k-lj-GXR"/>
+        <segue reference="jAa-jG-K7U"/>
     </inferredMetricsTieBreakers>
 </document>

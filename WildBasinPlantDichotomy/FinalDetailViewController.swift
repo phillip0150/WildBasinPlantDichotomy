@@ -20,23 +20,29 @@ class FinalDetailViewController: UIViewController
     @IBOutlet weak var plantImageView: UIImageView!
     @IBOutlet weak var plantDescriptionLabel: UILabel!
     @IBOutlet weak var plantURLLabel: UILabel!
-    @IBOutlet weak var plantName: UINavigationItem!
+
     
 
     override func viewDidLoad()
     {
         super.viewDidLoad()
+        self.navigationItem.hidesBackButton = true
+        let newBackButton = UIBarButtonItem(title: "Back", style: UIBarButtonItemStyle.plain, target: self, action: #selector(FinalDetailViewController.back(sender:)))
+        self.navigationItem.leftBarButtonItem = newBackButton
+        
         setUI()
         
         
     }
     
-    @IBAction func navButtonBack(_ sender: Any)
-    {
+    
+    func back(sender: UIBarButtonItem) {
         let myVC = storyboard?.instantiateViewController(withIdentifier: "final") as! FinalPlantViewController
         myVC.plantCode = plantCode
         navigationController?.pushViewController(myVC, animated: true)
+        
     }
+    
     
     func setUI()
     {
@@ -46,9 +52,7 @@ class FinalDetailViewController: UIViewController
         
         
         //plantURLLabel.text = plantURL
-        
-        
-        
+    
         
     }
     
