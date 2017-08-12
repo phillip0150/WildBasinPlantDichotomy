@@ -20,6 +20,8 @@ class FinalDetailViewController: UIViewController
     @IBOutlet weak var plantImageView: UIImageView!
     @IBOutlet weak var plantDescriptionLabel: UILabel!
     @IBOutlet weak var plantURLLabel: UILabel!
+    @IBOutlet weak var plantName: UINavigationItem!
+    
 
     override func viewDidLoad()
     {
@@ -41,6 +43,8 @@ class FinalDetailViewController: UIViewController
         plantImageView.image = plant?.image
         plantNameLabel.text = plant?.name
         plantDescriptionLabel.text = plant?.description
+        
+        
         //plantURLLabel.text = plantURL
         
         
