@@ -40,7 +40,7 @@
                     <navigationItem key="navigationItem" id="0XL-gL-lMO">
                         <barButtonItem key="leftBarButtonItem" image="back" id="uJD-e1-K4w">
                             <connections>
-                                <segue destination="qXF-bb-UFl" kind="presentation" id="sCE-qF-4Hn"/>
+                                <segue destination="IrT-Ua-wZ0" kind="presentation" id="pRU-0i-wBy"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -1523,6 +1523,6 @@
         <image name="toothed" width="428" height="656"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="sCE-qF-4Hn"/>
+        <segue reference="pRU-0i-wBy"/>
     </inferredMetricsTieBreakers>
 </document>
