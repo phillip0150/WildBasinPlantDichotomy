@@ -34,5 +34,12 @@ class SideBarViewController: UIViewController {
             view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         }
     }
+    @IBAction func ViewAllPlants(_ sender: Any)
+    {
+        let myVC = storyboard?.instantiateViewController(withIdentifier: "final") as! FinalPlantViewController
+        myVC.plantCode = 16
+        navigationController?.pushViewController(myVC, animated: true)
+        
+    }
     
 }

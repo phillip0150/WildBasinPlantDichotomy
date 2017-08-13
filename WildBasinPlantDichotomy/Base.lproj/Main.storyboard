@@ -216,7 +216,7 @@
                                 <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
                                 <state key="normal" title="View All 87 Woody Plants"/>
                                 <connections>
-                                    <segue destination="Ej9-2r-wqi" kind="show" id="i9s-Hh-lIv"/>
+                                    <action selector="ViewAllPlants:" destination="IrT-Ua-wZ0" eventType="touchUpInside" id="hiN-kZ-71j"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Texas" translatesAutoresizingMaskIntoConstraints="NO" id="J3n-fc-cHw">
@@ -1113,7 +1113,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IHK-5k-O3K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5854" y="-4394"/>
+            <point key="canvasLocation" x="5969" y="-4400"/>
         </scene>
         <!--Title-->
         <scene sceneID="Shr-SQ-9Xv">
@@ -1530,6 +1530,6 @@
         <image name="toothed" width="428" height="656"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="jAa-jG-K7U"/>
+        <segue reference="pRU-0i-wBy"/>
     </inferredMetricsTieBreakers>
 </document>
