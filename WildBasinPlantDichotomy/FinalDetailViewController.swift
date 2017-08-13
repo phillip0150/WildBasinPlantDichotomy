@@ -16,7 +16,7 @@ class FinalDetailViewController: UIViewController
     var plantURL:String = ""
     
     
-    @IBOutlet weak var plantNameLabel: UILabel!
+//   @IBOutlet weak var plantNameLabel: UILabel!
     @IBOutlet weak var plantImageView: UIImageView!
     @IBOutlet weak var plantDescriptionLabel: UILabel!
     @IBOutlet weak var plantURLLabel: UILabel!
@@ -47,8 +47,9 @@ class FinalDetailViewController: UIViewController
     func setUI()
     {
         plantImageView.image = plant?.image
-        plantNameLabel.text = plant?.name
+//        plantNameLabel.text = plant?.name
         plantDescriptionLabel.text = plant?.description
+        self.title = plant?.name
         
         
         //plantURLLabel.text = plantURL
