@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vI9-0q-H7t">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vI9-0q-H7t">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -37,13 +37,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="0XL-gL-lMO">
-                        <barButtonItem key="leftBarButtonItem" image="back" id="uJD-e1-K4w">
-                            <connections>
-                                <segue destination="IrT-Ua-wZ0" kind="presentation" id="pRU-0i-wBy"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="0XL-gL-lMO"/>
                     <connections>
                         <outlet property="mapImage" destination="ZR3-cz-Gi7" id="V87-0t-eip"/>
                         <outlet property="mapScroll" destination="y6u-AK-vqG" id="h0H-88-Ty1"/>
@@ -641,7 +635,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cKr-qi-fbi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3156" y="-3521.2893553223389"/>
+            <point key="canvasLocation" x="2217" y="-3522"/>
         </scene>
         <!--NotA VineSMT View Controller-->
         <scene sceneID="Oow-z1-1bS">
@@ -729,7 +723,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9A1-lN-yV3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3959.1999999999998" y="-3522.1889055472266"/>
+            <point key="canvasLocation" x="3020" y="-3522"/>
         </scene>
         <!--AlternateVNV View Controller-->
         <scene sceneID="SAe-h6-kyV">
@@ -1066,12 +1060,13 @@
                                                     <rect key="frame" x="8" y="8" width="149" height="110"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RQL-OS-iwS">
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RQL-OS-iwS">
                                                     <rect key="frame" x="165" y="53" width="202" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
+                                                    <size key="shadowOffset" width="0.0" height="6"/>
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -1097,7 +1092,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p3H-A7-yr4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5969" y="-3522"/>
+            <point key="canvasLocation" x="4695" y="-3522"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="22B-9y-Ibz">
@@ -1113,7 +1108,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IHK-5k-O3K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5969" y="-4400"/>
+            <point key="canvasLocation" x="4694" y="-4282"/>
         </scene>
         <!--Title-->
         <scene sceneID="Shr-SQ-9Xv">
@@ -1155,7 +1150,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UrN-4h-gh8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7166" y="-3522"/>
+            <point key="canvasLocation" x="5542" y="-3522"/>
         </scene>
         <!--Web View Controller-->
         <scene sceneID="Vw0-Rp-cac">
@@ -1177,7 +1172,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="DI9-z9-fhC"/>
+                    <navigationItem key="navigationItem" id="DI9-z9-fhC">
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="RMQ-rV-ugs"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="webView" destination="3H8-qv-Hpj" id="rOr-bE-4f3"/>
                     </connections>
@@ -1289,7 +1286,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZTv-hb-x35" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3156" y="-2736.88155922039"/>
+            <point key="canvasLocation" x="2217" y="-2739"/>
         </scene>
         <!--Pinnate View Controller-->
         <scene sceneID="q1H-xN-eP3">
@@ -1394,7 +1391,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q69-ER-gfV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3959.1999999999998" y="-2738.6806596701649"/>
+            <point key="canvasLocation" x="3020" y="-2740"/>
         </scene>
         <!--Greater Than10 View Controller-->
         <scene sceneID="vS4-4h-vbo">
@@ -1475,7 +1472,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9k1-O7-suj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4892" y="-2738.6806596701649"/>
+            <point key="canvasLocation" x="3809" y="-2740"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hHX-L0-hNr">
@@ -1524,12 +1521,11 @@
         <image name="Texas" width="796" height="759"/>
         <image name="TrailMap" width="1275" height="1650"/>
         <image name="Wild Basin Mountain Logo" width="1616" height="639"/>
-        <image name="back" width="35" height="35"/>
         <image name="radioButton_Selected" width="128" height="128"/>
         <image name="radioButton_Unselected" width="128" height="128"/>
         <image name="toothed" width="428" height="656"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="pRU-0i-wBy"/>
+        <segue reference="u1k-lj-GXR"/>
     </inferredMetricsTieBreakers>
 </document>
