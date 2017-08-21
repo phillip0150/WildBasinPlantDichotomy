@@ -166,15 +166,15 @@ class Plant
         var plants = [Plant]()
         
         //Create a plant object
-        plants.append(Plant(name: "Texas Madrone", description: "", image: #imageLiteral(resourceName: "Texas Madrone"), url: ""))
+        plants.append(Plant(name: "Texas Madrone", description: "The flowers are bell-shaped, white or pale pink. The fruit is a rough-surfaced edible red berry containing numerous small seeds.", image: #imageLiteral(resourceName: "Texas Madrone"), url: ""))
         
-        plants.append(Plant(name: "Deciduous Yaupon", description: "", image: #imageLiteral(resourceName: "Yaupon"), url: ""))
+        plants.append(Plant(name: "Deciduous Yaupon", description: "This plant can be found on limestone glades and bluffs, along streams in wet woods, and in lowland valleys, sloughs and swamps.", image: #imageLiteral(resourceName: "Yaupon"), url: ""))
 
-        plants.append(Plant(name: "Yaupon", description: "", image: #imageLiteral(resourceName: "Yaupon"), url: ""))
+        plants.append(Plant(name: "Yaupon", description: "Caffeine can be extracted from this plant for use in teas and coffees.", image: #imageLiteral(resourceName: "Yaupon"), url: ""))
         
-        plants.append(Plant(name: "Mouse-ears", description: "", image: #imageLiteral(resourceName: "Mouse-ears"), url: ""))
+        plants.append(Plant(name: "Mouse-ears", description: "The fruit is a roughly rounded woolly capsule with three prominent chambers.", image: #imageLiteral(resourceName: "Mouse-ears"), url: ""))
         
-        plants.append(Plant(name: "Redbud", description: "", image: #imageLiteral(resourceName: "Redbud"), url: ""))
+        plants.append(Plant(name: "Redbud", description: "Known as 'Eastern redbud.' This plant is a deciduous, often multi-trunked understory tree with a rounded crown slightly larger than its spread. It is particularly noted for its stunning pea-like rose-purple flowers.", image: #imageLiteral(resourceName: "Redbud"), url: ""))
 
 
     
@@ -188,17 +188,17 @@ class Plant
         var plants = [Plant]()
         
         //Create a plant object
-        plants.append(Plant(name: "Snakewood", description: "", image: #imageLiteral(resourceName: "Snakewood"), url: ""))
+        plants.append(Plant(name: "Snakewood", description: "It grows on gravelly and rocky slopes widespread around texas.It is very drought tolerant, grows best in full sun and poor soil with little organic matter.", image: #imageLiteral(resourceName: "Snakewood"), url: ""))
         
-        plants.append(Plant(name: "Bush Croton", description: "", image: #imageLiteral(resourceName: "Bush Croton"), url: ""))
+        plants.append(Plant(name: "Bush Croton", description: "This plant is attractive to bees, butterflies and/or birds and it is drought-tolerant.", image: #imageLiteral(resourceName: "Bush Croton"), url: ""))
         
-        plants.append(Plant(name: "Mouse-ears", description: "", image: #imageLiteral(resourceName: "Mouse-ears"), url: ""))
+        plants.append(Plant(name: "Mouse-ears", description: "The fruit is a roughly rounded woolly capsule with three prominent chambers.", image: #imageLiteral(resourceName: "Mouse-ears"), url: ""))
 
         plants.append(Plant(name: "Ceanothus", description: "", image: #imageLiteral(resourceName: "Ceanothus"), url: ""))
 
         plants.append(Plant(name: "Payonia", description: "", image: #imageLiteral(resourceName: "Paysonia"), url: ""))
 
-        plants.append(Plant(name: "Cedar Elm", description: "", image: #imageLiteral(resourceName: "Cedar Elm"), url: ""))
+        plants.append(Plant(name: "Cedar Elm", description: "The tree typically grows well in flat valley bottom areas referred to as 'Cedar Elm Flats'. The common name 'cedar elm' is derived from the trees' association with juniper trees, locally known as cedars.", image: #imageLiteral(resourceName: "Cedar Elm"), url: ""))
 
         plants.append(Plant(name: "Netleaf Hackberry", description: "", image: #imageLiteral(resourceName: "Netleaf Hackberry"), url: ""))
 
@@ -214,21 +214,21 @@ class Plant
         var plants = [Plant]()
         
         //Create a plant object
-        plants.append(Plant(name: "Live Oak", description: "", image: #imageLiteral(resourceName: "Live Oak"), url: ""))
+        plants.append(Plant(name: "Live Oak", description: "Live oaks got their name from the characteristics they acquire which is evergreen oaks remain green and alive throughout winter, when other oaks are dormant and leafless.", image: #imageLiteral(resourceName: "Live Oak"), url: ""))
         
-        plants.append(Plant(name: "Black Willow", description: "", image: #imageLiteral(resourceName: "Black Willow"), url: ""))
+        plants.append(Plant(name: "Black Willow", description: "Black Willow is very resistant to herbivory and flooding and is used as erosion control tool.", image: #imageLiteral(resourceName: "Black Willow"), url: ""))
 
         plants.append(Plant(name: "Poverty Weed", description: "", image: #imageLiteral(resourceName: "Poverty Weed"), url: ""))
 
-        plants.append(Plant(name: "Sugar Hackberry", description: "", image: #imageLiteral(resourceName: "Sugar Hackberry"), url: ""))
+        plants.append(Plant(name: "Sugar Hackberry", description: "Female flowers give way to an often abundant fruit crop of round fleshy berry-like drupes maturing to deep purple which is favored by many species.", image: #imageLiteral(resourceName: "Sugar Hackberry"), url: ""))
 
-        plants.append(Plant(name: "American Elm", description: "", image: #imageLiteral(resourceName: "American Elm"), url: ""))
+        plants.append(Plant(name: "American Elm", description: "The American elm is an extremely hardy tree that can withstand winter temperatures as low as −42 °C .Trees in areas unaffected by Dutch elm disease can live for several hundred years.", image: #imageLiteral(resourceName: "American Elm"), url: ""))
 
-        plants.append(Plant(name: "Black Cherry & Creek Plum", description: "", image: #imageLiteral(resourceName: "Creek Plum"), url: ""))
+        plants.append(Plant(name: "Black Cherry & Creek Plum", description: "Looks like burnt corn flakes in fall season.", image: #imageLiteral(resourceName: "Creek Plum"), url: ""))
 
-        plants.append(Plant(name: "Texas Mulberry", description: "", image: #imageLiteral(resourceName: "Texas Mulberry"), url: ""))
+        plants.append(Plant(name: "Texas Mulberry", description: "Texas mulberry is usually found growing on thin limestone soils, although it grows equally as well on igneous soils.", image: #imageLiteral(resourceName: "Texas Mulberry"), url: ""))
 
-        plants.append(Plant(name: "Mexican Plum", description: "", image: #imageLiteral(resourceName: "Mexican Plum"), url: ""))
+        plants.append(Plant(name: "Mexican Plum", description: "It grows in full sun, usually in deep rich soils of river bottoms, open woods, fencerows and well-drained prairies.", image: #imageLiteral(resourceName: "Mexican Plum"), url: ""))
 
         
         //Return the array to the caller
@@ -241,15 +241,15 @@ class Plant
         var plants = [Plant]()
         
         //Create a plant object
-        plants.append(Plant(name: "Fig", description: "", image: #imageLiteral(resourceName: "Creek Plum"), url: ""))
+        plants.append(Plant(name: "Fig", description: "It requires full sun and well-drained soil. it doesn’t require as much fertilization. It self-pollinates.", image: #imageLiteral(resourceName: "Creek Plum"), url: ""))
         
-        plants.append(Plant(name: "Sycamore", description: "", image: #imageLiteral(resourceName: "Sycamore"), url: ""))
+        plants.append(Plant(name: "Sycamore", description: "Largest trees has plucky stalk and large, spreading branches that creates an oval or round, spreading crown.", image: #imageLiteral(resourceName: "Sycamore"), url: ""))
 
-        plants.append(Plant(name: "Texas Oak", description: "", image: #imageLiteral(resourceName: "Texas Oak"), url: ""))
+        plants.append(Plant(name: "Texas Oak", description: "These trees produce 'fungal mats' under the tree where certain insects feed; in addition it triggers insects that can infect new trees where the firewood has been moved.", image: #imageLiteral(resourceName: "Texas Oak"), url: ""))
 
-        plants.append(Plant(name: "White Shin Oak", description: "", image: #imageLiteral(resourceName: "White Shin Oak"), url: ""))
+        plants.append(Plant(name: "White Shin Oak", description: "It forms thickets when it occurs in lighter soils or when its roots have been disturbed.The pale gray, shaggy bark on older trees is a striking feature. The bark distinguishes it from Lacey Oak, whose size and leaf form is similar.", image: #imageLiteral(resourceName: "White Shin Oak"), url: ""))
 
-        plants.append(Plant(name: "Texas Mulberry", description: "", image: #imageLiteral(resourceName: "Texas Mulberry"), url: ""))
+        plants.append(Plant(name: "Texas Mulberry", description: "Texas mulberry is usually found growing on thin limestone soils, although it grows equally as well on igneous soils.", image: #imageLiteral(resourceName: "Texas Mulberry"), url: ""))
         
         //Return the array to the caller
         return plants
@@ -261,11 +261,11 @@ class Plant
         var plants = [Plant]()
         
         //Create a plant object
-        plants.append(Plant(name: "Coral Honeysuckle", description: "", image: #imageLiteral(resourceName: "Coral Honeysuckle"), url: ""))
+        plants.append(Plant(name: "Coral Honeysuckle", description: "The flowers are produced on new growth in clusters of several groups of three together, with five small lobes opening at the tip to expose the stamens and stigma. Ruby-throated hummingbirds and insects pollinate the bright red to pinkish-red flowers from mid-spring to fall.", image: #imageLiteral(resourceName: "Coral Honeysuckle"), url: ""))
         
-        plants.append(Plant(name: "White Honeysuckle", description: "", image: #imageLiteral(resourceName: "White Honeysuckle"), url: ""))
+        plants.append(Plant(name: "White Honeysuckle", description: "White honeysuckle is a good choice for hot, rocky places, but requires some additional water if grown in full sun to prevent the leaf margins from scorching.", image: #imageLiteral(resourceName: "White Honeysuckle"), url: ""))
         
-        plants.append(Plant(name: "Japanese Honeysuckle", description: "", image: #imageLiteral(resourceName: "Japanese Honeysuckle"), url: ""))
+        plants.append(Plant(name: "Japanese Honeysuckle", description: "The flowers are double-tongued, opening white and fading to yellow, and sweetly vanilla scented. The fruit is a black spherical berry containing a few seeds.", image: #imageLiteral(resourceName: "Japanese Honeysuckle"), url: ""))
 
         
         //Return the array to the caller
@@ -278,13 +278,13 @@ class Plant
         var plants = [Plant]()
         
         //Create a plant object
-        plants.append(Plant(name: "Button Bush", description: "", image: #imageLiteral(resourceName: "Buttonbush"), url: ""))
+        plants.append(Plant(name: "Button Bush", description: "C. occidentalis has a number of historical medicinal uses, but it is also toxic due to the presence of cephalathin. It is also considered a plant of the coffee family.", image: #imageLiteral(resourceName: "Buttonbush"), url: ""))
         
-        plants.append(Plant(name: "Roughleaf Dogwood", description: "", image: #imageLiteral(resourceName: "Roughleaf Dogwood"), url: ""))
+        plants.append(Plant(name: "Roughleaf Dogwood", description: "It produces off-white four-petaled open flowers that are followed by small white fruits. These dogwoods can form a dense thicket that is used as a hedge, border or cover for wildlife.", image: #imageLiteral(resourceName: "Roughleaf Dogwood"), url: ""))
         
-        plants.append(Plant(name: "Silktassel", description: "", image: #imageLiteral(resourceName: "Silktassel"), url: ""))
+        plants.append(Plant(name: "Silktassel", description: "Fast growing leathery green leaf, is an attractive native evergreen shrub that can be substituted for the many ill-adapted exotic plants used in landscaping.", image: #imageLiteral(resourceName: "Silktassel"), url: ""))
         
-        plants.append(Plant(name: "Privet", description: "", image: #imageLiteral(resourceName: "Privet"), url: ""))
+        plants.append(Plant(name: "Privet", description: "It cannot be used for sustainability. It has medium tolerance to CaCo3 (Calcium Carbonate). It requires moist and grows in summer.", image: #imageLiteral(resourceName: "Privet"), url: ""))
         
         //Return the array to the caller
         return plants
@@ -296,17 +296,17 @@ class Plant
         var plants = [Plant]()
         
         //Create a plant object
-        plants.append(Plant(name: "Elbow Bush", description: "", image: #imageLiteral(resourceName: "Elbow Bush"), url: ""))
+        plants.append(Plant(name: "Elbow Bush", description: "It is known as tanglewood, or devil's elbow.", image: #imageLiteral(resourceName: "Elbow Bush"), url: ""))
         
-        plants.append(Plant(name: "Viburnum", description: "", image: #imageLiteral(resourceName: "Viburnum"), url: ""))
+        plants.append(Plant(name: "Viburnum", description: "Know as rusty blackhaw .The naming is derived from petioles are 'rusty hairy' with grooves and sometimes wings. Leaf margins are dent.Autumn leaf colors are bronze to red.", image: #imageLiteral(resourceName: "Viburnum"), url: ""))
         
-        plants.append(Plant(name: "Shrubby Boneset", description: "", image: #imageLiteral(resourceName: "Shrubby Boneset"), url: ""))
+        plants.append(Plant(name: "Shrubby Boneset", description: "Known for white mistflower.", image: #imageLiteral(resourceName: "Shrubby Boneset"), url: ""))
         
-        plants.append(Plant(name: "Wand Butterfly Bush", description: "", image: #imageLiteral(resourceName: "Wand Butterfly bush"), url: ""))
+        plants.append(Plant(name: "Wand Butterfly Bush", description: "This plant is spread around the southern edge of the limestone Edwards Plateau in Texas, United States, from Austin to Rocksprings, growing near streams, creeks and springs.", image: #imageLiteral(resourceName: "Wand Butterfly bush"), url: ""))
         
-        plants.append(Plant(name: "Texas Lantana", description: "", image: #imageLiteral(resourceName: "Texas Lantana"), url: ""))
+        plants.append(Plant(name: "Texas Lantana", description: "It is a low, spreading shrub with rough and aromatic leaves. It develops best in poor, sandy, rough soils in hot, dry areas, in full sun or light shade.it does not die back, its stems should be cut back after cold and periodically during the growing season, both to keep it compressed and because it flowers on new wood.", image: #imageLiteral(resourceName: "Texas Lantana"), url: ""))
         
-        plants.append(Plant(name: "American Beautyberry", description: "", image: #imageLiteral(resourceName: "American Beautyberry"), url: ""))
+        plants.append(Plant(name: "American Beautyberry", description: "Can be consumed by humans (sweet taste) but in small quantities because it can cause severe rash.", image: #imageLiteral(resourceName: "American Beautyberry"), url: ""))
         
         //Return the array to the caller
         return plants
@@ -316,13 +316,13 @@ class Plant
     {
         var plants = [Plant]()
         
-        plants.append(Plant(name: "Red Buckeye", description: "", image: #imageLiteral(resourceName: "Red Buckeye"), url: "www.google.com"))
+        plants.append(Plant(name: "Red Buckeye", description: "The flowers are attractive to hummingbirds as well as bees. The fruits are rich in saponins, which are poisonous to humans, although not particularly dangerous because they are not ingested easily. The oils can be extracted to make soap.", image: #imageLiteral(resourceName: "Red Buckeye"), url: "www.google.com"))
         
-        plants.append(Plant(name: "Lavender Chaste-Tree", description: "", image: #imageLiteral(resourceName: "Lavender Chaste-tree"), url: "www.google.com"))
+        plants.append(Plant(name: "Lavender Chaste-Tree", description: "Lavender Lady Chaste Tree has panicles of lightly-scented lavender flowers rising above the foliage.It has grayish green foliage with silver undersides throughout the season.", image: #imageLiteral(resourceName: "Lavender Chaste-tree"), url: "www.google.com"))
         
-        plants.append(Plant(name: "Virginia Creeper", description: "", image: #imageLiteral(resourceName: "Virginia Creeper"), url: "www.google.com"))
+        plants.append(Plant(name: "Virginia Creeper", description: "It climbs smooth surfaces using small forked tendrils tipped with small strongly adhesive pads.", image: #imageLiteral(resourceName: "Virginia Creeper"), url: "www.google.com"))
         
-        plants.append(Plant(name: "Seven-Leaf Creeper", description: "", image: #imageLiteral(resourceName: "Seven-leaf creeper"), url: "www.google.com"))
+        plants.append(Plant(name: "Seven-Leaf Creeper", description: "Parthenocissus species are used as food plants by the larvae of insects.", image: #imageLiteral(resourceName: "Seven-leaf creeper"), url: "www.google.com"))
         
         return plants
     }
@@ -331,13 +331,13 @@ class Plant
     {
         var plants = [Plant]()
         
-        plants.append(Plant(name: "Honey Mesquite", description: "", image: #imageLiteral(resourceName: "Honey Mesquite"), url: "www.google.com"))
+        plants.append(Plant(name: "Honey Mesquite", description: "Mesquite restores nitrogen to the soil. Its woody stem is used in different industries.", image: #imageLiteral(resourceName: "Honey Mesquite"), url: "www.google.com"))
         
-        plants.append(Plant(name: "Cat's Claw", description: "", image: #imageLiteral(resourceName: "Cat's Claw"), url: "www.google.com"))
+        plants.append(Plant(name: "Cat's Claw", description: "The plant is fire tolerant and sprouts readily after bushfires.", image: #imageLiteral(resourceName: "Cat's Claw"), url: "www.google.com"))
         
-        plants.append(Plant(name: "Pink Mimosa", description: "", image: #imageLiteral(resourceName: "Pink Mimosa"), url: "www.google.com"))
+        plants.append(Plant(name: "Pink Mimosa", description: "This plant reacts rapidly if it was touched, the leaves open and close reacting to light.", image: #imageLiteral(resourceName: "Pink Mimosa"), url: "www.google.com"))
         
-        plants.append(Plant(name: "Chinaberry", description: "", image: #imageLiteral(resourceName: "Chinaberry"), url: "www.google.com"))
+        plants.append(Plant(name: "Chinaberry", description: "Crushed leaves of chinaberry emit unpleasant aroma. During its blooming season it has dark brown or purple reddish bark .it reacts to climate change in winter the flowers turn into white color.", image: #imageLiteral(resourceName: "Chinaberry"), url: "www.google.com"))
         
         return plants
     }
@@ -346,17 +346,17 @@ class Plant
     {
         var plants = [Plant]()
         
-        plants.append(Plant(name: "Cow-Itch Vine", description: "", image: #imageLiteral(resourceName: "Cow Itch Vine"), url: "www.google.com"))
+        plants.append(Plant(name: "Cow-Itch Vine", description: "Requires dry to medium moisture, well-drained soils in full sun. Tolerant to drought and rocky soils.", image: #imageLiteral(resourceName: "Cow Itch Vine"), url: "www.google.com"))
         
-        plants.append(Plant(name: "Poison Ivy", description: "", image: #imageLiteral(resourceName: "Poison Ivy"), url: "www.google.com"))
+        plants.append(Plant(name: "Poison Ivy", description: " Poison ivy is a toxic plant that might cause severe rash if touched by humans. The interesting facet about it is that it looks like a hand.", image: #imageLiteral(resourceName: "Poison Ivy"), url: "www.google.com"))
         
-        plants.append(Plant(name: "Wafer Ash", description: "", image: #imageLiteral(resourceName: "Wafer Ash"), url: "www.google.com"))
+        plants.append(Plant(name: "Wafer Ash", description: "The plant has thick fleshy roots, flourishes in rich, rather moist soil.", image: #imageLiteral(resourceName: "Wafer Ash"), url: "www.google.com"))
         
-        plants.append(Plant(name: "Fragrant Sumac", description: "", image: #imageLiteral(resourceName: "Fragrant Sumac"), url: "www.google.com"))
+        plants.append(Plant(name: "Fragrant Sumac", description: "The leaves and stems of fragrant sumac have a citrus fragrance when crushed.", image: #imageLiteral(resourceName: "Fragrant Sumac"), url: "www.google.com"))
         
-        plants.append(Plant(name: "Southern Dewberry", description: "", image: #imageLiteral(resourceName: "Southern Dewberry"), url: "www.google.com"))
+        plants.append(Plant(name: "Southern Dewberry", description: "The plant attracts butterflies and bees. It grows so fast and reach long distances.", image: #imageLiteral(resourceName: "Southern Dewberry"), url: "www.google.com"))
         
-        plants.append(Plant(name: "Agarita", description: "", image: #imageLiteral(resourceName: "Agarita"), url: "www.google.com"))
+        plants.append(Plant(name: "Agarita", description: "Songbirds eat the fruits, and quail and small mammals use the plant for cover. It is considered a good honey source.", image: #imageLiteral(resourceName: "Agarita"), url: "www.google.com"))
         
             return plants
     }
@@ -365,19 +365,19 @@ class Plant
     {
         var plants = [Plant]()
         
-        plants.append(Plant(name: "Southern Dewberry", description: "", image: #imageLiteral(resourceName: "Southern Dewberry"), url: "www.google.com"))
+        plants.append(Plant(name: "Southern Dewberry", description: "The plant attracts butterflies and bees. It grows so fast and reach long distances.", image: #imageLiteral(resourceName: "Southern Dewberry"), url: "www.google.com"))
         
-        plants.append(Plant(name: "Peppervine", description: "", image: #imageLiteral(resourceName: "Peppervine"), url: "www.google.com"))
+        plants.append(Plant(name: "Peppervine", description: "It is used as an ornamental plant in gardens.", image: #imageLiteral(resourceName: "Peppervine"), url: "www.google.com"))
         
-        plants.append(Plant(name: "Mexican Buckeye", description: "", image: #imageLiteral(resourceName: "Mexican Buckeye"), url: "www.google.com"))
+        plants.append(Plant(name: "Mexican Buckeye", description: "Its pink flowers bloom simultaneously as it leafs out with light bronze colored leaflets which turn pale green during the growing season.", image: #imageLiteral(resourceName: "Mexican Buckeye"), url: "www.google.com"))
         
-        plants.append(Plant(name: "Mountain Laurel", description: "", image: #imageLiteral(resourceName: "Mountain Laurel"), url: "www.google.com"))
+        plants.append(Plant(name: "Mountain Laurel", description: "It is a popular ornamental plant due to its showy flowers and orange seeds.This plant does not contain any mescaline, however; all parts of it are highly poisonous.", image: #imageLiteral(resourceName: "Mountain Laurel"), url: "www.google.com"))
         
-        plants.append(Plant(name: "Evergreen Sumac", description: "", image: #imageLiteral(resourceName: "Evergreen Sumac"), url: "www.google.com"))
+        plants.append(Plant(name: "Evergreen Sumac", description: "This plant has leathery dark green compound leaves which may be tinged with maroon or yellow in cold weather. Also it is used to extract tobacco for smoking. It was also used as a remedy for asthma.", image: #imageLiteral(resourceName: "Evergreen Sumac"), url: "www.google.com"))
         
-        plants.append(Plant(name: "Box Elder", description: "", image: #imageLiteral(resourceName: "Box Elder"), url: "www.google.com"))
+        plants.append(Plant(name: "Box Elder", description: "This plant is a good source of wood fiber.", image: #imageLiteral(resourceName: "Box Elder"), url: "www.google.com"))
         
-        plants.append(Plant(name: "Red/Texas Ash", description: "", image: #imageLiteral(resourceName: "Red Texas Ash"), url: "www.google.com"))
+        plants.append(Plant(name: "Red/Texas Ash", description: "It is very popular. This plant is used in making electric guitars because it can be used to create a light guitar with desirable tone. It has a bright sound with long sustainability. In addition the wood grain is aesthetically pleasing to many guitar players.", image: #imageLiteral(resourceName: "Red Texas Ash"), url: "www.google.com"))
         
         return plants
     }
@@ -386,15 +386,15 @@ class Plant
     {
         var plants = [Plant]()
         
-        plants.append(Plant(name: "Black Dalea", description: "", image: #imageLiteral(resourceName: "Black Dalea"), url: "www.google.com"))
+        plants.append(Plant(name: "Black Dalea", description: "It is an excellent low maintenance groundcover, useful for erosion control on rocky slopes, or in areas of reflected heat.", image: #imageLiteral(resourceName: "Black Dalea"), url: "www.google.com"))
         
-        plants.append(Plant(name: "Texas Kidneywood", description: "", image: #imageLiteral(resourceName: "Texas Kidneywood"), url: "www.google.com"))
+        plants.append(Plant(name: "Texas Kidneywood", description: "The leaves have a tangerine scent when crushed. Its flowers are very attractive to bees and butterflies, as the whole plant is to deer. Range: south Texas, more often in the northern portions.", image: #imageLiteral(resourceName: "Texas Kidneywood"), url: "www.google.com"))
         
-        plants.append(Plant(name: "Retama", description: "", image: #imageLiteral(resourceName: "Retama"), url: "www.google.com"))
+        plants.append(Plant(name: "Retama", description: "The flowers are pollinated by bees. The fruit is a seedpod, leathery in appearance, light brown when mature. Branches are armed with needle-sharp spines.", image: #imageLiteral(resourceName: "Retama"), url: "www.google.com"))
         
-        plants.append(Plant(name: "Indigo Bush", description: "", image: #imageLiteral(resourceName: "Indigo Bush"), url: "www.google.com"))
+        plants.append(Plant(name: "Indigo Bush", description: "It has purple pea-like flowers on short spikes which are not noticeable from a distance but are attractive up close.", image: #imageLiteral(resourceName: "Indigo Bush"), url: "www.google.com"))
         
-        plants.append(Plant(name: "Eve's Necklace", description: "", image: #imageLiteral(resourceName: "Eve’s necklace"), url: "www.google.com"))
+        plants.append(Plant(name: "Eve's Necklace", description: "Found on limestone slopes, in valley bottoms, and on soils underlain with limestone in upland situations. Seeds are said to be poisonous.", image: #imageLiteral(resourceName: "Eve’s necklace"), url: "www.google.com"))
         
        
 
@@ -406,17 +406,17 @@ class Plant
     {
         var plants = [Plant]()
         
-        plants.append(Plant(name: "Lindheimer Senna", description: "", image: #imageLiteral(resourceName: "Lindheimer senna"), url: "www.google.com"))
+        plants.append(Plant(name: "Lindheimer Senna", description: "It is known to be a strong laxative when the leaves are brewed into a tea. It can also be toxic if eaten by livestock and the symptoms are diarrhea, weakness, dark urine, and death.", image: #imageLiteral(resourceName: "Lindheimer senna"), url: "www.google.com"))
         
-        plants.append(Plant(name: "Flameleaf Sumac", description: "", image: #imageLiteral(resourceName: "Flameleaf Sumac"), url: "www.google.com"))
+        plants.append(Plant(name: "Flameleaf Sumac", description: "It is extremely heat and drought tolerant.", image: #imageLiteral(resourceName: "Flameleaf Sumac"), url: "www.google.com"))
         
-        plants.append(Plant(name: "Soapberry", description: "", image: #imageLiteral(resourceName: "Soapberry"), url: "www.google.com"))
+        plants.append(Plant(name: "Soapberry", description: "Tolerates high pH (acidity) soils and sandy/rocky soils. Self-pollinates in optimum growing conditions.", image: #imageLiteral(resourceName: "Soapberry"), url: "www.google.com"))
         
-        plants.append(Plant(name: "Walnuts", description: "", image: #imageLiteral(resourceName: "Walnuts"), url: "www.google.com"))
+        plants.append(Plant(name: "Walnuts", description: "Microcarpa means 'having small fruit.'", image: #imageLiteral(resourceName: "Walnuts"), url: "www.google.com"))
         
-        plants.append(Plant(name: "Pecans", description: "", image: #imageLiteral(resourceName: "Pecan"), url: "www.google.com"))
+        plants.append(Plant(name: "Pecans", description: "Pecans can be used to create a wonderful pie. Also, the pecan tree is the official state tree of Texas.", image: #imageLiteral(resourceName: "Pecan"), url: "www.google.com"))
         
-        plants.append(Plant(name: "Toothache Tree", description: "", image: #imageLiteral(resourceName: "Toothache Tree"), url: "www.google.com"))
+        plants.append(Plant(name: "Toothache Tree", description: "The leaves are very aromatic. Chewing the bark or leaves  helps to reduce toothache pain. The plant derives its common name from this application of its leaves.", image: #imageLiteral(resourceName: "Toothache Tree"), url: "www.google.com"))
         
         return plants
     }
