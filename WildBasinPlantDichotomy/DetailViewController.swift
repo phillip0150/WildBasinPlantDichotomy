@@ -12,6 +12,7 @@ class DetailViewController: UIViewController
 {
 
     @IBOutlet weak var plantImageView: UIImageView!
+    @IBOutlet weak var otherPlantImageView: UIImageView!
     @IBOutlet weak var plantNameLabel: UILabel!
     @IBOutlet weak var plantDescriptionLabel: UILabel!
     
@@ -44,7 +45,7 @@ class DetailViewController: UIViewController
         if segue.identifier == "MasterToWeb"
         {
             
-            let plant = Plant(name: plantNameLabel.text!, description: plantDescriptionLabel.text!, image: plantImageView.image!, url: plantURL)
+            let plant = Plant(name: plantNameLabel.text!, description: plantDescriptionLabel.text!, image: plantImageView.image!, otherimage: otherPlantImageView.image!,  url: plantURL)
             let destVC = segue.destination as! AllPlantsWebViewController
             destVC.plant = plant
             
