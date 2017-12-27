@@ -24,15 +24,8 @@ class PlantIDViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBar.isHidden = false;
 
-        
-        lbl1.layer.borderWidth = 0.5
-        lbl1.layer.borderColor = UIColor.green.cgColor
-        
-
-        
-
-        
     }
     
     @IBAction func btnNext(_ sender: Any)

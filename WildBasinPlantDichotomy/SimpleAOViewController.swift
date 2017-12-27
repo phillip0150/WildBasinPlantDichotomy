@@ -19,13 +19,8 @@ class SimpleAOViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-        lbl1.layer.borderWidth = 0.5
-        lbl1.layer.borderColor = UIColor.green.cgColor
-        
-        
-        
+        self.navigationController?.navigationBar.isHidden = false;
+
         
         
     }

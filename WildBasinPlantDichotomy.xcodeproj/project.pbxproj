@@ -16,7 +16,6 @@
 		331A18831ECE1B3F001F485A /* WildBasinPlantDichotomyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331A18821ECE1B3F001F485A /* WildBasinPlantDichotomyTests.swift */; };
 		331A188E1ECE1B3F001F485A /* WildBasinPlantDichotomyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331A188D1ECE1B3F001F485A /* WildBasinPlantDichotomyUITests.swift */; };
 		336290061F0C46F100FFDC7E /* SideBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336290051F0C46F100FFDC7E /* SideBarViewController.swift */; };
-		3362900A1F0C46FE00FFDC7E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 336290091F0C46FE00FFDC7E /* SWRevealViewController.m */; };
 		336B2EA31ED6138F003D81C5 /* PlantIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336B2EA21ED6138F003D81C5 /* PlantIDViewController.swift */; };
 		33A519CB1EFF5CE50082801B /* FinalPlantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A519CA1EFF5CE50082801B /* FinalPlantViewController.swift */; };
 		33A519CD1EFF5CE50082801B /* FinalPlantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A519CA1EFF5CE50082801B /* FinalPlantViewController.swift */; };
@@ -24,9 +23,6 @@
 		33A519D11EFF5DF00082801B /* FinalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A519CE1EFF5DF00082801B /* FinalDetailViewController.swift */; };
 		33E11AA91EF44D47002EBD72 /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E11AA81EF44D47002EBD72 /* Plant.swift */; };
 		33E11AAB1EF44D4E002EBD72 /* PlantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E11AAA1EF44D4E002EBD72 /* PlantCell.swift */; };
-		33E11AAD1EF44D5D002EBD72 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E11AAC1EF44D5D002EBD72 /* DetailViewController.swift */; };
-		33E11AB01EF44D64002EBD72 /* AllPlantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E11AAE1EF44D64002EBD72 /* AllPlantsViewController.swift */; };
-		33E11AB11EF44D64002EBD72 /* AllPlantsWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E11AAF1EF44D64002EBD72 /* AllPlantsWebViewController.swift */; };
 		33E11AB81EF45F48002EBD72 /* SimpleAOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E11AB71EF45F48002EBD72 /* SimpleAOViewController.swift */; };
 		33E11ABA1EF45F60002EBD72 /* AlternateVNVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E11AB91EF45F60002EBD72 /* AlternateVNVViewController.swift */; };
 		33E11ABC1EF45F7E002EBD72 /* NotAVineSSCTLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E11ABB1EF45F7E002EBD72 /* NotAVineSSCTLViewController.swift */; };
@@ -76,17 +72,12 @@
 		331A188D1ECE1B3F001F485A /* WildBasinPlantDichotomyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WildBasinPlantDichotomyUITests.swift; sourceTree = "<group>"; };
 		331A188F1ECE1B3F001F485A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		336290051F0C46F100FFDC7E /* SideBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarViewController.swift; sourceTree = "<group>"; };
-		336290071F0C46FE00FFDC7E /* WildBasinPlantDichotomy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WildBasinPlantDichotomy-Bridging-Header.h"; sourceTree = "<group>"; };
-		336290081F0C46FE00FFDC7E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
-		336290091F0C46FE00FFDC7E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		336B2EA21ED6138F003D81C5 /* PlantIDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantIDViewController.swift; sourceTree = "<group>"; };
+		33718E781FF31DD400C20AB3 /* WildBasinPlantDichotomy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WildBasinPlantDichotomy-Bridging-Header.h"; sourceTree = "<group>"; };
 		33A519CA1EFF5CE50082801B /* FinalPlantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalPlantViewController.swift; sourceTree = "<group>"; };
 		33A519CE1EFF5DF00082801B /* FinalDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalDetailViewController.swift; sourceTree = "<group>"; };
 		33E11AA81EF44D47002EBD72 /* Plant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
 		33E11AAA1EF44D4E002EBD72 /* PlantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantCell.swift; sourceTree = "<group>"; };
-		33E11AAC1EF44D5D002EBD72 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		33E11AAE1EF44D64002EBD72 /* AllPlantsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllPlantsViewController.swift; sourceTree = "<group>"; };
-		33E11AAF1EF44D64002EBD72 /* AllPlantsWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllPlantsWebViewController.swift; sourceTree = "<group>"; };
 		33E11AB71EF45F48002EBD72 /* SimpleAOViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleAOViewController.swift; sourceTree = "<group>"; };
 		33E11AB91EF45F60002EBD72 /* AlternateVNVViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlternateVNVViewController.swift; sourceTree = "<group>"; };
 		33E11ABB1EF45F7E002EBD72 /* NotAVineSSCTLViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotAVineSSCTLViewController.swift; sourceTree = "<group>"; };
@@ -97,7 +88,7 @@
 		500D5C9A1EFDF9FF00BCF939 /* CompoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompoundViewController.swift; sourceTree = "<group>"; };
 		500D5C9C1EFDFA3400BCF939 /* PinnateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinnateViewController.swift; sourceTree = "<group>"; };
 		500D5C9E1EFDFA5400BCF939 /* GreaterThan10ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreaterThan10ViewController.swift; sourceTree = "<group>"; };
-		5015A2761EE9DE1B00D7558D /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = ../WebViewController.swift; sourceTree = "<group>"; };
+		5015A2761EE9DE1B00D7558D /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		505C96691ECE238700FE4A4A /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		5228DB604B2ECFBBD66C0DBE /* Pods_WildBasinPlantDichotomyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WildBasinPlantDichotomyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C3C80F77833E77D0D2ECD4B /* Pods-WildBasinPlantDichotomy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WildBasinPlantDichotomy.release.xcconfig"; path = "Pods/Target Support Files/Pods-WildBasinPlantDichotomy/Pods-WildBasinPlantDichotomy.release.xcconfig"; sourceTree = "<group>"; };
@@ -162,17 +153,15 @@
 		331A18691ECE1B3F001F485A /* WildBasinPlantDichotomy */ = {
 			isa = PBXGroup;
 			children = (
-				336290041F0C46D900FFDC7E /* SideBarMenu */,
-				500D5C991EFDF99600BCF939 /* Compound */,
+				33718E7A1FF3268B00C20AB3 /* Menu items */,
 				336B2EA21ED6138F003D81C5 /* PlantIDViewController.swift */,
-				5015A2761EE9DE1B00D7558D /* WebViewController.swift */,
+				33718E781FF31DD400C20AB3 /* WildBasinPlantDichotomy-Bridging-Header.h */,
 				33A519CA1EFF5CE50082801B /* FinalPlantViewController.swift */,
 				33A519CE1EFF5DF00082801B /* FinalDetailViewController.swift */,
 				331A186A1ECE1B3F001F485A /* AppDelegate.swift */,
 				331A186E1ECE1B3F001F485A /* Main.storyboard */,
-				33F8BCE51F3B970C00A0548D /* MapViewController.swift */,
 				33E11AB61EF45EE0002EBD72 /* Simple */,
-				33E11ABF1EF45FBF002EBD72 /* View All Plants */,
+				500D5C991EFDF99600BCF939 /* Compound */,
 				33E11AC01EF45FD5002EBD72 /* Plants */,
 				331A18741ECE1B3F001F485A /* Assets.xcassets */,
 				331A18761ECE1B3F001F485A /* LaunchScreen.storyboard */,
@@ -200,15 +189,14 @@
 			path = WildBasinPlantDichotomyUITests;
 			sourceTree = "<group>";
 		};
-		336290041F0C46D900FFDC7E /* SideBarMenu */ = {
+		33718E7A1FF3268B00C20AB3 /* Menu items */ = {
 			isa = PBXGroup;
 			children = (
-				336290081F0C46FE00FFDC7E /* SWRevealViewController.h */,
-				336290091F0C46FE00FFDC7E /* SWRevealViewController.m */,
+				5015A2761EE9DE1B00D7558D /* WebViewController.swift */,
+				33F8BCE51F3B970C00A0548D /* MapViewController.swift */,
 				336290051F0C46F100FFDC7E /* SideBarViewController.swift */,
-				336290071F0C46FE00FFDC7E /* WildBasinPlantDichotomy-Bridging-Header.h */,
 			);
-			name = SideBarMenu;
+			path = "Menu items";
 			sourceTree = "<group>";
 		};
 		33E11AB61EF45EE0002EBD72 /* Simple */ = {
@@ -222,16 +210,6 @@
 				33E11AC31EF462FC002EBD72 /* OppositeVNVViewController.swift */,
 			);
 			name = Simple;
-			sourceTree = "<group>";
-		};
-		33E11ABF1EF45FBF002EBD72 /* View All Plants */ = {
-			isa = PBXGroup;
-			children = (
-				33E11AAC1EF44D5D002EBD72 /* DetailViewController.swift */,
-				33E11AAE1EF44D64002EBD72 /* AllPlantsViewController.swift */,
-				33E11AAF1EF44D64002EBD72 /* AllPlantsWebViewController.swift */,
-			);
-			name = "View All Plants";
 			sourceTree = "<group>";
 		};
 		33E11AC01EF45FD5002EBD72 /* Plants */ = {
@@ -563,16 +541,13 @@
 			files = (
 				33E11AB81EF45F48002EBD72 /* SimpleAOViewController.swift in Sources */,
 				33E11AC21EF4625A002EBD72 /* NotAVineSMTViewController.swift in Sources */,
-				33E11AAD1EF44D5D002EBD72 /* DetailViewController.swift in Sources */,
 				33E11ABE1EF45F91002EBD72 /* ToothedSM2L2ViewController.swift in Sources */,
 				500D5C9B1EFDF9FF00BCF939 /* CompoundViewController.swift in Sources */,
-				33E11AB01EF44D64002EBD72 /* AllPlantsViewController.swift in Sources */,
 				331A18731ECE1B3F001F485A /* WildBasinPlantDichotomy.xcdatamodeld in Sources */,
 				33F8BCE61F3B970C00A0548D /* MapViewController.swift in Sources */,
 				33E11ABA1EF45F60002EBD72 /* AlternateVNVViewController.swift in Sources */,
 				33E11ABC1EF45F7E002EBD72 /* NotAVineSSCTLViewController.swift in Sources */,
 				331A186B1ECE1B3F001F485A /* AppDelegate.swift in Sources */,
-				3362900A1F0C46FE00FFDC7E /* SWRevealViewController.m in Sources */,
 				33A519CF1EFF5DF00082801B /* FinalDetailViewController.swift in Sources */,
 				33A519CB1EFF5CE50082801B /* FinalPlantViewController.swift in Sources */,
 				33E11AC41EF462FC002EBD72 /* OppositeVNVViewController.swift in Sources */,
@@ -584,7 +559,6 @@
 				336290061F0C46F100FFDC7E /* SideBarViewController.swift in Sources */,
 				505C966A1ECE238700FE4A4A /* Node.swift in Sources */,
 				336B2EA31ED6138F003D81C5 /* PlantIDViewController.swift in Sources */,
-				33E11AB11EF44D64002EBD72 /* AllPlantsWebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

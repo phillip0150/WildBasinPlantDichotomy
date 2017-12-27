@@ -15,6 +15,7 @@ class MapViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var mapScroll: UIScrollView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBar.isHidden = false;
 
         self.mapScroll.minimumZoomScale = 1.0
         self.mapScroll.maximumZoomScale = 6.0

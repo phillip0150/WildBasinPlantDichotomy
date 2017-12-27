@@ -10,12 +10,15 @@ import UIKit
 
 class SideBarViewController: UIViewController {
 
-    @IBOutlet weak var menuBtn: UIBarButtonItem!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        sideMenu()
+    
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.navigationBar.isHidden = true;
     }
     
     override func didReceiveMemoryWarning() {
@@ -23,17 +26,7 @@ class SideBarViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func sideMenu() {
-        
-        if revealViewController() != nil {
-            menuBtn.target = revealViewController()
-            menuBtn.action = #selector(SWRevealViewController.revealToggle(_:))
-            revealViewController().rearViewRevealWidth = 275
-            
-            
-            view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
-        }
-    }
+
     @IBAction func ViewAllPlants(_ sender: Any)
     {
         let myVC = storyboard?.instantiateViewController(withIdentifier: "final") as! FinalPlantViewController
@@ -41,5 +34,5 @@ class SideBarViewController: UIViewController {
         navigationController?.pushViewController(myVC, animated: true)
         
     }
-    
+
 }

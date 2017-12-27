@@ -18,6 +18,8 @@ class FinalPlantViewController: UIViewController, UITableViewDelegate,UITableVie
 
     override func viewDidLoad()
     {
+        self.navigationController?.navigationBar.isHidden = false;
+
         //finalCode = plantCode
         
         super.viewDidLoad()

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vI9-0q-H7t">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="cHl-r2-pXM">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -45,7 +45,6 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="0XL-gL-lMO"/>
                     <connections>
                         <outlet property="mapImage" destination="ZR3-cz-Gi7" id="V87-0t-eip"/>
                         <outlet property="mapScroll" destination="y6u-AK-vqG" id="h0H-88-Ty1"/>
@@ -53,143 +52,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hAd-2L-MQg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2714.4000000000001" y="-1396.5517241379312"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="AcA-Wo-D6r">
-            <objects>
-                <navigationController id="mz8-Fd-6ru" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="LAw-4y-8mG">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="pGT-rC-JKi" kind="relationship" relationship="rootViewController" id="R3C-VC-BRo"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2Cp-YJ-kFe" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1785" y="-1395"/>
-        </scene>
-        <!--Table View Controller-->
-        <scene sceneID="RTi-pf-pNh">
-            <objects>
-                <tableViewController id="qXF-bb-UFl" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="DJq-WR-rHp">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <sections>
-                            <tableViewSection id="TSx-l7-4dh">
-                                <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="O9m-tj-otN">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="O9m-tj-otN" id="ar8-MS-Vsx">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MlG-yo-zJa">
-                                                    <rect key="frame" x="8" y="12" width="76" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="cfn-j9-h55">
-                                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cfn-j9-h55" id="Vsa-A8-BtI">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Learn More About Wild Basin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="30w-8t-rCQ">
-                                                    <rect key="frame" x="23" y="12" width="222" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="uhF-vf-6xm" kind="show" id="0RP-S1-U87"/>
-                                        </connections>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="o0g-wh-h2Q">
-                                        <rect key="frame" x="0.0" y="88" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="o0g-wh-h2Q" id="aVv-Mm-kxw">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Special Thanks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vgL-3l-SK1">
-                                                    <rect key="frame" x="23" y="12" width="116" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="vP5-sf-dTK">
-                                        <rect key="frame" x="0.0" y="132" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vP5-sf-dTK" id="qdN-SF-A53">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Map of Wild Basin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V97-9u-lMj">
-                                                    <rect key="frame" x="23" y="12" width="138" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="mz8-Fd-6ru" kind="show" id="DNP-Lc-kaI"/>
-                                        </connections>
-                                    </tableViewCell>
-                                </cells>
-                            </tableViewSection>
-                        </sections>
-                        <connections>
-                            <outlet property="dataSource" destination="qXF-bb-UFl" id="Zar-k4-yqm"/>
-                            <outlet property="delegate" destination="qXF-bb-UFl" id="nnd-BH-PyM"/>
-                        </connections>
-                    </tableView>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5nu-uu-Bps" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1026" y="-1394"/>
-        </scene>
-        <!--Reveal View Controller-->
-        <scene sceneID="Seo-dV-VWi">
-            <objects>
-                <viewController id="vI9-0q-H7t" customClass="SWRevealViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="4Ig-CT-wBb"/>
-                        <viewControllerLayoutGuide type="bottom" id="4RK-kY-1ah"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="w7E-VZ-ys5">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <connections>
-                        <segue destination="Zee-O1-aHq" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="I56-XA-6SQ"/>
-                        <segue destination="qXF-bb-UFl" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="7qU-n9-is9"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dSF-Sn-nJ0" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1026" y="-2159"/>
+            <point key="canvasLocation" x="-274" y="-1409"/>
         </scene>
         <!--Side Bar View Controller-->
         <scene sceneID="1y1-Tp-5i9">
@@ -203,231 +66,80 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aor-xi-xlP">
-                                <rect key="frame" x="89" y="489" width="197" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="gHs-hj-Utn"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aor-xi-xlP">
+                                <rect key="frame" x="89" y="440" width="197" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
                                 <state key="normal" title="Start Plant Dichotomy"/>
                                 <connections>
-                                    <segue destination="gab-q0-cIe" kind="show" id="AdS-tj-d9b"/>
+                                    <segue destination="gab-q0-cIe" kind="show" id="6m6-ua-Era"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rms-Zh-TIr">
-                                <rect key="frame" x="80" y="539" width="214" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="Y8k-vn-p4M"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rms-Zh-TIr">
+                                <rect key="frame" x="80" y="478" width="214" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
                                 <state key="normal" title="View All 87 Woody Plants"/>
                                 <connections>
                                     <action selector="ViewAllPlants:" destination="IrT-Ua-wZ0" eventType="touchUpInside" id="hiN-kZ-71j"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wild Basin Mountain Logo" translatesAutoresizingMaskIntoConstraints="NO" id="w1M-Ll-VJb">
-                                <rect key="frame" x="0.0" y="79" width="375" height="130"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="130" id="hKd-d9-vbY"/>
-                                </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Texas" translatesAutoresizingMaskIntoConstraints="NO" id="J3n-fc-cHw">
-                                <rect key="frame" x="74" y="233" width="226" height="216"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="Rms-Zh-TIr" firstAttribute="top" secondItem="aor-xi-xlP" secondAttribute="bottom" constant="20" id="1Dw-BS-v3b"/>
-                            <constraint firstItem="w1M-Ll-VJb" firstAttribute="top" secondItem="YWd-pK-1NQ" secondAttribute="bottom" constant="15" id="5VT-jr-3Ju"/>
-                            <constraint firstItem="aor-xi-xlP" firstAttribute="leading" secondItem="wkc-1L-7bc" secondAttribute="leadingMargin" constant="73" id="7Dc-zF-wDE"/>
-                            <constraint firstItem="w1M-Ll-VJb" firstAttribute="centerX" secondItem="J3n-fc-cHw" secondAttribute="centerX" id="Z97-j5-Sn2"/>
-                            <constraint firstItem="J3n-fc-cHw" firstAttribute="centerX" secondItem="aor-xi-xlP" secondAttribute="centerX" id="aJa-VP-P5f"/>
-                            <constraint firstAttribute="trailing" secondItem="w1M-Ll-VJb" secondAttribute="trailing" id="cxh-FR-M43"/>
-                            <constraint firstItem="J3n-fc-cHw" firstAttribute="leading" secondItem="wkc-1L-7bc" secondAttribute="leadingMargin" constant="58" id="hyn-Nl-CFD"/>
-                            <constraint firstItem="J3n-fc-cHw" firstAttribute="top" secondItem="w1M-Ll-VJb" secondAttribute="bottom" constant="24" id="jDt-D4-oLU"/>
-                            <constraint firstItem="73Y-N3-ifo" firstAttribute="top" secondItem="Rms-Zh-TIr" secondAttribute="bottom" constant="98" id="p9h-Va-uQn"/>
-                            <constraint firstItem="aor-xi-xlP" firstAttribute="top" secondItem="J3n-fc-cHw" secondAttribute="bottom" constant="40" id="u7b-Xk-SqR"/>
-                            <constraint firstItem="w1M-Ll-VJb" firstAttribute="leading" secondItem="wkc-1L-7bc" secondAttribute="leading" id="uTX-60-Fga"/>
-                            <constraint firstItem="aor-xi-xlP" firstAttribute="centerX" secondItem="Rms-Zh-TIr" secondAttribute="centerX" id="uZg-Zb-ulv"/>
-                            <constraint firstItem="Rms-Zh-TIr" firstAttribute="leading" secondItem="wkc-1L-7bc" secondAttribute="leadingMargin" constant="64" id="xFy-AX-pCF"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="pdj-GC-Mv9">
-                        <barButtonItem key="leftBarButtonItem" systemItem="organize" id="ssi-87-A41"/>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="menuBtn" destination="ssi-87-A41" id="NIL-nJ-Qxa"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="OPP-pa-7pW" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="982" y="-2159"/>
-        </scene>
-        <!--All Plants View Controller-->
-        <scene sceneID="Jwx-Zv-ftv">
-            <objects>
-                <viewController id="Ej9-2r-wqi" customClass="AllPlantsViewController" customModule="WildBasinPlantDichotomy" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="yIi-lE-bGY"/>
-                        <viewControllerLayoutGuide type="bottom" id="Z0J-fE-0CH"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="wk8-Xe-gtf">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="174" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="JlP-So-Cyb">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Wild Basin Mountain Logo" translatesAutoresizingMaskIntoConstraints="NO" id="w1M-Ll-VJb">
+                                <rect key="frame" x="0.0" y="64" width="375" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PlantCell" rowHeight="174" id="s7a-Bb-KTc" customClass="PlantCell" customModule="WildBasinPlantDichotomy" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="174"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="s7a-Bb-KTc" id="F00-rG-IUz">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="173.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hKd-Vh-g65">
-                                                    <rect key="frame" x="0.0" y="8" width="190" height="166"/>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LeE-1V-3YD">
-                                                    <rect key="frame" x="198" y="8" width="169" height="155"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="169" id="igz-Kp-ajH"/>
-                                                    </constraints>
-                                                    <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="hKd-Vh-g65" firstAttribute="top" secondItem="F00-rG-IUz" secondAttribute="topMargin" constant="-3" id="1q6-SR-9mf"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="hKd-Vh-g65" secondAttribute="bottom" constant="-11" id="2M8-2o-kzC"/>
-                                                <constraint firstItem="hKd-Vh-g65" firstAttribute="leading" secondItem="F00-rG-IUz" secondAttribute="leading" id="DR6-Z5-ywj"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="LeE-1V-3YD" secondAttribute="trailing" constant="-8" id="gHw-cR-uZd"/>
-                                                <constraint firstItem="LeE-1V-3YD" firstAttribute="leading" secondItem="hKd-Vh-g65" secondAttribute="trailing" constant="8" symbolic="YES" id="rNU-67-HMY"/>
-                                                <constraint firstItem="LeE-1V-3YD" firstAttribute="bottom" secondItem="F00-rG-IUz" secondAttribute="bottomMargin" id="u66-IP-jqS"/>
-                                                <constraint firstItem="hKd-Vh-g65" firstAttribute="top" secondItem="LeE-1V-3YD" secondAttribute="top" id="v3J-lN-bEK"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="cBu-SO-qI2" kind="show" identifier="MasterToDetail" id="jvp-y6-S3b"/>
-                                        </connections>
-                                    </tableViewCell>
-                                </prototypes>
-                            </tableView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="9po-6b-TJV"/>
-                    <connections>
-                        <outlet property="tableView" destination="JlP-So-Cyb" id="8X7-Ze-l4q"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gJY-7u-gxZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1026.4000000000001" y="-692.20389805097454"/>
-        </scene>
-        <!--Detail View Controller-->
-        <scene sceneID="jgp-YY-va3">
-            <objects>
-                <viewController id="cBu-SO-qI2" customClass="DetailViewController" customModule="WildBasinPlantDichotomy" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="S6Q-if-Mbh"/>
-                        <viewControllerLayoutGuide type="bottom" id="jFE-xM-OCf"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="qjq-jV-eMj">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xdO-aU-eTu">
-                                <rect key="frame" x="16" y="82" width="343" height="227"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="227" id="wH9-Nv-OzY"/>
-                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1P9-fY-eu1">
-                                <rect key="frame" x="16" y="317" width="343" height="233"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Texas" translatesAutoresizingMaskIntoConstraints="NO" id="J3n-fc-cHw">
+                                <rect key="frame" x="74" y="202" width="226" height="216"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LPJ-2t-xON">
+                                <rect key="frame" x="95" y="516" width="184" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SEV-Jh-veV">
-                                <rect key="frame" x="67" y="40" width="240" height="34"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="eOp-0K-4b8"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I2D-zz-1B3">
-                                <rect key="frame" x="138" y="617" width="98" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="5JL-vp-hrh"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
-                                <state key="normal" title="Learn More"/>
+                                <state key="normal" title="Wild Basin Trails Map"/>
                                 <connections>
-                                    <action selector="plantLearnMore:" destination="cBu-SO-qI2" eventType="touchUpInside" id="Nbf-hn-eX2"/>
-                                    <segue destination="6Co-hm-8pO" kind="show" identifier="MasterToWeb" animates="NO" id="Awx-Ha-dhb"/>
+                                    <segue destination="pGT-rC-JKi" kind="show" id="Paa-gh-8PP"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cRe-YJ-e9a">
+                                <rect key="frame" x="115" y="564" width="144" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
+                                <state key="normal" title="About Wild Basin"/>
+                                <connections>
+                                    <segue destination="eeu-E3-9go" kind="show" id="w2j-tT-AdO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F6j-w4-Rhi">
+                                <rect key="frame" x="120" y="612" width="134" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
+                                <state key="normal" title="Special Thanks"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="SEV-Jh-veV" firstAttribute="leading" secondItem="qjq-jV-eMj" secondAttribute="leadingMargin" constant="51" id="5dt-Ox-4TJ"/>
-                            <constraint firstItem="SEV-Jh-veV" firstAttribute="top" secondItem="S6Q-if-Mbh" secondAttribute="bottom" constant="20" id="F6y-dI-Bet"/>
-                            <constraint firstAttribute="bottom" secondItem="I2D-zz-1B3" secondAttribute="bottom" constant="20" symbolic="YES" id="GTy-S7-KCR"/>
-                            <constraint firstItem="1P9-fY-eu1" firstAttribute="centerX" secondItem="I2D-zz-1B3" secondAttribute="centerX" id="J3V-rv-peV"/>
-                            <constraint firstItem="1P9-fY-eu1" firstAttribute="top" secondItem="xdO-aU-eTu" secondAttribute="bottom" constant="8" symbolic="YES" id="RIv-1c-5LT"/>
-                            <constraint firstItem="SEV-Jh-veV" firstAttribute="centerX" secondItem="xdO-aU-eTu" secondAttribute="centerX" id="YeZ-9w-Ufo"/>
-                            <constraint firstItem="xdO-aU-eTu" firstAttribute="leading" secondItem="1P9-fY-eu1" secondAttribute="leading" id="eFS-kJ-CFx"/>
-                            <constraint firstItem="xdO-aU-eTu" firstAttribute="trailing" secondItem="1P9-fY-eu1" secondAttribute="trailing" id="iDq-hr-o4z"/>
-                            <constraint firstItem="I2D-zz-1B3" firstAttribute="top" secondItem="1P9-fY-eu1" secondAttribute="bottom" constant="67" id="lkF-fr-DEt"/>
-                            <constraint firstItem="xdO-aU-eTu" firstAttribute="trailing" secondItem="qjq-jV-eMj" secondAttribute="trailingMargin" id="lx9-H4-0Qn"/>
-                            <constraint firstItem="xdO-aU-eTu" firstAttribute="top" secondItem="SEV-Jh-veV" secondAttribute="bottom" constant="8" symbolic="YES" id="qtA-pB-WrK"/>
-                            <constraint firstItem="xdO-aU-eTu" firstAttribute="leading" secondItem="qjq-jV-eMj" secondAttribute="leadingMargin" id="uyQ-Ie-c7K"/>
-                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="vAo-9C-RDF"/>
-                    <connections>
-                        <outlet property="plantDescriptionLabel" destination="1P9-fY-eu1" id="hoP-5V-z9N"/>
-                        <outlet property="plantImageView" destination="xdO-aU-eTu" id="yNY-pU-sIv"/>
-                        <outlet property="plantNameLabel" destination="SEV-Jh-veV" id="jMX-r4-pfM"/>
-                    </connections>
+                    <navigationItem key="navigationItem" id="pdj-GC-Mv9"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ueB-Qv-h62" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OPP-pa-7pW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="41" y="-692"/>
+            <point key="canvasLocation" x="-273" y="-2282"/>
         </scene>
-        <!--All Plants Web View Controller-->
-        <scene sceneID="9ll-7w-kUg">
+        <!--Navigation Controller-->
+        <scene sceneID="cpd-AY-lOJ">
             <objects>
-                <viewController id="6Co-hm-8pO" customClass="AllPlantsWebViewController" customModule="WildBasinPlantDichotomy" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Pql-ZH-qJf"/>
-                        <viewControllerLayoutGuide type="bottom" id="x87-2K-r69"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Kkh-6U-bA1">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RJj-hY-wmS">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </webView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
+                <navigationController id="cHl-r2-pXM" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8de-pq-zb5">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
                     <connections>
-                        <outlet property="webView" destination="RJj-hY-wmS" id="0hN-0s-nGU"/>
+                        <segue destination="IrT-Ua-wZ0" kind="relationship" relationship="rootViewController" id="TmK-br-kVG"/>
                     </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="q3p-RF-1uk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AMd-5z-aND" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="982" y="-692"/>
+            <point key="canvasLocation" x="-1063" y="-2283"/>
         </scene>
         <!--PlantID View Controller-->
         <scene sceneID="zzY-QZ-WE8">
@@ -1405,9 +1117,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="Mc8-3G-hpA">
-                        <barButtonItem key="rightBarButtonItem" title="Home" id="g6s-1i-in0">
+                        <barButtonItem key="rightBarButtonItem" title="Home" id="Pio-G3-bUq">
                             <connections>
-                                <segue destination="IrT-Ua-wZ0" kind="show" id="u1k-lj-GXR"/>
+                                <segue destination="IrT-Ua-wZ0" kind="show" id="Hyq-4h-hYq"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -1435,7 +1147,7 @@
             </objects>
             <point key="canvasLocation" x="4694" y="-4282"/>
         </scene>
-        <!--Title-->
+        <!--Final Detail View Controller-->
         <scene sceneID="Shr-SQ-9Xv">
             <objects>
                 <viewController storyboardIdentifier="finalDetail" id="YYZ-by-I7a" customClass="FinalDetailViewController" customModule="WildBasinPlantDichotomy" customModuleProvider="target" sceneMemberID="viewController">
@@ -1471,13 +1183,6 @@
                             <constraint firstItem="h0J-4Y-e6S" firstAttribute="top" secondItem="ark-r0-hne" secondAttribute="bottom" constant="8" symbolic="YES" id="u9e-Mq-f7V"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="hcH-ty-OdG">
-                        <barButtonItem key="rightBarButtonItem" title="Home" id="5I2-3R-lRJ">
-                            <connections>
-                                <segue destination="IrT-Ua-wZ0" kind="show" id="jAa-jG-K7U"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
                     <connections>
                         <outlet property="plantDescriptionLabel" destination="ark-r0-hne" id="Kbj-2e-vkR"/>
                         <outlet property="plantImageView" destination="DYZ-H0-qVr" id="MFh-Uq-zww"/>
@@ -1500,16 +1205,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3H8-qv-Hpj">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="72" width="375" height="595"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="DI9-z9-fhC">
-                        <barButtonItem key="leftBarButtonItem" title="Item" id="RMQ-rV-ugs"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="DI9-z9-fhC"/>
                     <connections>
                         <outlet property="webView" destination="3H8-qv-Hpj" id="rOr-bE-4f3"/>
                     </connections>
@@ -1924,42 +1627,6 @@
             </objects>
             <point key="canvasLocation" x="3809" y="-2740"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="hHX-L0-hNr">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Zee-O1-aHq" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="nn1-by-yLf">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="IrT-Ua-wZ0" kind="relationship" relationship="rootViewController" id="76j-PH-N4X"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zgU-5f-9CU" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="41" y="-2159"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="9KC-es-YUq">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uhF-vf-6xm" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="oja-pN-lQG">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="eeu-E3-9go" kind="relationship" relationship="rootViewController" id="kQl-4Y-O6T"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cAi-nv-WGP" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="40.799999999999997" y="-1395.6521739130435"/>
-        </scene>
     </scenes>
     <resources>
         <image name="Alternate" width="886" height="806"/>
@@ -1976,6 +1643,6 @@
         <image name="toothed" width="428" height="656"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="jAa-jG-K7U"/>
+        <segue reference="Hyq-4h-hYq"/>
     </inferredMetricsTieBreakers>
 </document>

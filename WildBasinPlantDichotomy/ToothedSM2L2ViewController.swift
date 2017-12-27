@@ -22,6 +22,7 @@ class ToothedSM2L2ViewController: UIViewController {
     override func viewDidLoad()
     {
         super.viewDidLoad()
+        self.navigationController?.navigationBar.isHidden = false;
 
         // Do any additional setup after loading the view.
     }
@@ -39,7 +40,7 @@ class ToothedSM2L2ViewController: UIViewController {
         {
             
             let myVC = storyboard?.instantiateViewController(withIdentifier: "final") as! FinalPlantViewController
-            myVC.plantCode = 5
+            myVC.plantCode = 4
             navigationController?.pushViewController(myVC, animated: true)
             
             
@@ -50,7 +51,7 @@ class ToothedSM2L2ViewController: UIViewController {
         {
             
             let myVC = storyboard?.instantiateViewController(withIdentifier: "final") as! FinalPlantViewController
-            myVC.plantCode = 6
+            myVC.plantCode = 5
             navigationController?.pushViewController(myVC, animated: true)
             
         }
