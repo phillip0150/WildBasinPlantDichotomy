@@ -200,7 +200,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Is the plant simple or compound?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lkj-Eh-rnD">
-                                <rect key="frame" x="16" y="72" width="343" height="194"/>
+                                <rect key="frame" x="16" y="72" width="343" height="76"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="76" id="QCc-0l-Ffq"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -278,22 +281,21 @@
                         <constraints>
                             <constraint firstItem="gU1-OT-IBA" firstAttribute="leading" secondItem="hNV-l5-HAH" secondAttribute="leading" id="0xQ-4w-szf"/>
                             <constraint firstAttribute="bottom" secondItem="be9-Ny-Yzx" secondAttribute="bottom" constant="163" id="1a3-vC-EeJ"/>
-                            <constraint firstItem="Lkj-Eh-rnD" firstAttribute="centerX" secondItem="hNV-l5-HAH" secondAttribute="centerX" id="2O7-rS-852"/>
                             <constraint firstAttribute="trailing" secondItem="be9-Ny-Yzx" secondAttribute="trailing" constant="86" id="2ob-oj-kF1"/>
                             <constraint firstItem="GgQ-7w-EiM" firstAttribute="leading" secondItem="Ozo-eO-m7e" secondAttribute="leadingMargin" constant="38" id="2wb-Ti-xJl"/>
                             <constraint firstItem="hNV-l5-HAH" firstAttribute="top" secondItem="B8m-kL-Y4w" secondAttribute="bottom" constant="47" id="3nH-0B-wvL"/>
+                            <constraint firstItem="Lkj-Eh-rnD" firstAttribute="leading" secondItem="Ozo-eO-m7e" secondAttribute="leadingMargin" id="5om-rf-i05"/>
+                            <constraint firstItem="Lkj-Eh-rnD" firstAttribute="top" secondItem="55H-gW-Dga" secondAttribute="bottom" constant="8" symbolic="YES" id="62D-me-23U"/>
                             <constraint firstItem="B8m-kL-Y4w" firstAttribute="leading" secondItem="Ozo-eO-m7e" secondAttribute="leadingMargin" constant="21" id="7dy-fm-98y"/>
                             <constraint firstItem="gU1-OT-IBA" firstAttribute="centerX" secondItem="GgQ-7w-EiM" secondAttribute="centerX" id="8fN-27-CEh"/>
                             <constraint firstItem="gU1-OT-IBA" firstAttribute="leading" secondItem="Ozo-eO-m7e" secondAttribute="leading" id="HUQ-a6-gCm"/>
                             <constraint firstItem="GgQ-7w-EiM" firstAttribute="top" secondItem="gU1-OT-IBA" secondAttribute="bottom" constant="33" id="KAt-Mz-Rm5"/>
                             <constraint firstItem="B8m-kL-Y4w" firstAttribute="baseline" secondItem="r63-AY-B8w" secondAttribute="baseline" id="NPx-OA-GBM"/>
-                            <constraint firstItem="Lkj-Eh-rnD" firstAttribute="top" secondItem="55H-gW-Dga" secondAttribute="bottom" constant="8" symbolic="YES" id="P4i-uT-c1L"/>
                             <constraint firstItem="gU1-OT-IBA" firstAttribute="top" secondItem="xXE-ul-1xC" secondAttribute="top" id="a9D-nP-DNH"/>
                             <constraint firstItem="B8m-kL-Y4w" firstAttribute="top" secondItem="GgQ-7w-EiM" secondAttribute="bottom" constant="18" id="aFT-MA-fNO"/>
                             <constraint firstItem="hNV-l5-HAH" firstAttribute="bottom" secondItem="wqu-P5-8Tm" secondAttribute="top" id="eaJ-to-R55"/>
-                            <constraint firstItem="gU1-OT-IBA" firstAttribute="top" secondItem="Lkj-Eh-rnD" secondAttribute="bottom" constant="8" symbolic="YES" id="erz-zx-3mh"/>
+                            <constraint firstItem="Lkj-Eh-rnD" firstAttribute="centerX" secondItem="hNV-l5-HAH" secondAttribute="centerX" id="fCV-nc-Amj"/>
                             <constraint firstItem="gU1-OT-IBA" firstAttribute="bottom" secondItem="xXE-ul-1xC" secondAttribute="bottom" id="hMP-kC-l1q"/>
-                            <constraint firstItem="Lkj-Eh-rnD" firstAttribute="leading" secondItem="Ozo-eO-m7e" secondAttribute="leadingMargin" id="l2Y-K4-s2L"/>
                             <constraint firstItem="B8m-kL-Y4w" firstAttribute="firstBaseline" secondItem="r63-AY-B8w" secondAttribute="firstBaseline" id="qc8-74-Cku"/>
                             <constraint firstAttribute="trailing" secondItem="xXE-ul-1xC" secondAttribute="trailing" id="uSL-Jg-LXv"/>
                             <constraint firstItem="xXE-ul-1xC" firstAttribute="leading" secondItem="gU1-OT-IBA" secondAttribute="trailing" constant="34" id="urq-W9-3ld"/>
@@ -329,7 +331,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Are the leaves alternate or opposite" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F2F-XL-H2P">
-                                <rect key="frame" x="16" y="72" width="343" height="194"/>
+                                <rect key="frame" x="16" y="72" width="343" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="58" id="3Xs-bN-tRP"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -411,21 +416,20 @@
                             <constraint firstItem="d13-71-ZFH" firstAttribute="leading" secondItem="fer-l8-Mf0" secondAttribute="leadingMargin" constant="33" id="8oG-GN-nmj"/>
                             <constraint firstItem="f7r-I7-pxu" firstAttribute="top" secondItem="OQd-ss-yiN" secondAttribute="bottom" constant="26" id="Bvm-vr-nAi"/>
                             <constraint firstAttribute="trailingMargin" secondItem="MTG-ul-c8w" secondAttribute="trailing" constant="64" id="Chp-nc-myB"/>
+                            <constraint firstItem="F2F-XL-H2P" firstAttribute="top" secondItem="YJm-kh-QzO" secondAttribute="bottom" constant="8" symbolic="YES" id="DuG-il-2K1"/>
                             <constraint firstItem="f7r-I7-pxu" firstAttribute="centerX" secondItem="d13-71-ZFH" secondAttribute="centerX" id="Gd0-B5-8ig"/>
+                            <constraint firstItem="F2F-XL-H2P" firstAttribute="leading" secondItem="fer-l8-Mf0" secondAttribute="leadingMargin" id="GtA-z0-sXt"/>
                             <constraint firstItem="MTG-ul-c8w" firstAttribute="centerX" secondItem="diA-cP-odq" secondAttribute="centerX" id="HiV-Vy-m9y"/>
-                            <constraint firstItem="F2F-XL-H2P" firstAttribute="trailing" secondItem="Qc2-rf-Sgx" secondAttribute="trailing" id="VEr-zn-Vtw"/>
-                            <constraint firstItem="F2F-XL-H2P" firstAttribute="leading" secondItem="fer-l8-Mf0" secondAttribute="leadingMargin" id="Wzt-fz-6Xi"/>
+                            <constraint firstItem="F2F-XL-H2P" firstAttribute="trailing" secondItem="Qc2-rf-Sgx" secondAttribute="trailing" id="Qcq-f3-viK"/>
+                            <constraint firstItem="F2F-XL-H2P" firstAttribute="leading" secondItem="OQd-ss-yiN" secondAttribute="leading" id="RGe-xg-P3V"/>
                             <constraint firstItem="Qc2-rf-Sgx" firstAttribute="leading" secondItem="OQd-ss-yiN" secondAttribute="trailing" constant="18" id="YJC-P0-KgJ"/>
                             <constraint firstItem="Sl5-GK-Yl7" firstAttribute="bottom" secondItem="Z9J-FB-EML" secondAttribute="top" id="abA-Xm-jWT"/>
                             <constraint firstItem="Qc2-rf-Sgx" firstAttribute="centerX" secondItem="MTG-ul-c8w" secondAttribute="centerX" id="cgw-oE-8Gn"/>
+                            <constraint firstItem="F2F-XL-H2P" firstAttribute="centerX" secondItem="Sl5-GK-Yl7" secondAttribute="centerX" id="e1g-kW-0nN"/>
                             <constraint firstAttribute="trailing" secondItem="Sl5-GK-Yl7" secondAttribute="trailing" id="h11-R8-gRv"/>
                             <constraint firstAttribute="trailingMargin" secondItem="diA-cP-odq" secondAttribute="trailing" constant="36" id="hSx-Zn-F6l"/>
-                            <constraint firstItem="F2F-XL-H2P" firstAttribute="leading" secondItem="OQd-ss-yiN" secondAttribute="leading" id="hTH-9N-620"/>
-                            <constraint firstItem="F2F-XL-H2P" firstAttribute="top" secondItem="YJm-kh-QzO" secondAttribute="bottom" constant="8" symbolic="YES" id="iAK-Y9-rVr"/>
                             <constraint firstItem="f7r-I7-pxu" firstAttribute="top" secondItem="MTG-ul-c8w" secondAttribute="top" id="kev-Yr-izs"/>
-                            <constraint firstItem="F2F-XL-H2P" firstAttribute="centerX" secondItem="Sl5-GK-Yl7" secondAttribute="centerX" id="lRm-hb-pVw"/>
                             <constraint firstItem="OQd-ss-yiN" firstAttribute="centerY" secondItem="Qc2-rf-Sgx" secondAttribute="centerY" id="nu9-66-80N"/>
-                            <constraint firstItem="OQd-ss-yiN" firstAttribute="top" secondItem="F2F-XL-H2P" secondAttribute="bottom" constant="27" id="oLc-pe-U9T"/>
                             <constraint firstItem="MTG-ul-c8w" firstAttribute="top" secondItem="Qc2-rf-Sgx" secondAttribute="bottom" constant="32" id="q1O-jv-449"/>
                             <constraint firstItem="d13-71-ZFH" firstAttribute="baseline" secondItem="diA-cP-odq" secondAttribute="baseline" id="sKL-UF-hjI"/>
                             <constraint firstItem="d13-71-ZFH" firstAttribute="firstBaseline" secondItem="diA-cP-odq" secondAttribute="firstBaseline" id="wPk-an-z7O"/>
@@ -441,7 +445,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ixI-UK-WH1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1378" y="-3946"/>
+            <point key="canvasLocation" x="1376.8" y="-3946.7766116941534"/>
         </scene>
         <!--OppositeVNV View Controller-->
         <scene sceneID="oWT-Fh-1Zh">
