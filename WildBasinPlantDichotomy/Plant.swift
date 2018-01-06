@@ -13,11 +13,11 @@ class Plant
 
     var name:String
     var description:String
-    var image: UIImage
-    var otherimage: UIImage
+    var image: String
+    var otherimage: String
     var url: String
     
-    init(name: String, description: String, image: UIImage, otherimage: UIImage, url: String)
+    init(name: String, description: String, image: String, otherimage: String, url: String)
     {
         
         self.name = name
@@ -34,7 +34,7 @@ class Plant
         var plants = [Plant]()
         
         // Create a plant object
-        plants.append(Plant(name: "Common Greenbriar (Smilax rotundifolia)", description: "Climbing vine with tendrils and heart-shaped leaves. Tough stem with thorns when mature. Edible. Dark blue berries appear during the summer-winter. Roots can used to make sarsaparilla, a carbonated beverage. Range: E. North America, Central to E. Texas", image: #imageLiteral(resourceName: "greenbriar 1"), otherimage: #imageLiteral(resourceName: "greenbriar 2"), url: "http://www.inaturalist.org/taxa/125677-Smilax-bona-nox"))
+        plants.append(Plant(name: "Common Greenbriar (Smilax rotundifolia)", description: "Climbing vine with tendrils and heart-shaped leaves. Tough stem with thorns when mature. Edible. Dark blue berries appear during the summer-winter. Roots can used to make sarsaparilla, a carbonated beverage. Range: E. North America, Central to E. Texas", image: "greenbriar 1", otherimage: "greenbriar 2", url: "http://www.inaturalist.org/taxa/125677-Smilax-bona-nox"))
         
         plants.append(Plant(name: "Mustang Grape (Vitis mustangensis)", description: "High climbing vine with saucer shaped leaves covered with small white hairs. Fruits appear in June-August and are black or dark red. The grapes are considered edible but the skin needs to be removed because it can irritate the mouth and skin. Wine can be made from the mustang grape by peeling the skin off and following a fermentation process. Grows in Central, S.and E. Texas.", image: #imageLiteral(resourceName: "mustang grape 1"), otherimage: #imageLiteral(resourceName: "mustang grape 2"), url: "http://www.inaturalist.org/taxa/142776-Vitis-mustangensis"))
         

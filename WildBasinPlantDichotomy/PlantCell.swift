@@ -21,7 +21,7 @@ class PlantCell: UITableViewCell
       //  plantTitle.text = plant.name
         
         let imageView = self.viewWithTag(1) as! UIImageView
-        imageView.image = plant.image
+        imageView.image = UIImage(named: plant.image)
         
         let label = self.viewWithTag(2) as! UILabel
         label.text = plant.name

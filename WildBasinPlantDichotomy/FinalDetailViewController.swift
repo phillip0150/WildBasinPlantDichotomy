@@ -21,8 +21,19 @@ class FinalDetailViewController: UIViewController
     @IBOutlet weak var plantDescriptionLabel: UILabel!
     @IBOutlet weak var plantURLLabel: UILabel!
 
-    
+    @IBAction func rightSwipe(_ sender: UISwipeGestureRecognizer) {
+        print("swipe right")
+       
+        plantImageView.image = UIImage(named:"cenizo 1")
 
+    }
+    
+    
+    @IBAction func swipeLeft(_ sender: UISwipeGestureRecognizer) {
+        print("swipe left")
+        
+    }
+    
     override func viewDidLoad()
     {
         
@@ -35,7 +46,9 @@ class FinalDetailViewController: UIViewController
         
         setUI()
         
+        plantImageView.isUserInteractionEnabled = true
         
+      
     }
     
     
@@ -49,26 +62,19 @@ class FinalDetailViewController: UIViewController
     
     func setUI()
     {
-        plantImageView.image = plant?.image
+    
+        plantImageView.image = UIImage(named: (plant?.image)!)
 //        plantNameLabel.text = plant?.name
         plantDescriptionLabel.text = plant?.description
         self.title = plant?.name
         
         
         //plantURLLabel.text = plantURL
-    
+
         
     }
+
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+  
 
 }
