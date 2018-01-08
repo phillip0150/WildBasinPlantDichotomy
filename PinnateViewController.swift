@@ -17,7 +17,7 @@ class PinnateViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController?.navigationBar.isHidden = false;
+        //self.navigationController?.navigationBar.isHidden = false;
 
 
         // Do any additional setup after loading the view.

@@ -10,16 +10,23 @@ import UIKit
 
 class SideBarViewController: UIViewController {
 
+    @IBOutlet weak var sideMenuConstraint: NSLayoutConstraint!
+    
+    @IBOutlet weak var sideMenuTrail: NSLayoutConstraint!
+    
+    var isSlideMenuHidden = true
     
     override func viewDidLoad() {
         super.viewDidLoad()
     
         // Do any additional setup after loading the view.
+        sideMenuConstraint.constant = -140
+        sideMenuTrail.constant = 440
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        self.navigationController?.navigationBar.isHidden = true;
-    }
+    //override func viewWillAppear(_ animated: Bool) {
+        //self.navigationController?.navigationBar.isHidden = true;
+   // }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -34,5 +41,22 @@ class SideBarViewController: UIViewController {
         navigationController?.pushViewController(myVC, animated: true)
         
     }
+    
+    @IBAction func menuButton(_ sender: UIBarButtonItem) {
+        if isSlideMenuHidden {
+            
+            sideMenuConstraint.constant = 0
+            sideMenuTrail.constant = 140
+            UIView.animate(withDuration: 0.3, animations:{ self.view.layoutIfNeeded()
+        })
+        } else {
+            sideMenuConstraint.constant = -140
+            sideMenuTrail.constant = 440
+            UIView.animate(withDuration: 0.3, animations:{ self.view.layoutIfNeeded()
+            })
+        }
+        isSlideMenuHidden = !isSlideMenuHidden
+    }
+    
 
 }

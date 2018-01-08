@@ -24,7 +24,7 @@ class PlantIDViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController?.navigationBar.isHidden = false;
+        //self.navigationController?.navigationBar.isHidden = false;
 
     }
     

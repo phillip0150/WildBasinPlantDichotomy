@@ -77,67 +77,88 @@
                         <viewControllerLayoutGuide type="bottom" id="73Y-N3-ifo"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="wkc-1L-7bc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="500" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Rms-Zh-TIr">
-                                <rect key="frame" x="16" y="521" width="343" height="30"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wild Basin Mountain Logo" translatesAutoresizingMaskIntoConstraints="NO" id="w1M-Ll-VJb">
+                                <rect key="frame" x="212" y="64" width="288" height="130"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="Bnz-db-VN5"/>
+                                    <constraint firstAttribute="height" constant="130" id="edE-Ut-Zg9"/>
+                                    <constraint firstAttribute="width" constant="288" id="wB4-zQ-18F"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Texas" translatesAutoresizingMaskIntoConstraints="NO" id="J3n-fc-cHw">
+                                <rect key="frame" x="212" y="195" width="288" height="213"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SHH-3M-rb4">
+                                <rect key="frame" x="0.0" y="64" width="204" height="603"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LPJ-2t-xON">
+                                        <rect key="frame" x="10" y="27" width="184" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="eRU-p6-Neq"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
+                                        <state key="normal" title="Wild Basin Trails Map">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="pGT-rC-JKi" kind="show" id="rjc-PC-tZ0"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cRe-YJ-e9a">
+                                        <rect key="frame" x="30" y="60" width="144" height="27"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="27" id="Ix3-5T-p5E"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
+                                        <state key="normal" title="About Wild Basin">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F6j-w4-Rhi">
+                                        <rect key="frame" x="35" y="95" width="134" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="74l-nd-Wul"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
+                                        <state key="normal" title="Special Thanks">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.45494276290000002" green="0.81130355600000004" blue="0.34100461009999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstItem="LPJ-2t-xON" firstAttribute="top" secondItem="SHH-3M-rb4" secondAttribute="top" constant="27" id="DeV-gb-FbG"/>
+                                    <constraint firstItem="LPJ-2t-xON" firstAttribute="centerX" secondItem="SHH-3M-rb4" secondAttribute="centerX" id="KvS-fI-Fmf"/>
+                                    <constraint firstItem="LPJ-2t-xON" firstAttribute="centerX" secondItem="cRe-YJ-e9a" secondAttribute="centerX" id="Prg-qL-d5w"/>
+                                    <constraint firstItem="cRe-YJ-e9a" firstAttribute="top" secondItem="LPJ-2t-xON" secondAttribute="bottom" constant="8" symbolic="YES" id="iu5-ta-71T"/>
+                                    <constraint firstItem="F6j-w4-Rhi" firstAttribute="top" secondItem="cRe-YJ-e9a" secondAttribute="bottom" constant="8" symbolic="YES" id="nOi-Gj-nwd"/>
+                                    <constraint firstItem="cRe-YJ-e9a" firstAttribute="centerX" secondItem="F6j-w4-Rhi" secondAttribute="centerX" id="z6d-i8-qZV"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Rms-Zh-TIr">
+                                <rect key="frame" x="212" y="580" width="288" height="79"/>
+                                <color key="backgroundColor" red="0.45494276290000002" green="0.81130355600000004" blue="0.34100461009999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="79" id="wJe-aT-3Uo"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
-                                <state key="normal" title="View All 87 Woody Plants"/>
+                                <state key="normal" title="View All Plants">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="ViewAllPlants:" destination="IrT-Ua-wZ0" eventType="touchUpInside" id="hiN-kZ-71j"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wild Basin Mountain Logo" translatesAutoresizingMaskIntoConstraints="NO" id="w1M-Ll-VJb">
-                                <rect key="frame" x="0.0" y="64" width="375" height="130"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="130" id="jv9-Z4-19Y"/>
-                                </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Texas" translatesAutoresizingMaskIntoConstraints="NO" id="J3n-fc-cHw">
-                                <rect key="frame" x="74" y="202" width="226" height="216"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LPJ-2t-xON">
-                                <rect key="frame" x="96" y="559" width="184" height="25"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="25" id="Zzw-tB-pRv"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
-                                <state key="normal" title="Wild Basin Trails Map"/>
-                                <connections>
-                                    <segue destination="pGT-rC-JKi" kind="show" id="Paa-gh-8PP"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cRe-YJ-e9a">
-                                <rect key="frame" x="116" y="592" width="144" height="27"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="27" id="pGE-tY-ukF"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
-                                <state key="normal" title="About Wild Basin"/>
-                                <connections>
-                                    <segue destination="eeu-E3-9go" kind="show" id="w2j-tT-AdO"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F6j-w4-Rhi">
-                                <rect key="frame" x="121" y="627" width="134" height="20"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="20" id="WiV-Nb-U8Z"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
-                                <state key="normal" title="Special Thanks"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="aor-xi-xlP">
-                                <rect key="frame" x="17" y="426" width="343" height="79"/>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="aor-xi-xlP">
+                                <rect key="frame" x="212" y="445" width="288" height="79"/>
                                 <color key="backgroundColor" red="0.45494276290000002" green="0.81130355600000004" blue="0.34100461009999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="79" id="VsX-MF-WmU"/>
+                                    <constraint firstAttribute="height" constant="79" id="O7K-2f-u9p"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
-                                <state key="normal" title="Start Plant Dichotomy">
+                                <state key="normal" title="Start I.D.">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -147,32 +168,41 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="aor-xi-xlP" firstAttribute="top" secondItem="J3n-fc-cHw" secondAttribute="bottom" constant="8" symbolic="YES" id="2r5-0c-Q4z"/>
-                            <constraint firstItem="F6j-w4-Rhi" firstAttribute="top" secondItem="cRe-YJ-e9a" secondAttribute="bottom" constant="8" symbolic="YES" id="9aL-u7-EWP"/>
-                            <constraint firstItem="Rms-Zh-TIr" firstAttribute="centerX" secondItem="LPJ-2t-xON" secondAttribute="centerX" id="Frq-rf-Bhs"/>
-                            <constraint firstItem="LPJ-2t-xON" firstAttribute="top" secondItem="Rms-Zh-TIr" secondAttribute="bottom" constant="8" symbolic="YES" id="IOD-e1-WYA"/>
-                            <constraint firstAttribute="trailing" secondItem="w1M-Ll-VJb" secondAttribute="trailing" id="OMq-O6-2EB"/>
-                            <constraint firstAttribute="bottom" secondItem="F6j-w4-Rhi" secondAttribute="bottom" constant="20" symbolic="YES" id="OuL-fD-Zd5"/>
-                            <constraint firstItem="LPJ-2t-xON" firstAttribute="centerX" secondItem="cRe-YJ-e9a" secondAttribute="centerX" id="Sd0-ai-IDr"/>
-                            <constraint firstItem="Rms-Zh-TIr" firstAttribute="top" secondItem="aor-xi-xlP" secondAttribute="bottom" constant="16" id="VdG-sL-qP4"/>
-                            <constraint firstItem="cRe-YJ-e9a" firstAttribute="centerX" secondItem="F6j-w4-Rhi" secondAttribute="centerX" id="Xy8-Wk-ZKA"/>
-                            <constraint firstItem="aor-xi-xlP" firstAttribute="centerX" secondItem="LPJ-2t-xON" secondAttribute="centerX" id="aUs-fe-Dho"/>
-                            <constraint firstItem="J3n-fc-cHw" firstAttribute="centerX" secondItem="Rms-Zh-TIr" secondAttribute="centerX" id="dp9-od-HMC"/>
-                            <constraint firstItem="w1M-Ll-VJb" firstAttribute="top" secondItem="YWd-pK-1NQ" secondAttribute="bottom" id="edQ-19-wt8"/>
-                            <constraint firstItem="w1M-Ll-VJb" firstAttribute="centerX" secondItem="J3n-fc-cHw" secondAttribute="centerX" id="h6O-e9-85y"/>
-                            <constraint firstItem="aor-xi-xlP" firstAttribute="leading" secondItem="wkc-1L-7bc" secondAttribute="leadingMargin" constant="1" id="iPj-6c-P9O"/>
-                            <constraint firstItem="Rms-Zh-TIr" firstAttribute="leading" secondItem="wkc-1L-7bc" secondAttribute="leadingMargin" id="kXQ-UK-hok"/>
-                            <constraint firstItem="J3n-fc-cHw" firstAttribute="leading" secondItem="wkc-1L-7bc" secondAttribute="leadingMargin" constant="58" id="o4m-0g-RT7"/>
-                            <constraint firstItem="w1M-Ll-VJb" firstAttribute="leading" secondItem="wkc-1L-7bc" secondAttribute="leading" id="pFc-aI-6tU"/>
-                            <constraint firstItem="J3n-fc-cHw" firstAttribute="top" secondItem="w1M-Ll-VJb" secondAttribute="bottom" constant="8" symbolic="YES" id="q2S-ah-dpX"/>
-                            <constraint firstItem="cRe-YJ-e9a" firstAttribute="top" secondItem="LPJ-2t-xON" secondAttribute="bottom" constant="8" symbolic="YES" id="rcZ-44-OhA"/>
+                            <constraint firstItem="w1M-Ll-VJb" firstAttribute="leading" secondItem="J3n-fc-cHw" secondAttribute="leading" id="2IO-9h-CPn"/>
+                            <constraint firstItem="SHH-3M-rb4" firstAttribute="leading" secondItem="wkc-1L-7bc" secondAttribute="leading" id="3gh-vR-jPA"/>
+                            <constraint firstItem="Rms-Zh-TIr" firstAttribute="top" secondItem="aor-xi-xlP" secondAttribute="bottom" constant="56" id="72J-ct-Sya"/>
+                            <constraint firstAttribute="trailing" secondItem="SHH-3M-rb4" secondAttribute="trailing" constant="296" id="CuX-81-sdy"/>
+                            <constraint firstItem="J3n-fc-cHw" firstAttribute="trailing" secondItem="aor-xi-xlP" secondAttribute="trailing" id="G5z-vR-xUT"/>
+                            <constraint firstItem="73Y-N3-ifo" firstAttribute="top" secondItem="Rms-Zh-TIr" secondAttribute="bottom" constant="8" symbolic="YES" id="JKJ-sE-uki"/>
+                            <constraint firstItem="w1M-Ll-VJb" firstAttribute="trailing" secondItem="J3n-fc-cHw" secondAttribute="trailing" id="MK7-F3-Ejc"/>
+                            <constraint firstItem="aor-xi-xlP" firstAttribute="top" secondItem="J3n-fc-cHw" secondAttribute="bottom" constant="37" id="OyS-jV-dT6"/>
+                            <constraint firstAttribute="trailing" secondItem="w1M-Ll-VJb" secondAttribute="trailing" id="Q3k-LT-Iud"/>
+                            <constraint firstItem="J3n-fc-cHw" firstAttribute="leading" secondItem="aor-xi-xlP" secondAttribute="leading" id="RPw-N9-E3l"/>
+                            <constraint firstItem="SHH-3M-rb4" firstAttribute="bottom" secondItem="73Y-N3-ifo" secondAttribute="top" id="XrM-JU-WbT"/>
+                            <constraint firstItem="w1M-Ll-VJb" firstAttribute="leading" secondItem="SHH-3M-rb4" secondAttribute="trailing" constant="8" symbolic="YES" id="ZCN-Ew-Fyn"/>
+                            <constraint firstItem="aor-xi-xlP" firstAttribute="trailing" secondItem="Rms-Zh-TIr" secondAttribute="trailing" id="aFx-O8-HU7"/>
+                            <constraint firstItem="J3n-fc-cHw" firstAttribute="top" secondItem="w1M-Ll-VJb" secondAttribute="bottom" constant="1" id="cZO-IW-aal"/>
+                            <constraint firstItem="SHH-3M-rb4" firstAttribute="top" secondItem="w1M-Ll-VJb" secondAttribute="top" id="fOM-4z-b0f"/>
+                            <constraint firstItem="aor-xi-xlP" firstAttribute="leading" secondItem="Rms-Zh-TIr" secondAttribute="leading" id="ios-rP-72d"/>
+                            <constraint firstItem="SHH-3M-rb4" firstAttribute="top" secondItem="YWd-pK-1NQ" secondAttribute="bottom" id="u0F-RG-ADd"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="pdj-GC-Mv9"/>
+                    <navigationItem key="navigationItem" id="pdj-GC-Mv9">
+                        <barButtonItem key="leftBarButtonItem" systemItem="search" id="hBJ-oh-jTN">
+                            <connections>
+                                <action selector="menuButton:" destination="IrT-Ua-wZ0" id="7jF-Fe-JOU"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <size key="freeformSize" width="500" height="667"/>
+                    <connections>
+                        <outlet property="sideMenuConstraint" destination="3gh-vR-jPA" id="WzG-tM-UEm"/>
+                        <outlet property="sideMenuTrail" destination="CuX-81-sdy" id="agW-lc-9sQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OPP-pa-7pW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-274.39999999999998" y="-2282.608695652174"/>
+            <point key="canvasLocation" x="-158.40000000000001" y="-2284.4077961019493"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="cpd-AY-lOJ">
@@ -1186,13 +1216,7 @@
                             <constraint firstItem="Yhc-Du-TAL" firstAttribute="bottom" secondItem="m0z-7A-92l" secondAttribute="top" id="lx8-Ta-IDk"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Mc8-3G-hpA">
-                        <barButtonItem key="rightBarButtonItem" title="Home" id="Pio-G3-bUq">
-                            <connections>
-                                <segue destination="IrT-Ua-wZ0" kind="show" id="Hyq-4h-hYq"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="Mc8-3G-hpA"/>
                     <connections>
                         <outlet property="tableView" destination="Yhc-Du-TAL" id="G7G-Uh-WV1"/>
                     </connections>
@@ -1305,7 +1329,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3H8-qv-Hpj">
-                                <rect key="frame" x="0.0" y="72" width="375" height="595"/>
+                                <rect key="frame" x="0.0" y="28" width="375" height="639"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                         </subviews>
@@ -1774,7 +1798,4 @@
         <image name="radioButton_Unselected" width="128" height="128"/>
         <image name="toothed" width="428" height="656"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="Hyq-4h-hYq"/>
-    </inferredMetricsTieBreakers>
 </document>
