@@ -41,9 +41,9 @@ class FinalDetailViewController: UIViewController
         super.viewDidLoad()
         //self.navigationController?.navigationBar.isHidden = false;
 
-        self.navigationItem.hidesBackButton = true
-        let newBackButton = UIBarButtonItem(title: "Back", style: UIBarButtonItemStyle.plain, target: self, action: #selector(FinalDetailViewController.back(sender:)))
-        self.navigationItem.leftBarButtonItem = newBackButton
+      self.navigationItem.hidesBackButton = true
+      let newBackButton = UIBarButtonItem(title: "Back", style: UIBarButtonItemStyle.plain, target: self, action: #selector(FinalDetailViewController.back(sender:)))
+       self.navigationItem.leftBarButtonItem = newBackButton
         
         setUI()
         
