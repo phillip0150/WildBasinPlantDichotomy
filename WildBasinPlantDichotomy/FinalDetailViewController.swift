@@ -22,16 +22,13 @@ class FinalDetailViewController: UIViewController
     @IBOutlet weak var plantURLLabel: UILabel!
 
     @IBAction func rightSwipe(_ sender: UISwipeGestureRecognizer) {
-        print("swipe right")
-        print ((plant?.image)!)
+
         plantImageView.image = UIImage(named: (plant?.image)!)
 
     }
     
     
     @IBAction func swipeLeft(_ sender: UISwipeGestureRecognizer) {
-        print("swipe left")
-        print ((plant?.otherimage)!)
         plantImageView.image = UIImage(named: (plant?.otherimage)!)
     }
     

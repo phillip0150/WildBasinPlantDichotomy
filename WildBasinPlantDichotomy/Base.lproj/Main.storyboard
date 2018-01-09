@@ -172,6 +172,7 @@
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="73Y-N3-ifo" firstAttribute="top" secondItem="Rms-Zh-TIr" secondAttribute="bottom" constant="20" id="4gr-3T-mvM"/>
                             <constraint firstItem="73Y-N3-ifo" firstAttribute="top" secondItem="SHH-3M-rb4" secondAttribute="bottom" id="DsC-ie-qad"/>
@@ -187,6 +188,9 @@
                             <constraint firstItem="Rms-Zh-TIr" firstAttribute="leading" secondItem="wkc-1L-7bc" secondAttribute="leading" constant="16" id="spF-c5-48f"/>
                             <constraint firstAttribute="trailing" secondItem="aor-xi-xlP" secondAttribute="trailing" constant="16" id="wmp-O4-9st"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="sP4-9L-NKk" appends="YES" id="r1U-oF-vrs"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="pdj-GC-Mv9">
                         <barButtonItem key="leftBarButtonItem" systemItem="organize" id="hBJ-oh-jTN">
@@ -201,6 +205,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OPP-pa-7pW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="sP4-9L-NKk">
+                    <connections>
+                        <action selector="tapMenu:" destination="IrT-Ua-wZ0" id="H7d-U1-Shs"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-159.19999999999999" y="-2284.4077961019493"/>
         </scene>
@@ -1234,7 +1243,6 @@
         <!--Navigation Controller-->
         <scene sceneID="22B-9y-Ibz">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="IHK-5k-O3K" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="TbB-Vg-Uuj" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="JQk-Py-EVE">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -1244,6 +1252,7 @@
                         <segue destination="R3B-Zd-hBM" kind="relationship" relationship="rootViewController" id="VsB-bE-UWP"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IHK-5k-O3K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4694" y="-4282"/>
         </scene>

@@ -49,14 +49,36 @@ class SideBarViewController: UIViewController {
             sideMenuTrail.constant = 140
             UIView.animate(withDuration: 0.3, animations:{ self.view.layoutIfNeeded()
         })
+            isSlideMenuHidden = false
         } else {
             sideMenuConstraint.constant = -140
             sideMenuTrail.constant = 440
             UIView.animate(withDuration: 0.3, animations:{ self.view.layoutIfNeeded()
             })
+            isSlideMenuHidden = true
         }
-        isSlideMenuHidden = !isSlideMenuHidden
+   
     }
     
-
+    
+    @IBAction func tapMenu(_ sender: UITapGestureRecognizer) {
+        if isSlideMenuHidden {
+            
+            sideMenuConstraint.constant = 0
+            sideMenuTrail.constant = 140
+            UIView.animate(withDuration: 0.3, animations:{ self.view.layoutIfNeeded()
+            })
+            isSlideMenuHidden = false
+        } else {
+            sideMenuConstraint.constant = -140
+            sideMenuTrail.constant = 440
+            UIView.animate(withDuration: 0.3, animations:{ self.view.layoutIfNeeded()
+            })
+            isSlideMenuHidden = true
+        }
+  
+    }
+    
+    
+    
 }
