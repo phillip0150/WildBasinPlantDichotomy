@@ -121,7 +121,7 @@
             </objects>
             <point key="canvasLocation" x="-1842" y="-1397"/>
         </scene>
-        <!--Title-->
+        <!--Map View Controller-->
         <scene sceneID="EgO-Ew-ACD">
             <objects>
                 <viewController id="pGT-rC-JKi" customClass="MapViewController" customModule="WildBasinPlantDichotomy" customModuleProvider="target" sceneMemberID="viewController">
@@ -163,7 +163,6 @@
                             <constraint firstAttribute="trailing" secondItem="y6u-AK-vqG" secondAttribute="trailing" id="VjY-dL-nN3"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="J97-3n-9ms"/>
                     <connections>
                         <outlet property="mapImage" destination="ZR3-cz-Gi7" id="V87-0t-eip"/>
                         <outlet property="mapScroll" destination="y6u-AK-vqG" id="h0H-88-Ty1"/>
@@ -266,7 +265,7 @@
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qRe-c4-bYn">
                                         <rect key="frame" x="8" y="50" width="119" height="1"/>
-                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="ewy-4U-8wq"/>
                                         </constraints>
@@ -276,7 +275,7 @@
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4wN-o6-vRQ">
                                         <rect key="frame" x="8" y="101" width="119" height="1"/>
-                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.50470400528169013" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="fWT-26-ndA"/>
                                         </constraints>
@@ -286,7 +285,7 @@
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kQk-Xy-xkd">
                                         <rect key="frame" x="8" y="152" width="119" height="1"/>
-                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.50448393485915488" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="oaK-d7-Q7F"/>
                                         </constraints>
@@ -295,7 +294,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.26071977283421011" green="0.81130355600000004" blue="0.77773288953275566" alpha="0.94919124119718312" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.64116747974795107" green="0.72320595643413732" blue="0.76023895107772022" alpha="0.84875660211267601" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstItem="F6j-w4-Rhi" firstAttribute="top" secondItem="4wN-o6-vRQ" secondAttribute="bottom" constant="8" symbolic="YES" id="1Yh-wu-g6z"/>
                                     <constraint firstItem="LPJ-2t-xON" firstAttribute="leading" secondItem="qRe-c4-bYn" secondAttribute="leading" id="1xt-du-ovH"/>
@@ -1312,7 +1311,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="119" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Yhc-Du-TAL">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="580"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PlantCell" rowHeight="119" id="0Hd-5f-Tb4" customClass="PlantCell" customModule="WildBasinPlantDichotomy" customModuleProvider="target">
@@ -1322,18 +1321,14 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="118.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yWg-n3-u2v">
-                                                    <rect key="frame" x="14" y="0.0" width="118" height="118"/>
+                                                <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yWg-n3-u2v">
+                                                    <rect key="frame" x="12" y="0.0" width="118" height="118"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="118" id="d2O-Zx-nm5"/>
+                                                        <constraint firstAttribute="width" constant="118" id="JFQ-3m-4v5"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="middleTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RQL-OS-iwS">
-                                                    <rect key="frame" x="140" y="0.0" width="219" height="118"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="118" id="K3Y-aB-ZxW"/>
-                                                        <constraint firstAttribute="width" constant="219" id="Y7m-nw-6aY"/>
-                                                    </constraints>
+                                                    <rect key="frame" x="171" y="0.0" width="189" height="118"/>
                                                     <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="16"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -1341,12 +1336,13 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="yWg-n3-u2v" firstAttribute="bottom" secondItem="RQL-OS-iwS" secondAttribute="bottom" id="2FY-a7-6cT"/>
-                                                <constraint firstItem="RQL-OS-iwS" firstAttribute="leading" secondItem="yWg-n3-u2v" secondAttribute="trailing" constant="8" symbolic="YES" id="2Vc-Mb-Gp3"/>
-                                                <constraint firstItem="yWg-n3-u2v" firstAttribute="leading" secondItem="xyj-XO-cP0" secondAttribute="leadingMargin" constant="-1" id="HRx-zN-xeD"/>
-                                                <constraint firstAttribute="trailing" secondItem="RQL-OS-iwS" secondAttribute="trailing" constant="16" id="K9J-b4-NPw"/>
-                                                <constraint firstItem="yWg-n3-u2v" firstAttribute="top" secondItem="xyj-XO-cP0" secondAttribute="top" id="X11-zH-teD"/>
-                                                <constraint firstItem="yWg-n3-u2v" firstAttribute="top" secondItem="RQL-OS-iwS" secondAttribute="top" id="iGF-Wf-hwk"/>
+                                                <constraint firstItem="yWg-n3-u2v" firstAttribute="top" secondItem="RQL-OS-iwS" secondAttribute="top" id="BnW-iG-VjC"/>
+                                                <constraint firstItem="RQL-OS-iwS" firstAttribute="leading" secondItem="yWg-n3-u2v" secondAttribute="trailing" constant="41" id="HcJ-5u-pb6"/>
+                                                <constraint firstItem="yWg-n3-u2v" firstAttribute="centerY" secondItem="xyj-XO-cP0" secondAttribute="centerY" id="TyV-2z-hWa"/>
+                                                <constraint firstItem="yWg-n3-u2v" firstAttribute="leading" secondItem="xyj-XO-cP0" secondAttribute="leadingMargin" constant="-3" id="ftr-yb-raq"/>
+                                                <constraint firstItem="yWg-n3-u2v" firstAttribute="bottom" secondItem="RQL-OS-iwS" secondAttribute="bottom" id="kVs-Bm-eMg"/>
+                                                <constraint firstItem="yWg-n3-u2v" firstAttribute="top" secondItem="xyj-XO-cP0" secondAttribute="top" id="ql4-Yc-r5J"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="RQL-OS-iwS" secondAttribute="trailing" id="tjO-J1-oCQ"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -1355,13 +1351,31 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="USV-rb-Jdd">
+                                <rect key="frame" x="0.0" y="588" width="375" height="79"/>
+                                <color key="backgroundColor" red="0.45494276290000002" green="0.81130355600000004" blue="0.34100461009999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="79" id="xGq-Qk-MFr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="tintColor" red="0.56098382147562587" green="1" blue="0.42877861323754263" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Start Plant I.D.">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gab-q0-cIe" kind="show" id="hMQ-3z-W6h"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="Yhc-Du-TAL" secondAttribute="trailing" id="AKd-yQ-4hk"/>
-                            <constraint firstItem="Yhc-Du-TAL" firstAttribute="top" secondItem="Me9-cv-BEf" secondAttribute="top" id="etl-qs-0lR"/>
-                            <constraint firstItem="Yhc-Du-TAL" firstAttribute="leading" secondItem="Me9-cv-BEf" secondAttribute="leading" id="fS3-v2-Sc6"/>
-                            <constraint firstItem="Yhc-Du-TAL" firstAttribute="bottom" secondItem="m0z-7A-92l" secondAttribute="top" id="lx8-Ta-IDk"/>
+                            <constraint firstAttribute="trailing" secondItem="Yhc-Du-TAL" secondAttribute="trailing" id="0JK-Yl-dQJ"/>
+                            <constraint firstItem="USV-rb-Jdd" firstAttribute="bottom" secondItem="m0z-7A-92l" secondAttribute="top" id="6D5-2h-GUG"/>
+                            <constraint firstItem="Yhc-Du-TAL" firstAttribute="top" secondItem="Me9-cv-BEf" secondAttribute="top" id="LZM-8X-bKl"/>
+                            <constraint firstItem="Yhc-Du-TAL" firstAttribute="leading" secondItem="Me9-cv-BEf" secondAttribute="leading" id="TLf-ro-xgr"/>
+                            <constraint firstItem="Yhc-Du-TAL" firstAttribute="trailing" secondItem="USV-rb-Jdd" secondAttribute="trailing" id="b3S-RN-2d9"/>
+                            <constraint firstItem="USV-rb-Jdd" firstAttribute="top" secondItem="Yhc-Du-TAL" secondAttribute="bottom" constant="8" symbolic="YES" id="fHM-xe-VJ2"/>
+                            <constraint firstItem="Yhc-Du-TAL" firstAttribute="leading" secondItem="USV-rb-Jdd" secondAttribute="leading" id="oIb-f6-yqD"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Results" id="jHf-63-5QQ">
@@ -1377,7 +1391,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p3H-A7-yr4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-418" y="-3084"/>
+            <point key="canvasLocation" x="-418.39999999999998" y="-3084.1079460269866"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="22B-9y-Ibz">
@@ -1396,7 +1410,7 @@
             </objects>
             <point key="canvasLocation" x="-418" y="-3878"/>
         </scene>
-        <!--Title-->
+        <!--Final Detail View Controller-->
         <scene sceneID="Shr-SQ-9Xv">
             <objects>
                 <viewController storyboardIdentifier="finalDetail" id="YYZ-by-I7a" customClass="FinalDetailViewController" customModule="WildBasinPlantDichotomy" customModuleProvider="target" sceneMemberID="viewController">
@@ -1422,6 +1436,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="69" id="ImA-LA-sKL"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Learn More About This Plant">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -1455,7 +1470,7 @@
                             <constraint firstItem="DYZ-H0-qVr" firstAttribute="leading" secondItem="aR5-mb-o1U" secondAttribute="leading" id="tF9-WT-S3L"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="i93-Wp-Hsh">
+                    <navigationItem key="navigationItem" id="i93-Wp-Hsh">
                         <barButtonItem key="rightBarButtonItem" title="Home" id="8Ia-dM-Wmd">
                             <connections>
                                 <segue destination="IrT-Ua-wZ0" kind="show" id="P1i-JU-vDK"/>
@@ -1999,6 +2014,7 @@
         <image name="toothed" width="428" height="656"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="xft-Wl-6rR"/>
+        <segue reference="6m6-ua-Era"/>
+        <segue reference="Xcv-uv-IkH"/>
     </inferredMetricsTieBreakers>
 </document>
