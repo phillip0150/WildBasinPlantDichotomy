@@ -63,11 +63,8 @@ class FinalDetailViewController: UIViewController, UIScrollViewDelegate
     {
     
         plantImageView.image = UIImage(named: (plant?.image)!)
-//        plantNameLabel.text = plant?.name
         plantDescriptionLabel.text = plant?.description
         self.title = plant?.name
-        
-        
         //plantURLLabel.text = plantURL
 
         

@@ -36,46 +36,46 @@
 /* Begin PBXFileReference section */
 		067AF3644FE9EF2495835B9E876BD3CF /* Pods-WildBasinPlantDichotomyTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WildBasinPlantDichotomyTests-resources.sh"; sourceTree = "<group>"; };
 		134BC9FC178A8EA6480609EA0AD15CAB /* Pods-WildBasinPlantDichotomyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WildBasinPlantDichotomyTests.release.xcconfig"; sourceTree = "<group>"; };
-		18C54F2315964043AA324DB4B7118120 /* Pods_WildBasinPlantDichotomy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WildBasinPlantDichotomy.framework; path = "Pods-WildBasinPlantDichotomy.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C54F2315964043AA324DB4B7118120 /* Pods_WildBasinPlantDichotomy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WildBasinPlantDichotomy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EC4F685DCF02453EFF6C9F746469BCE /* Pods-WildBasinPlantDichotomy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WildBasinPlantDichotomy.release.xcconfig"; sourceTree = "<group>"; };
 		23A8C120DA2DFC3A82FBEE477D580BA9 /* Pods-WildBasinPlantDichotomy-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WildBasinPlantDichotomy-resources.sh"; sourceTree = "<group>"; };
 		2C429B4C255323199D4DAC9FFA9CE32B /* Pods-WildBasinPlantDichotomyTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WildBasinPlantDichotomyTests-umbrella.h"; sourceTree = "<group>"; };
 		2E85072DA0649E567B492097DA2B3A5C /* Pods-WildBasinPlantDichotomyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WildBasinPlantDichotomyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		32A93382713723044710BD800CB730C7 /* Pods-WildBasinPlantDichotomyTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WildBasinPlantDichotomyTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3F80E1056E2FF13F9422684A85CA184C /* Pods-WildBasinPlantDichotomyTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WildBasinPlantDichotomyTests.modulemap"; sourceTree = "<group>"; };
+		3F80E1056E2FF13F9422684A85CA184C /* Pods-WildBasinPlantDichotomyTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WildBasinPlantDichotomyTests.modulemap"; sourceTree = "<group>"; };
 		504A3FE7E82B9B3F1AECE6E1A278C474 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55B5169F5A31153D8047485ABDBA1E3E /* Pods-WildBasinPlantDichotomy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WildBasinPlantDichotomy.debug.xcconfig"; sourceTree = "<group>"; };
 		57AD2709678C8550E9A36907CFC77656 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58188C628F8F612FD864E7D76A19E3C1 /* DLRadioButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DLRadioButton-dummy.m"; sourceTree = "<group>"; };
 		5997F1F419B86C7200A0956934AAC7B4 /* Pods-WildBasinPlantDichotomyTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WildBasinPlantDichotomyTests-dummy.m"; sourceTree = "<group>"; };
-		5B604452495037ACCA226C6DABDC5BDE /* Pods-WildBasinPlantDichotomyUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WildBasinPlantDichotomyUITests.modulemap"; sourceTree = "<group>"; };
+		5B604452495037ACCA226C6DABDC5BDE /* Pods-WildBasinPlantDichotomyUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WildBasinPlantDichotomyUITests.modulemap"; sourceTree = "<group>"; };
 		5D6D1DD8C281B7641F70A2F3A794894E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6A4161867A41875E4F7D1AFB9AD118BE /* Pods-WildBasinPlantDichotomy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WildBasinPlantDichotomy.modulemap"; sourceTree = "<group>"; };
+		6A4161867A41875E4F7D1AFB9AD118BE /* Pods-WildBasinPlantDichotomy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WildBasinPlantDichotomy.modulemap"; sourceTree = "<group>"; };
 		6A4E841618C54FA18D4BAAC9C6269971 /* Pods-WildBasinPlantDichotomy-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WildBasinPlantDichotomy-acknowledgements.plist"; sourceTree = "<group>"; };
 		75232443C79DAD45152E7E055C14D1A3 /* Pods-WildBasinPlantDichotomyUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WildBasinPlantDichotomyUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7905713990636B6D12F4F9FC028F8990 /* DLRadioButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DLRadioButton.m; path = DLRadioButton/DLRadioButton.m; sourceTree = "<group>"; };
 		7C791FF746FB7A1246A7116B529A5C66 /* Pods-WildBasinPlantDichotomyTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WildBasinPlantDichotomyTests-frameworks.sh"; sourceTree = "<group>"; };
 		871F3562D7AB6C5082B52CB0F9B2F77E /* Pods-WildBasinPlantDichotomyUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WildBasinPlantDichotomyUITests-dummy.m"; sourceTree = "<group>"; };
 		92B436A2E3C3F9C44BC286D66C1F5D61 /* Pods-WildBasinPlantDichotomyTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WildBasinPlantDichotomyTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		968544788662AFCD8E39FA368968975B /* DLRadioButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DLRadioButton.xcconfig; sourceTree = "<group>"; };
 		96D0091B5F58C62ADCEC7D0A306D8B41 /* Pods-WildBasinPlantDichotomy-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WildBasinPlantDichotomy-frameworks.sh"; sourceTree = "<group>"; };
 		9BD612CAE4FE320558DEDBCFF65AA1BC /* Pods-WildBasinPlantDichotomy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WildBasinPlantDichotomy-umbrella.h"; sourceTree = "<group>"; };
 		9CC8D6C1218555F6CFA23786070BCCC5 /* Pods-WildBasinPlantDichotomy-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WildBasinPlantDichotomy-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BD5594C47CD62BFD5E082BCAC39667E3 /* Pods_WildBasinPlantDichotomyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WildBasinPlantDichotomyUITests.framework; path = "Pods-WildBasinPlantDichotomyUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5594C47CD62BFD5E082BCAC39667E3 /* Pods_WildBasinPlantDichotomyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WildBasinPlantDichotomyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D2CE38455120AD8BC92831B6C36B4EC2 /* Pods-WildBasinPlantDichotomy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WildBasinPlantDichotomy-dummy.m"; sourceTree = "<group>"; };
 		DA051F530FF23EF188C911AD8C7080F0 /* DLRadioButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-umbrella.h"; sourceTree = "<group>"; };
-		DBB6D1E439C1CCFCBC56224970704B9E /* DLRadioButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DLRadioButton.modulemap; sourceTree = "<group>"; };
+		DBB6D1E439C1CCFCBC56224970704B9E /* DLRadioButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DLRadioButton.modulemap; sourceTree = "<group>"; };
 		DD71C66089C337F0D8F70A62B68166E8 /* Pods-WildBasinPlantDichotomyUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WildBasinPlantDichotomyUITests-umbrella.h"; sourceTree = "<group>"; };
 		E1AFD2820150FE754931552105B1A71C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E222E0956143D0FC952C90599CDF5BFF /* DLRadioButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLRadioButton.h; path = DLRadioButton/DLRadioButton.h; sourceTree = "<group>"; };
 		E276C2D0DD37817639A5BD7D44FB272B /* Pods-WildBasinPlantDichotomyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WildBasinPlantDichotomyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EA3C5C107FBCABC29369483DE024EF1C /* Pods-WildBasinPlantDichotomyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WildBasinPlantDichotomyUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		ED473E0AEE79ADCCA3627D6EF8790D23 /* Pods_WildBasinPlantDichotomyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WildBasinPlantDichotomyTests.framework; path = "Pods-WildBasinPlantDichotomyTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED473E0AEE79ADCCA3627D6EF8790D23 /* Pods_WildBasinPlantDichotomyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WildBasinPlantDichotomyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE0466DFA6B6898A8380F2CD57C324CA /* Pods-WildBasinPlantDichotomyUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WildBasinPlantDichotomyUITests-resources.sh"; sourceTree = "<group>"; };
 		EF724096F4F902AA668FC80A8AADA9B8 /* Pods-WildBasinPlantDichotomyUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WildBasinPlantDichotomyUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F60AF482107B5440B9C542FE0115F776 /* DLRadioButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DLRadioButton.framework; path = DLRadioButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F60AF482107B5440B9C542FE0115F776 /* DLRadioButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DLRadioButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F988CCF3241C27EBB633E262E9747B97 /* Pods-WildBasinPlantDichotomyUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WildBasinPlantDichotomyUITests-frameworks.sh"; sourceTree = "<group>"; };
 		FEBC296F793A53D56A1E18FFF6B256BA /* DLRadioButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DLRadioButton-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -233,7 +233,6 @@
 				7905713990636B6D12F4F9FC028F8990 /* DLRadioButton.m */,
 				F5B7AB297EEDEF56E5255B41975270E9 /* Support Files */,
 			);
-			name = DLRadioButton;
 			path = DLRadioButton;
 			sourceTree = "<group>";
 		};
@@ -366,7 +365,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0920;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -443,19 +442,29 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
@@ -722,20 +731,30 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
