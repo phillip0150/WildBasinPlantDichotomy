@@ -44,7 +44,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phillip Valdez - Application Developer" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2sY-Mj-ZjE">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phillip Valdez - Lead Application Developer" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2sY-Mj-ZjE">
                                 <rect key="frame" x="0.0" y="483" width="375" height="38"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="38" id="WkT-Jp-bJK"/>
@@ -62,7 +62,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Marissa Faris - Plant Data Specialist" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ns8-iV-ERu">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Marissa Faris - Lead Plant Data Specialist" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ns8-iV-ERu">
                                 <rect key="frame" x="0.0" y="575" width="375" height="38"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="38" id="jQF-Hg-27D"/>
@@ -493,7 +493,13 @@
                             <constraint firstAttribute="trailingMargin" secondItem="xXE-ul-1xC" secondAttribute="trailing" constant="-11" id="ykW-fU-dgb"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="ajb-SA-OYz"/>
+                    <navigationItem key="navigationItem" id="LU6-8x-LqY">
+                        <barButtonItem key="rightBarButtonItem" title="Home" id="Skk-te-aE5">
+                            <connections>
+                                <segue destination="IrT-Ua-wZ0" kind="show" id="j5X-f5-pwd"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="btn1" destination="GgQ-7w-EiM" id="D8w-Xd-TGc"/>
                         <outlet property="btn2" destination="be9-Ny-Yzx" id="qgq-H0-JZL"/>
@@ -579,7 +585,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Opposite" translatesAutoresizingMaskIntoConstraints="NO" id="Qc2-rf-Sgx">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Opposite" translatesAutoresizingMaskIntoConstraints="NO" id="Qc2-rf-Sgx">
                                 <rect key="frame" x="202" y="263" width="173" height="140"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Opposite" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="diA-cP-odq">
@@ -588,7 +594,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Alternate" translatesAutoresizingMaskIntoConstraints="NO" id="OQd-ss-yiN">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Alternate" translatesAutoresizingMaskIntoConstraints="NO" id="OQd-ss-yiN">
                                 <rect key="frame" x="0.0" y="265" width="149" height="136"/>
                             </imageView>
                         </subviews>
@@ -622,7 +628,13 @@
                             <constraint firstItem="Sl5-GK-Yl7" firstAttribute="top" secondItem="d13-71-ZFH" secondAttribute="bottom" constant="21" id="zsm-Rk-WT0"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="eHM-U3-bKO"/>
+                    <navigationItem key="navigationItem" id="CZ0-PF-9fN">
+                        <barButtonItem key="rightBarButtonItem" title="Home" id="rAZ-H6-ZLN">
+                            <connections>
+                                <segue destination="IrT-Ua-wZ0" kind="show" id="csQ-Zo-9VD"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="btn1" destination="f7r-I7-pxu" id="e92-gg-0ie"/>
                         <outlet property="btn2" destination="MTG-ul-c8w" id="3Ry-lw-VqE"/>
@@ -635,7 +647,7 @@
             </objects>
             <point key="canvasLocation" x="1109.5999999999999" y="-2284.4077961019493"/>
         </scene>
-        <!--OppositeVNV View Controller-->
+        <!--Title-->
         <scene sceneID="oWT-Fh-1Zh">
             <objects>
                 <viewController storyboardIdentifier="opposite" id="WDc-rE-O7a" customClass="OppositeVNVViewController" customModule="WildBasinPlantDichotomy" customModuleProvider="target" sceneMemberID="viewController">
@@ -736,6 +748,13 @@
                             <constraint firstItem="VEY-IV-KVQ" firstAttribute="leading" secondItem="kVB-wj-ueW" secondAttribute="leadingMargin" constant="31" id="yqa-qe-ONe"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Title" id="7BP-fB-s1Y">
+                        <barButtonItem key="rightBarButtonItem" title="Home" id="IlR-SL-cv1">
+                            <connections>
+                                <segue destination="IrT-Ua-wZ0" kind="show" id="6xh-8p-Vq0"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="btn1" destination="s0R-pD-znh" id="O8M-oN-78d"/>
                         <outlet property="btn2" destination="hNd-Am-dYe" id="lDY-5k-43E"/>
@@ -746,7 +765,7 @@
             </objects>
             <point key="canvasLocation" x="1966" y="-1443"/>
         </scene>
-        <!--NotA VineSMT View Controller-->
+        <!--Title-->
         <scene sceneID="Oow-z1-1bS">
             <objects>
                 <viewController storyboardIdentifier="OppositeNotAVine" id="Xet-Hv-AJk" customClass="NotAVineSMTViewController" customModule="WildBasinPlantDichotomy" customModuleProvider="target" sceneMemberID="viewController">
@@ -864,6 +883,13 @@
                             <constraint firstItem="9uh-sa-16k" firstAttribute="centerX" secondItem="WAn-78-hVu" secondAttribute="centerX" id="zrL-gP-ojr"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Title" id="7Fr-zi-jBf">
+                        <barButtonItem key="rightBarButtonItem" title="Nome" id="kS2-TP-MoG">
+                            <connections>
+                                <segue destination="IrT-Ua-wZ0" kind="show" id="S33-0g-mXg"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="btn1" destination="kSF-Ab-bWr" id="3Vb-F0-3Ej"/>
                         <outlet property="btn2" destination="cQl-cs-1EM" id="GRJ-MO-sXb"/>
@@ -973,6 +999,13 @@
                             <constraint firstAttribute="trailingMargin" secondItem="cmc-4r-EG3" secondAttribute="trailing" constant="38" id="uJT-tP-Kzs"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="teu-55-hjd">
+                        <barButtonItem key="rightBarButtonItem" title="Home" id="Vji-hZ-WEg">
+                            <connections>
+                                <segue destination="IrT-Ua-wZ0" kind="show" id="BhL-eR-wRL"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="btn1" destination="yXj-y4-CrD" id="aa7-CH-LDP"/>
                         <outlet property="btn2" destination="cmc-4r-EG3" id="1k5-Kb-0tt"/>
@@ -1172,6 +1205,13 @@
                             <constraint firstItem="cti-6A-uML" firstAttribute="top" secondItem="Efr-zv-Xxj" secondAttribute="bottom" constant="8" symbolic="YES" id="xfP-oX-vRV"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="2Jp-O9-gUu">
+                        <barButtonItem key="rightBarButtonItem" title="Home" id="lZ6-3i-Siw">
+                            <connections>
+                                <segue destination="IrT-Ua-wZ0" kind="show" id="7Wu-3s-1vq"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="btn1" destination="ncW-wE-bqm" id="aZN-59-Lgp"/>
                         <outlet property="btn2" destination="LAs-Fr-wh5" id="uqb-6o-3K1"/>
@@ -1289,6 +1329,13 @@
                             <constraint firstItem="Gcf-9c-mXg" firstAttribute="leading" secondItem="m5x-Zp-Ic0" secondAttribute="leading" id="xyW-Ua-YpM"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="SME-Pe-iHC">
+                        <barButtonItem key="rightBarButtonItem" title="Home" id="RMg-jh-yY8">
+                            <connections>
+                                <segue destination="IrT-Ua-wZ0" kind="show" id="3Dn-Wa-sNg"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="btn1" destination="jRx-Nn-mfO" id="bNL-vx-pRo"/>
                         <outlet property="btn2" destination="X52-L4-BdY" id="0U8-rE-Zen"/>
@@ -1422,6 +1469,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ark-r0-hne">
+                                <rect key="frame" x="16" y="352" width="343" height="228"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="228" id="5WP-5c-CKT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DYZ-H0-qVr">
                                 <rect key="frame" x="0.0" y="64" width="375" height="280"/>
                                 <gestureRecognizers/>
@@ -1431,10 +1488,10 @@
                                 </connections>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dmY-Vm-jG8">
-                                <rect key="frame" x="0.0" y="598" width="375" height="69"/>
+                                <rect key="frame" x="0.0" y="588" width="375" height="79"/>
                                 <color key="backgroundColor" red="0.45494276290000002" green="0.81130355600000004" blue="0.34100461009999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="69" id="ImA-LA-sKL"/>
+                                    <constraint firstAttribute="height" constant="79" id="XCB-ad-qEy"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Learn More About This Plant">
@@ -1444,30 +1501,20 @@
                                     <segue destination="fpt-zs-IUk" kind="show" id="Wo2-c9-qib"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ark-r0-hne">
-                                <rect key="frame" x="0.0" y="352" width="375" height="238"/>
-                                <gestureRecognizers/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="238" id="FLT-LH-kCy"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="18"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="DYZ-H0-qVr" firstAttribute="trailing" secondItem="ark-r0-hne" secondAttribute="trailing" id="1PZ-mn-eiB"/>
-                            <constraint firstItem="DYZ-H0-qVr" firstAttribute="leading" secondItem="ark-r0-hne" secondAttribute="leading" id="6t3-2N-8uM"/>
-                            <constraint firstItem="ark-r0-hne" firstAttribute="top" secondItem="DYZ-H0-qVr" secondAttribute="bottom" constant="8" symbolic="YES" id="CM7-kF-Qit"/>
-                            <constraint firstItem="dmY-Vm-jG8" firstAttribute="top" secondItem="ark-r0-hne" secondAttribute="bottom" constant="8" symbolic="YES" id="NuG-0B-ghv"/>
-                            <constraint firstItem="dmY-Vm-jG8" firstAttribute="bottom" secondItem="h0J-4Y-e6S" secondAttribute="top" id="S1X-Dv-TFU"/>
-                            <constraint firstItem="DYZ-H0-qVr" firstAttribute="top" secondItem="WNb-Cc-u1T" secondAttribute="bottom" id="SKc-hz-jnU"/>
-                            <constraint firstItem="ark-r0-hne" firstAttribute="trailing" secondItem="dmY-Vm-jG8" secondAttribute="trailing" id="cqM-iL-hw7"/>
-                            <constraint firstAttribute="trailing" secondItem="DYZ-H0-qVr" secondAttribute="trailing" id="l95-cl-2gv"/>
-                            <constraint firstItem="ark-r0-hne" firstAttribute="leading" secondItem="dmY-Vm-jG8" secondAttribute="leading" id="qTS-js-Q8D"/>
-                            <constraint firstItem="DYZ-H0-qVr" firstAttribute="leading" secondItem="aR5-mb-o1U" secondAttribute="leading" id="tF9-WT-S3L"/>
+                            <constraint firstItem="DYZ-H0-qVr" firstAttribute="top" secondItem="WNb-Cc-u1T" secondAttribute="bottom" id="0gd-10-Kip"/>
+                            <constraint firstItem="ark-r0-hne" firstAttribute="top" secondItem="DYZ-H0-qVr" secondAttribute="bottom" constant="8" symbolic="YES" id="C4Z-qb-20o"/>
+                            <constraint firstItem="ark-r0-hne" firstAttribute="centerX" secondItem="dmY-Vm-jG8" secondAttribute="centerX" id="Svk-dI-TBY"/>
+                            <constraint firstItem="DYZ-H0-qVr" firstAttribute="leading" secondItem="dmY-Vm-jG8" secondAttribute="leading" id="WcK-gf-orb"/>
+                            <constraint firstItem="DYZ-H0-qVr" firstAttribute="trailing" secondItem="dmY-Vm-jG8" secondAttribute="trailing" id="cNd-rf-kDd"/>
+                            <constraint firstItem="dmY-Vm-jG8" firstAttribute="top" secondItem="ark-r0-hne" secondAttribute="bottom" constant="8" symbolic="YES" id="cn0-sd-56N"/>
+                            <constraint firstAttribute="trailing" secondItem="DYZ-H0-qVr" secondAttribute="trailing" id="mT8-xL-ruV"/>
+                            <constraint firstItem="DYZ-H0-qVr" firstAttribute="leading" secondItem="aR5-mb-o1U" secondAttribute="leading" id="vCr-gG-RYn"/>
+                            <constraint firstItem="ark-r0-hne" firstAttribute="leading" secondItem="aR5-mb-o1U" secondAttribute="leadingMargin" id="xDv-ew-jMa"/>
+                            <constraint firstItem="dmY-Vm-jG8" firstAttribute="bottom" secondItem="h0J-4Y-e6S" secondAttribute="top" id="zb8-Yt-gQ0"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="i93-Wp-Hsh">
@@ -1494,7 +1541,7 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="302" y="-3084"/>
+            <point key="canvasLocation" x="301.60000000000002" y="-3084.1079460269866"/>
         </scene>
         <!--More Information-->
         <scene sceneID="Van-GD-dTG">
@@ -1727,6 +1774,13 @@
                             <constraint firstItem="IAg-2u-jhu" firstAttribute="trailing" secondItem="WZR-7Y-fgE" secondAttribute="trailingMargin" id="ywX-rF-Kbo"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="QqS-DJ-2Sq">
+                        <barButtonItem key="rightBarButtonItem" title="Home" id="ELO-lH-ITn">
+                            <connections>
+                                <segue destination="IrT-Ua-wZ0" kind="show" id="MeK-Us-g7U"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="btn1" destination="tjY-Xq-cG3" id="pT8-Ah-QkP"/>
                         <outlet property="btn2" destination="Cpe-bz-ZYE" id="Z3r-wX-CVh"/>
@@ -1874,6 +1928,13 @@
                             <constraint firstAttribute="bottom" secondItem="rLH-Wu-Cx7" secondAttribute="bottom" constant="96" id="xSY-Zl-cjn"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="6mD-80-ky5">
+                        <barButtonItem key="rightBarButtonItem" title="Home" id="KPi-pR-OdC">
+                            <connections>
+                                <segue destination="IrT-Ua-wZ0" kind="show" id="P3l-hO-uY0"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="btn1" destination="lTg-y6-W1I" id="wq3-e7-6mV"/>
                         <outlet property="btn2" destination="ZyE-qI-7Np" id="kdE-fT-J7x"/>
@@ -1987,6 +2048,13 @@
                             <constraint firstItem="TwA-oR-kuB" firstAttribute="leading" secondItem="cYg-Xt-eeB" secondAttribute="leading" id="vXo-jO-17W"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="zaO-F5-S9X">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="VW5-1C-gbF">
+                            <connections>
+                                <segue destination="IrT-Ua-wZ0" kind="show" id="9SV-wS-vAI"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="btn1" destination="SdR-LJ-3CB" id="NjZ-gK-luM"/>
                         <outlet property="btn2" destination="nfj-pl-OsL" id="gvi-HV-heD"/>
@@ -2014,7 +2082,7 @@
         <image name="toothed" width="428" height="656"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="6m6-ua-Era"/>
-        <segue reference="Xcv-uv-IkH"/>
+        <segue reference="hMQ-3z-W6h"/>
+        <segue reference="9SV-wS-vAI"/>
     </inferredMetricsTieBreakers>
 </document>

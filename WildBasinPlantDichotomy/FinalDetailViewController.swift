@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FinalDetailViewController: UIViewController
+class FinalDetailViewController: UIViewController, UIScrollViewDelegate
 {
     var plant: Plant?
     var plantCode: Int?
@@ -20,7 +20,7 @@ class FinalDetailViewController: UIViewController
     @IBOutlet weak var plantImageView: UIImageView!
     @IBOutlet weak var plantDescriptionLabel: UILabel!
     @IBOutlet weak var plantURLLabel: UILabel!
-
+   
     @IBAction func rightSwipe(_ sender: UISwipeGestureRecognizer) {
 
         plantImageView.image = UIImage(named: (plant?.image)!)
@@ -37,6 +37,7 @@ class FinalDetailViewController: UIViewController
         
         super.viewDidLoad()
         //self.navigationController?.navigationBar.isHidden = false;
+        
 
       self.navigationItem.hidesBackButton = true
       let newBackButton = UIBarButtonItem(title: "Back", style: UIBarButtonItemStyle.plain, target: self, action: #selector(FinalDetailViewController.back(sender:)))
@@ -73,6 +74,6 @@ class FinalDetailViewController: UIViewController
     }
 
     
-  
+
 
 }
