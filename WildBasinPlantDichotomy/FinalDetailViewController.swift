@@ -69,6 +69,25 @@ class FinalDetailViewController: UIViewController, UIScrollViewDelegate
 
         
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if segue.identifier == "MasterToWeb"
+        {
+            
+            let plant = Plant(name: (self.plant?.name)!, description: plantDescriptionLabel.text!, image: (self.plant?.image)!, otherimage: (self.plant?.otherimage)!, url: (self.plant?.url)!)
+            let destVC = segue.destination as! ResultWebViewController
+            destVC.plant = plant
+            
+        }
+    }
+    
+    func plantLearnMore(_ sender: Any)
+    {
+        
+        performSegue(withIdentifier: "MasterToWeb", sender: plant)
+        
+    }
 
     
 

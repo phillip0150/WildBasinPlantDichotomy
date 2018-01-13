@@ -21,6 +21,7 @@
 		33A519CD1EFF5CE50082801B /* FinalPlantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A519CA1EFF5CE50082801B /* FinalPlantViewController.swift */; };
 		33A519CF1EFF5DF00082801B /* FinalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A519CE1EFF5DF00082801B /* FinalDetailViewController.swift */; };
 		33A519D11EFF5DF00082801B /* FinalDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A519CE1EFF5DF00082801B /* FinalDetailViewController.swift */; };
+		33A635A5200ACBC00053FB37 /* ResultWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A635A4200ACBC00053FB37 /* ResultWebViewController.swift */; };
 		33E11AA91EF44D47002EBD72 /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E11AA81EF44D47002EBD72 /* Plant.swift */; };
 		33E11AAB1EF44D4E002EBD72 /* PlantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E11AAA1EF44D4E002EBD72 /* PlantCell.swift */; };
 		33E11AB81EF45F48002EBD72 /* SimpleAOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E11AB71EF45F48002EBD72 /* SimpleAOViewController.swift */; };
@@ -76,6 +77,7 @@
 		33718E781FF31DD400C20AB3 /* WildBasinPlantDichotomy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WildBasinPlantDichotomy-Bridging-Header.h"; sourceTree = "<group>"; };
 		33A519CA1EFF5CE50082801B /* FinalPlantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalPlantViewController.swift; sourceTree = "<group>"; };
 		33A519CE1EFF5DF00082801B /* FinalDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalDetailViewController.swift; sourceTree = "<group>"; };
+		33A635A4200ACBC00053FB37 /* ResultWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultWebViewController.swift; sourceTree = "<group>"; };
 		33E11AA81EF44D47002EBD72 /* Plant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
 		33E11AAA1EF44D4E002EBD72 /* PlantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantCell.swift; sourceTree = "<group>"; };
 		33E11AB71EF45F48002EBD72 /* SimpleAOViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleAOViewController.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				33A519CE1EFF5DF00082801B /* FinalDetailViewController.swift */,
 				331A186A1ECE1B3F001F485A /* AppDelegate.swift */,
 				331A186E1ECE1B3F001F485A /* Main.storyboard */,
+				33A635A4200ACBC00053FB37 /* ResultWebViewController.swift */,
 				33E11AB61EF45EE0002EBD72 /* Simple */,
 				500D5C991EFDF99600BCF939 /* Compound */,
 				33E11AC01EF45FD5002EBD72 /* Plants */,
@@ -558,6 +561,7 @@
 				500D5C9F1EFDFA5400BCF939 /* GreaterThan10ViewController.swift in Sources */,
 				33E11AAB1EF44D4E002EBD72 /* PlantCell.swift in Sources */,
 				336290061F0C46F100FFDC7E /* SideBarViewController.swift in Sources */,
+				33A635A5200ACBC00053FB37 /* ResultWebViewController.swift in Sources */,
 				505C966A1ECE238700FE4A4A /* Node.swift in Sources */,
 				336B2EA31ED6138F003D81C5 /* PlantIDViewController.swift in Sources */,
 			);

@@ -1498,7 +1498,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="fpt-zs-IUk" kind="show" id="Wo2-c9-qib"/>
+                                    <segue destination="fpt-zs-IUk" kind="show" identifier="MasterToWeb" id="Wo2-c9-qib"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1546,7 +1546,7 @@
         <!--More Information-->
         <scene sceneID="Van-GD-dTG">
             <objects>
-                <viewController id="fpt-zs-IUk" sceneMemberID="viewController">
+                <viewController id="fpt-zs-IUk" customClass="ResultWebViewController" customModule="WildBasinPlantDichotomy" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FKL-Dk-mAR"/>
                         <viewControllerLayoutGuide type="bottom" id="J85-0u-6l4"/>
@@ -1575,6 +1575,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="webView" destination="kNU-o4-DLI" id="Qg0-Ud-OJ1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KiP-oX-cw2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2083,6 +2086,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="hMQ-3z-W6h"/>
-        <segue reference="9SV-wS-vAI"/>
+        <segue reference="xft-Wl-6rR"/>
     </inferredMetricsTieBreakers>
 </document>
