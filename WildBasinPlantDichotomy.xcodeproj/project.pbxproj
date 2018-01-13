@@ -344,6 +344,7 @@
 					};
 					331A18881ECE1B3F001F485A = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = CGLZ5DVH7S;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 331A18661ECE1B3F001F485A;
 					};
@@ -780,6 +781,7 @@
 			baseConfigurationReference = BB3F5F9BCF20D81094D3965A /* Pods-WildBasinPlantDichotomyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CGLZ5DVH7S;
 				INFOPLIST_FILE = WildBasinPlantDichotomyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "St.-Edward-s-University.WildBasinPlantDichotomyUITests";
@@ -794,6 +796,7 @@
 			baseConfigurationReference = AF8783D0A818875672199B5E /* Pods-WildBasinPlantDichotomyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CGLZ5DVH7S;
 				INFOPLIST_FILE = WildBasinPlantDichotomyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "St.-Edward-s-University.WildBasinPlantDichotomyUITests";

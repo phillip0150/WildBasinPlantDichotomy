@@ -44,7 +44,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phillip Valdez - Lead Application Developer" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2sY-Mj-ZjE">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phillip Valdez - Application Developer" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2sY-Mj-ZjE">
                                 <rect key="frame" x="0.0" y="483" width="375" height="38"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="38" id="WkT-Jp-bJK"/>
@@ -62,7 +62,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Marissa Faris - Lead Plant Data Specialist" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ns8-iV-ERu">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Marissa Faris - Plant Data Specialist" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ns8-iV-ERu">
                                 <rect key="frame" x="0.0" y="575" width="375" height="38"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="38" id="jQF-Hg-27D"/>
@@ -647,7 +647,7 @@
             </objects>
             <point key="canvasLocation" x="1109.5999999999999" y="-2284.4077961019493"/>
         </scene>
-        <!--Title-->
+        <!--OppositeVNV View Controller-->
         <scene sceneID="oWT-Fh-1Zh">
             <objects>
                 <viewController storyboardIdentifier="opposite" id="WDc-rE-O7a" customClass="OppositeVNVViewController" customModule="WildBasinPlantDichotomy" customModuleProvider="target" sceneMemberID="viewController">
@@ -748,7 +748,7 @@
                             <constraint firstItem="VEY-IV-KVQ" firstAttribute="leading" secondItem="kVB-wj-ueW" secondAttribute="leadingMargin" constant="31" id="yqa-qe-ONe"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="7BP-fB-s1Y">
+                    <navigationItem key="navigationItem" id="7BP-fB-s1Y">
                         <barButtonItem key="rightBarButtonItem" title="Home" id="IlR-SL-cv1">
                             <connections>
                                 <segue destination="IrT-Ua-wZ0" kind="show" id="6xh-8p-Vq0"/>
@@ -765,7 +765,7 @@
             </objects>
             <point key="canvasLocation" x="1966" y="-1443"/>
         </scene>
-        <!--Title-->
+        <!--NotA VineSMT View Controller-->
         <scene sceneID="Oow-z1-1bS">
             <objects>
                 <viewController storyboardIdentifier="OppositeNotAVine" id="Xet-Hv-AJk" customClass="NotAVineSMTViewController" customModule="WildBasinPlantDichotomy" customModuleProvider="target" sceneMemberID="viewController">
@@ -883,8 +883,8 @@
                             <constraint firstItem="9uh-sa-16k" firstAttribute="centerX" secondItem="WAn-78-hVu" secondAttribute="centerX" id="zrL-gP-ojr"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="7Fr-zi-jBf">
-                        <barButtonItem key="rightBarButtonItem" title="Nome" id="kS2-TP-MoG">
+                    <navigationItem key="navigationItem" id="7Fr-zi-jBf">
+                        <barButtonItem key="rightBarButtonItem" title="Home" id="kS2-TP-MoG">
                             <connections>
                                 <segue destination="IrT-Ua-wZ0" kind="show" id="S33-0g-mXg"/>
                             </connections>
@@ -2012,7 +2012,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Less than 1/2 inch wide" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fKS-Ve-4IU">
-                                <rect key="frame" x="33" y="481" width="100" height="85"/>
+                                <rect key="frame" x="33" y="481" width="136" height="85"/>
                                 <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -2036,7 +2036,7 @@
                             <constraint firstItem="SdR-LJ-3CB" firstAttribute="top" secondItem="nfj-pl-OsL" secondAttribute="top" id="8TO-ie-uom"/>
                             <constraint firstItem="fKS-Ve-4IU" firstAttribute="top" secondItem="SdR-LJ-3CB" secondAttribute="bottom" constant="7" id="E5I-t0-c98"/>
                             <constraint firstItem="fKS-Ve-4IU" firstAttribute="firstBaseline" secondItem="CTx-T6-WW6" secondAttribute="firstBaseline" constant="-1" id="Gsn-eK-R2D"/>
-                            <constraint firstItem="CTx-T6-WW6" firstAttribute="leading" secondItem="fKS-Ve-4IU" secondAttribute="trailing" constant="98" id="KEi-WK-UmU"/>
+                            <constraint firstItem="CTx-T6-WW6" firstAttribute="leading" secondItem="fKS-Ve-4IU" secondAttribute="trailing" constant="62" id="KEi-WK-UmU"/>
                             <constraint firstItem="fKS-Ve-4IU" firstAttribute="leading" secondItem="cYg-Xt-eeB" secondAttribute="leadingMargin" constant="17" id="Q4y-xm-MiU"/>
                             <constraint firstAttribute="trailingMargin" secondItem="0cb-nm-ONJ" secondAttribute="trailing" id="Tdg-IT-gVe"/>
                             <constraint firstItem="CTx-T6-WW6" firstAttribute="trailing" secondItem="cYg-Xt-eeB" secondAttribute="trailingMargin" id="bZl-gK-wXh"/>
@@ -2049,7 +2049,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="zaO-F5-S9X">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="VW5-1C-gbF">
+                        <barButtonItem key="rightBarButtonItem" title="Home" id="VW5-1C-gbF">
                             <connections>
                                 <segue destination="IrT-Ua-wZ0" kind="show" id="9SV-wS-vAI"/>
                             </connections>
@@ -2062,7 +2062,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9k1-O7-suj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1966" y="-742"/>
+            <point key="canvasLocation" x="1965.5999999999999" y="-742.5787106446777"/>
         </scene>
     </scenes>
     <resources>
