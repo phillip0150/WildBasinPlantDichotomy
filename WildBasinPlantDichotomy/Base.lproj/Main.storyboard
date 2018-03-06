@@ -1368,7 +1368,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="118.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yWg-n3-u2v">
+                                                <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yWg-n3-u2v">
                                                     <rect key="frame" x="12" y="0.0" width="118" height="118"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="118" id="JFQ-3m-4v5"/>
@@ -2086,6 +2086,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="hMQ-3z-W6h"/>
-        <segue reference="xft-Wl-6rR"/>
+        <segue reference="j5X-f5-pwd"/>
     </inferredMetricsTieBreakers>
 </document>
