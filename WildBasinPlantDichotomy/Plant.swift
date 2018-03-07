@@ -37,11 +37,12 @@ class Plant
         
         plants.append(Plant(name: "Common Greenbriar (Smilax rotundifolia)", description: "Climbing vine with tendrils and heart-shaped leaves. Tough stem with thorns when mature. Edible. Dark blue berries appear during the summer-winter. Roots can used to make sarsaparilla, a carbonated beverage. Range: E. North America, Central to E. Texas", image: "greenbriar 1", otherimage: "greenbriar 2", url: "http://www.inaturalist.org/taxa/125677-Smilax-bona-nox"))
         
+        plants.append(Plant(name: "Cow Itch Vine (Cissus trifoliata)", description: "Climbing vine that grows in wooded areas and along stream banks spreading out over rocks, trees, and shrubs. The vine has tuberous roots and a woody base with leaves that are variable but usually divided into three leaflets. Small berries grow from May to September. When crushed, leaves are known to give off a distinct pungent odor. Found in SE US, Northern S America.", image: "cow itch vine 2", otherimage: "cow itch vine 2", url: "http://www.inaturalist.org/taxa/75995-Campsis-radicans"))
+        
         plants.append(Plant(name: "Mustang Grape (Vitis mustangensis)", description: "High climbing vine with saucer shaped leaves covered with small white hairs. Fruits appear in June-August and are black or dark red. The grapes are considered edible but the skin needs to be removed because it can irritate the mouth and skin. Wine can be made from the mustang grape by peeling the skin off and following a fermentation process. Grows in Central, S.and E. Texas.", image: "mustang grape 1", otherimage: "mustang grape 2", url: "http://www.inaturalist.org/taxa/142776-Vitis-mustangensis"))
         
         plants.append(Plant(name: "Rattan Vine (Berchemia scandens)", description: "Climbing vine with distinctive green bark and oval shaped leaves with veins that branch out and downward. Vines are wrapped around trees and produce flowers in the spring. Its fruit is small and is eaten by raccoons. Rattan vines are used to make wicker furniture and baskets. Native to SE US.", image: "rattan vine 1", otherimage: "rattan vine 2", url: "http://www.inaturalist.org/taxa/119960-Berchemia-scandens"))
         
-        plants.append(Plant(name: "Cow Itch Vine (Cissus trifoliata)", description: "Climbing vine that grows in wooded areas and along stream banks spreading out over rocks, trees, and shrubs. The vine has tuberous roots and a woody base with leaves that are variable but usually divided into three leaflets. Small berries grow from May to September. When crushed, leaves are known to give off a distinct pungent odor. Found in SE US, Northern S America.", image: "cow itch vine 2", otherimage: "cow itch vine 2", url: "http://www.inaturalist.org/taxa/75995-Campsis-radicans"))
         
         plants.append(Plant(name: "Winter Grape (Vitis cinerea)", description: "Woody vine that climbs over small trees and shrubs or will sprawl across the ground. Mature vines have a woody base and leaves are typically a dull green with white hairs. Leaves are usually divided into three leaflets. Flowers bloom in late spring then are replaced by fruit containing 1-3 brown seeds. Fruit is edible and initially green, then turns black when ripe. Grows in Eastern US and Texas.", image: "winter grape 1", otherimage: "winter grape 2", url: "http://www.illinoiswildflowers.info/trees/plants/winter_grape.htm"))
         
@@ -207,7 +208,8 @@ class Plant
         plants.append(Plant(name: "Toothache Tree (Zanthoxylum hirsutum)", description: "Small tree or shrub with distinct small green fruits and prickles spread out on branches. Leaves are glossy and waxy. Leaflets of 2-3 grow along the axis of the branch. Leaves are forest green in color and are deeply toothed. Small green flowers grow in clusters at the ends of branchlets. Fruit are edible. They are small and round and reddish brown when ripe. Range - S. US.", image: "toothache tree 1", otherimage: "toothache tree 2", url: "https://www.inaturalist.org/taxa/170404-Zanthoxylum-hirsutum"))
         
         //Return the array to the caller
-        return plants
+    
+        return plants.sorted(by: {$0.name < $1.name})
     }
     
     //DONE
@@ -232,7 +234,7 @@ class Plant
         
         
         //Return the array to the caller
-        return plants
+        return plants.sorted(by: {$0.name < $1.name})
     }
     
     //DONE
@@ -268,7 +270,7 @@ class Plant
         
         
         //Return the array to the caller
-        return plants
+        return plants.sorted(by: {$0.name < $1.name})
     }
     
     //DONE
@@ -292,7 +294,7 @@ class Plant
         
         
         //Return the array to the caller
-        return plants
+        return plants.sorted(by: {$0.name < $1.name})
     }
     
     //DONE
@@ -319,7 +321,7 @@ class Plant
         
         
         //Return the array to the caller
-        return plants
+        return plants.sorted(by: {$0.name < $1.name})
     }
     
     //DONE
@@ -347,7 +349,7 @@ class Plant
         
         
         //Return the array to the caller
-        return plants
+        return plants.sorted(by: {$0.name < $1.name})
     }
     
     //DONE
@@ -369,7 +371,7 @@ class Plant
         plants.append(Plant(name: "Texas Mulberry (Morus microphylla)", description: "Shrub or small tree with smooth and dull gray bark and small ovate leaves that are green, toothed around the edges, and have a pointed tip. Leaves can appear 2- or 3-lobed. Fruit is berry-like ranging from red to black and ripens in May. Attracts birds and small mammals. Range - S United States", image: "texas mulberry 1", otherimage: "texas mulberry 2", url: "https://www.inaturalist.org/taxa/165533-Morus-microphylla"))
         
         //Return the array to the caller
-        return plants
+        return plants.sorted(by: {$0.name < $1.name})
     }
     
     //DONE
@@ -387,7 +389,7 @@ class Plant
         
         
         //Return the array to the caller
-        return plants
+        return plants.sorted(by: {$0.name < $1.name})
     }
     
     //DONE
@@ -406,7 +408,7 @@ class Plant
         plants.append(Plant(name: "Privet (Forestiera acuminata)", description: "Shrub or small tree. Bark ranges from bright green to dull brown depending on the age of the plant. Trunk is usually smooth in texture. Leaves are ovate, glossy green, and arranged in pairs. Yellow-tipped flowers protrude off the plant in the shape of splinters. Flowers are most distinct on male plants while fruits grow on the female. The fruits of the Privet are purple to black in color and olive-shaped. Range - S. US.", image: "privet 1", otherimage: "privet 2", url: "https://www.inaturalist.org/taxa/128769-Ligustrum-sinense"))
         
         //Return the array to the caller
-        return plants
+        return plants.sorted(by: {$0.name < $1.name})
     }
     
     //DONE
@@ -429,7 +431,7 @@ class Plant
         plants.append(Plant(name: "American Beautyberry (Callicarpa americana)", description: "Deciduous shrub with light brown branches that grows distinctly bright pink-purple berries in medium to large clusters from June through September. Branches are long and arching and leaves are lime to bright green, ovate in shape, and grow in pairs and threes. Flowers are insignificant in size and can be pink or white. Grows in woodlands and birds and small mammals favor its abundant fruit. Range - S. US.", image: "american beautyberry 1", otherimage: "american beautyberry 2", url: "https://www.inaturalist.org/taxa/49193-Callicarpa-americana"))
         
         //Return the array to the caller
-        return plants
+        return plants.sorted(by: {$0.name < $1.name})
     }
     
     //DONE
@@ -445,7 +447,7 @@ class Plant
         
         plants.append(Plant(name: "Sevenleaf Creeper (Parthenocissus heptaphylla)", description: "Climbing vine similar to Virginia creeper, but lacks adhesive tips to climb walls. Leaves are long, narrow and glossy and grow in leaflets of five. Requires moist soil and part shade to grow. In the fall, leaves sometimes turn yellow or orange. Range - Native to Central Texas", image: "seven leaf creeper 1", otherimage: "seven leaf creeper 2", url: "https://www.inaturalist.org/taxa/166161-Parthenocissus-heptaphylla"))
         
-        return plants
+        return plants.sorted(by: {$0.name < $1.name})
     }
     
     //DONE
@@ -461,7 +463,7 @@ class Plant
         
         plants.append(Plant(name: "Chinaberry (Melia azedarach)", description: "Deciduous round-crowned tree with dark gray bark and branches that tend to loop. Leaves can grow up to 18 inches long and can have up to 24 paired leaflets. White to cream-colored flowers grow in pyramidal panicles and are small individually but grow in large clusters. Fruits are oval, translucent, and look similar to dried grapes or tomatoes. Fruit are orange-gold in color and contain alkaloid saponin, a toxic glucoside, that is poisonous. Range - Central and S. US.", image: "chinaberry 1", otherimage: "chinaberry 2", url: "https://www.inaturalist.org/taxa/53720-Melia-azedarach"))
         
-        return plants
+        return plants.sorted(by: {$0.name < $1.name})
     }
     
     //DONE
@@ -481,7 +483,7 @@ class Plant
         
         plants.append(Plant(name: "Agarita (Mahonia trifoliolata)", description: "Evergreen shrub that often forms thickets and prefers dry to moist soil and partial sun. Branches are rigid and leaves are deep grey-green in color and trifoliate. Tips of leaves are very sharp. Bright yellow flowers form a cup shape, bloom in clusters, and attract pollinators with a pleasant fragrance. Small red berries follow flowers in the early summer. Range - S. US.", image: "agarita 1", otherimage: "agarita 2", url: "https://www.inaturalist.org/taxa/273862-Berberis-trifoliolata"))
         
-        return plants
+        return plants.sorted(by: {$0.name < $1.name})
     }
     
     //DONE
@@ -503,7 +505,7 @@ class Plant
         
         plants.append(Plant(name: "Red ash (Fraxinus pennsylvanica)", description: "Tree with a single trunk and spreading branches. Leaves are ovate with a pointed tip and semi-toothed margins, typically in clusters of 5-9 leaflets. Flowers are small and also grow in clusters. Fruits are typically dry, pale white and long. This tree is a good nesting site for birds and its red bark can be used to produce a red dye. Range - NE, S, and Central US.", image: "red texas ash 1", otherimage: "red texas ash 2", url: "https://www.inaturalist.org/taxa/54808-Fraxinus-pennsylvanica"))
         
-        return plants
+        return plants.sorted(by: {$0.name < $1.name})
     }
     
     //IN-PROGRESS
@@ -521,7 +523,7 @@ class Plant
         
         plants.append(Plant(name: "Eve's Necklace (Styphnolobium affine)", description: "Spineless shrub or tree with light green leaflets in groups of 6-8, typically ovate and narrowed at the tip, smooth in texture and waxy. Flowers are small and fragrant and range from light pink to purple in color. Fruits bear poisonous seeds. Range - S. US.", image: "eve's necklace 1", otherimage: "eve's necklace 2", url: "https://www.inaturalist.org/taxa/128835-Sophora-affinis"))
         
-        return plants
+        return plants.sorted(by: {$0.name < $1.name})
     }
     
     //DONE
@@ -541,7 +543,7 @@ class Plant
         
         plants.append(Plant(name: "Toothache Tree (Zanthoxylum hirsutum)", description: "Small tree or shrub with distinct small green fruits and prickles spread out on branches. Leaves are glossy and waxy. Leaflets of 2-3 grow along the axis of the branch. Leaves are forest green in color and are deeply toothed. Small green flowers grow in clusters at the ends of branchlets. Fruit are edible. They are small and round and reddish brown when ripe. Range - S. US.", image: "toothache tree 1", otherimage: "toothache tree 2", url: "https://www.inaturalist.org/taxa/170404-Zanthoxylum-hirsutum"))
         //Ghost Comment for Commit Purposes
-        return plants
+        return plants.sorted(by: {$0.name < $1.name})
     }
 }
 

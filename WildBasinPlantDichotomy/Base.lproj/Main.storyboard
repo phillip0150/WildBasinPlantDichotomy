@@ -1369,13 +1369,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yWg-n3-u2v">
-                                                    <rect key="frame" x="12" y="0.0" width="118" height="118"/>
+                                                    <rect key="frame" x="12" y="0.0" width="131" height="118"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="118" id="JFQ-3m-4v5"/>
+                                                        <constraint firstAttribute="width" constant="131" id="2nB-V7-jlr"/>
+                                                        <constraint firstAttribute="height" constant="118" id="chB-eH-dkx"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="middleTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RQL-OS-iwS">
-                                                    <rect key="frame" x="171" y="0.0" width="189" height="118"/>
+                                                    <rect key="frame" x="183" y="0.0" width="177" height="118"/>
                                                     <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="16"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -1384,7 +1385,9 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="yWg-n3-u2v" firstAttribute="top" secondItem="RQL-OS-iwS" secondAttribute="top" id="BnW-iG-VjC"/>
-                                                <constraint firstItem="RQL-OS-iwS" firstAttribute="leading" secondItem="yWg-n3-u2v" secondAttribute="trailing" constant="41" id="HcJ-5u-pb6"/>
+                                                <constraint firstItem="yWg-n3-u2v" firstAttribute="top" secondItem="xyj-XO-cP0" secondAttribute="top" id="CCN-l7-ns4"/>
+                                                <constraint firstItem="RQL-OS-iwS" firstAttribute="leading" secondItem="yWg-n3-u2v" secondAttribute="trailing" constant="40" id="HcJ-5u-pb6"/>
+                                                <constraint firstItem="yWg-n3-u2v" firstAttribute="leading" secondItem="xyj-XO-cP0" secondAttribute="leading" constant="12" id="Spa-Yq-xMv"/>
                                                 <constraint firstItem="yWg-n3-u2v" firstAttribute="centerY" secondItem="xyj-XO-cP0" secondAttribute="centerY" id="TyV-2z-hWa"/>
                                                 <constraint firstItem="yWg-n3-u2v" firstAttribute="leading" secondItem="xyj-XO-cP0" secondAttribute="leadingMargin" constant="-3" id="ftr-yb-raq"/>
                                                 <constraint firstItem="yWg-n3-u2v" firstAttribute="bottom" secondItem="RQL-OS-iwS" secondAttribute="bottom" id="kVs-Bm-eMg"/>
@@ -1470,15 +1473,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ark-r0-hne">
-                                <rect key="frame" x="16" y="352" width="343" height="228"/>
+                                <rect key="frame" x="16" y="395" width="343" height="185"/>
                                 <gestureRecognizers/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="228" id="5WP-5c-CKT"/>
+                                    <constraint firstAttribute="height" constant="185" id="2bE-Vg-1Rd"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bubble 2" translatesAutoresizingMaskIntoConstraints="NO" id="fMi-0f-th7">
+                                <rect key="frame" x="194" y="352" width="40" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="TDM-tp-OZ1"/>
+                                </constraints>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DYZ-H0-qVr">
                                 <rect key="frame" x="0.0" y="64" width="375" height="280"/>
                                 <gestureRecognizers/>
@@ -1491,7 +1500,7 @@
                                 <rect key="frame" x="0.0" y="588" width="375" height="79"/>
                                 <color key="backgroundColor" red="0.45494276290000002" green="0.81130355600000004" blue="0.34100461009999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="79" id="XCB-ad-qEy"/>
+                                    <constraint firstAttribute="height" constant="79" id="Vlr-LJ-6VC"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Learn More About This Plant">
@@ -1501,20 +1510,32 @@
                                     <segue destination="fpt-zs-IUk" kind="show" identifier="MasterToWeb" id="Wo2-c9-qib"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bubble 1" translatesAutoresizingMaskIntoConstraints="NO" id="hmW-eI-O8H">
+                                <rect key="frame" x="151" y="352" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="Otn-Ow-IJR"/>
+                                    <constraint firstAttribute="width" constant="35" id="d9L-3T-c8I"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="DYZ-H0-qVr" firstAttribute="top" secondItem="WNb-Cc-u1T" secondAttribute="bottom" id="0gd-10-Kip"/>
-                            <constraint firstItem="ark-r0-hne" firstAttribute="top" secondItem="DYZ-H0-qVr" secondAttribute="bottom" constant="8" symbolic="YES" id="C4Z-qb-20o"/>
-                            <constraint firstItem="ark-r0-hne" firstAttribute="centerX" secondItem="dmY-Vm-jG8" secondAttribute="centerX" id="Svk-dI-TBY"/>
-                            <constraint firstItem="DYZ-H0-qVr" firstAttribute="leading" secondItem="dmY-Vm-jG8" secondAttribute="leading" id="WcK-gf-orb"/>
-                            <constraint firstItem="DYZ-H0-qVr" firstAttribute="trailing" secondItem="dmY-Vm-jG8" secondAttribute="trailing" id="cNd-rf-kDd"/>
-                            <constraint firstItem="dmY-Vm-jG8" firstAttribute="top" secondItem="ark-r0-hne" secondAttribute="bottom" constant="8" symbolic="YES" id="cn0-sd-56N"/>
-                            <constraint firstAttribute="trailing" secondItem="DYZ-H0-qVr" secondAttribute="trailing" id="mT8-xL-ruV"/>
-                            <constraint firstItem="DYZ-H0-qVr" firstAttribute="leading" secondItem="aR5-mb-o1U" secondAttribute="leading" id="vCr-gG-RYn"/>
-                            <constraint firstItem="ark-r0-hne" firstAttribute="leading" secondItem="aR5-mb-o1U" secondAttribute="leadingMargin" id="xDv-ew-jMa"/>
-                            <constraint firstItem="dmY-Vm-jG8" firstAttribute="bottom" secondItem="h0J-4Y-e6S" secondAttribute="top" id="zb8-Yt-gQ0"/>
+                            <constraint firstItem="DYZ-H0-qVr" firstAttribute="leading" secondItem="dmY-Vm-jG8" secondAttribute="leading" id="0TQ-eP-p6y"/>
+                            <constraint firstItem="ark-r0-hne" firstAttribute="leading" secondItem="aR5-mb-o1U" secondAttribute="leadingMargin" id="0UI-1S-ygC"/>
+                            <constraint firstItem="hmW-eI-O8H" firstAttribute="leading" secondItem="aR5-mb-o1U" secondAttribute="leading" constant="151" id="8Zr-Vw-W7R"/>
+                            <constraint firstItem="ark-r0-hne" firstAttribute="top" secondItem="hmW-eI-O8H" secondAttribute="bottom" constant="8" symbolic="YES" id="8fp-Fq-xc4"/>
+                            <constraint firstItem="dmY-Vm-jG8" firstAttribute="bottom" secondItem="h0J-4Y-e6S" secondAttribute="top" id="CbV-yG-Fei"/>
+                            <constraint firstItem="DYZ-H0-qVr" firstAttribute="trailing" secondItem="dmY-Vm-jG8" secondAttribute="trailing" id="KYZ-ae-54g"/>
+                            <constraint firstItem="DYZ-H0-qVr" firstAttribute="leading" secondItem="aR5-mb-o1U" secondAttribute="leading" id="RXK-qf-wQA"/>
+                            <constraint firstItem="fMi-0f-th7" firstAttribute="leading" secondItem="hmW-eI-O8H" secondAttribute="trailing" constant="8" symbolic="YES" id="Tay-C7-396"/>
+                            <constraint firstAttribute="trailing" secondItem="DYZ-H0-qVr" secondAttribute="trailing" id="V7H-mc-rKY"/>
+                            <constraint firstItem="DYZ-H0-qVr" firstAttribute="top" secondItem="WNb-Cc-u1T" secondAttribute="bottom" id="WUO-nc-yLu"/>
+                            <constraint firstItem="ark-r0-hne" firstAttribute="top" secondItem="fMi-0f-th7" secondAttribute="bottom" constant="8" symbolic="YES" id="hWu-Ch-FVH"/>
+                            <constraint firstItem="hmW-eI-O8H" firstAttribute="top" secondItem="fMi-0f-th7" secondAttribute="top" id="pUS-EM-cEz"/>
+                            <constraint firstItem="hmW-eI-O8H" firstAttribute="top" secondItem="DYZ-H0-qVr" secondAttribute="bottom" constant="8" symbolic="YES" id="tG5-Zh-lXX"/>
+                            <constraint firstItem="dmY-Vm-jG8" firstAttribute="top" secondItem="ark-r0-hne" secondAttribute="bottom" constant="8" symbolic="YES" id="xdN-6T-iGo"/>
+                            <constraint firstItem="ark-r0-hne" firstAttribute="centerX" secondItem="dmY-Vm-jG8" secondAttribute="centerX" id="yh2-fr-Bd6"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="i93-Wp-Hsh">
@@ -1525,6 +1546,8 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="circle1ImageView" destination="hmW-eI-O8H" id="TLu-Oz-Axa"/>
+                        <outlet property="circle2ImageView" destination="fMi-0f-th7" id="V8m-EG-zOi"/>
                         <outlet property="plantDescriptionLabel" destination="ark-r0-hne" id="Kbj-2e-vkR"/>
                         <outlet property="plantImageView" destination="DYZ-H0-qVr" id="MFh-Uq-zww"/>
                     </connections>
@@ -2080,12 +2103,14 @@
         <image name="Simple" width="278" height="550"/>
         <image name="TrailMap" width="1275" height="1650"/>
         <image name="Wild Basin Mountain Logo" width="1616" height="639"/>
+        <image name="bubble 1" width="600" height="600"/>
+        <image name="bubble 2" width="235" height="214"/>
         <image name="radioButton_Selected" width="128" height="128"/>
         <image name="radioButton_Unselected" width="128" height="128"/>
         <image name="toothed" width="428" height="656"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="hMQ-3z-W6h"/>
-        <segue reference="j5X-f5-pwd"/>
+        <segue reference="P1i-JU-vDK"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -27,6 +27,7 @@ class FinalPlantViewController: UIViewController, UITableViewDelegate,UITableVie
         if(plantCode == 1)
         {
             plants = Plant.createAlternateVine()
+            
         }
         if(plantCode == 2)
         {
@@ -87,6 +88,8 @@ class FinalPlantViewController: UIViewController, UITableViewDelegate,UITableVie
         if(plantCode == 16)
         {
             plants = Plant.createAllPlantArray()
+            
+            
         }
         
         self.tableView.dataSource = self

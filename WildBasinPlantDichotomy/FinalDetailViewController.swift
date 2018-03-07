@@ -19,17 +19,23 @@ class FinalDetailViewController: UIViewController, UIScrollViewDelegate
 //   @IBOutlet weak var plantNameLabel: UILabel!
     @IBOutlet weak var plantImageView: UIImageView!
     @IBOutlet weak var plantDescriptionLabel: UILabel!
-    @IBOutlet weak var plantURLLabel: UILabel!
-   
+
+    @IBOutlet weak var circle1ImageView: UIImageView!
+    
+    @IBOutlet weak var circle2ImageView: UIImageView!
     @IBAction func rightSwipe(_ sender: UISwipeGestureRecognizer) {
 
         plantImageView.image = UIImage(named: (plant?.image)!)
+        circle1ImageView.image = UIImage(named: "bubble 1")
+        circle2ImageView.image = UIImage(named: "bubble 2")
 
     }
     
     
     @IBAction func swipeLeft(_ sender: UISwipeGestureRecognizer) {
         plantImageView.image = UIImage(named: (plant?.otherimage)!)
+        circle1ImageView.image = UIImage(named: "bubble 2")
+        circle2ImageView.image = UIImage(named: "bubble 1")
     }
     
     override func viewDidLoad()
